@@ -1,0 +1,249 @@
+name: Folk, Basic
+type: entity
+id: f6SVugUOVT43EyMf
+tokenImage: systems/sohl/assets/silhouette/legendary/folk-basic-token.svg
+headshotImage: systems/sohl/assets/silhouette/legendary/folk-basic-headshot.webp
+bioImage: systems/sohl/assets/silhouette/legendary/folk-basic-bioimage.webp
+folderId: ""
+macros: []
+effects: []
+flags: {}
+description: |-
+  <table style="user-select:text;width:95%;color:#191813;font-size:13px" border="1">
+  <tbody style="box-sizing:border-box;user-select:text">
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Apparent Age</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Culture</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Social Class</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Height</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Frame</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Weight</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Appearance/Comeliness</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Hair Color</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Eye Color</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:16px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:16px"><strong><span style="box-sizing:border-box;user-select:text">Voice</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:16px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:23px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong>Obvious Medical Traits</strong><span style="box-sizing:border-box;user-select:text"><br style="box-sizing:border-box;user-select:text" /></span></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"><span style="box-sizing:border-box;user-select:text"> </span></td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:23px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong>Apparent Occupation</strong><span style="box-sizing:border-box;user-select:text"><br style="box-sizing:border-box;user-select:text" /></span></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"><span style="box-sizing:border-box;user-select:text"> </span></td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:23px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong>Apparent Wealth</strong><span style="box-sizing:border-box;user-select:text"><br style="box-sizing:border-box;user-select:text" /></span></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"><span style="box-sizing:border-box;user-select:text"> </span></td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:23px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong>Weapons</strong><span style="box-sizing:border-box;user-select:text"><br style="box-sizing:border-box;user-select:text" /></span></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"><span style="box-sizing:border-box;user-select:text"> </span></td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:23px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong><span style="box-sizing:border-box;user-select:text">Armour</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:23px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong><span style="box-sizing:border-box;user-select:text">Companions</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"> </td>
+  </tr>
+  <tr style="box-sizing:border-box;user-select:text;height:23px">
+  <td style="box-sizing:border-box;user-select:text;width:143.2px;height:23px"><strong><span style="box-sizing:border-box;user-select:text">Other obvious features</span></strong></td>
+  <td style="box-sizing:border-box;user-select:text;width:365.6px;height:23px"> </td>
+  </tr>
+  </tbody>
+  </table>
+biography: |-
+  <h1>Data</h1>
+  <table style="width:95%" border="1">
+  <tbody>
+  <tr>
+  <td style="width:140px"><strong>Birthdate</strong></td>
+  <td style="width:435px"> </td>
+  </tr>
+  <tr>
+  <td style="width:140px"><strong>Birthplace</strong></td>
+  <td style="width:435px"> </td>
+  </tr>
+  <tr>
+  <td style="width:140px"><strong>Sibling Rank</strong></td>
+  <td style="width:435px">x of y</td>
+  </tr>
+  <tr>
+  <td style="width:140px"><strong>Parent(s)</strong></td>
+  <td style="width:435px"> </td>
+  </tr>
+  <tr>
+  <td style="width:140px"><strong>Parent Affiliation</strong></td>
+  <td style="width:435px"> </td>
+  </tr>
+  <tr>
+  <td style="width:140px"><strong>Estrangement</strong></td>
+  <td style="width:435px"> </td>
+  </tr>
+  <tr>
+  <td style="width:140px"><strong>Clanhead</strong></td>
+  <td style="width:435px"> </td>
+  </tr>
+  <tr>
+  <td style="width:140px"><strong>Medical Traits</strong></td>
+  <td style="width:435px"> </td>
+  </tr>
+  <tr>
+  <td style="width:140px"><strong>Psyche Traits</strong></td>
+  <td style="width:435px"> </td>
+  </tr>
+  </tbody>
+  </table>
+  <h1>Life Story</h1>
+items:
+- name: Strength
+  type: trait
+- name: Endurance
+  type: trait
+- name: Dexterity
+  type: trait
+- name: Agility
+  type: trait
+- name: Perception
+  type: trait
+- name: Comeliness
+  type: trait
+- name: Aura
+  type: trait
+- name: Will
+  type: trait
+- name: Reasoning
+  type: trait
+- name: Creativity
+  type: trait
+- name: Empathy
+  type: trait
+- name: Eloquence
+  type: trait
+- name: Voice
+  type: trait
+- name: Morality
+  type: trait
+- name: Sunsign
+  type: trait
+- name: Basic Fate
+  type: trait
+- name: Size
+  type: trait
+- name: Carrying Capacity
+  type: trait
+- name: Move
+  type: trait
+- name: Favored Parts
+  type: trait
+- name: Body Weight
+  type: trait
+- name: Experience Points
+  type: trait
+- name: Area Attack Shock
+  type: trait
+- name: Pvârism
+  type: philosophy
+- name: West Venârian
+  type: philosophy
+- name: Charm
+  type: skill
+- name: Command
+  type: skill
+- name: Discourse
+  type: skill
+- name: Guile
+  type: skill
+- name: Intrigue
+  type: skill
+- name: Singing
+  type: skill
+- name: Theatrics
+  type: skill
+- name: Survival
+  type: skill
+- name: Drawing
+  type: skill
+- name: Cookery
+  type: skill
+- name: Folklore
+  type: skill
+- name: Physician
+  type: skill
+- name: Awareness
+  type: skill
+- name: Climbing
+  type: skill
+- name: Dancing
+  type: skill
+- name: Jumping
+  type: skill
+- name: Riding
+  type: skill
+- name: Stealth
+  type: skill
+- name: Swimming
+  type: skill
+- name: Initiative
+  type: skill
+- name: Shock
+  type: skill
+- name: Melee
+  type: skill
+- name: Dodge
+  type: skill
+- name: Archery
+  type: skill
+- name: Throwing
+  type: skill
+- name: Spirit
+  type: mysticalability
+- name: Premonition
+  type: mystery
+- name: Bite
+  type: combattechniquestrikemode
+- name: Grab (Hold)
+  type: combattechniquestrikemode
+- name: Grab (Take)
+  type: combattechniquestrikemode
+- name: Headbutt
+  type: combattechniquestrikemode
+- name: Limb Block
+  type: combattechniquestrikemode
+- name: Kick
+  type: combattechniquestrikemode
+- name: Press
+  type: combattechniquestrikemode
+- name: Punch
+  type: combattechniquestrikemode
+- name: Trip
+  type: combattechniquestrikemode
