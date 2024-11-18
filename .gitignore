@@ -34,6 +34,7 @@ jspm_packages/
 # Packs
 /packs/*
 !/packs/generate
+/packs/generate/**/build
 
 # Build files
 venv/
