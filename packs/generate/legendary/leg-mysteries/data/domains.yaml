@@ -2,14 +2,14 @@
   abbrev: agrik
   id: W9Nb3yqjOoVFJB15
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/agrik.png
+  img: systems/hm/assets/icons/agrik.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - agr
   effects: []
@@ -18,14 +18,14 @@
   abbrev: halea
   id: GDbpmdiSz54OoBHT
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/halea.png
+  img: systems/hm/assets/icons/halea.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - hal
   effects: []
@@ -34,14 +34,14 @@
   abbrev: ilvir
   id: NTk7f8owF5vSVMIz
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/ilvir.png
+  img: systems/hm/assets/icons/ilvir.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - ivo
   effects: []
@@ -50,14 +50,14 @@
   abbrev: larani
   id: kYj5dxeHtF5N1rPp
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/larani.png
+  img: systems/hm/assets/icons/larani.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - ara
   effects: []
@@ -66,14 +66,14 @@
   abbrev: morgath
   id: 3k7bxGNyk4O0c3ie
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/morgath.png
+  img: systems/hm/assets/icons/morgath.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - mor
   effects: []
@@ -82,14 +82,14 @@
   abbrev: naveh
   id: DLFXveGAvdiBoXyI
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/naveh.png
+  img: systems/hm/assets/icons/naveh.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - nav
   effects: []
@@ -98,14 +98,14 @@
   abbrev: peoni
   id: eSu5zGj57l58uvXt
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/peoni.png
+  img: systems/hm/assets/icons/peoni.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - eon
   effects: []
@@ -114,14 +114,14 @@
   abbrev: sarajin
   id: IHB38AoWl0RTIINe
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/sarajin.png
+  img: systems/hm/assets/icons/sarajin.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - kaj
   effects: []
@@ -130,14 +130,14 @@
   abbrev: saveknor
   id: fqvSVMyw3SCu4BC2
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/saveknor.png
+  img: systems/hm/assets/icons/saveknor.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - zer
   effects: []
@@ -146,14 +146,14 @@
   abbrev: siem
   id: d2mnQ1ggz138lB3q
   folderId: IYJzQyxqfxgXJbMS
-  img: systems/sohl/assets/icons/siem.png
+  img: systems/hm/assets/icons/siem.png
   categories:
     - divine
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - zem
   effects: []
@@ -162,7 +162,7 @@
   abbrev: peleahn
   id: G8t818wUbHLNj5LA
   folderId: J6IAJZ5uWs3Bdqwj
-  img: systems/sohl/assets/icons/fire.svg
+  img: systems/hm/assets/icons/fire.svg
   categories:
     - arcane
   philosophy: Pvârism
@@ -174,7 +174,7 @@
   abbrev: odivshe
   id: 18LdBLEj7DnUvLeD
   folderId: J6IAJZ5uWs3Bdqwj
-  img: systems/sohl/assets/icons/water.svg
+  img: systems/hm/assets/icons/water.svg
   categories:
     - arcane
   philosophy: Pvârism
@@ -186,7 +186,7 @@
   abbrev: neutral
   id: jKn8JtadrQLtPYST
   folderId: J6IAJZ5uWs3Bdqwj
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   categories:
     - arcane
   philosophy: Pvârism
@@ -198,7 +198,7 @@
   abbrev: savorya
   id: veOom04mHP3wIyqS
   folderId: J6IAJZ5uWs3Bdqwj
-  img: systems/sohl/assets/icons/divination.svg
+  img: systems/hm/assets/icons/divination.svg
   categories:
     - arcane
   philosophy: Pvârism
@@ -210,7 +210,7 @@
   abbrev: lyahvi
   id: wghlZTwMhrFu65vk
   folderId: J6IAJZ5uWs3Bdqwj
-  img: systems/sohl/assets/icons/wind.svg
+  img: systems/hm/assets/icons/wind.svg
   categories:
     - arcane
   philosophy: Pvârism
@@ -222,7 +222,7 @@
   abbrev: jmorvi
   id: hsYqwHpxvZ4HecZI
   folderId: J6IAJZ5uWs3Bdqwj
-  img: systems/sohl/assets/icons/anvil.svg
+  img: systems/hm/assets/icons/anvil.svg
   categories:
     - arcane
   philosophy: Pvârism
@@ -234,7 +234,7 @@
   abbrev: fyvria
   id: HSTW5VjsXkQ3MYQE
   folderId: J6IAJZ5uWs3Bdqwj
-  img: systems/sohl/assets/icons/tree.svg
+  img: systems/hm/assets/icons/tree.svg
   categories:
     - arcane
   philosophy: Pvârism
@@ -252,8 +252,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - eon
   effects: []
@@ -268,8 +268,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - eda
   effects: []
@@ -284,8 +284,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - ara
   effects: []
@@ -300,8 +300,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - agr
   effects: []
@@ -316,8 +316,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - mor
   effects: []
@@ -332,8 +332,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - hal
   effects: []
@@ -348,8 +348,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - nav
   effects: []
@@ -364,8 +364,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - ivo
   effects: []
@@ -380,8 +380,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - zer
   effects: []
@@ -396,8 +396,8 @@
   philosophy: Cult of the Covenant
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - zem
   effects: []
@@ -406,14 +406,14 @@
   abbrev: baldr
   id: viP5RD0YBjPW3E6F
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/baldr.svg
+  img: systems/hm/assets/icons/baldr.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - zem
   effects: []
@@ -493,14 +493,14 @@
   abbrev: freyr
   id: wJg0DeQJUJ78KnUf
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/freyr.svg
+  img: systems/hm/assets/icons/freyr.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - eon
   effects: []
@@ -580,14 +580,14 @@
   abbrev: freyja
   id: MKannngXbetAujhR
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/freyja.svg
+  img: systems/hm/assets/icons/freyja.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - hal
   effects: []
@@ -668,14 +668,14 @@
   abbrev: hel
   id: Zn81uf5Kkg8HxYff
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/hel.svg
+  img: systems/hm/assets/icons/hel.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - mor
   effects: []
@@ -753,14 +753,14 @@
   abbrev: loki
   id: mzjCAUHomor1wU9L
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/loki.svg
+  img: systems/hm/assets/icons/loki.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - nav
   effects: []
@@ -842,19 +842,19 @@
   abbrev: odin
   id: FABhdXdYQUSTY5bb
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/odin.svg
+  img: systems/hm/assets/icons/odin.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - zer
   effects: []
   description: |-
-    <p>Óðinn is revered as the god of knowledge, wisdom, and the relentless pursuit of understanding. His insatiable quest for knowledge is legendary, marked by his sacrifice of an eye at the well of Mimir in exchange for a drink of its wisdom-bestowing waters. This act symbolizes his profound commitment to enlightenment. Óðinn&#39;s wisdom is not just scholarly but also deeply connected to the mystical and the arcane, encompassing the runes, the secrets of the cosmos, and the mysteries of life and death.</p>
+    <p>Óðinn is revered as the god of knowledge, wisdom, and the relentless pursuit of understanding. His insatiable quest for knowledge is kethira, marked by his sacrifice of an eye at the well of Mimir in exchange for a drink of its wisdom-bestowing waters. This act symbolizes his profound commitment to enlightenment. Óðinn&#39;s wisdom is not just scholarly but also deeply connected to the mystical and the arcane, encompassing the runes, the secrets of the cosmos, and the mysteries of life and death.</p>
     <p>Óðinn is often depicted as an imposing figure, with a long, flowing beard and a wide-brimmed hat that casts a shadow over his single, all-seeing eye. He is accompanied by his two ravens, Huginn (thought) and Muninn (memory), who fly across the world each day, gathering knowledge and news to bring back to their master. These ravens represent Óðinn’s ever-present awareness and his connection to both the conscious mind and the deeper, more hidden aspects of memory and thought.</p>
     <p>Followers of Óðinn are seekers of truth, valuing wisdom and knowledge above all else. They strive to emulate his dedication to learning, whether through the study of runes, the pursuit of scholarly knowledge, or the exploration of the metaphysical. Temples dedicated to Óðinn are often austere yet filled with symbols of learning—books, scrolls, runes, and artifacts from far-off lands. These places of worship are sanctuaries for those who seek to expand their understanding, whether they be scholars, warriors, or leaders, all united in their quest for truth under Óðinn’s watchful eye.</p>
     <p>Óðinn’s influence extends far beyond mere intellectual pursuits; he is also a god of poetry, war, and honorable death, guiding souls to Valhalla and inspiring warriors with the courage to fight and the wisdom to know when to wield their power. His complex nature makes him a god of paradoxes—both creator and destroyer, wise and warlike, loving and fearsome. His followers are encouraged to embrace this complexity, finding strength in the balance of opposites.</p>
@@ -869,7 +869,7 @@
     </ul>
     <p><strong>Relics:</strong></p>
     <ul>
-    <li><strong>Gungnir&#39;s Echo</strong> - A fragment of Óðinn&#39;s legendary spear, Gungnir, and is believed to grant its bearer unparalleled precision and authority in both combat and leadership.</li>
+    <li><strong>Gungnir&#39;s Echo</strong> - A fragment of Óðinn&#39;s kethira spear, Gungnir, and is believed to grant its bearer unparalleled precision and authority in both combat and leadership.</li>
     <li><strong>Wisdom&#39;s Eye</strong> - A small, blessed polished stone, often carried by Óðinn&#39;s followers, said to offer the holder enhanced intuition and the ability to see through deception.</li>
     <li><strong>Raven&#39;s Feather Quill</strong> - A writing instrument made from a feather said to have fallen from <em>Huginn</em> or <em>Muninn</em>. Prized by scribes and seers, this quill is believed to channel Óðinn’s wisdom directly into the written word. Writings made with these quills are said to contain profound insights and they are often used in the recording of important sagas, prophecies, and treaties.</li>
     </ul>
@@ -930,21 +930,21 @@
   abbrev: surtr
   id: s8YWtwTHwQcGkWrI
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/surtr.svg
+  img: systems/hm/assets/icons/surtr.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - agr
   effects: []
   description: |-
     <p>Súrtr, the fire giant and god of savage battle, embodies the raw, destructive force of fire and the unrelenting fury of war. He is a fearsome figure, towering over his enemies, his body wreathed in flames that consume all they touch. Súrtr’s presence is a harbinger of destruction, symbolizing the inevitable end of worlds, as foretold in the prophecies of Ragnarok, where he will lead the fire giants in the final battle, bringing an end to the cosmos as it is known.</p>
     <p>Súrtr is depicted as a massive, menacing figure, his skin blackened by the eternal flames that engulf him. He wields a colossal sword, often described as being made of fire, capable of incinerating anything in its path. This sword, said to be the weapon that will set the world ablaze during Ragnarok, is a symbol of Súrtr’s unparalleled power and his role as the destroyer of worlds.</p>
-    <p>In the cosmic struggle, Súrtr is the embodiment of chaos and destruction, standing in direct opposition to Týr, who represents order and justice. This conflict between Súrtr and Týr is not just a battle of physical might, but a deeper, existential struggle over the fate of the cosmos itself. Týr’s commitment to justice and order directly challenges Súrtr’s belief in the cleansing power of fire and chaos. The rivalry between these two gods is legendary, with each battle between them symbolizing the ongoing struggle between chaos and order.</p>
+    <p>In the cosmic struggle, Súrtr is the embodiment of chaos and destruction, standing in direct opposition to Týr, who represents order and justice. This conflict between Súrtr and Týr is not just a battle of physical might, but a deeper, existential struggle over the fate of the cosmos itself. Týr’s commitment to justice and order directly challenges Súrtr’s belief in the cleansing power of fire and chaos. The rivalry between these two gods is kethira, with each battle between them symbolizing the ongoing struggle between chaos and order.</p>
     <p>Followers of Súrtr are warriors who embrace the chaos and brutality of battle. They see war as a purifying force, one that burns away the weak and the unworthy, leaving only the strong to claim victory. These devotees are feared on the battlefield, known for their ferocity and their willingness to fight to the death, believing that through fire and destruction, they will achieve ultimate power and transformation. For them, Súrtr represents not just an end, but a necessary force of change and renewal.</p>
     <p>Worship of Súrtr is intense and often involves acts of ritualistic violence or symbolic destruction. His altars are typically simple, often made of stone or metal, and are located in places associated with fire—volcanoes, forges, or the aftermath of a great fire. Sacrifices made to Súrtr might include weapons, armor, or effigies burned in his name, all symbolizing the destructive power that he embodies.</p>
     <p>In artistic depictions, Súrtr is a figure of terrifying grandeur, surrounded by flames and holding his burning sword aloft, ready to unleash the final destruction. His face is often obscured by fire, representing the all-consuming nature of his power. Rituals dedicated to Súrtr might involve the lighting of great bonfires, symbolizing the destructive but also transformative power of fire, and battles demonstrating strength, cruelty, and prowess in battle..</p>
@@ -1015,14 +1015,14 @@
   abbrev: thor
   id: 1SoGIhMK6WH3DHAg
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/thor.svg
+  img: systems/hm/assets/icons/thor.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - kaj
   effects: []
@@ -1042,7 +1042,7 @@
     </ul>
     <p><strong>Relics:</strong></p>
     <ul>
-    <li><strong>Mjolnir&#39;s Fragment</strong> - Mjolnir&#39;s Fragment is a shard from Thórr’s legendary hammer, Mjolnir. This divine relic is imbued with the thunder god’s power, crackling with energy and surrounded by a faint aura of lightning. It is said that those who carry Mjolnir’s Fragment into battle are granted unparalleled might, the power to summon storms, and the protection of Thórr himself.</li>
+    <li><strong>Mjolnir&#39;s Fragment</strong> - Mjolnir&#39;s Fragment is a shard from Thórr’s kethira hammer, Mjolnir. This divine relic is imbued with the thunder god’s power, crackling with energy and surrounded by a faint aura of lightning. It is said that those who carry Mjolnir’s Fragment into battle are granted unparalleled might, the power to summon storms, and the protection of Thórr himself.</li>
     <li><strong>Stormcaller&#39;s Amulet</strong> - The Stormcaller&#39;s Amulet is a pendant crafted from a polished piece of sky iron. It is worn by Thórr’s priests and warriors, said to bolster their strength in battle. The amulet is often used in rituals to invoke Thórr’s blessings before a journey or a fight. While a common relic, each Stormcaller&#39;s Amulet is treated with reverence, symbolizing the wearer’s connection to the thunder god.</li>
     <li><strong>Thunderstruck Ring</strong> - The Thunderstruck Ring is a simple iron band said to be infused with the essence of lightning. It is said that these rings are forged during a thunderstorm, capturing a bolt of lightning within the metal. When worn by the true faithful, the Thunderstruck Ring can be called upon to provide the wearer with increased speed and reflexes, allowing them to move with the swiftness of a lightning strike. The ring is also believed to offer protection against electric or storm-related dangers. The Thunderstruck Ring is a cherished talisman, often passed down through generations as a symbol of the thunder god’s enduring power.</li>
     </ul>
@@ -1100,14 +1100,14 @@
   abbrev: tyr
   id: MBgRRo1SXi7hYcb0
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/tyr.svg
+  img: systems/hm/assets/icons/tyr.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - ara
   effects: []
@@ -1187,14 +1187,14 @@
   abbrev: ymir
   id: GOPlvabFfbtb4ZJn
   folderId: JPJijWGcJUmeLfSu
-  img: systems/sohl/assets/icons/ymir.svg
+  img: systems/hm/assets/icons/ymir.svg
   categories:
     - divine
   philosophy: Asgardian
   macros: []
   flags:
-    sohl:
-      legendary:
+    hm:
+      kethira:
         aspects:
           - zem
   effects: []
@@ -1245,15 +1245,15 @@
   abbrev: ulandus
   id: 96UgAJd2wvzyvrvq
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 15
           metal: 5
@@ -1267,15 +1267,15 @@
   abbrev: ulandusaralius
   id: 6ekJREpdLgixfh7k
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 15
           metal: 10
@@ -1289,15 +1289,15 @@
   abbrev: aralius
   id: pZAdlq4fbOrwoZBN
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 10
           metal: 10
@@ -1311,15 +1311,15 @@
   abbrev: araliusfeneri
   id: 219AV64ZhmokS0XE
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 10
           metal: 15
@@ -1333,15 +1333,15 @@
   abbrev: feneri
   id: 7jXUYmXR1YUbjE1E
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 5
           metal: 15
@@ -1355,15 +1355,15 @@
   abbrev: feneriahnu
   id: OcVkHG5VS616gBTH
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 5
           metal: 15
@@ -1377,15 +1377,15 @@
   abbrev: ahnu
   id: RqEeckr8mLaG9moZ
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 0
           metal: 10
@@ -1399,15 +1399,15 @@
   abbrev: ahnuangberelius
   id: xfSMWxVmLvoCLx2a
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 0
           metal: 10
@@ -1421,15 +1421,15 @@
   abbrev: angberelius
   id: nZ8c6Rbz2udJ6WV0
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -5
           metal: 5
@@ -1443,15 +1443,15 @@
   abbrev: angbereliusnadai
   id: EbiPdh8xtdXHqN5m
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: -5
           metal: 5
@@ -1465,15 +1465,15 @@
   abbrev: nadai
   id: 0aVQFViSAvvrycos
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -10
           metal: 0
@@ -1487,15 +1487,15 @@
   abbrev: nadaihirin
   id: MAhV4KCuS2tI9cq3
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: -10
           metal: 0
@@ -1509,15 +1509,15 @@
   abbrev: hirin
   id: AOFP5VKTOZI9dKFl
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -15
           metal: -5
@@ -1531,15 +1531,15 @@
   abbrev: hirintarael
   id: OQTqHU7OiCRR72pi
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: -10
           metal: -5
@@ -1553,15 +1553,15 @@
   abbrev: tarael
   id: MuloVl23VetILjF9
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -10
           metal: -10
@@ -1575,15 +1575,15 @@
   abbrev: taraeltai
   id: tM8NAzK95aQ1H8B6
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: -5
           metal: -10
@@ -1597,15 +1597,15 @@
   abbrev: tai
   id: D6pWGY45x8ljGEIg
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -5
           metal: -15
@@ -1619,15 +1619,15 @@
   abbrev: taiskorus
   id: PEQF0mYjTTqWaqqi
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 0
           metal: -10
@@ -1641,15 +1641,15 @@
   abbrev: skorus
   id: Jx1QHSh5bMquN5xb
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 0
           metal: -10
@@ -1663,15 +1663,15 @@
   abbrev: skorusmasara
   id: 5LSHyyXx1hKGI5so
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 5
           metal: -5
@@ -1685,15 +1685,15 @@
   abbrev: masara
   id: 7rKCygwiNcZh99i2
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 5
           metal: -5
@@ -1707,15 +1707,15 @@
   abbrev: masaralado
   id: S7OBs5eoalV8ntpj
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 10
           metal: 0
@@ -1729,15 +1729,15 @@
   abbrev: lado
   id: LiZ8XFzoMbePVdGe
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 10
           metal: 0
@@ -1751,15 +1751,15 @@
   abbrev: ladoulandus
   id: v3hCWD3a1re8WmVt
   folderId: PkHkW8isQDuz1LmJ
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   categories:
     - astral
   philosophy: West Venârian
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 15
           metal: 5
@@ -1773,15 +1773,15 @@
   abbrev: ares
   id: FghefGKc77EDeHNq
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/aquarius.svg
+  img: systems/hm/assets/icons/aquarius.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 15
           metal: 5
@@ -1795,15 +1795,15 @@
   abbrev: arestaurus
   id: BOVYlQRWEWB1JaIL
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/aquarius.svg
+  img: systems/hm/assets/icons/aquarius.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 15
           metal: 10
@@ -1817,15 +1817,15 @@
   abbrev: taurus
   id: zhhzyVhiWzKJYE2w
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/taurus.svg
+  img: systems/hm/assets/icons/taurus.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 10
           metal: 10
@@ -1839,15 +1839,15 @@
   abbrev: taurusgemini
   id: 7KCgoSu561EKgbZ0
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/taurus.svg
+  img: systems/hm/assets/icons/taurus.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 10
           metal: 15
@@ -1861,15 +1861,15 @@
   abbrev: gemini
   id: JThKSJ1VD9THPSzm
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/gemini.svg
+  img: systems/hm/assets/icons/gemini.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 5
           metal: 15
@@ -1883,15 +1883,15 @@
   abbrev: geminicancer
   id: RMsNXg2bV86ZZlKA
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/gemini.svg
+  img: systems/hm/assets/icons/gemini.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 5
           metal: 15
@@ -1905,15 +1905,15 @@
   abbrev: cancer
   id: MDrTrl0XEQplyEcc
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/cancer.svg
+  img: systems/hm/assets/icons/cancer.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 0
           metal: 10
@@ -1927,15 +1927,15 @@
   abbrev: cancerleo
   id: bWriUJlrEQJwBcIZ
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/cancer.svg
+  img: systems/hm/assets/icons/cancer.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 0
           metal: 10
@@ -1949,15 +1949,15 @@
   abbrev: leo
   id: FySmZPtQqLH3E0al
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/leo.svg
+  img: systems/hm/assets/icons/leo.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -5
           metal: 5
@@ -1971,15 +1971,15 @@
   abbrev: leovirgo
   id: 9utvXSZJ6Kg6NtWs
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/leo.svg
+  img: systems/hm/assets/icons/leo.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: -5
           metal: 5
@@ -1993,15 +1993,15 @@
   abbrev: virgo
   id: HGsjd1lFfPHaJRAU
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/virgo.svg
+  img: systems/hm/assets/icons/virgo.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -10
           metal: 0
@@ -2015,15 +2015,15 @@
   abbrev: virgolibra
   id: So0zFATgQbBhlK3H
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/virgo.svg
+  img: systems/hm/assets/icons/virgo.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: -10
           metal: 0
@@ -2037,15 +2037,15 @@
   abbrev: libra
   id: 9xVUZBycW841KnhS
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/libra.svg
+  img: systems/hm/assets/icons/libra.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -15
           metal: -5
@@ -2059,15 +2059,15 @@
   abbrev: librascorpio
   id: ZPGfCj3r4rAlIoVo
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/libra.svg
+  img: systems/hm/assets/icons/libra.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: -10
           metal: -5
@@ -2081,15 +2081,15 @@
   abbrev: scorpio
   id: cBlSRnD07LmOUhbg
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/scorpio.svg
+  img: systems/hm/assets/icons/scorpio.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -10
           metal: -10
@@ -2103,15 +2103,15 @@
   abbrev: scorpiosagittarius
   id: iGID1brCe8Z75gib
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/scorpio.svg
+  img: systems/hm/assets/icons/scorpio.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: -5
           metal: -10
@@ -2125,15 +2125,15 @@
   abbrev: sagittarius
   id: jH1JyFW8HeMFG1gz
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/sagittarius.svg
+  img: systems/hm/assets/icons/sagittarius.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: -5
           metal: -15
@@ -2147,15 +2147,15 @@
   abbrev: sagittariuscapricorn
   id: QzM1FJkmEYlHmkFq
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/sagittarius.svg
+  img: systems/hm/assets/icons/sagittarius.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 0
           metal: -10
@@ -2169,15 +2169,15 @@
   abbrev: capricorn
   id: LvhjPVvzxqmQmYWS
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/capricorn.svg
+  img: systems/hm/assets/icons/capricorn.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 0
           metal: -10
@@ -2191,15 +2191,15 @@
   abbrev: capricornaquarius
   id: TnxhvsAabwq8XAjr
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/capricorn.svg
+  img: systems/hm/assets/icons/capricorn.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 5
           metal: -5
@@ -2213,15 +2213,15 @@
   abbrev: aquarius
   id: qyqAKysUAvyryrHX
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/aquarius.svg
+  img: systems/hm/assets/icons/aquarius.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 5
           metal: -5
@@ -2235,15 +2235,15 @@
   abbrev: aquariuspisces
   id: aESBs3s7y3s9lcsW
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/aquarius.svg
+  img: systems/hm/assets/icons/aquarius.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 10
           metal: 0
@@ -2257,15 +2257,15 @@
   abbrev: pisces
   id: GgbQH8wGoqlbSHy4
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/pisces.svg
+  img: systems/hm/assets/icons/pisces.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: false
-      legendary:
+      kethira:
         ssMod:
           earth: 10
           metal: 0
@@ -2279,15 +2279,15 @@
   abbrev: piscesares
   id: mmkdapSLPWRwbrEE
   folderId: wI7ZM7GUB6h877lc
-  img: systems/sohl/assets/icons/pisces.svg
+  img: systems/hm/assets/icons/pisces.svg
   categories:
     - astral
   philosophy: Zodiac
   macros: []
   flags:
-    sohl:
+    hm:
       cusp: true
-      legendary:
+      kethira:
         ssMod:
           earth: 15
           metal: 5
@@ -2301,7 +2301,7 @@
   abbrev: badger
   id: jyTP76HQCwtiIPkE
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/badger.svg
+  img: systems/hm/assets/icons/badger.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2312,7 +2312,7 @@
   abbrev: bear
   id: m7UpOVIu6im59rmm
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/bear.svg
+  img: systems/hm/assets/icons/bear.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2323,7 +2323,7 @@
   abbrev: bison
   id: BhpupAC1tZHLHkZx
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/bison.svg
+  img: systems/hm/assets/icons/bison.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2334,7 +2334,7 @@
   abbrev: boar
   id: Lzvt8VPqODVDsdKc
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/boar.svg
+  img: systems/hm/assets/icons/boar.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2345,7 +2345,7 @@
   abbrev: bobcat
   id: FZhdDuv8joQCvDpJ
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/bobcat.svg
+  img: systems/hm/assets/icons/bobcat.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2356,7 +2356,7 @@
   abbrev: bull
   id: 2JgKk7dtgYw2i8gq
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/bull.svg
+  img: systems/hm/assets/icons/bull.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2367,7 +2367,7 @@
   abbrev: catfish
   id: ffXAYtXscn7UqBIs
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/catfish.svg
+  img: systems/hm/assets/icons/catfish.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2378,7 +2378,7 @@
   abbrev: chicken
   id: qxywS0CNoIOAYdcX
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/chicken.svg
+  img: systems/hm/assets/icons/chicken.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2389,7 +2389,7 @@
   abbrev: cow
   id: HCF1POKu22Kb8q4O
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/cow.svg
+  img: systems/hm/assets/icons/cow.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2400,7 +2400,7 @@
   abbrev: crow
   id: gqv7Cco3Axw0FaAt
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/crow.svg
+  img: systems/hm/assets/icons/crow.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2411,7 +2411,7 @@
   abbrev: deer
   id: nVfNxY3KWFm3aBop
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/deer.svg
+  img: systems/hm/assets/icons/deer.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2422,7 +2422,7 @@
   abbrev: donkey
   id: wRT7zVOej4liTpeo
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/donkey.svg
+  img: systems/hm/assets/icons/donkey.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2433,7 +2433,7 @@
   abbrev: dove
   id: NH9G0scRPPZN6sbE
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/dove.svg
+  img: systems/hm/assets/icons/dove.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2444,7 +2444,7 @@
   abbrev: duck
   id: 7hzrmmyp8WMAGU2n
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/duck.svg
+  img: systems/hm/assets/icons/duck.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2455,7 +2455,7 @@
   abbrev: eagle
   id: gIr2OENs8Vd6Uu15
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/eagle.svg
+  img: systems/hm/assets/icons/eagle.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2466,7 +2466,7 @@
   abbrev: falcon
   id: Tf8hzxqQgLY6uvTh
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/falcon.svg
+  img: systems/hm/assets/icons/falcon.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2477,7 +2477,7 @@
   abbrev: fox
   id: xFZ3PR1advleD6vI
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/fox.svg
+  img: systems/hm/assets/icons/fox.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2488,7 +2488,7 @@
   abbrev: goat
   id: SW2hulo07cNp6d2x
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/goat.svg
+  img: systems/hm/assets/icons/goat.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2499,7 +2499,7 @@
   abbrev: goose
   id: kC3VJJzfsJXgF6YU
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/goose.svg
+  img: systems/hm/assets/icons/goose.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2510,7 +2510,7 @@
   abbrev: hamster
   id: ndbpyYxUuvdWgLyA
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/hamster.svg
+  img: systems/hm/assets/icons/hamster.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2521,7 +2521,7 @@
   abbrev: hawk
   id: xcJp19aJbkRyBp4B
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/hawk.svg
+  img: systems/hm/assets/icons/hawk.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2532,7 +2532,7 @@
   abbrev: hedgehog
   id: xjGzPOUk0smnTorE
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/hedgehog.svg
+  img: systems/hm/assets/icons/hedgehog.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2543,7 +2543,7 @@
   abbrev: horse
   id: HaM6Gfjpu0Y7b3iJ
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/horse.svg
+  img: systems/hm/assets/icons/horse.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2554,7 +2554,7 @@
   abbrev: jaguar
   id: acvDBg5KimgYCj0X
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/jaguar.svg
+  img: systems/hm/assets/icons/jaguar.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2565,7 +2565,7 @@
   abbrev: leopard
   id: Hxww1H11kYoqlLW1
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/leopard.svg
+  img: systems/hm/assets/icons/leopard.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2576,7 +2576,7 @@
   abbrev: lion
   id: ufPsQp09pBdjEPSr
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/lion.svg
+  img: systems/hm/assets/icons/lion.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2587,7 +2587,7 @@
   abbrev: lynx
   id: eailNoxDLI3M0Ik9
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/lynx.svg
+  img: systems/hm/assets/icons/lynx.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2598,7 +2598,7 @@
   abbrev: otter
   id: sAuEzNMa09X7p7DU
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/otter.svg
+  img: systems/hm/assets/icons/otter.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2609,7 +2609,7 @@
   abbrev: owl
   id: KG2CPILsdQ30eRq4
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/owl.svg
+  img: systems/hm/assets/icons/owl.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2620,7 +2620,7 @@
   abbrev: ox
   id: lWNYikQ4g15K3utR
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/ox.svg
+  img: systems/hm/assets/icons/ox.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2631,7 +2631,7 @@
   abbrev: parrot
   id: 5Eh2QJiP9VZZESl2
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/parrot.svg
+  img: systems/hm/assets/icons/parrot.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2642,7 +2642,7 @@
   abbrev: pigeon
   id: gOzXGeJlxZ159Qxf
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/pigeon.svg
+  img: systems/hm/assets/icons/pigeon.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2653,7 +2653,7 @@
   abbrev: rabbit
   id: bSX6hKk4HVPkvvKC
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/rabbit.svg
+  img: systems/hm/assets/icons/rabbit.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2664,7 +2664,7 @@
   abbrev: seabass
   id: CvyuESboiXlNDu5F
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/seabass.svg
+  img: systems/hm/assets/icons/seabass.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2675,7 +2675,7 @@
   abbrev: shark
   id: NEm0XhbzLUIg2N8d
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/shark.svg
+  img: systems/hm/assets/icons/shark.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2686,7 +2686,7 @@
   abbrev: sheep
   id: ZOtHhdrLktjfaOWR
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/sheep.svg
+  img: systems/hm/assets/icons/sheep.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2697,7 +2697,7 @@
   abbrev: snake
   id: TfPBbrx0BSbJMP9I
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/snake.svg
+  img: systems/hm/assets/icons/snake.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2708,7 +2708,7 @@
   abbrev: stag
   id: QVpxmfJp1DqdZsvB
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/stag.svg
+  img: systems/hm/assets/icons/stag.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2719,7 +2719,7 @@
   abbrev: sturgeon
   id: xk9XRltA2E9wrgo8
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/sturgeon.svg
+  img: systems/hm/assets/icons/sturgeon.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2730,7 +2730,7 @@
   abbrev: trout
   id: 9cwlFadNbLqSJsPe
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/trout.svg
+  img: systems/hm/assets/icons/trout.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2741,7 +2741,7 @@
   abbrev: tuna
   id: WTFv5BPCe75CS4bY
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/tuna.svg
+  img: systems/hm/assets/icons/tuna.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2752,7 +2752,7 @@
   abbrev: turkey
   id: cGdn7koekrxZzvTE
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/turkey.svg
+  img: systems/hm/assets/icons/turkey.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2763,7 +2763,7 @@
   abbrev: whale
   id: 9INGAcnnBkwtFYgn
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/whale.svg
+  img: systems/hm/assets/icons/whale.svg
   categories: spirit
   philosophy: Totem
   macros: []
@@ -2774,7 +2774,7 @@
   abbrev: wolf
   id: MJSkzdWXnH1TemiE
   folderId: ZJzBrmBAMjcUijuX
-  img: systems/sohl/assets/icons/wolf.svg
+  img: systems/hm/assets/icons/wolf.svg
   categories: spirit
   philosophy: Totem
   macros: []

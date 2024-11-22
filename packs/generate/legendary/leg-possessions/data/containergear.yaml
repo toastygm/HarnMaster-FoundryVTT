@@ -1,6 +1,6 @@
 - name: Arrow Bag
   id: 8vlivFbijzC7mfTa
-  img: systems/sohl/assets/icons/quiver.svg
+  img: systems/hm/assets/icons/quiver.svg
   quality: 0
   durability: 7
   maxCapacity: 6
@@ -13,7 +13,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Backpack
   id: rMnbWzyue0vPuDdS
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 30
@@ -26,7 +26,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Bag, lg, canvas
   id: wqfE3unujfDW90un
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 20
@@ -39,7 +39,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Bag, lg, leather
   id: HX504M5iZ2ssHBto
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 30
@@ -52,7 +52,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Bag, sm, canvas
   id: DZVw51vpCgNHX7Qt
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 10
@@ -65,7 +65,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Basket, large
   id: VbXV36kl3FRBIAwy
-  img: systems/sohl/assets/icons/basket.svg
+  img: systems/hm/assets/icons/basket.svg
   quality: 0
   durability: 8
   maxCapacity: 25
@@ -78,7 +78,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Basket, small
   id: yzy8iDgsPu3bBkH2
-  img: systems/sohl/assets/icons/basket.svg
+  img: systems/hm/assets/icons/basket.svg
   quality: 0
   durability: 8
   maxCapacity: 10
@@ -91,7 +91,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Belt Pouch, buckram
   id: 7Kh8C5GgQZLOyTR8
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 5
@@ -104,7 +104,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Belt pouch, leather, lg
   id: w56MDdmyCKDDEVAY
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 5
@@ -117,7 +117,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Belt pouch, leather, med
   id: JMXUmoqI6uWt5LN4
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 3
@@ -130,7 +130,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Belt pouch, silk
   id: A5VXGf6OXbXKNwkT
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 5
@@ -143,7 +143,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Flask, glass, 1pt.
   id: 4jbaN2veD9azYYmS
-  img: systems/sohl/assets/icons/round-bottom-flask.svg
+  img: systems/hm/assets/icons/round-bottom-flask.svg
   quality: 0
   durability: 7
   maxCapacity: 1
@@ -156,7 +156,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Flask, metal, 1pt.
   id: y5HvmlesSZHm2pqq
-  img: systems/sohl/assets/icons/round-bottom-flask.svg
+  img: systems/hm/assets/icons/round-bottom-flask.svg
   quality: 0
   durability: 7
   maxCapacity: 1
@@ -169,7 +169,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Paper case, leather
   id: uSuJu5ksF849t5EM
-  img: systems/sohl/assets/icons/miscgear.svg
+  img: systems/hm/assets/icons/miscgear.svg
   quality: 0
   durability: 7
   maxCapacity: 3
@@ -182,7 +182,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Purse, buckram
   id: 9bqJ6ZJ79NPxumVJ
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 1
@@ -195,7 +195,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Purse, leather
   id: shEjHWvNGFd5XIRt
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 1.5
@@ -208,7 +208,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Purse, silk
   id: axp8GF5VsTGj4MBq
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 1.5
@@ -221,7 +221,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Sack, buckram, large
   id: GF5xJdiFcFYWrj1U
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 75
@@ -234,7 +234,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Sack, buckram, medium
   id: ugH7Jr3DSZPAVIQn
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 50
@@ -247,7 +247,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Sack, buckram, small
   id: 2ApXkt2V43gUPfGm
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 20
@@ -260,7 +260,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Sack, linen, large
   id: JbrsyealH71CPHof
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 60
@@ -273,7 +273,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Sack, linen, medium
   id: Ji9zGc4nJXCP07hY
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 40
@@ -286,7 +286,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Sack, linen, small
   id: jBgR9hoMMPtR6d4X
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 20
@@ -299,7 +299,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Saddle Bags
   id: Q2E7PMDQChqw3Z7h
-  img: systems/sohl/assets/icons/sack.svg
+  img: systems/hm/assets/icons/sack.svg
   quality: 0
   durability: 8
   maxCapacity: 15
@@ -312,7 +312,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Vial, ceramic
   id: xiTYFtkjnHF52cEk
-  img: systems/sohl/assets/icons/round-bottom-flask.svg
+  img: systems/hm/assets/icons/round-bottom-flask.svg
   quality: 0
   durability: 9
   maxCapacity: 0.25
@@ -325,7 +325,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Vial, glass
   id: aNBW3hpBgl9VIDUv
-  img: systems/sohl/assets/icons/round-bottom-flask.svg
+  img: systems/hm/assets/icons/round-bottom-flask.svg
   quality: 0
   durability: 4
   maxCapacity: 0.25
@@ -338,7 +338,7 @@
   folderId: dl8lJ729W1mFlDvt
 - name: Waterskin, 2qt.
   id: DdlmMVb2ldCpGzkk
-  img: systems/sohl/assets/icons/miscgear.svg
+  img: systems/hm/assets/icons/miscgear.svg
   quality: 0
   durability: 7
   maxCapacity: 4

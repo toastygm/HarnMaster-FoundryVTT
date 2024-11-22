@@ -34,9 +34,9 @@
                     </select>
                 </div>
 
-                {{#unless flags.sohl.isIntrinsicAction}}
+                {{#unless flags.hm.isIntrinsicAction}}
                 <div class="form-group">
-                    <input type="checkbox" name="flags.sohl.useAsync" {{checked data.useAsync}} data-dtype="Boolean" />
+                    <input type="checkbox" name="flags.hm.useAsync" {{checked data.useAsync}} data-dtype="Boolean" />
                     <label>Async</label>
                 </div>
                 {{/unless}}
@@ -45,13 +45,13 @@
             <div class="form-group stacked">
                 <label>Notes</label>
                 <input
-                    name="flags.sohl.notes"
+                    name="flags.hm.notes"
                     type="text"
                     value="{{data.notes}}"
                     data-dtype="String" />
             </div>
 
-            {{#unless flags.sohl.isIntrinsicAction}}
+            {{#unless flags.hm.isIntrinsicAction}}
             <div class="form-group stacked command">
                 <label>Command</label>
                 <textarea name="command">{{data.command}}</textarea>
@@ -61,28 +61,28 @@
 
         <div class="tab action" data-group="primary" data-tab="action">
             <div class="grid grid-2col">
-                {{#if flags.sohl.isIntrinsicAction}}
+                {{#if flags.hm.isIntrinsicAction}}
                 <div class="form-group stacked">
                     <label data-tooltip="Name of Action to call on parent">Action Name</label>
-                    {{textInput data.functionName name="flags.sohl.functionName"}}
+                    {{textInput data.functionName name="flags.hm.functionName"}}
                 </div>
                 {{/if}}
 
                 <div class="form-group stacked">
                     <label data-tooltip="Font Awesome Icon CSS Class (e.g., &ldquo;fa-solid fa-stars&rdquo;)">Icon CSS Class</label>
-                    {{textInput flags.sohl.contextIconClass name="flags.sohl.contextIconClass"}}
+                    {{textInput flags.hm.contextIconClass name="flags.hm.contextIconClass"}}
                 </div>
 
                 <div class="form-group stacked">
                     <label>Group</label>
-                    <select name="flags.sohl.contextGroup">
-                        {{selectOptions config.Helper.contextMenu.sortGroups selected=flags.sohl.contextGroup inverted=true}}
+                    <select name="flags.hm.contextGroup">
+                        {{selectOptions config.Helper.contextMenu.sortGroups selected=flags.hm.contextGroup inverted=true}}
                     </select>
                 </div>
             </div>
             <div class="form-group stacked command">
                 <label>Condition Function</label>
-                <textarea name="flags.sohl.contextCondition">{{flags.sohl.contextCondition}}</textarea>
+                <textarea name="flags.hm.contextCondition">{{flags.hm.contextCondition}}</textarea>
             </div>
         </div>
         </div>

@@ -11,7 +11,7 @@ parser.add_argument("outputDir", help="folder where generated files should be pl
 args = parser.parse_args()
 
 stats = {
-    "systemId": "sohl",
+    "systemId": "hm",
     "systemVersion": "0.9.0",
     "coreVersion": "12.330",
     "createdTime": 0,

@@ -23,7 +23,7 @@
                 <legend>Divine Aspects</legend>
                 <div class="dom-divasp flexrow" id="dom-divasp-value">
                     <a class="add-array-item"
-                        data-array="flags.sohl.aspects"
+                        data-array="flags.hm.aspects"
                         data-dtype="String"
                         data-default-value=""
                         data-unique="true"
@@ -31,11 +31,11 @@
                         ><i class="fas fa-plus"></i> Add Divine Aspect</a>
                 </div>
                 <ol class="grid grid-4col" id="dom-divasp-display">
-                    {{#each flags.sohl.aspects}}
+                    {{#each flags.hm.aspects}}
                     <li class="armor-location">
                         <span class="name">{{this}}</span>
                         <a class="delete-array-item"
-                            data-array="flags.sohl.aspects"
+                            data-array="flags.hm.aspects"
                             data-value="{{this}}"
                             title="Divine Aspect"
                             ><i class="fas fa-trash"></i></a>

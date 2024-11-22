@@ -50,7 +50,7 @@
                     {{formField fields.levelBase rootId="mystery-modifier" label="Fate Test Bonus" classes="text-field" stacked=true value=system.levelBase}}
                     <div class="form-group stacked">
                         <label for="mystery-isPool" class="text-field">Is Pool</label>            
-                        <input id="mystery-isPool" type="checkbox" name="flags.sohl.isPool" {{checked flags.sohl.isPool}} data-dtype="Boolean" />
+                        <input id="mystery-isPool" type="checkbox" name="flags.hm.isPool" {{checked flags.hm.isPool}} data-dtype="Boolean" />
                         <p class="hint">If checked, bonus is a pool from which specific bonus amounts can be used as desired</p>
                     </div>
                 {{/if}}
@@ -96,7 +96,7 @@
                 <ol
                     class="grid grid-4col"
                     id="mystery-fateSkills-display">
-                    {{#each flags.sohl.skills}}
+                    {{#each flags.hm.skills}}
                     <li class="mystery-fateSkills">
                         <span class="name">{{this}}</span>
                         <a

@@ -1,5 +1,5 @@
 {
-    "id": "sohl",
+    "id": "hm",
     "title": "HarnMaster",
     "description": "The HarnMaster system for FoundryVTT",
     "version": "0.3.0",
@@ -23,8 +23,8 @@
         "minimum": "12",
         "verified": "12.331"
     },
-    "esmodules": ["module/sohl.js"],
-    "styles": ["css/sohl.css"],
+    "esmodules": ["module/hm.js"],
+    "styles": ["css/hm.css"],
     "languages": [
         {
             "lang": "en",
@@ -34,14 +34,14 @@
     ],
     "packFolders": [
         {
-            "name": "HarnMaster",
+            "name": "HârnMaster",
             "sorting": "m",
             "color": "#094fcb",
             "folders": [
                 {
-                    "name": "Kethira",
+                    "name": "Kèthîra",
                     "sorting": "m",
-                    "color": "#ac09cb",
+                    "color": "#aa513d",
                     "packs": [
                         "leg-characters",
                         "leg-creatures",
@@ -58,7 +58,7 @@
             "label": "Characters",
             "type": "Actor",
             "name": "leg-characters",
-            "system": "sohl",
+            "system": "hm",
             "path": "packs/leg-characters",
             "private": false
         },
@@ -66,7 +66,7 @@
             "label": "Creatures",
             "type": "Actor",
             "name": "leg-creatures",
-            "system": "sohl",
+            "system": "hm",
             "path": "packs/leg-creatures",
             "private": false
         },
@@ -74,7 +74,7 @@
             "label": "Characteristics",
             "type": "Item",
             "name": "leg-characteristics",
-            "system": "sohl",
+            "system": "hm",
             "path": "packs/leg-characteristics",
             "private": false
         },
@@ -82,7 +82,7 @@
             "label": "Mysteries",
             "type": "Item",
             "name": "leg-mysteries",
-            "system": "sohl",
+            "system": "hm",
             "path": "packs/leg-mysteries",
             "private": false
         },
@@ -90,7 +90,7 @@
             "label": "Possessions",
             "type": "Item",
             "name": "leg-possessions",
-            "system": "sohl",
+            "system": "hm",
             "path": "packs/leg-possessions",
             "private": false
         }

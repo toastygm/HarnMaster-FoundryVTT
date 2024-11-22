@@ -12,7 +12,7 @@ parser.add_argument("outputDir", help="folder where generated files should be pl
 args = parser.parse_args()
 
 stats = {
-    "systemId": "sohl",
+    "systemId": "hm",
     "systemVersion": "0.9.0",
     "coreVersion": "12.330",
     "createdTime": 0,
@@ -78,8 +78,8 @@ for skill in skillsData:
     merge(
         skill["flags"],
         {
-            "sohl": {
-                "legendary": {
+            "hm": {
+                "kethira": {
                     "initSkillMult": skill["initSM"],
                     "expertiseParentSkill": skill.get("expertiseParentSkill", ""),
                 },
@@ -165,8 +165,8 @@ for cmbttech in combattechniquesmData:
     merge(
         cmbttech["flags"],
         {
-            "sohl": {
-                "legendary": {
+            "hm": {
+                "kethira": {
                     "zoneDie": cmbttech["zoneDie"],
                     "lengthBase": cmbttech["lengthBase"],
                 },
@@ -212,7 +212,7 @@ for cmbttech in combattechniquesmData:
         "flags": {},
         "_id": eid,
         "disabled": False,
-        "type": "sohlactiveeffect",
+        "type": "hmactiveeffect",
         "system": {
             "targetType": "this",
             "targetName": "",

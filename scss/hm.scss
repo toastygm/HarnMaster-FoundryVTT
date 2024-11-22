@@ -15,8 +15,8 @@
 @use "global/nav";
 @use "global/hotbar";
 
-/* Styles limited to sohl sheets */
-.sohl {
+/* Styles limited to hm sheets */
+.hm {
     @include meta.load-css("components/top");
     @include meta.load-css("components/facade");
     @include meta.load-css("components/forms");

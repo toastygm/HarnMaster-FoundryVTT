@@ -42,7 +42,7 @@
                 <div class="flexrow">
                     <a
                         class="add-array-item"
-                        data-array="flags.sohl.actionBodyParts"
+                        data-array="flags.hm.actionBodyParts"
                         data-dtype="String"
                         data-default-value=""
                         data-title="Action Body Parts"
@@ -50,12 +50,12 @@
                     >
                 </div>
                 <ol class="grid grid-4col">
-                    {{#each flags.sohl.actionBodyParts}}
+                    {{#each flags.hm.actionBodyParts}}
                     <li class="trait-action-bodypart">
                         <span class="name">{{this}}</span>
                         <a
                             class="delete-array-item"
-                            data-array="flags.sohl.actionBodyParts"
+                            data-array="flags.hm.actionBodyParts"
                             data-value="{{this}}"
                             title="Delete Action Body Part"
                             ><i class="fas fa-trash"></i

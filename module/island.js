@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import * as sohl from "./sohl-common.js";
+import * as hm from "./hm-common.js";
 
 /* ====================================================================== */
 /*          Constants                                                     */
@@ -14,76 +14,76 @@ const ISLE = {
 };
 
 const IsleActorDataModels = foundry.utils.mergeObject(
-    sohl.SohlActorDataModels,
+    hm.SohlActorDataModels,
     {},
     { inplace: false },
 );
 
 const IsleItemDataModels = foundry.utils.mergeObject(
-    sohl.SohlItemDataModels,
+    hm.SohlItemDataModels,
     {},
     { inplace: false },
 );
 
 const IsleModifiers = foundry.utils.mergeObject(
-    sohl.SohlModifiers,
+    hm.SohlModifiers,
     {},
     { inplace: false },
 );
 
 export const verData = {
-    id: "legendary",
-    label: "Song of Heroic Lands: Island Edition",
+    id: "island",
+    label: "HarnMaster: Island Edition",
     CONFIG: {
         Helper: {
             modifiers: IsleModifiers,
-            contextMenu: sohl.SohlContextMenu,
+            contextMenu: hm.SohlContextMenu,
         },
         Actor: {
-            documentClass: sohl.SohlActor,
+            documentClass: hm.SohlActor,
             documentSheets: [
                 {
-                    cls: sohl.SohlActorSheet,
+                    cls: hm.SohlActorSheet,
                     types: Object.keys(IsleActorDataModels),
                 },
             ],
             dataModels: IsleActorDataModels,
-            typeLabels: sohl.SohlActorTypeLabels,
-            typeIcons: sohl.SohlActorTypeIcons,
+            typeLabels: hm.SohlActorTypeLabels,
+            typeIcons: hm.SohlActorTypeIcons,
             types: Object.keys(IsleActorDataModels),
-            defaultType: sohl.AnimateEntityActorData.typeName,
+            defaultType: hm.AnimateEntityActorData.typeName,
             compendiums: [],
         },
         Item: {
-            documentClass: sohl.SohlItem,
+            documentClass: hm.SohlItem,
             documentSheets: [
                 {
-                    cls: sohl.SohlItemSheet,
+                    cls: hm.SohlItemSheet,
                     types: Object.keys(IsleItemDataModels).filter(
-                        (t) => t !== sohl.ContainerGearItemData.typeName,
+                        (t) => t !== hm.ContainerGearItemData.typeName,
                     ),
                 },
                 {
-                    cls: sohl.SohlContainerGearItemSheet,
-                    types: [sohl.ContainerGearItemData.typeName],
+                    cls: hm.SohlContainerGearItemSheet,
+                    types: [hm.ContainerGearItemData.typeName],
                 },
             ],
             dataModels: IsleItemDataModels,
-            typeLabels: sohl.SohlItemTypeLabels,
-            typeIcons: sohl.SohlItemTypeIcons,
+            typeLabels: hm.SohlItemTypeLabels,
+            typeIcons: hm.SohlItemTypeIcons,
             types: Object.keys(IsleItemDataModels),
-            compendiums: ["sohl.island-basic-items"],
+            compendiums: ["hm.island-basic-items"],
         },
         ActiveEffect: {
-            documentClass: sohl.SohlActiveEffect,
+            documentClass: hm.SohlActiveEffect,
             legacyTransferral: false,
         },
         Macro: {
-            documentClass: sohl.SohlMacro,
-            documentSheet: sohl.SohlMacroConfig,
+            documentClass: hm.SohlMacro,
+            documentSheet: hm.SohlMacroConfig,
         },
     },
-    CONST: foundry.utils.mergeObject(sohl.SOHL.CONST, ISLE.CONST, {
+    CONST: foundry.utils.mergeObject(hm.HM.CONST, ISLE.CONST, {
         inplace: false,
     }),
 };

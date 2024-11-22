@@ -1,6 +1,6 @@
 - armorType: 3/4-Helm
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/crested-helmet.svg
+  img: systems/hm/assets/icons/crested-helmet.svg
   value: 35
   weight: 5.3
   encumbrance: 0
@@ -34,7 +34,7 @@
   effects: []
 - armorType: 3/4-Helm
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/crested-helmet.svg
+  img: systems/hm/assets/icons/crested-helmet.svg
   value: 140
   weight: 5.3
   encumbrance: 0
@@ -68,7 +68,7 @@
   effects: []
 - armorType: Ailettes
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/dorsal-scales.svg
+  img: systems/hm/assets/icons/dorsal-scales.svg
   value: 15
   weight: 1.1
   encumbrance: 1.67
@@ -98,7 +98,7 @@
   effects: []
 - armorType: Ailettes
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/dorsal-scales.svg
+  img: systems/hm/assets/icons/dorsal-scales.svg
   value: 60
   weight: 1.1
   encumbrance: 1.67
@@ -128,7 +128,7 @@
   effects: []
 - armorType: Apron
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/apron.svg
+  img: systems/hm/assets/icons/apron.svg
   value: 5
   weight: 1.1
   encumbrance: 0
@@ -161,7 +161,7 @@
   effects: []
 - armorType: Apron
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/apron.svg
+  img: systems/hm/assets/icons/apron.svg
   value: 6
   weight: 2.2
   encumbrance: 0
@@ -194,7 +194,7 @@
   effects: []
 - armorType: Apron
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/apron.svg
+  img: systems/hm/assets/icons/apron.svg
   value: 90
   weight: 2.2
   encumbrance: 0
@@ -227,7 +227,7 @@
   effects: []
 - armorType: Apron
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/apron.svg
+  img: systems/hm/assets/icons/apron.svg
   value: 35
   weight: 4.4
   encumbrance: 0
@@ -260,7 +260,7 @@
   effects: []
 - armorType: Apron
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/apron.svg
+  img: systems/hm/assets/icons/apron.svg
   value: 24
   weight: 3.5
   encumbrance: 0
@@ -293,7 +293,7 @@
   effects: []
 - armorType: Apron
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/apron.svg
+  img: systems/hm/assets/icons/apron.svg
   value: 160
   weight: 3
   encumbrance: 0
@@ -326,7 +326,7 @@
   effects: []
 - armorType: Blacksmith Apron
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/apron.svg
+  img: systems/hm/assets/icons/apron.svg
   value: 80
   weight: 5
   encumbrance: 0
@@ -359,7 +359,7 @@
   effects: []
 - armorType: Bracers
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/bracer.svg
+  img: systems/hm/assets/icons/bracer.svg
   value: 40
   weight: 0.5
   encumbrance: 0
@@ -389,7 +389,7 @@
   effects: []
 - armorType: Bracers
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/bracer.svg
+  img: systems/hm/assets/icons/bracer.svg
   value: 20
   weight: 0.8
   encumbrance: 0
@@ -419,7 +419,7 @@
   effects: []
 - armorType: Breastplate
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/breastplate.svg
+  img: systems/hm/assets/icons/breastplate.svg
   value: 60
   weight: 4.5
   encumbrance: 5
@@ -449,7 +449,7 @@
   effects: []
 - armorType: Breastplate
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/breastplate.svg
+  img: systems/hm/assets/icons/breastplate.svg
   value: 240
   weight: 4.5
   encumbrance: 5
@@ -479,7 +479,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 5
   weight: 0.2
   encumbrance: 0
@@ -512,7 +512,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 9
   weight: 0.2
   encumbrance: 0
@@ -545,7 +545,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 20
   weight: 0.5
   encumbrance: 0
@@ -578,7 +578,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 10
   weight: 0.5
   encumbrance: 0
@@ -611,7 +611,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 60
   weight: 0.9
   encumbrance: 0
@@ -644,7 +644,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 41
   weight: 0.7
   encumbrance: 0
@@ -677,7 +677,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 192
   weight: 2.2
   encumbrance: 0
@@ -710,7 +710,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 17
   weight: 0.9
   encumbrance: 0
@@ -743,7 +743,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 17
   weight: 0.9
   encumbrance: 0
@@ -776,7 +776,7 @@
   effects: []
 - armorType: Breeches
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 96
   weight: 3.6
   encumbrance: 0
@@ -809,7 +809,7 @@
   effects: []
 - armorType: Byrnie
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/chain-mail.svg
+  img: systems/hm/assets/icons/chain-mail.svg
   value: 495
   weight: 14.9
   encumbrance: 5
@@ -843,7 +843,7 @@
   effects: []
 - armorType: Byrnie
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/scale-mail.svg
+  img: systems/hm/assets/icons/scale-mail.svg
   value: 330
   weight: 18.2
   encumbrance: 10
@@ -877,7 +877,7 @@
   effects: []
 - armorType: Calf Boots
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/leather-boot.svg
+  img: systems/hm/assets/icons/leather-boot.svg
   value: 91
   weight: 1
   encumbrance: 0
@@ -909,7 +909,7 @@
   effects: []
 - armorType: Calf Boots
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/leather-boot.svg
+  img: systems/hm/assets/icons/leather-boot.svg
   value: 152
   weight: 1.7
   encumbrance: 0
@@ -941,7 +941,7 @@
   effects: []
 - armorType: Calf Boots
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/leather-boot.svg
+  img: systems/hm/assets/icons/leather-boot.svg
   value: 38
   weight: 1.2
   encumbrance: 0
@@ -973,7 +973,7 @@
   effects: []
 - armorType: Calf Boots
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/leather-boot.svg
+  img: systems/hm/assets/icons/leather-boot.svg
   value: 76
   weight: 2.9
   encumbrance: 0
@@ -1005,7 +1005,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 1
   weight: 0.1
   encumbrance: 0
@@ -1034,7 +1034,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 2
   weight: 0.1
   encumbrance: 0
@@ -1063,7 +1063,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 5
   weight: 0.1
   encumbrance: 0
@@ -1092,7 +1092,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 2
   weight: 0.1
   encumbrance: 0
@@ -1121,7 +1121,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 14
   weight: 0.2
   encumbrance: 0
@@ -1150,7 +1150,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 10
   weight: 0.2
   encumbrance: 0
@@ -1179,7 +1179,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 48
   weight: 0.5
   encumbrance: 0
@@ -1208,7 +1208,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Ermine
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 96
   weight: 0.4
   encumbrance: 0
@@ -1237,7 +1237,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 32
   weight: 0.4
   encumbrance: 0
@@ -1266,7 +1266,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 48
   weight: 0.7
   encumbrance: 0
@@ -1295,7 +1295,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 4
   weight: 0.2
   encumbrance: 0
@@ -1324,7 +1324,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 4
   weight: 0.2
   encumbrance: 0
@@ -1353,7 +1353,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 16
   weight: 0.6
   encumbrance: 0
@@ -1382,7 +1382,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 8
   weight: 0.3
   encumbrance: 0
@@ -1411,7 +1411,7 @@
   effects: []
 - armorType: Cap
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/cap.svg
+  img: systems/hm/assets/icons/cap.svg
   value: 16
   weight: 0.7
   encumbrance: 0
@@ -1440,7 +1440,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 20
   weight: 0.8
   encumbrance: 0
@@ -1474,7 +1474,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 33
   weight: 0.8
   encumbrance: 0
@@ -1508,7 +1508,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 79
   weight: 1.7
   encumbrance: 0
@@ -1542,7 +1542,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 40
   weight: 1.7
   encumbrance: 0
@@ -1576,7 +1576,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 594
   weight: 1.7
   encumbrance: 0
@@ -1610,7 +1610,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 231
   weight: 3.3
   encumbrance: 0
@@ -1644,7 +1644,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 158
   weight: 2.6
   encumbrance: 0
@@ -1678,7 +1678,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 270
   weight: 3
   encumbrance: 0
@@ -1712,7 +1712,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Ermine
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 540
   weight: 2.3
   encumbrance: 0
@@ -1746,7 +1746,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 180
   weight: 2.3
   encumbrance: 0
@@ -1780,7 +1780,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 270
   weight: 4.6
   encumbrance: 0
@@ -1814,7 +1814,7 @@
   effects: []
 - armorType: Cloak
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/cloak.svg
+  img: systems/hm/assets/icons/cloak.svg
   value: 66
   weight: 3.3
   encumbrance: 0
@@ -1848,7 +1848,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 19
   weight: 0.8
   encumbrance: 0
@@ -1889,7 +1889,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 32
   weight: 0.8
   encumbrance: 0
@@ -1930,7 +1930,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 576
   weight: 1.6
   encumbrance: 0
@@ -1971,7 +1971,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 154
   weight: 2.6
   encumbrance: 0
@@ -2012,7 +2012,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 64
   weight: 3.2
   encumbrance: 0
@@ -2053,7 +2053,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 64
   weight: 3.2
   encumbrance: 0
@@ -2094,7 +2094,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Gambeson
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 528
   weight: 18.5
   encumbrance: 10
@@ -2140,7 +2140,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 128
   weight: 5.1
   encumbrance: 0
@@ -2181,7 +2181,7 @@
   effects: []
 - armorType: Coat
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 256
   weight: 11.5
   encumbrance: 0
@@ -2222,7 +2222,7 @@
   effects: []
 - armorType: Coudes
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/elbow-pad.svg
+  img: systems/hm/assets/icons/elbow-pad.svg
   value: 10
   weight: 0.8
   encumbrance: 1.67
@@ -2252,7 +2252,7 @@
   effects: []
 - armorType: Coudes
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/elbow-pad.svg
+  img: systems/hm/assets/icons/elbow-pad.svg
   value: 40
   weight: 0.8
   encumbrance: 1.67
@@ -2282,7 +2282,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 2
   weight: 0.1
   encumbrance: 0
@@ -2312,7 +2312,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 3
   weight: 0.1
   encumbrance: 0
@@ -2342,7 +2342,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 7
   weight: 0.2
   encumbrance: 0
@@ -2372,7 +2372,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 4
   weight: 0.2
   encumbrance: 0
@@ -2402,7 +2402,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 21
   weight: 0.3
   encumbrance: 0
@@ -2432,7 +2432,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 14
   weight: 0.2
   encumbrance: 0
@@ -2462,7 +2462,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 105
   weight: 1.3
   encumbrance: 0
@@ -2492,7 +2492,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Ermine
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 210
   weight: 1
   encumbrance: 0
@@ -2522,7 +2522,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 70
   weight: 1
   encumbrance: 0
@@ -2552,7 +2552,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 105
   weight: 1.9
   encumbrance: 0
@@ -2582,7 +2582,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 6
   weight: 0.3
   encumbrance: 0
@@ -2612,7 +2612,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 6
   weight: 0.3
   encumbrance: 0
@@ -2642,7 +2642,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 35
   weight: 1.6
   encumbrance: 0
@@ -2672,7 +2672,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 90
   weight: 2.7
   encumbrance: 0
@@ -2702,7 +2702,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 12
   weight: 0.5
   encumbrance: 0
@@ -2732,7 +2732,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 24
   weight: 1.1
   encumbrance: 0
@@ -2762,7 +2762,7 @@
   effects: []
 - armorType: Cowl
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 60
   weight: 3.3
   encumbrance: 0
@@ -2792,7 +2792,7 @@
   effects: []
 - armorType: Cuirass
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/breastplate.svg
+  img: systems/hm/assets/icons/breastplate.svg
   value: 120
   weight: 9.1
   encumbrance: 5
@@ -2822,7 +2822,7 @@
   effects: []
 - armorType: Cuirass
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/breastplate.svg
+  img: systems/hm/assets/icons/breastplate.svg
   value: 480
   weight: 9.1
   encumbrance: 5
@@ -2852,7 +2852,7 @@
   effects: []
 - armorType: Cuisse
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/chain-mail.svg
+  img: systems/hm/assets/icons/chain-mail.svg
   value: 255
   weight: 7.7
   encumbrance: 5
@@ -2884,7 +2884,7 @@
   effects: []
 - armorType: Cuisse
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 34
   weight: 1.4
   encumbrance: 0
@@ -2916,7 +2916,7 @@
   effects: []
 - armorType: Cuisse
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 68
   weight: 3.1
   encumbrance: 0
@@ -2948,7 +2948,7 @@
   effects: []
 - armorType: Cuisse
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/scale-mail.svg
+  img: systems/hm/assets/icons/scale-mail.svg
   value: 170
   weight: 9.4
   encumbrance: 5
@@ -2980,7 +2980,7 @@
   effects: []
 - armorType: Dress
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/dress.svg
+  img: systems/hm/assets/icons/dress.svg
   value: 24
   weight: 1
   encumbrance: 0
@@ -3025,7 +3025,7 @@
   effects: []
 - armorType: Dress
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/dress.svg
+  img: systems/hm/assets/icons/dress.svg
   value: 40
   weight: 1
   encumbrance: 0
@@ -3070,7 +3070,7 @@
   effects: []
 - armorType: Dress
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/dress.svg
+  img: systems/hm/assets/icons/dress.svg
   value: 47
   weight: 2
   encumbrance: 0
@@ -3115,7 +3115,7 @@
   effects: []
 - armorType: Dress
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/dress.svg
+  img: systems/hm/assets/icons/dress.svg
   value: 711
   weight: 2
   encumbrance: 0
@@ -3160,7 +3160,7 @@
   effects: []
 - armorType: Dress
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/dress.svg
+  img: systems/hm/assets/icons/dress.svg
   value: 277
   weight: 4
   encumbrance: 0
@@ -3205,7 +3205,7 @@
   effects: []
 - armorType: Dress
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/dress.svg
+  img: systems/hm/assets/icons/dress.svg
   value: 190
   weight: 3.2
   encumbrance: 0
@@ -3250,7 +3250,7 @@
   effects: []
 - armorType: Gauntlets
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 20
   weight: 0.3
   encumbrance: 0
@@ -3280,7 +3280,7 @@
   effects: []
 - armorType: Gauntlets
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/gauntlet.svg
+  img: systems/hm/assets/icons/gauntlet.svg
   value: 30
   weight: 0.8
   encumbrance: 0
@@ -3310,7 +3310,7 @@
   effects: []
 - armorType: Gauntlets
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/gauntlet.svg
+  img: systems/hm/assets/icons/gauntlet.svg
   value: 50
   weight: 2.8
   encumbrance: 1.67
@@ -3340,7 +3340,7 @@
   effects: []
 - armorType: Gloves
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 24
   weight: 0.2
   encumbrance: 0
@@ -3370,7 +3370,7 @@
   effects: []
 - armorType: Gloves
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 180
   weight: 0.2
   encumbrance: 0
@@ -3400,7 +3400,7 @@
   effects: []
 - armorType: Gloves
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 70
   weight: 0.3
   encumbrance: 0
@@ -3430,7 +3430,7 @@
   effects: []
 - armorType: Gloves
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 90
   weight: 0.4
   encumbrance: 0
@@ -3460,7 +3460,7 @@
   effects: []
 - armorType: Gloves
   detailMaterial: Ermine
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 180
   weight: 0.3
   encumbrance: 0
@@ -3490,7 +3490,7 @@
   effects: []
 - armorType: Gloves
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 60
   weight: 0.3
   encumbrance: 0
@@ -3520,7 +3520,7 @@
   effects: []
 - armorType: Gloves
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 20
   weight: 0.3
   encumbrance: 0
@@ -3550,7 +3550,7 @@
   effects: []
 - armorType: Gloves
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 20
   weight: 0.3
   encumbrance: 0
@@ -3580,7 +3580,7 @@
   effects: []
 - armorType: Great Helm
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/visored-helm.svg
+  img: systems/hm/assets/icons/visored-helm.svg
   value: 180
   weight: 6.8
   encumbrance: 1.67
@@ -3617,7 +3617,7 @@
   effects: []
 - armorType: Greaves
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/greaves.svg
+  img: systems/hm/assets/icons/greaves.svg
   value: 60
   weight: 4.6
   encumbrance: 5
@@ -3647,7 +3647,7 @@
   effects: []
 - armorType: Greaves
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/greaves.svg
+  img: systems/hm/assets/icons/greaves.svg
   value: 240
   weight: 4.6
   encumbrance: 5
@@ -3677,7 +3677,7 @@
   effects: []
 - armorType: Habergeon
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/chain-mail.svg
+  img: systems/hm/assets/icons/chain-mail.svg
   value: 675
   weight: 20.3
   encumbrance: 10
@@ -3714,7 +3714,7 @@
   effects: []
 - armorType: Habergeon
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/scale-mail.svg
+  img: systems/hm/assets/icons/scale-mail.svg
   value: 450
   weight: 24.8
   encumbrance: 15
@@ -3751,7 +3751,7 @@
   effects: []
 - armorType: Halfhelm
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/helm.svg
+  img: systems/hm/assets/icons/helm.svg
   value: 20
   weight: 3
   encumbrance: 0
@@ -3782,7 +3782,7 @@
   effects: []
 - armorType: Halfhelm
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/helm.svg
+  img: systems/hm/assets/icons/helm.svg
   value: 80
   weight: 3
   encumbrance: 0
@@ -3813,7 +3813,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 8
   weight: 0.1
   encumbrance: 0
@@ -3842,7 +3842,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 18
   weight: 0.2
   encumbrance: 0
@@ -3871,7 +3871,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Straw
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 5
   weight: 0.1
   encumbrance: 0
@@ -3900,7 +3900,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 53
   weight: 0.3
   encumbrance: 0
@@ -3929,7 +3929,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 36
   weight: 0.2
   encumbrance: 0
@@ -3958,7 +3958,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 75
   weight: 0.6
   encumbrance: 0
@@ -3987,7 +3987,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 50
   weight: 0.5
   encumbrance: 0
@@ -4016,7 +4016,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Ermine
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 150
   weight: 0.5
   encumbrance: 0
@@ -4045,7 +4045,7 @@
   effects: []
 - armorType: Hat
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/hat.svg
+  img: systems/hm/assets/icons/hat.svg
   value: 15
   weight: 0.3
   encumbrance: 0
@@ -4074,7 +4074,7 @@
   effects: []
 - armorType: Hauberk
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/chain-mail.svg
+  img: systems/hm/assets/icons/chain-mail.svg
   value: 960
   weight: 28.8
   encumbrance: 15
@@ -4113,7 +4113,7 @@
   effects: []
 - armorType: Hauberk
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/scale-mail.svg
+  img: systems/hm/assets/icons/scale-mail.svg
   value: 640
   weight: 35.2
   encumbrance: 20
@@ -4152,7 +4152,7 @@
   effects: []
 - armorType: Knee Boots
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/leather-boot.svg
+  img: systems/hm/assets/icons/leather-boot.svg
   value: 240
   weight: 2.3
   encumbrance: 0
@@ -4186,7 +4186,7 @@
   effects: []
 - armorType: Knee Boots
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/leather-boot.svg
+  img: systems/hm/assets/icons/leather-boot.svg
   value: 45
   weight: 1.5
   encumbrance: 0
@@ -4220,7 +4220,7 @@
   effects: []
 - armorType: Knee Boots
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/leather-boot.svg
+  img: systems/hm/assets/icons/leather-boot.svg
   value: 45
   weight: 1.5
   encumbrance: 0
@@ -4254,7 +4254,7 @@
   effects: []
 - armorType: Knee Boots
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/leather-boot.svg
+  img: systems/hm/assets/icons/leather-boot.svg
   value: 120
   weight: 3.8
   encumbrance: 0
@@ -4288,7 +4288,7 @@
   effects: []
 - armorType: Kneecops
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/knee-pad.svg
+  img: systems/hm/assets/icons/knee-pad.svg
   value: 15
   weight: 1.1
   encumbrance: 0
@@ -4318,7 +4318,7 @@
   effects: []
 - armorType: Kneecops
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/knee-pad.svg
+  img: systems/hm/assets/icons/knee-pad.svg
   value: 60
   weight: 1.1
   encumbrance: 0
@@ -4348,7 +4348,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 11
   weight: 0.5
   encumbrance: 0
@@ -4385,7 +4385,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 18
   weight: 0.5
   encumbrance: 0
@@ -4422,7 +4422,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 43
   weight: 0.9
   encumbrance: 0
@@ -4459,7 +4459,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 22
   weight: 0.9
   encumbrance: 0
@@ -4496,7 +4496,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 324
   weight: 0.9
   encumbrance: 0
@@ -4533,7 +4533,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 126
   weight: 1.8
   encumbrance: 0
@@ -4570,7 +4570,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 86
   weight: 1.4
   encumbrance: 0
@@ -4607,7 +4607,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 36
   weight: 1.8
   encumbrance: 0
@@ -4644,7 +4644,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 36
   weight: 1.8
   encumbrance: 0
@@ -4681,7 +4681,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 540
   weight: 16.2
   encumbrance: 10
@@ -4718,7 +4718,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 72
   weight: 2.9
   encumbrance: 0
@@ -4755,7 +4755,7 @@
   effects: []
 - armorType: Leggings
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 360
   weight: 19.8
   encumbrance: 10
@@ -4792,7 +4792,7 @@
   effects: []
 - armorType: Loincloth
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/loincloth.svg
+  img: systems/hm/assets/icons/loincloth.svg
   value: 40
   weight: 1.7
   encumbrance: 0
@@ -4821,7 +4821,7 @@
   effects: []
 - armorType: Loincloth
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/loincloth.svg
+  img: systems/hm/assets/icons/loincloth.svg
   value: 10
   weight: 0.8
   encumbrance: 0
@@ -4850,7 +4850,7 @@
   effects: []
 - armorType: Loincloth
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/loincloth.svg
+  img: systems/hm/assets/icons/loincloth.svg
   value: 20
   weight: 2.8
   encumbrance: 0
@@ -4879,7 +4879,7 @@
   effects: []
 - armorType: Long Cowl
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/hood.svg
+  img: systems/hm/assets/icons/hood.svg
   value: 120
   weight: 3.5
   encumbrance: 5
@@ -4909,7 +4909,7 @@
   effects: []
 - armorType: Long Hauberk
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/chain-mail.svg
+  img: systems/hm/assets/icons/chain-mail.svg
   value: 960
   weight: 28.8
   encumbrance: 20
@@ -4948,7 +4948,7 @@
   effects: []
 - armorType: Long Vest
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/leather-armor.svg
+  img: systems/hm/assets/icons/leather-armor.svg
   value: 296
   weight: 4.1
   encumbrance: 0
@@ -4982,7 +4982,7 @@
   effects: []
 - armorType: Long Vest
   detailMaterial: Gambeson
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 312
   weight: 10.9
   encumbrance: 5
@@ -5016,7 +5016,7 @@
   effects: []
 - armorType: Long Vest
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/leather-armor.svg
+  img: systems/hm/assets/icons/leather-armor.svg
   value: 148
   weight: 6.8
   encumbrance: 5
@@ -5050,7 +5050,7 @@
   effects: []
 - armorType: Longshirt
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 296
   weight: 4.1
   encumbrance: 0
@@ -5088,7 +5088,7 @@
   effects: []
 - armorType: Longshirt
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 444
   weight: 8.2
   encumbrance: 0
@@ -5126,7 +5126,7 @@
   effects: []
 - armorType: Longshirt
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/chain-mail.svg
+  img: systems/hm/assets/icons/chain-mail.svg
   value: 495
   weight: 14.9
   encumbrance: 5
@@ -5164,7 +5164,7 @@
   effects: []
 - armorType: Longshirt
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 88
   weight: 3.3
   encumbrance: 0
@@ -5202,7 +5202,7 @@
   effects: []
 - armorType: Longshirt
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 150
   weight: 6.6
   encumbrance: 0
@@ -5240,7 +5240,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 6
   weight: 0.3
   encumbrance: 0
@@ -5273,7 +5273,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 11
   weight: 0.3
   encumbrance: 0
@@ -5306,7 +5306,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 25
   weight: 0.6
   encumbrance: 0
@@ -5339,7 +5339,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 13
   weight: 0.6
   encumbrance: 0
@@ -5372,7 +5372,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 189
   weight: 0.6
   encumbrance: 0
@@ -5405,7 +5405,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 74
   weight: 1.1
   encumbrance: 0
@@ -5438,7 +5438,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 50
   weight: 0.9
   encumbrance: 0
@@ -5471,7 +5471,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 222
   weight: 0.9
   encumbrance: 0
@@ -5504,7 +5504,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Ermine
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 444
   weight: 0.7
   encumbrance: 0
@@ -5537,7 +5537,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 148
   weight: 0.7
   encumbrance: 0
@@ -5570,7 +5570,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 21
   weight: 1.1
   encumbrance: 0
@@ -5603,7 +5603,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 21
   weight: 1.1
   encumbrance: 0
@@ -5636,7 +5636,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 74
   weight: 1.1
   encumbrance: 0
@@ -5669,7 +5669,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 42
   weight: 1.7
   encumbrance: 0
@@ -5702,7 +5702,7 @@
   effects: []
 - armorType: Mantle
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/mantle.svg
+  img: systems/hm/assets/icons/mantle.svg
   value: 84
   weight: 3.8
   encumbrance: 0
@@ -5735,7 +5735,7 @@
   effects: []
 - armorType: Mittens
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/gloves.svg
+  img: systems/hm/assets/icons/gloves.svg
   value: 126
   weight: 1
   encumbrance: 0
@@ -5765,7 +5765,7 @@
   effects: []
 - armorType: Mittens
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/mailed-fist.svg
+  img: systems/hm/assets/icons/mailed-fist.svg
   value: 75
   weight: 2.3
   encumbrance: 1.67
@@ -5795,7 +5795,7 @@
   effects: []
 - armorType: Mittens
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/gauntlet.svg
+  img: systems/hm/assets/icons/gauntlet.svg
   value: 10
   weight: 0.4
   encumbrance: 0
@@ -5825,7 +5825,7 @@
   effects: []
 - armorType: Pants
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 78
   weight: 3.1
   encumbrance: 0
@@ -5860,7 +5860,7 @@
   effects: []
 - armorType: Rerebraces
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/dorsal-scales.svg
+  img: systems/hm/assets/icons/dorsal-scales.svg
   value: 40
   weight: 3
   encumbrance: 1.67
@@ -5890,7 +5890,7 @@
   effects: []
 - armorType: Rerebraces
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/dorsal-scales.svg
+  img: systems/hm/assets/icons/dorsal-scales.svg
   value: 160
   weight: 3
   encumbrance: 1.67
@@ -5920,7 +5920,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 24
   weight: 1
   encumbrance: 0
@@ -5965,7 +5965,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 40
   weight: 1
   encumbrance: 0
@@ -6010,7 +6010,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 95
   weight: 2
   encumbrance: 0
@@ -6055,7 +6055,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 47
   weight: 2
   encumbrance: 0
@@ -6100,7 +6100,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 711
   weight: 2
   encumbrance: 0
@@ -6145,7 +6145,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 277
   weight: 4
   encumbrance: 0
@@ -6190,7 +6190,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 190
   weight: 3.2
   encumbrance: 0
@@ -6235,7 +6235,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 450
   weight: 6.1
   encumbrance: 0
@@ -6280,7 +6280,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 675
   weight: 12.2
   encumbrance: 0
@@ -6325,7 +6325,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 79
   weight: 4
   encumbrance: 0
@@ -6370,7 +6370,7 @@
   effects: []
 - armorType: Robe
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/robe.svg
+  img: systems/hm/assets/icons/robe.svg
   value: 79
   weight: 4
   encumbrance: 0
@@ -6415,7 +6415,7 @@
   effects: []
 - armorType: Sandals
   detailMaterial: Straw
-  img: systems/sohl/assets/icons/sandals.svg
+  img: systems/hm/assets/icons/sandals.svg
   value: 5
   weight: 0.1
   encumbrance: 0
@@ -6445,7 +6445,7 @@
   effects: []
 - armorType: Sandals
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/sandals.svg
+  img: systems/hm/assets/icons/sandals.svg
   value: 50
   weight: 0.3
   encumbrance: 0
@@ -6475,7 +6475,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 17
   weight: 0.4
   encumbrance: 0
@@ -6509,7 +6509,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 40
   weight: 0.9
   encumbrance: 0
@@ -6543,7 +6543,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 20
   weight: 0.9
   encumbrance: 0
@@ -6577,7 +6577,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 297
   weight: 0.9
   encumbrance: 0
@@ -6611,7 +6611,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 116
   weight: 1.7
   encumbrance: 0
@@ -6645,7 +6645,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 79
   weight: 1.4
   encumbrance: 0
@@ -6679,7 +6679,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 165
   weight: 2
   encumbrance: 0
@@ -6713,7 +6713,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Ermine
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 330
   weight: 1.5
   encumbrance: 0
@@ -6747,7 +6747,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 110
   weight: 1.5
   encumbrance: 0
@@ -6781,7 +6781,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 165
   weight: 3
   encumbrance: 0
@@ -6815,7 +6815,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 33
   weight: 1.7
   encumbrance: 0
@@ -6849,7 +6849,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 33
   weight: 1.7
   encumbrance: 0
@@ -6883,7 +6883,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Gambeson
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 280
   weight: 9.8
   encumbrance: 0
@@ -6919,7 +6919,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/mail-shirt.svg
+  img: systems/hm/assets/icons/mail-shirt.svg
   value: 240
   weight: 13.2
   encumbrance: 1.67
@@ -6953,7 +6953,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 66
   weight: 2.6
   encumbrance: 0
@@ -6987,7 +6987,7 @@
   effects: []
 - armorType: Shirt
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/shirt.svg
+  img: systems/hm/assets/icons/shirt.svg
   value: 132
   weight: 5.9
   encumbrance: 0
@@ -7021,7 +7021,7 @@
   effects: []
 - armorType: Shoes
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/shoe.svg
+  img: systems/hm/assets/icons/shoe.svg
   value: 70
   weight: 0.9
   encumbrance: 0
@@ -7051,7 +7051,7 @@
   effects: []
 - armorType: Shoes
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/shoe.svg
+  img: systems/hm/assets/icons/shoe.svg
   value: 25
   weight: 1
   encumbrance: 0
@@ -7081,7 +7081,7 @@
   effects: []
 - armorType: Shoes
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/shoe.svg
+  img: systems/hm/assets/icons/shoe.svg
   value: 35
   weight: 1.5
   encumbrance: 0
@@ -7111,7 +7111,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 12
   weight: 0.8
   encumbrance: 0
@@ -7146,7 +7146,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 20
   weight: 0.8
   encumbrance: 0
@@ -7181,7 +7181,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 48
   weight: 1.5
   encumbrance: 0
@@ -7216,7 +7216,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 24
   weight: 1.5
   encumbrance: 0
@@ -7251,7 +7251,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Straw
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 12
   weight: 0.8
   encumbrance: 0
@@ -7286,7 +7286,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 96
   weight: 2.4
   encumbrance: 0
@@ -7321,7 +7321,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 130
   weight: 2.4
   encumbrance: 0
@@ -7356,7 +7356,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 40
   weight: 3
   encumbrance: 0
@@ -7391,7 +7391,7 @@
   effects: []
 - armorType: Skirt
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/skirt.svg
+  img: systems/hm/assets/icons/skirt.svg
   value: 65
   weight: 4
   encumbrance: 0
@@ -7426,7 +7426,7 @@
   effects: []
 - armorType: Sleeved Byrnie
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/chain-mail.svg
+  img: systems/hm/assets/icons/chain-mail.svg
   value: 400
   weight: 22
   encumbrance: 10
@@ -7465,7 +7465,7 @@
   effects: []
 - armorType: Sleeved Byrnie
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/scale-mail.svg
+  img: systems/hm/assets/icons/scale-mail.svg
   value: 400
   weight: 22
   encumbrance: 15
@@ -7504,7 +7504,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 15
   weight: 0.6
   encumbrance: 0
@@ -7541,7 +7541,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 25
   weight: 0.6
   encumbrance: 0
@@ -7578,7 +7578,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 60
   weight: 1.3
   encumbrance: 0
@@ -7615,7 +7615,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 30
   weight: 1.3
   encumbrance: 0
@@ -7652,7 +7652,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 450
   weight: 1.3
   encumbrance: 0
@@ -7689,7 +7689,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 175
   weight: 2.5
   encumbrance: 0
@@ -7726,7 +7726,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 120
   weight: 2
   encumbrance: 0
@@ -7763,7 +7763,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 450
   weight: 5.4
   encumbrance: 0
@@ -7800,7 +7800,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 300
   weight: 4.1
   encumbrance: 0
@@ -7837,7 +7837,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 450
   weight: 8.2
   encumbrance: 0
@@ -7874,7 +7874,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 50
   weight: 2.5
   encumbrance: 0
@@ -7911,7 +7911,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 50
   weight: 2.5
   encumbrance: 0
@@ -7948,7 +7948,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Gambeson
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 416
   weight: 14.6
   encumbrance: 10
@@ -7985,7 +7985,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 150
   weight: 6.8
   encumbrance: 0
@@ -8022,7 +8022,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 100
   weight: 4
   encumbrance: 0
@@ -8059,7 +8059,7 @@
   effects: []
 - armorType: Sleeved Tunic
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 200
   weight: 9
   encumbrance: 0
@@ -8096,7 +8096,7 @@
   effects: []
 - armorType: Spaulders
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/dorsal-scales.svg
+  img: systems/hm/assets/icons/dorsal-scales.svg
   value: 15
   weight: 1.1
   encumbrance: 1.67
@@ -8126,7 +8126,7 @@
   effects: []
 - armorType: Spaulders
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/dorsal-scales.svg
+  img: systems/hm/assets/icons/dorsal-scales.svg
   value: 60
   weight: 1.1
   encumbrance: 1.67
@@ -8156,7 +8156,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 16
   weight: 0.7
   encumbrance: 0
@@ -8195,7 +8195,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 27
   weight: 0.7
   encumbrance: 0
@@ -8234,7 +8234,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 486
   weight: 1.4
   encumbrance: 0
@@ -8273,7 +8273,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 130
   weight: 2.2
   encumbrance: 0
@@ -8312,7 +8312,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 300
   weight: 4.1
   encumbrance: 0
@@ -8351,7 +8351,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 54
   weight: 2.7
   encumbrance: 0
@@ -8390,7 +8390,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 54
   weight: 2.7
   encumbrance: 0
@@ -8429,7 +8429,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 108
   weight: 4.3
   encumbrance: 0
@@ -8468,7 +8468,7 @@
   effects: []
 - armorType: Surcoat
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 216
   weight: 9.7
   encumbrance: 0
@@ -8507,7 +8507,7 @@
   effects: []
 - armorType: Swaddle
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 6
   weight: 0.3
   encumbrance: 0
@@ -8539,7 +8539,7 @@
   effects: []
 - armorType: Swaddle
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 10
   weight: 0.3
   encumbrance: 0
@@ -8571,7 +8571,7 @@
   effects: []
 - armorType: Swaddle
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 23
   weight: 0.5
   encumbrance: 0
@@ -8603,7 +8603,7 @@
   effects: []
 - armorType: Swaddle
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 11
   weight: 0.5
   encumbrance: 0
@@ -8635,7 +8635,7 @@
   effects: []
 - armorType: Swaddle
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 171
   weight: 0.5
   encumbrance: 0
@@ -8667,7 +8667,7 @@
   effects: []
 - armorType: Swaddle
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 46
   weight: 0.8
   encumbrance: 0
@@ -8699,7 +8699,7 @@
   effects: []
 - armorType: Swaddle
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 19
   weight: 1
   encumbrance: 0
@@ -8731,7 +8731,7 @@
   effects: []
 - armorType: Swaddle
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 19
   weight: 1
   encumbrance: 0
@@ -8763,7 +8763,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 12
   weight: 0.5
   encumbrance: 0
@@ -8798,7 +8798,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 20
   weight: 0.5
   encumbrance: 0
@@ -8833,7 +8833,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 47
   weight: 1
   encumbrance: 0
@@ -8868,7 +8868,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 23
   weight: 1
   encumbrance: 0
@@ -8903,7 +8903,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 137
   weight: 2
   encumbrance: 0
@@ -8938,7 +8938,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 94
   weight: 1.6
   encumbrance: 0
@@ -8973,7 +8973,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 39
   weight: 2
   encumbrance: 0
@@ -9008,7 +9008,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 39
   weight: 2
   encumbrance: 0
@@ -9043,7 +9043,7 @@
   effects: []
 - armorType: Trousers
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/leggings.svg
+  img: systems/hm/assets/icons/leggings.svg
   value: 78
   weight: 3.1
   encumbrance: 0
@@ -9078,7 +9078,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 14
   weight: 0.6
   encumbrance: 0
@@ -9115,7 +9115,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 23
   weight: 0.6
   encumbrance: 0
@@ -9152,7 +9152,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 54
   weight: 1.2
   encumbrance: 0
@@ -9189,7 +9189,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 27
   weight: 1.2
   encumbrance: 0
@@ -9226,7 +9226,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 405
   weight: 1.2
   encumbrance: 0
@@ -9263,7 +9263,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 158
   weight: 2.3
   encumbrance: 0
@@ -9300,7 +9300,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 108
   weight: 1.8
   encumbrance: 0
@@ -9337,7 +9337,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 444
   weight: 5.4
   encumbrance: 0
@@ -9374,7 +9374,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 296
   weight: 4.1
   encumbrance: 0
@@ -9411,7 +9411,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 444
   weight: 8.2
   encumbrance: 0
@@ -9448,7 +9448,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 45
   weight: 2.3
   encumbrance: 0
@@ -9485,7 +9485,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 45
   weight: 2.3
   encumbrance: 0
@@ -9522,7 +9522,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Gambeson
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 376
   weight: 13.2
   encumbrance: 5
@@ -9559,7 +9559,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 148
   weight: 6.8
   encumbrance: 0
@@ -9596,7 +9596,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 90
   weight: 3.6
   encumbrance: 0
@@ -9633,7 +9633,7 @@
   effects: []
 - armorType: Tunic
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/tunic.svg
+  img: systems/hm/assets/icons/tunic.svg
   value: 180
   weight: 8.1
   encumbrance: 0
@@ -9670,7 +9670,7 @@
   effects: []
 - armorType: Vambraces
   detailMaterial: Kûrbúl
-  img: systems/sohl/assets/icons/bracer.svg
+  img: systems/hm/assets/icons/bracer.svg
   value: 25
   weight: 1.9
   encumbrance: 1.67
@@ -9700,7 +9700,7 @@
   effects: []
 - armorType: Vambraces
   detailMaterial: Plate
-  img: systems/sohl/assets/icons/bracer.svg
+  img: systems/hm/assets/icons/bracer.svg
   value: 100
   weight: 1.9
   encumbrance: 1.67
@@ -9730,7 +9730,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Homespun
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 7
   weight: 0.3
   encumbrance: 0
@@ -9760,7 +9760,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Linen
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 12
   weight: 0.3
   encumbrance: 0
@@ -9790,7 +9790,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Russet
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 29
   weight: 0.6
   encumbrance: 0
@@ -9820,7 +9820,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Serge
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 14
   weight: 0.6
   encumbrance: 0
@@ -9850,7 +9850,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Silk
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 216
   weight: 0.6
   encumbrance: 0
@@ -9880,7 +9880,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Velvet
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 84
   weight: 1.2
   encumbrance: 0
@@ -9910,7 +9910,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Worsted
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 58
   weight: 1
   encumbrance: 0
@@ -9940,7 +9940,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Beaver
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 288
   weight: 2.9
   encumbrance: 0
@@ -9970,7 +9970,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Ermine
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 576
   weight: 2.2
   encumbrance: 0
@@ -10000,7 +10000,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Leather
-  img: systems/sohl/assets/icons/leather-vest.svg
+  img: systems/hm/assets/icons/leather-vest.svg
   value: 192
   weight: 2.2
   encumbrance: 0
@@ -10030,7 +10030,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Sealskin
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 288
   weight: 4.3
   encumbrance: 0
@@ -10060,7 +10060,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Buckram
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 24
   weight: 1.2
   encumbrance: 0
@@ -10090,7 +10090,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Cloth
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 24
   weight: 1.2
   encumbrance: 0
@@ -10120,7 +10120,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Gambeson
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 208
   weight: 7.3
   encumbrance: 0
@@ -10150,7 +10150,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Rawhide
-  img: systems/sohl/assets/icons/leather-vest.svg
+  img: systems/hm/assets/icons/leather-vest.svg
   value: 96
   weight: 3.6
   encumbrance: 0
@@ -10180,7 +10180,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Mail
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 240
   weight: 13.2
   encumbrance: 0
@@ -10210,7 +10210,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Padded
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 48
   weight: 1.9
   encumbrance: 0
@@ -10240,7 +10240,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Quilted
-  img: systems/sohl/assets/icons/vest.svg
+  img: systems/hm/assets/icons/vest.svg
   value: 96
   weight: 4.3
   encumbrance: 0
@@ -10270,7 +10270,7 @@
   effects: []
 - armorType: Vest
   detailMaterial: Scale
-  img: systems/sohl/assets/icons/scale-mail.svg
+  img: systems/hm/assets/icons/scale-mail.svg
   value: 240
   weight: 13.2
   encumbrance: 5

@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import * as sohl from "./sohl-common.js";
+import * as hm from "./hm-common.js";
 
 /* ====================================================================== */
 /*          Constants                                                     */
@@ -7,9 +7,9 @@ import * as sohl from "./sohl-common.js";
 
 const fields = foundry.data.fields;
 
-const LGND = {
+const HMK = {
     CONST: {
-        // Legendary init message with ASCII Artwork (Doom font)
+        // Kethira init message with ASCII Artwork (Doom font)
         initVersionMessage: ` _                               _
 | |                             | |
 | |     ___  __ _  ___ _ __   __| | __ _ _ __ _   _
@@ -1555,7 +1555,7 @@ const LGND = {
     },
 };
 
-class LgndImpactModifier extends sohl.ImpactModifier {
+class HMKImpactModifier extends hm.ImpactModifier {
     // List of possible dice for impact dice.
     static get dice() {
         return {
@@ -1588,7 +1588,7 @@ class LgndImpactModifier extends sohl.ImpactModifier {
     }
 }
 
-class LgndMasteryLevelModifier extends sohl.MasteryLevelModifier {
+class HMKMasteryLevelModifier extends hm.MasteryLevelModifier {
     constructor(parent, initProperties = {}) {
         super(
             parent,
@@ -1597,7 +1597,7 @@ class LgndMasteryLevelModifier extends sohl.MasteryLevelModifier {
                 {
                     secMod: (thisVM) => {
                         const secModIncr = game.settings.get(
-                            "sohl",
+                            "hm",
                             "attrSecModIncr",
                         );
                         return Math.min(
@@ -1617,7 +1617,7 @@ class LgndMasteryLevelModifier extends sohl.MasteryLevelModifier {
     }
 }
 
-class LgndAnimateEntityActorData extends sohl.AnimateEntityActorData {
+class HMKAnimateEntityActorData extends hm.AnimateEntityActorData {
     $combatReach;
     $pull;
     $hasAuralShock;
@@ -1628,14 +1628,14 @@ class LgndAnimateEntityActorData extends sohl.AnimateEntityActorData {
 
     get intrinsicActions() {
         let actions = super.intrinsicActions.map((a) => {
-            if (a.contextGroup === sohl.SohlContextMenu.sortGroups.Default) {
-                a.contextGroup = sohl.SohlContextMenu.sortGroups.Primary;
+            if (a.contextGroup === hm.SohlContextMenu.sortGroups.Default) {
+                a.contextGroup = hm.SohlContextMenu.sortGroups.Primary;
             }
             return a;
         });
 
         actions.push(
-            // TODO - Add Lgnd Actor Actions
+            // TODO - Add HMK Actor Actions
         );
 
         actions.sort((a, b) => a.contextGroup.localeCompare(b.contextGroup));
@@ -1707,14 +1707,14 @@ class LgndAnimateEntityActorData extends sohl.AnimateEntityActorData {
         super.prepareBaseData();
         this.$maxZones = 0;
         this.$combatReach = -99;
-        this.$pull = new sohl.ValueModifier(this);
+        this.$pull = new hm.ValueModifier(this);
         this.$hasAuralShock = false;
-        this.$healingBase = new sohl.ValueModifier(this);
-        this.$encumbrance = new sohl.ValueModifier(this, {
+        this.$healingBase = new hm.ValueModifier(this);
+        this.$encumbrance = new hm.ValueModifier(this, {
             total: (thisVM) => {
                 const encDiv = game.settings.get(
-                    "sohl",
-                    LGND.CONST.VERSETTINGS.encIncr.key,
+                    "hm",
+                    HMK.CONST.VERSETTINGS.encIncr.key,
                 );
                 let result = Math.round(
                     Math.floor((thisVM.effective + Number.EPSILON) * encDiv) /
@@ -1727,22 +1727,22 @@ class LgndAnimateEntityActorData extends sohl.AnimateEntityActorData {
     }
 }
 
-function LgndStrikeModeItemDataMixin(BaseMLID) {
-    return class LgndStrikeModeItemData extends BaseMLID {
+function HMKStrikeModeItemDataMixin(BaseMLID) {
+    return class HMKStrikeModeItemData extends BaseMLID {
         $length;
         $reach;
         $heft;
 
         get lengthBase() {
-            return this.item.getFlag("sohl", "legendary.lengthBase") || 0;
+            return this.item.getFlag("hm", "kethira.lengthBase") || 0;
         }
 
         get heftBase() {
-            return this.item.getFlag("sohl", "legendary.heftBase") || 0;
+            return this.item.getFlag("hm", "kethira.heftBase") || 0;
         }
 
         static get effectKeys() {
-            return sohl.Utility.simpleMerge(super.effectKeys, {
+            return hm.Utility.simpleMerge(super.effectKeys, {
                 "mod:system.$impact.armorReduction": {
                     label: "Armor Reduction",
                     abbrev: "AR",
@@ -1811,14 +1811,14 @@ function LgndStrikeModeItemDataMixin(BaseMLID) {
         }
 
         get zoneDie() {
-            return this.item.getFlag("sohl", "legendary.zoneDie") || 0;
+            return this.item.getFlag("hm", "kethira.zoneDie") || 0;
         }
 
         prepareBaseData() {
             super.prepareBaseData();
-            this.$length = new sohl.ValueModifier(this);
-            this.$reach = new sohl.ValueModifier(this);
-            this.$heft = new sohl.ValueModifier(this);
+            this.$length = new hm.ValueModifier(this);
+            this.$reach = new hm.ValueModifier(this);
+            this.$heft = new hm.ValueModifier(this);
             foundry.utils.mergeObject(this.$traits, {
                 armorReduction: 0,
                 blockSLMod: 0,
@@ -1864,7 +1864,7 @@ function LgndStrikeModeItemDataMixin(BaseMLID) {
             const weapon = this.item.nestedIn;
             const strength = this.actor.getTraitByAbbrev("str");
 
-            if (weapon?.system instanceof sohl.WeaponGearItemData) {
+            if (weapon?.system instanceof hm.WeaponGearItemData) {
                 this.$heft.addVM(weapon.system.$heft, {
                     includeBase: true,
                 });
@@ -1940,11 +1940,11 @@ function LgndStrikeModeItemDataMixin(BaseMLID) {
     };
 }
 
-class LgndMeleeWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
-    sohl.MeleeWeaponStrikeModeItemData,
+class HMKMeleeWeaponStrikeModeItemData extends HMKStrikeModeItemDataMixin(
+    hm.MeleeWeaponStrikeModeItemData,
 ) {
     static get effectKeys() {
-        return sohl.Utility.simpleMerge(super.effectKeys, {
+        return hm.Utility.simpleMerge(super.effectKeys, {
             "mod:system.$heft": { label: "Heft", abbrev: "Hft" },
             "system.$traits.couched": { label: "Couched", abbrev: "Couched" },
             "system.$traits.slow": { label: "Slow", abbrev: "Slow" },
@@ -1965,10 +1965,8 @@ class LgndMeleeWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
         let actions = super.intrinsicActions
             .filter((a) => a.name !== "attack")
             .map((a) => {
-                if (
-                    a.contextGroup === sohl.SohlContextMenu.sortGroups.Default
-                ) {
-                    a.contextGroup = sohl.SohlContextMenu.sortGroups.Primary;
+                if (a.contextGroup === hm.SohlContextMenu.sortGroups.Default) {
+                    a.contextGroup = hm.SohlContextMenu.sortGroups.Primary;
                 }
                 return a;
             });
@@ -1983,7 +1981,7 @@ class LgndMeleeWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
                 const item = fromUuidSync(li.dataset.uuid);
                 return item && !item.system.$attack.disabled;
             },
-            contextGroup: sohl.SohlContextMenu.sortGroups.Default,
+            contextGroup: hm.SohlContextMenu.sortGroups.Default,
         });
 
         actions.sort((a, b) => a.contextGroup.localeCompare(b.contextGroup));
@@ -2004,13 +2002,14 @@ class LgndMeleeWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
             ...scope
         },
     ) {
-        ({ speaker, actor, token, character } =
-            sohl.SohlMacro.getExecuteDefaults({
+        ({ speaker, actor, token, character } = hm.SohlMacro.getExecuteDefaults(
+            {
                 speaker,
                 actor,
                 token,
                 character,
-            }));
+            },
+        ));
 
         // TODO - Melee Automated Attack
         ui.notifications.warn("Melee Automated Attack Not Implemented");
@@ -2037,7 +2036,7 @@ class LgndMeleeWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
         const strength = this.actor.getTraitByAbbrev("str");
         if (strength) {
             const strValue = strength.system.$score?.effective || 0;
-            const strImpactMod = LgndUtility.strImpactMod(strValue);
+            const strImpactMod = HMKUtility.strImpactMod(strValue);
             if (strImpactMod && !this.$traits.noStrMod) {
                 this.$impact.add(
                     "Strength Impact Modifier",
@@ -2060,8 +2059,8 @@ class LgndMeleeWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
     }
 }
 
-class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
-    sohl.MissileWeaponStrikeModeItemData,
+class HMKMissileWeaponStrikeModeItemData extends HMKStrikeModeItemDataMixin(
+    hm.MissileWeaponStrikeModeItemData,
 ) {
     $maxVolleyMult;
     $baseRange;
@@ -2072,10 +2071,8 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
         let actions = super.intrinsicActions
             .filter((a) => a.name !== "attack")
             .map((a) => {
-                if (
-                    a.contextGroup === sohl.SohlContextMenu.sortGroups.Default
-                ) {
-                    a.contextGroup = sohl.SohlContextMenu.sortGroups.Primary;
+                if (a.contextGroup === hm.SohlContextMenu.sortGroups.Default) {
+                    a.contextGroup = hm.SohlContextMenu.sortGroups.Primary;
                 }
                 return a;
             });
@@ -2091,7 +2088,7 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
                     const item = fromUuidSync(li.dataset.uuid);
                     return item && !item.system.$attack.disabled;
                 },
-                contextGroup: sohl.SohlContextMenu.sortGroups.Default,
+                contextGroup: hm.SohlContextMenu.sortGroups.Default,
             },
             {
                 functionName: "directAttackTest",
@@ -2103,7 +2100,7 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
                     const item = fromUuidSync(li.dataset.uuid);
                     return item && !item.system.$attack.disabled;
                 },
-                contextGroup: sohl.SohlContextMenu.sortGroups.Primary,
+                contextGroup: hm.SohlContextMenu.sortGroups.Primary,
             },
             {
                 functionName: "volleyAttackTest",
@@ -2115,7 +2112,7 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
                     const item = fromUuidSync(li.dataset.uuid);
                     return item && !item.system.$attack.disabled;
                 },
-                contextGroup: sohl.SohlContextMenu.sortGroups.Primary,
+                contextGroup: hm.SohlContextMenu.sortGroups.Primary,
             },
         );
 
@@ -2137,13 +2134,14 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
             ...scope
         },
     ) {
-        ({ speaker, actor, token, character } =
-            sohl.SohlMacro.getExecuteDefaults({
+        ({ speaker, actor, token, character } = hm.SohlMacro.getExecuteDefaults(
+            {
                 speaker,
                 actor,
                 token,
                 character,
-            }));
+            },
+        ));
 
         // TODO - Missile Automated Attack
         ui.notifications.warn("Missile Automated Attack Not Implemented");
@@ -2163,13 +2161,14 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
             ...scope
         },
     ) {
-        ({ speaker, actor, token, character } =
-            sohl.SohlMacro.getExecuteDefaults({
+        ({ speaker, actor, token, character } = hm.SohlMacro.getExecuteDefaults(
+            {
                 speaker,
                 actor,
                 token,
                 character,
-            }));
+            },
+        ));
 
         // TODO - Missile Volley Attack
         ui.notifications.warn("Missile Volley Attack Not Implemented");
@@ -2189,13 +2188,14 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
             ...scope
         },
     ) {
-        ({ speaker, actor, token, character } =
-            sohl.SohlMacro.getExecuteDefaults({
+        ({ speaker, actor, token, character } = hm.SohlMacro.getExecuteDefaults(
+            {
                 speaker,
                 actor,
                 token,
                 character,
-            }));
+            },
+        ));
 
         // TODO - Missile Direct Attack
         ui.notifications.warn("Missile Direct Attack Not Implemented");
@@ -2208,15 +2208,12 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
             armorReduction: 0,
             bleed: false,
         });
-        this.$maxVolleyMult = this.item.getFlag(
-            "sohl",
-            "legendary.maxVolleyMult",
+        this.$maxVolleyMult = this.item.getFlag("hm", "kethira.maxVolleyMult");
+        this.$baseRange = new hm.ValueModifier(this).setBase(
+            this.item.getFlag("hm", "kethira.baseRangeBase"),
         );
-        this.$baseRange = new sohl.ValueModifier(this).setBase(
-            this.item.getFlag("sohl", "legendary.baseRangeBase"),
-        );
-        this.$draw = new sohl.ValueModifier(this).setBase(
-            this.item.getFlag("sohl", "legendary.drawBase"),
+        this.$draw = new hm.ValueModifier(this).setBase(
+            this.item.getFlag("hm", "kethira.drawBase"),
         );
     }
 
@@ -2229,11 +2226,11 @@ class LgndMissileWeaponStrikeModeItemData extends LgndStrikeModeItemDataMixin(
     }
 }
 
-class LgndCombatTechniqueStrikeModeItemData extends LgndStrikeModeItemDataMixin(
-    sohl.CombatTechniqueStrikeModeItemData,
+class HMKCombatTechniqueStrikeModeItemData extends HMKStrikeModeItemDataMixin(
+    hm.CombatTechniqueStrikeModeItemData,
 ) {
     static get effectKeys() {
-        return sohl.Utility.simpleMerge(super.effectKeys, {
+        return hm.Utility.simpleMerge(super.effectKeys, {
             "system.$traits.strRoll": {
                 label: "Strength Roll",
                 abbrev: "StrRoll",
@@ -2242,21 +2239,19 @@ class LgndCombatTechniqueStrikeModeItemData extends LgndStrikeModeItemDataMixin(
     }
 
     get zoneDie() {
-        return this.item.getFlag("sohl", "legendary.zoneDie") || 0;
+        return this.item.getFlag("hm", "kethira.zoneDie") || 0;
     }
 
     get reachBase() {
-        return this.item.getFlag("sohl", "legendary.reachBase") || 0;
+        return this.item.getFlag("hm", "kethira.reachBase") || 0;
     }
 
     get intrinsicActions() {
         let actions = super.intrinsicActions
             .filter((a) => a.name !== "attack")
             .map((a) => {
-                if (
-                    a.contextGroup === sohl.SohlContextMenu.sortGroups.Default
-                ) {
-                    a.contextGroup = sohl.SohlContextMenu.sortGroups.Primary;
+                if (a.contextGroup === hm.SohlContextMenu.sortGroups.Default) {
+                    a.contextGroup = hm.SohlContextMenu.sortGroups.Primary;
                 }
                 return a;
             });
@@ -2271,7 +2266,7 @@ class LgndCombatTechniqueStrikeModeItemData extends LgndStrikeModeItemDataMixin(
                 const item = fromUuidSync(li.dataset.uuid);
                 return item && !item.system.$attack.disabled;
             },
-            contextGroup: sohl.SohlContextMenu.sortGroups.Default,
+            contextGroup: hm.SohlContextMenu.sortGroups.Default,
         });
 
         actions.sort((a, b) => a.contextGroup.localeCompare(b.contextGroup));
@@ -2292,13 +2287,14 @@ class LgndCombatTechniqueStrikeModeItemData extends LgndStrikeModeItemDataMixin(
             ...scope
         },
     ) {
-        ({ speaker, actor, token, character } =
-            sohl.SohlMacro.getExecuteDefaults({
+        ({ speaker, actor, token, character } = hm.SohlMacro.getExecuteDefaults(
+            {
                 speaker,
                 actor,
                 token,
                 character,
-            }));
+            },
+        ));
 
         // TODO - Combat Technique Automated Attack
         ui.notifications.warn(
@@ -2313,7 +2309,7 @@ class LgndCombatTechniqueStrikeModeItemData extends LgndStrikeModeItemDataMixin(
             strRoll: false,
         });
 
-        const reachBase = this.item.getFlag("sohl", "legendary.reachBase") || 0;
+        const reachBase = this.item.getFlag("hm", "kethira.reachBase") || 0;
         this.$reach.setBase(reachBase);
     }
 
@@ -2331,7 +2327,7 @@ class LgndCombatTechniqueStrikeModeItemData extends LgndStrikeModeItemDataMixin(
         const strength = this.actor.getTraitByAbbrev("str");
         if (strength) {
             const strValue = strength.system.$score?.effective || 0;
-            const strImpactMod = LgndUtility.strImpactMod(strValue);
+            const strImpactMod = HMKUtility.strImpactMod(strValue);
             if (strImpactMod && !this.$traits.noStrMod) {
                 this.$impact.add(
                     "Strength Impact Modifier",
@@ -2344,7 +2340,7 @@ class LgndCombatTechniqueStrikeModeItemData extends LgndStrikeModeItemDataMixin(
 
     postProcess() {
         super.postProcess();
-        if (this.item.nestedIn instanceof sohl.GearItemData) {
+        if (this.item.nestedIn instanceof hm.GearItemData) {
             this.$reach.setBase(this.item.nestedIn.system.lengthBase);
             const size = this.actor.getTraitByAbbrev("siz");
             if (size?.system.$params) {
@@ -2359,11 +2355,11 @@ class LgndCombatTechniqueStrikeModeItemData extends LgndStrikeModeItemDataMixin(
 }
 
 /*===============================================================*/
-/*      Legendary Data Model Classes                                   */
+/*      Kethira Data Model Classes                                   */
 /*===============================================================*/
 
-function LgndMasteryLevelItemDataMixin(BaseMLID) {
-    return class LgndMasteryLevelItemData extends BaseMLID {
+function HMKMasteryLevelItemDataMixin(BaseMLID) {
+    return class HMKMasteryLevelItemData extends BaseMLID {
         get isFateAllowed() {
             return (
                 super.isFateAllowed &&
@@ -2384,7 +2380,7 @@ function LgndMasteryLevelItemDataMixin(BaseMLID) {
 
         prepareBaseData() {
             super.prepareBaseData();
-            this.$masteryLevel &&= LgndMasteryLevelModifier.create(
+            this.$masteryLevel &&= HMKMasteryLevelModifier.create(
                 this.$masteryLevel,
                 { parent: this },
             );
@@ -2392,17 +2388,17 @@ function LgndMasteryLevelItemDataMixin(BaseMLID) {
     };
 }
 
-class LgndDomainItemData extends sohl.DomainItemData {
+class HMKDomainItemData extends hm.DomainItemData {
     $divineAspects;
 
     prepareBaseData() {
         super.prepareBaseData();
-        const aspects = this.item.getFlag("sohl", "aspects") || [];
+        const aspects = this.item.getFlag("hm", "aspects") || [];
         this.$divineAspects = new Set(aspects);
     }
 }
 
-class LgndInjuryItemData extends sohl.InjuryItemData {
+class HMKInjuryItemData extends hm.InjuryItemData {
     static get aspectTypes() {
         return {
             blunt: "Blunt",
@@ -2421,44 +2417,44 @@ class LgndInjuryItemData extends sohl.InjuryItemData {
     }
 
     get isBarbed() {
-        return this.item.getFlag("sohl", "isBarbed");
+        return this.item.getFlag("hm", "isBarbed");
     }
 
     set isBarbed(val) {
-        this.item.setFlag("sohl", "isBarbed", !!val);
+        this.item.setFlag("hm", "isBarbed", !!val);
     }
 
     get isGlancing() {
-        return this.item.getFlag("sohl", "isGlancing");
+        return this.item.getFlag("hm", "isGlancing");
     }
 
     set isGlancing(val) {
-        this.item.setFlag("sohl", "isGlancing", !!val);
+        this.item.setFlag("hm", "isGlancing", !!val);
     }
 
     get extraBleedRisk() {
-        return this.item.getFlag("sohl", "extraBleedRisk");
+        return this.item.getFlag("hm", "extraBleedRisk");
     }
 
     set extraBleedRisk(val) {
-        this.item.setFlag("sohl", "extraBleedRisk", !!val);
+        this.item.setFlag("hm", "extraBleedRisk", !!val);
     }
 
     get permanentImpairment() {
-        return this.item.getFlag("sohl", "permanentImpairment");
+        return this.item.getFlag("hm", "permanentImpairment");
     }
 
     set permanentImpairment(val) {
         if (typeof val === "number") {
             val = Math.max(0, val);
-            this.item.setFlag("sohl", "permanentImpairment", val);
+            this.item.setFlag("hm", "permanentImpairment", val);
         }
     }
 
     get untreatedHealing() {
         const treatSev = this.$healingRate?.severity;
         let treatmt = (treatSev !== "0"
-            ? LGND.CONST.treatment[this.aspect]?.[treatSev]?.["cf"]
+            ? HMK.CONST.treatment[this.aspect]?.[treatSev]?.["cf"]
             : {
                   hr: 6,
                   infect: false,
@@ -2477,7 +2473,7 @@ class LgndInjuryItemData extends sohl.InjuryItemData {
 
     prepareBaseData() {
         super.prepareBaseData();
-        const newIL = new sohl.ValueModifier(this, {
+        const newIL = new hm.ValueModifier(this, {
             severity: (thisVM) => {
                 let severity;
                 if (thisVM.effective <= 0) {
@@ -2504,7 +2500,7 @@ class LgndInjuryItemData extends sohl.InjuryItemData {
         // Apply this injury as impairment to bodylocations
         const blItem = this.actor.items.find(
             (it) =>
-                it.system instanceof sohl.BodyLocationItemData &&
+                it.system instanceof hm.BodyLocationItemData &&
                 it.name === this.bodyLocation,
         );
         if (blItem) {
@@ -2543,22 +2539,22 @@ class LgndInjuryItemData extends sohl.InjuryItemData {
     }
 }
 
-class LgndMysticalAbilityItemData extends LgndMasteryLevelItemDataMixin(
-    sohl.MysticalAbilityItemData,
+class HMKMysticalAbilityItemData extends HMKMasteryLevelItemDataMixin(
+    hm.MysticalAbilityItemData,
 ) {}
 
-class LgndTraitItemData extends sohl.TraitItemData {
+class HMKTraitItemData extends hm.TraitItemData {
     get actionBodyParts() {
-        return this.item.getFlag("sohl", "actionBodyParts") || [];
+        return this.item.getFlag("hm", "actionBodyParts") || [];
     }
 
     get diceFormula() {
-        return this.item.getFlag("sohl", "legendary.diceFormula");
+        return this.item.getFlag("hm", "kethira.diceFormula");
     }
 
     prepareBaseData() {
         super.prepareBaseData();
-        this.$masteryLevel &&= LgndMasteryLevelModifier.create(
+        this.$masteryLevel &&= HMKMasteryLevelModifier.create(
             this.$masteryLevel,
             {
                 parent: this,
@@ -2570,11 +2566,9 @@ class LgndTraitItemData extends sohl.TraitItemData {
         super.processSiblings();
         if (this.isNumeric) {
             this.actionBodyParts.forEach((bp) => {
-                const bodyPart = sohl.IterWrap.create(
-                    this.actor.allItems(),
-                ).find(
+                const bodyPart = hm.IterWrap.create(this.actor.allItems()).find(
                     (it) =>
-                        it.system instanceof sohl.BodyPartItemData &&
+                        it.system instanceof hm.BodyPartItemData &&
                         it.name === bp,
                 );
                 if (bodyPart) {
@@ -2596,9 +2590,9 @@ class LgndTraitItemData extends sohl.TraitItemData {
         }
 
         if (this.intensity === "attribute" && this.subType === "physique") {
-            sohl.IterWrap.create(this.actor.allItems()).forEach((it) => {
+            hm.IterWrap.create(this.actor.allItems()).forEach((it) => {
                 if (
-                    it.system instanceof sohl.AfflictionItemData &&
+                    it.system instanceof hm.AfflictionItemData &&
                     it.system.subType === "fatigue"
                 ) {
                     this.$masteryLevel.add(
@@ -2614,15 +2608,13 @@ class LgndTraitItemData extends sohl.TraitItemData {
     }
 }
 
-class LgndSkillItemData extends LgndMasteryLevelItemDataMixin(
-    sohl.SkillItemData,
-) {
+class HMKSkillItemData extends HMKMasteryLevelItemDataMixin(hm.SkillItemData) {
     get actionBodyParts() {
-        return this.item.getFlag("sohl", "legendary.actionBodyParts") || [];
+        return this.item.getFlag("hm", "kethira.actionBodyParts") || [];
     }
 
     get initSM() {
-        return this.item.getFlag("sohl", "legendary.initSM") || 0;
+        return this.item.getFlag("hm", "kethira.initSM") || 0;
     }
 
     static get sunsignTypes() {
@@ -2643,10 +2635,9 @@ class LgndSkillItemData extends LgndMasteryLevelItemDataMixin(
     processSiblings() {
         super.processSiblings();
         this.actionBodyParts.forEach((bp) => {
-            const bodyPart = sohl.IterWrap.create(this.actor.allItems()).find(
+            const bodyPart = hm.IterWrap.create(this.actor.allItems()).find(
                 (it) =>
-                    it.system instanceof sohl.BodyPartItemData &&
-                    it.name === bp,
+                    it.system instanceof hm.BodyPartItemData && it.name === bp,
             );
             if (bodyPart) {
                 if (bodyPart.system.$impairment.unusable) {
@@ -2666,9 +2657,9 @@ class LgndSkillItemData extends LgndMasteryLevelItemDataMixin(
         });
 
         if (["craft", "combat", "physical"].includes(this.subType)) {
-            sohl.IterWrap.create(this.actor.allItems()).forEach((it) => {
+            hm.IterWrap.create(this.actor.allItems()).forEach((it) => {
                 if (
-                    it.system instanceof sohl.AfflictionItemData &&
+                    it.system instanceof hm.AfflictionItemData &&
                     it.system.subType === "fatigue"
                 ) {
                     this.$masteryLevel.add(
@@ -2684,7 +2675,7 @@ class LgndSkillItemData extends LgndMasteryLevelItemDataMixin(
     }
 }
 
-class LgndAfflictionItemData extends sohl.AfflictionItemData {
+class HMKAfflictionItemData extends hm.AfflictionItemData {
     static get fatigueKinds() {
         return {
             windedness: "Windedness",
@@ -2748,7 +2739,7 @@ class LgndAfflictionItemData extends sohl.AfflictionItemData {
                     !affliction.system.$healingRate.effective < 6
                 );
             },
-            contextGroup: sohl.SohlContextMenu.sortGroups.Primary,
+            contextGroup: hm.SohlContextMenu.sortGroups.Primary,
         });
 
         actions.sort((a, b) => a.contextGroup.localeCompare(b.contextGroup));
@@ -2769,7 +2760,7 @@ class LgndAfflictionItemData extends sohl.AfflictionItemData {
                 this.item.constructor.create(
                     {
                         name: `${this.item.name} Fatigue`,
-                        type: sohl.AfflictionItemData.typeName,
+                        type: hm.AfflictionItemData.typeName,
                         "system.subType": "weakness",
                         "system.fatigueBase": weakness,
                     },
@@ -2780,7 +2771,7 @@ class LgndAfflictionItemData extends sohl.AfflictionItemData {
     }
 }
 
-class LgndBodyZoneItemData extends sohl.BodyZoneItemData {
+class HMKBodyZoneItemData extends hm.BodyZoneItemData {
     // List of possible dice for Zone Dice.
     static get dice() {
         return {
@@ -2804,7 +2795,7 @@ class LgndBodyZoneItemData extends sohl.BodyZoneItemData {
     }
 
     get zoneNumbers() {
-        return this.item.getFlag("sohl", "legendary.zones") || [];
+        return this.item.getFlag("hm", "kethira.zones") || [];
     }
 
     set zoneNumbers(zones) {
@@ -2820,7 +2811,7 @@ class LgndBodyZoneItemData extends sohl.BodyZoneItemData {
             throw new Error(`Invalid zones '${zones}'`);
         }
         result.sort((a, b) => a - b);
-        this.item.setFlag("sohl", "legendary.zones", result);
+        this.item.setFlag("hm", "kethira.zones", result);
     }
 
     get zoneNumbersLabel() {
@@ -2828,15 +2819,15 @@ class LgndBodyZoneItemData extends sohl.BodyZoneItemData {
     }
 
     get affectsMobility() {
-        return !!this.item.getFlag("sohl", "legendary.affectsMobility");
+        return !!this.item.getFlag("hm", "kethira.affectsMobility");
     }
 
     get affectedSkills() {
-        return this.item.getFlag("sohl", "legendary.affectedSkills") || [];
+        return this.item.getFlag("hm", "kethira.affectedSkills") || [];
     }
 
     get affectedAttributes() {
-        return this.item.getFlag("sohl", "legendary.affectedAttributes") || [];
+        return this.item.getFlag("hm", "kethira.affectedAttributes") || [];
     }
 
     static get maxZoneDie() {
@@ -2853,7 +2844,7 @@ class LgndBodyZoneItemData extends sohl.BodyZoneItemData {
     }
 }
 
-class LgndBodyPartItemData extends sohl.BodyPartItemData {
+class HMKBodyPartItemData extends hm.BodyPartItemData {
     /**
      * Represents body part impairment based on injuries.
      * If body part is injured, impairment will be less than
@@ -2867,7 +2858,7 @@ class LgndBodyPartItemData extends sohl.BodyPartItemData {
     /** @override */
     prepareBaseData() {
         super.prepareBaseData();
-        this.$impairment = new sohl.ValueModifier(this, {
+        this.$impairment = new hm.ValueModifier(this, {
             unusable: false,
             value: (thisVM) => {
                 Math.min(thisVM.effective, 0);
@@ -2909,7 +2900,7 @@ class LgndBodyPartItemData extends sohl.BodyPartItemData {
             }
         } else {
             // Body parts marked "unusable" can never hold anything.
-            if (this.heldItem?.system instanceof sohl.GearItemData) {
+            if (this.heldItem?.system instanceof hm.GearItemData) {
                 if (this.heldItem.system.isHeldBy.includes(this.item.id)) {
                     ui.notifications.warn(
                         `${this.item.name} is unusable, so dropping everything being held in the body part`,
@@ -2921,29 +2912,29 @@ class LgndBodyPartItemData extends sohl.BodyPartItemData {
     }
 }
 
-class LgndBodyLocationItemData extends sohl.BodyLocationItemData {
+class HMKBodyLocationItemData extends hm.BodyLocationItemData {
     $impairment;
 
     get isRigid() {
-        return this.item.getFlag("sohl", "legendary.bleedingSevThreshold");
+        return this.item.getFlag("hm", "kethira.bleedingSevThreshold");
     }
 
     get bleedingSevThreshold() {
-        return this.item.getFlag("sohl", "legendary.isRigid");
+        return this.item.getFlag("hm", "kethira.isRigid");
     }
 
     get amputatePenalty() {
-        return this.item.getFlag("sohl", "legendary.amputatePenalty");
+        return this.item.getFlag("hm", "kethira.amputatePenalty");
     }
 
     get shockValue() {
-        return this.item.getFlag("sohl", "legendary.shockValue");
+        return this.item.getFlag("hm", "kethira.shockValue");
     }
 
     /** @override */
     prepareBaseData() {
         super.prepareBaseData();
-        this.$impairment = new sohl.ValueModifier(this, { unusable: false });
+        this.$impairment = new hm.ValueModifier(this, { unusable: false });
     }
 
     prepareSiblings() {
@@ -2965,11 +2956,11 @@ class LgndBodyLocationItemData extends sohl.BodyLocationItemData {
     }
 }
 
-class LgndArmorGearItemData extends sohl.ArmorGearItemData {
+class HMKArmorGearItemData extends hm.ArmorGearItemData {
     $encumbrance;
 
     static get effectKeys() {
-        return sohl.Utility.simpleMerge(super.effectKeys, super.effectKeys, {
+        return hm.Utility.simpleMerge(super.effectKeys, super.effectKeys, {
             "system.$encumbrance": {
                 label: "Encumbrance",
                 abbrev: "Enc",
@@ -2978,14 +2969,14 @@ class LgndArmorGearItemData extends sohl.ArmorGearItemData {
     }
 
     get encumbrance() {
-        return this.item.getFlag("sohl", "legendary.encumbrance") || 0;
+        return this.item.getFlag("hm", "kethira.encumbrance") || 0;
     }
 
     /** @override */
     prepareBaseData() {
         super.prepareBaseData();
 
-        this.$encumbrance = new sohl.ValueModifier(this);
+        this.$encumbrance = new hm.ValueModifier(this);
         this.$encumbrance.setBase(this.encumbrance);
 
         // Armor, when equipped, is weightless
@@ -3008,30 +2999,30 @@ class LgndArmorGearItemData extends sohl.ArmorGearItemData {
         }
     }
 }
-class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
+class HMKWeaponGearItemData extends hm.WeaponGearItemData {
     $length;
     $heft;
 
     get lengthBase() {
-        return this.item.getFlag("sohl", "legendary.lengthBase") || 0;
+        return this.item.getFlag("hm", "kethira.lengthBase") || 0;
     }
 
     get heftBase() {
-        return this.item.getFlag("sohl", "legendary.heftBase") || 0;
+        return this.item.getFlag("hm", "kethira.heftBase") || 0;
     }
 
     prepareBaseData() {
         super.prepareBaseData();
 
-        this.$length = new sohl.ValueModifier(this);
+        this.$length = new hm.ValueModifier(this);
         this.$length.setBase(this.lengthBase);
 
-        this.$heft = new sohl.ValueModifier(this);
+        this.$heft = new hm.ValueModifier(this);
         this.$heft.setBase(this.heftBase);
     }
 }
 
-// class LgndWeaponGearItemData extends LgndGearItemDataMixin(sohl.WeaponGearRuleset) {
+// class HMKWeaponGearItemData extends HMKGearItemDataMixin(hm.WeaponGearRuleset) {
 
 //     /** @override */
 //     setupBaseDataNoActor() {
@@ -3044,9 +3035,9 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 //         this.strikeModes.forEach(sm => {
 //             sm.item = this;
 //             if (!sm.disabled) {
-//                 sm.baseRange = (new sohl.ValueModifier(this)).setBase(sm.baseRangeBase);
-//                 sm.draw = (new sohl.ValueModifier(this)).setBase(sm.drawBase);
-//                 sm.impact = (new LgndImpactModifier(this, sm.impactBase.aspect, sm.impactBase.die))
+//                 sm.baseRange = (new hm.ValueModifier(this)).setBase(sm.baseRangeBase);
+//                 sm.draw = (new hm.ValueModifier(this)).setBase(sm.drawBase);
+//                 sm.impact = (new HMKImpactModifier(this, sm.impactBase.aspect, sm.impactBase.die))
 //                     .setBase(sm.impactBase.modifier);
 //             }
 //         });
@@ -3070,7 +3061,7 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 //             // Add strength impact modifier unless directed not to
 //             const strImpMod = this.actor.system.strengthMod;
 //             if (strImpMod && !sm.traits.noStrMod) {
-//                 sm.impact.add(LGND.CONST.MODS.STRIMPMOD.NAME, LGND.CONST.MODS.STRIMPMOD.ABBR, strImpMod);
+//                 sm.impact.add(HMK.CONST.MODS.STRIMPMOD.NAME, HMK.CONST.MODS.STRIMPMOD.ABBR, strImpMod);
 //             }
 
 //             // If baseRangeBase is 0 it is a melee strike mode, otherwise
@@ -3090,7 +3081,7 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 //                     twoHanded: this.heldBy.length > 1,
 //                     heft: this.heft,
 //                     length: this.length,
-//                     reach: new sohl.ValueModifier(this).setBase(this.length.effective),
+//                     reach: new hm.ValueModifier(this).setBase(this.length.effective),
 //                     notes: this.notes
 //                 }, sm);
 //                 weaponData.uuid = this.actor.uuid + '.Weapon.' + weaponData.id;
@@ -3117,19 +3108,19 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 
 //                 const heftPenalty = Math.max(0, weaponData.heft.effective - strValue) * -5;
 //                 if (heftPenalty) {
-//                     weaponData.attack.add(sohl.SOHL.CONST.MODS.HEFT.NAME, sohl.SOHL.CONST.MODS.HEFT.ABBR, heftPenalty);
-//                     weaponData.defense.block.add(sohl.SOHL.CONST.MODS.HEFT.NAME, sohl.SOHL.CONST.MODS.HEFT.ABBR, heftPenalty);
-//                     weaponData.defense.counterstrike.add(sohl.SOHL.CONST.MODS.HEFT.NAME, sohl.SOHL.CONST.MODS.HEFT.ABBR, heftPenalty);
+//                     weaponData.attack.add(hm.HM.CONST.MODS.HEFT.NAME, hm.HM.CONST.MODS.HEFT.ABBR, heftPenalty);
+//                     weaponData.defense.block.add(hm.HM.CONST.MODS.HEFT.NAME, hm.HM.CONST.MODS.HEFT.ABBR, heftPenalty);
+//                     weaponData.defense.counterstrike.add(hm.HM.CONST.MODS.HEFT.NAME, hm.HM.CONST.MODS.HEFT.ABBR, heftPenalty);
 //                 }
 
 //                 if (this.actor.system.engagedOpponents.effective > 1) {
 //                     const outnumberedPenalty = this.actor.system.engagedOpponents.effective * -10;
-//                     weaponData.defense.block.add(sohl.SOHL.CONST.MODS.OUTNUMBERED.NAME, sohl.SOHL.CONST.MODS.OUTNUMBERED.ABBR, outnumberedPenalty);
-//                     weaponData.defense.counterstrike.add(sohl.SOHL.CONST.MODS.OUTNUMBERED.NAME, sohl.SOHL.CONST.MODS.OUTNUMBERED.ABBR, outnumberedPenalty);
+//                     weaponData.defense.block.add(hm.HM.CONST.MODS.OUTNUMBERED.NAME, hm.HM.CONST.MODS.OUTNUMBERED.ABBR, outnumberedPenalty);
+//                     weaponData.defense.counterstrike.add(hm.HM.CONST.MODS.OUTNUMBERED.NAME, hm.HM.CONST.MODS.OUTNUMBERED.ABBR, outnumberedPenalty);
 //                 }
 
 //                 // Calculate Weapon Reach
-//                 const sizeReachMod = sohl.SOHL.CONST.CREATURESIZE[this.actor.system.size]?.reachMod || 0;
+//                 const sizeReachMod = hm.HM.CONST.CREATURESIZE[this.actor.system.size]?.reachMod || 0;
 //                 if (sizeReachMod) weaponData.reach.add("Creature Size", "Size", sizeReachMod);
 //                 this.actor.system.combatReach = Math.max(this.actor.system.combatReach, weaponData.reach.effective);
 
@@ -3153,14 +3144,14 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 
 //                 if ((sm.projectileType || 'None') !== 'None') {
 
-//                     const projectiles = this.actor.items.filter(it => it.type === sohl.ProjectileGearItemData.typeName && it.system.isCarried && it.system.quantity && it.system.container === 'on-person' && it.system.type === sm.projectileType);
+//                     const projectiles = this.actor.items.filter(it => it.type === hm.ProjectileGearItemData.typeName && it.system.isCarried && it.system.quantity && it.system.container === 'on-person' && it.system.type === sm.projectileType);
 //                     projectiles.forEach(proj => {
 //                         const projData = proj.system;
 
 //                         const maxVM = Math.max(missileData.maxVolleyMult, projData.maxVolleyMult);
 
-//                         for (const rng of sohl.SOHL.CONST.RANGES) {
-//                             if (sohl.SOHL.CONST.RANGES.indexOf(rng) > maxVM) continue;
+//                         for (const rng of hm.HM.CONST.RANGES) {
+//                             if (hm.HM.CONST.RANGES.indexOf(rng) > maxVM) continue;
 
 //                             const mdata = foundry.utils.deepClone(missileData);
 //                             mdata.id += `_${proj.id}_${rng}`;
@@ -3197,10 +3188,10 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 //                             switch (rng) {
 //                                 case 'PB':
 //                                     mdata.zoneDie = 6;
-//                                     mdata.impact.add(sohl.SOHL.CONST.MODS.PBIMPACT.NAME, sohl.SOHL.CONST.MODS.PBIMPACT.ABBR, 2);
+//                                     mdata.impact.add(hm.HM.CONST.MODS.PBIMPACT.NAME, hm.HM.CONST.MODS.PBIMPACT.ABBR, 2);
 //                                     mdata.distance = Math.floor(sm.baseRange.effective / 2) || 0;
 //                                     if (projData.type !== 'Bullet') {
-//                                         mdata.attack.add(sohl.SOHL.CONST.MODS.PBIMPACT.NAME, sohl.SOHL.CONST.MODS.PBIMPACT.ABBR, 10);
+//                                         mdata.attack.add(hm.HM.CONST.MODS.PBIMPACT.NAME, hm.HM.CONST.MODS.PBIMPACT.ABBR, 10);
 //                                     }
 //                                     break;
 
@@ -3211,19 +3202,19 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 
 //                                 case 'V2':
 //                                     mdata.zoneDie = 10;
-//                                     mdata.impact.add(sohl.SOHL.CONST.MODS.V2RANGE.NAME, sohl.SOHL.CONST.MODS.V2RANGE.ABBR, -2);
+//                                     mdata.impact.add(hm.HM.CONST.MODS.V2RANGE.NAME, hm.HM.CONST.MODS.V2RANGE.ABBR, -2);
 //                                     mdata.distance = (sm.baseRange.effective * 2) || 0;
 //                                     break;
 
 //                                 case 'V3':
 //                                     mdata.zoneDie = 10;
-//                                     mdata.impact.add(sohl.SOHL.CONST.MODS.V3RANGE.NAME, sohl.SOHL.CONST.MODS.V3RANGE.ABBR, -3);
+//                                     mdata.impact.add(hm.HM.CONST.MODS.V3RANGE.NAME, hm.HM.CONST.MODS.V3RANGE.ABBR, -3);
 //                                     mdata.distance = (sm.baseRange.effective * 3) || 0;
 //                                     break;
 
 //                                 case 'V4':
 //                                     mdata.zoneDie = 10;
-//                                     mdata.impact.add(sohl.SOHL.CONST.MODS.V4RANGE.NAME, sohl.SOHL.CONST.MODS.V4RANGE.ABBR, -4);
+//                                     mdata.impact.add(hm.HM.CONST.MODS.V4RANGE.NAME, hm.HM.CONST.MODS.V4RANGE.ABBR, -4);
 //                                     mdata.distance = (sm.baseRange.effective * 4) || 0;
 //                                     break;
 //                             }
@@ -3238,8 +3229,8 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 //                         };
 //                     });
 //                 } else {
-//                     for (const rng of sohl.SOHL.CONST.RANGES) {
-//                         if (sohl.SOHL.CONST.RANGES.indexOf(rng) > sm.maxVolleyMult) continue;
+//                     for (const rng of hm.HM.CONST.RANGES) {
+//                         if (hm.HM.CONST.RANGES.indexOf(rng) > sm.maxVolleyMult) continue;
 //                         const mdata = foundry.utils.deepClone(missileData);
 //                         mdata.id += `_${rng}`;
 //                         mdata.uuid = this.actor.uuid + '.Missile.' + mdata.id;
@@ -3247,14 +3238,14 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 //                         mdata.range = rng;
 //                         const heftPenalty = Math.max(0, mdata.heft - strValue) * -5;
 //                         if (heftPenalty) {
-//                             mdata.attack.add(sohl.SOHL.CONST.MODS.HEFT.NAME, sohl.SOHL.CONST.MODS.HEFT.ABBR, heftPenalty);
+//                             mdata.attack.add(hm.HM.CONST.MODS.HEFT.NAME, hm.HM.CONST.MODS.HEFT.ABBR, heftPenalty);
 //                         }
 
 //                         switch (rng) {
 //                             case 'PB':
 //                                 mdata.distance = Math.floor(sm.baseRange.effective / 2) || 0;
-//                                 mdata.attack.add(sohl.SOHL.CONST.MODS.PBATTACK.NAME, sohl.SOHL.CONST.MODS.PBATTACK.ABBR, 10);
-//                                 mdata.impact.add(sohl.SOHL.CONST.MODS.PBIMPACT.NAME, sohl.SOHL.CONST.MODS.PBIMPACT.ABBR, 2);
+//                                 mdata.attack.add(hm.HM.CONST.MODS.PBATTACK.NAME, hm.HM.CONST.MODS.PBATTACK.ABBR, 10);
+//                                 mdata.impact.add(hm.HM.CONST.MODS.PBIMPACT.NAME, hm.HM.CONST.MODS.PBIMPACT.ABBR, 2);
 //                                 break;
 
 //                             case 'Direct':
@@ -3264,19 +3255,19 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 
 //                             case 'V2':
 //                                 mdata.zoneDie = 10;
-//                                 mdata.impact.add(sohl.SOHL.CONST.MODS.V2RANGE.NAME, sohl.SOHL.CONST.MODS.V2RANGE.ABBR, -2);
+//                                 mdata.impact.add(hm.HM.CONST.MODS.V2RANGE.NAME, hm.HM.CONST.MODS.V2RANGE.ABBR, -2);
 //                                 mdata.distance = (sm.baseRange.effective * 2) || 0;
 //                                 break;
 
 //                             case 'V3':
 //                                 mdata.zoneDie = 10;
-//                                 mdata.impact.add(sohl.SOHL.CONST.MODS.V3RANGE.NAME, sohl.SOHL.CONST.MODS.V3RANGE.ABBR, -3);
+//                                 mdata.impact.add(hm.HM.CONST.MODS.V3RANGE.NAME, hm.HM.CONST.MODS.V3RANGE.ABBR, -3);
 //                                 mdata.distance = (sm.baseRange.effective * 3) || 0;
 //                                 break;
 
 //                             case 'V4':
 //                                 mdata.zoneDie = 10;
-//                                 mdata.impact.add(sohl.SOHL.CONST.MODS.V4RANGE.NAME, sohl.SOHL.CONST.MODS.V4RANGE.ABBR, -4);
+//                                 mdata.impact.add(hm.HM.CONST.MODS.V4RANGE.NAME, hm.HM.CONST.MODS.V4RANGE.ABBR, -4);
 //                                 mdata.distance = (sm.baseRange.effective * 4) || 0;
 //                                 break;
 //                         }
@@ -3290,10 +3281,10 @@ class LgndWeaponGearItemData extends sohl.WeaponGearItemData {
 // }
 
 /*===============================================================*/
-/*      Legendary Classes                                              */
+/*      Kethira Classes                                              */
 /*===============================================================*/
 
-export class LgndTour extends Tour {
+export class HMKTour extends Tour {
     actor;
     item;
 
@@ -3325,7 +3316,7 @@ export class LgndTour extends Tour {
 
         if (currentStep.tab) {
             switch (currentStep.tab.parent) {
-                case LGND.CONST.TOUR_TAB_PARENTS.ACTOR: {
+                case HMK.CONST.TOUR_TAB_PARENTS.ACTOR: {
                     if (!this.actor) {
                         console.warn("No Actor Found");
                         break;
@@ -3335,7 +3326,7 @@ export class LgndTour extends Tour {
                     break;
                 }
 
-                case LGND.CONST.TOUR_TAB_PARENTS.ITEM: {
+                case HMK.CONST.TOUR_TAB_PARENTS.ITEM: {
                     if (!this.item) {
                         console.warn("No Item Found");
                         break;
@@ -3353,7 +3344,7 @@ export class LgndTour extends Tour {
     }
 }
 
-// class LgndDice {
+// class HMKDice {
 //     /*--------------------------------------------------------------------------------*/
 //     /*        STANDARD D100 ROLL PROCESSING
 //     /*--------------------------------------------------------------------------------*/
@@ -3427,7 +3418,7 @@ export class LgndTour extends Tour {
 //         }, rollData.mod);
 
 //         dialogOptions.successLevelMod = dialogOptions.successLevelMod || 0;
-//         if (!rollData.noStunPenalty && actor.system.shock === LGND.CONST.SHOCK.Stunned) dialogOptions.successLevelMod--;
+//         if (!rollData.noStunPenalty && actor.system.shock === HMK.CONST.SHOCK.Stunned) dialogOptions.successLevelMod--;
 
 //         // Create the Roll instance
 //         let rollTestData;
@@ -3441,11 +3432,11 @@ export class LgndTour extends Tour {
 //                 target: dialogOptions.target
 //             };
 //         } else {
-//             rollTestData = await LgndDice.d100StdDialog(dialogOptions);
+//             rollTestData = await HMKDice.d100StdDialog(dialogOptions);
 //             if (!rollTestData) return null;
 //         }
 
-//         const roll = await LgndDice.rollTest(rollTestData);
+//         const roll = await HMKDice.rollTest(rollTestData);
 
 //         // If user cancelled the roll, then return immediately
 //         if (!roll) return null;
@@ -3465,7 +3456,7 @@ export class LgndTour extends Tour {
 //             isMF: !roll.isSuccess && !roll.isCritical,
 //             isCF: !roll.isSuccess && roll.isCritical
 //         });
-//         const renderedNotes = rollData.notes ? sohl.Utility.stringReplacer(rollData.notes, notesData) : "";
+//         const renderedNotes = rollData.notes ? hm.Utility.stringReplacer(rollData.notes, notesData) : "";
 
 //         const chatTemplateData = {
 //             type: roll.type,
@@ -3517,7 +3508,7 @@ export class LgndTour extends Tour {
 
 //         // Output to Chat
 //         if (!rollData.noChat) {
-//             const chatTemplate = 'systems/sohl/templates/chat/standard-test-card.html';
+//             const chatTemplate = 'systems/hm/templates/chat/standard-test-card.html';
 
 //             const html = await renderTemplate(chatTemplate, chatTemplateData);
 
@@ -3551,7 +3542,7 @@ export class LgndTour extends Tour {
 //     static async d100StdDialog(dialogOptions) {
 
 //         // Render modal dialog
-//         let dlgTemplate = dialogOptions.template || "systems/sohl/templates/dialog/standard-test-dialog.html";
+//         let dlgTemplate = dialogOptions.template || "systems/hm/templates/dialog/standard-test-dialog.html";
 //         let dialogData = {
 //             target: dialogOptions.effective,
 //             base: dialogOptions.basis,
@@ -3573,7 +3564,7 @@ export class LgndTour extends Tour {
 //                 if (formModifier) {
 //                     data.add("Player Modifier", 'PlyrMod', formModifier);
 //                 }
-//                 LgndUtility.applyMods(data);
+//                 HMKUtility.applyMods(data);
 //                 data.successLevelMod = formSuccessLevelMod;
 //                 const rollTestData = {
 //                     type: dialogOptions.type,
@@ -3614,17 +3605,17 @@ export class LgndTour extends Tour {
 //                 target: dialogOptions.mod.effective
 //             };
 //         } else {
-//             rollTestData = await LgndDice.d100StdDialog(dialogOptions);
+//             rollTestData = await HMKDice.d100StdDialog(dialogOptions);
 //             if (!rollTestData) return null;
 //         }
 
-//         const roll = await LgndDice.rollTest(rollTestData);
+//         const roll = await HMKDice.rollTest(rollTestData);
 
 //         // If user cancelled the roll, then return immediately
 //         if (!roll) return null;
 
 //         // Prepare for Chat Message
-//         const chatTemplate = 'systems/sohl/templates/chat/fate-test-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/fate-test-card.html';
 
 //         const notesData = mergeObject(rollData.notesData, {
 //             actor: speaker.alias,
@@ -3638,7 +3629,7 @@ export class LgndTour extends Tour {
 //             isMF: !roll.isSuccess && !roll.isCritical,
 //             isCF: !roll.isSuccess && roll.isCritical
 //         });
-//         const renderedNotes = rollData.notes ? sohl.Utility.stringReplacer(rollData.notes, notesData) : "";
+//         const renderedNotes = rollData.notes ? hm.Utility.stringReplacer(rollData.notes, notesData) : "";
 
 //         const chatTemplateData = {
 //             type: roll.type,
@@ -3725,7 +3716,7 @@ export class LgndTour extends Tour {
 //         const rollObj = new Roll(diceSpec, data);
 //         const roll = await rollObj.evaluate({ async: true });
 //         if (!roll) {
-//             console.error(`sohl.SoHL | Roll evaluation failed, diceSpec=${diceSpec}`)
+//             console.error(`hm.SoHL | Roll evaluation failed, diceSpec=${diceSpec}`)
 //         }
 //         const lastDigit = roll.total % 10;
 //         const baseTargetNum = Number.parseInt(target, 10);
@@ -3738,14 +3729,14 @@ export class LgndTour extends Tour {
 //         if (diceSides === 100) {
 //             // ********** Failure ***********
 //             if (roll.total > targetNum) {
-//                 successLevel = isCritical ? sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalFailure : sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalFailure;
+//                 successLevel = isCritical ? hm.HM.CONST.SUCCESS_LEVEL.CriticalFailure : hm.HM.CONST.SUCCESS_LEVEL.MarginalFailure;
 //             }
 //             // ********** Success ***********
 //             else {
-//                 successLevel = isCritical ? sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalSuccess : sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess;
+//                 successLevel = isCritical ? hm.HM.CONST.SUCCESS_LEVEL.CriticalSuccess : hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess;
 //             }
 //         } else {
-//             successLevel = (roll.total <= targetNum) ? sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess : sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalFailure;
+//             successLevel = (roll.total <= targetNum) ? hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess : hm.HM.CONST.SUCCESS_LEVEL.MarginalFailure;
 //         }
 
 //         // Add in any success level modifier
@@ -3754,9 +3745,9 @@ export class LgndTour extends Tour {
 //         // Calculate the description of the success/failure
 //         let description;
 //         let successLevelIncr = 0;
-//         const isSuccess = successLevel >= sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess;
+//         const isSuccess = successLevel >= hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess;
 //         if (diceSides === 100) {
-//             isCritical = (successLevel <= sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalFailure) || (successLevel >= sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalSuccess);
+//             isCritical = (successLevel <= hm.HM.CONST.SUCCESS_LEVEL.CriticalFailure) || (successLevel >= hm.HM.CONST.SUCCESS_LEVEL.CriticalSuccess);
 
 //             if (isCritical) {
 //                 description = isSuccess ? "Critical Success" : "Critical Failure";
@@ -3768,10 +3759,10 @@ export class LgndTour extends Tour {
 //             // then add the amount to the end of the description
 //             let isNeg = false;
 
-//             if (successLevel > sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalSuccess) {
-//                 successLevelIncr = successLevel - sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalSuccess;
-//             } else if (successLevel < sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalFailure) {
-//                 successLevelIncr = Math.abs(successLevel - sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalFailure);
+//             if (successLevel > hm.HM.CONST.SUCCESS_LEVEL.CriticalSuccess) {
+//                 successLevelIncr = successLevel - hm.HM.CONST.SUCCESS_LEVEL.CriticalSuccess;
+//             } else if (successLevel < hm.HM.CONST.SUCCESS_LEVEL.CriticalFailure) {
+//                 successLevelIncr = Math.abs(successLevel - hm.HM.CONST.SUCCESS_LEVEL.CriticalFailure);
 //                 isNeg = true;
 //             }
 //             if (successLevelIncr > 1) {
@@ -3800,7 +3791,7 @@ export class LgndTour extends Tour {
 //     }
 // }
 
-// class LgndCommand {
+// class HMKCommand {
 //     static async performTest(testName, { itemName, actorId } = {}) {
 //         const actor = getActor(actorId);
 //         if (!actor) return null;
@@ -3809,13 +3800,13 @@ export class LgndTour extends Tour {
 //         }
 
 //         switch (testName) {
-//             case sohl.SkillItemData.typeName:
+//             case hm.SkillItemData.typeName:
 //                 return await actor.system.skillTest(itemName, options);
 
 //             case 'skillvalue':
 //                 return await actor.system.skillValueTest(itemName, options);
 
-//             case sohl.MysticalAbilityItemData.typeName:
+//             case hm.MysticalAbilityItemData.typeName:
 //                 return await actor.system.castSpellTest(itemName, options);
 
 //             case 'assistedattack':
@@ -3933,7 +3924,7 @@ export class LgndTour extends Tour {
 //                 actor = game.user.character;
 //                 if (!actor) {
 //                     const msg = `Cannot identify a default character; please consider defining your default character in your user profile.`;
-//                     console.warn(`sohl.SoHL | ${msg}`);
+//                     console.warn(`hm.SoHL | ${msg}`);
 //                     ui.notifications.warn(msg);
 //                     return null;
 //                 }
@@ -3944,14 +3935,14 @@ export class LgndTour extends Tour {
 //     }
 // }
 
-// class LgndMigration {
+// class HMKMigration {
 //     /**
 //      * Perform a system migration for the entire World, applying migrations for Actors, Items, and Compendium packs
 //      * @returns {Promise}      A Promise which resolves once the migration is completed
 //      */
 //     static async migrateWorld() {
 //         const version = game.system.version;
-//         ui.notifications.info(`sohl.SoHL | Beginning ${version} Migration`, { permanent: true });
+//         ui.notifications.info(`hm.SoHL | Beginning ${version} Migration`, { permanent: true });
 
 //         //const migrationData = await getMigrationData();
 //         const migrationData = {};
@@ -3967,11 +3958,11 @@ export class LgndTour extends Tour {
 //                 addCombatTechniques(a.toObject(), updateData)
 //                 //await addTraitsAndSkills(a.toObject(), updateData);
 //                 if (!foundry.utils.isEmpty(updateData)) {
-//                     console.log(`sohl.SoHL | Migrating Actor document ${a.name}`);
+//                     console.log(`hm.SoHL | Migrating Actor document ${a.name}`);
 //                     await a.update(updateData, { enforceTypes: false });
 //                 }
 //             } catch (err) {
-//                 err.message = `sohl.SoHL | Failed system migration for Actor ${a.name}: ${err.message}`;
+//                 err.message = `hm.SoHL | Failed system migration for Actor ${a.name}: ${err.message}`;
 //                 console.error(err);
 //             }
 //         }
@@ -3994,7 +3985,7 @@ export class LgndTour extends Tour {
 //                             type: "none"
 //                         },
 //                         flags: {
-//                             sohl: {
+//                             hm: {
 //                                 targetName: i.name,
 //                                 targetType: ArmorGearItemData.typeName
 //                             }
@@ -4015,7 +4006,7 @@ export class LgndTour extends Tour {
 //                 const updateEffectsData = i.updateEffectsOrigin();
 //                 if (updateEffectsData.length) i.updateEmbeddedDocuments("ActiveEffect", updateEffectsData);
 //             } catch (err) {
-//                 err.message = `sohl.SoHL | Failed system migration for Item ${i.name}: ${err.message}`;
+//                 err.message = `hm.SoHL | Failed system migration for Item ${i.name}: ${err.message}`;
 //                 console.error(err);
 //             }
 //         }
@@ -4025,11 +4016,11 @@ export class LgndTour extends Tour {
 //             try {
 //                 const updateData = migrateMacroData(m.toObject(), migrationData);
 //                 if (!foundry.utils.isEmpty(updateData)) {
-//                     console.log(`sohl.SoHL | Migrating Macro document ${m.name}`);
+//                     console.log(`hm.SoHL | Migrating Macro document ${m.name}`);
 //                     await m.update(updateData, { enforceTypes: false });
 //                 }
 //             } catch (err) {
-//                 err.message = `sohl.SoHL | Failed system migration for Macro ${m.name}: ${err.message}`;
+//                 err.message = `hm.SoHL | Failed system migration for Macro ${m.name}: ${err.message}`;
 //                 console.error(err);
 //             }
 //         }
@@ -4039,14 +4030,14 @@ export class LgndTour extends Tour {
 //             try {
 //                 const updateData = migrateSceneData(s, migrationData);
 //                 if (!foundry.utils.isEmpty(updateData)) {
-//                     console.log(`sohl.SoHL | Migrating Scene document ${s.name}`);
+//                     console.log(`hm.SoHL | Migrating Scene document ${s.name}`);
 //                     await s.update(updateData, { enforceTypes: false });
 //                     // If we do not do this, then synthetic token actors remain in cache
 //                     // with the un-updated actorData.
 //                     s.tokens.forEach(t => t._actor = null);
 //                 }
 //             } catch (err) {
-//                 err.message = `sohl.SoHL | Failed system migration for Scene ${s.name}: ${err.message}`;
+//                 err.message = `hm.SoHL | Failed system migration for Scene ${s.name}: ${err.message}`;
 //                 console.error(err);
 //             }
 //         }
@@ -4059,8 +4050,8 @@ export class LgndTour extends Tour {
 //         }
 
 //         // Set the migration as complete
-//         game.settings.set("legendary", "systemMigrationVersion", game.system.version);
-//         ui.notifications.info(`sohl.SoHL | Migration of ${version} complete!`, { permanent: true });
+//         game.settings.set("kethira", "systemMigrationVersion", game.system.version);
+//         ui.notifications.info(`hm.SoHL | Migration of ${version} complete!`, { permanent: true });
 //     };
 
 //     // const itemConvert = {
@@ -4098,7 +4089,7 @@ export class LgndTour extends Tour {
 //     // };
 
 //     // static async replaceActorArmorLocationAndZoneLocation() {
-//     //     ui.notifications.info(`sohl.SoHL | Beginning Replacing Body Records for all Actors`);
+//     //     ui.notifications.info(`hm.SoHL | Beginning Replacing Body Records for all Actors`);
 
 //     //     const migrationData = {};
 
@@ -4114,15 +4105,15 @@ export class LgndTour extends Tour {
 //     //                 }
 //     //             }
 
-//     //             await sohl.Utility.addItemsFromPack(LGND.FLAVOR.defaultCharacterBodyZones, LGND.FLAVOR.COMPENDIUMS.charbody, updateData.items, BodyZoneData.TYPENAME);
-//     //             await sohl.Utility.addItemsFromPack(LGND.FLAVOR.defaultCharacterBodyParts, LGND.FLAVOR.COMPENDIUMS.charbody, updateData.items, BodyPartData.TYPENAME);
-//     //             await sohl.Utility.addItemsFromPack(LGND.FLAVOR.defaultCharacterBodyLocations, LGND.FLAVOR.COMPENDIUMS.charbody, updateData.items, BodyLocationData.TYPENAME);
+//     //             await hm.Utility.addItemsFromPack(HMK.FLAVOR.defaultCharacterBodyZones, HMK.FLAVOR.COMPENDIUMS.charbody, updateData.items, BodyZoneData.TYPENAME);
+//     //             await hm.Utility.addItemsFromPack(HMK.FLAVOR.defaultCharacterBodyParts, HMK.FLAVOR.COMPENDIUMS.charbody, updateData.items, BodyPartData.TYPENAME);
+//     //             await hm.Utility.addItemsFromPack(HMK.FLAVOR.defaultCharacterBodyLocations, HMK.FLAVOR.COMPENDIUMS.charbody, updateData.items, BodyLocationData.TYPENAME);
 
 //     //             await a.deleteEmbeddedDocuments("Item", deleteDocs);
 //     //             await a.createEmbeddedDocuments("Item", updateData.items, { enforceTypes: false });
 
 //     //         } catch (err) {
-//     //             err.message = `sohl.SoHL | Failed to replace body records for Actor ${a.name}: ${err.message}`;
+//     //             err.message = `hm.SoHL | Failed to replace body records for Actor ${a.name}: ${err.message}`;
 //     //             console.error(err);
 //     //         }
 
@@ -4130,7 +4121,7 @@ export class LgndTour extends Tour {
 //     //}
 
 //     // export async function upgradeActors () {
-//     //     ui.notifications.info(`sohl.SoHL | Beginning Actors upgrade`, { permanent: true });
+//     //     ui.notifications.info(`hm.SoHL | Beginning Actors upgrade`, { permanent: true });
 
 //     //     const migrationData = {};
 
@@ -4146,16 +4137,16 @@ export class LgndTour extends Tour {
 //     //                     } else {
 //     //                         gr.names.push(it.name);
 //     //                     }
-//     //                     console.log(`sohl.SoHL | Migration | Replacing gear ${it.name}, quantity ${it.system.quantity}`);
+//     //                     console.log(`hm.SoHL | Migration | Replacing gear ${it.name}, quantity ${it.system.quantity}`);
 //     //                     gr.qty.push(it.system.quantity);
 //     //                     gr.item.push(it);
 //     //                 }
 //     //                 return gr;
 //     //             }, {names:[], qty:[], item:[]});
 
-//     //             await sohl.Utility.addItemsFromPack(gear.names, ['legendary.sohl-possessions'], updateData.items);
+//     //             await hm.Utility.addItemsFromPack(gear.names, ['kethira.hm-possessions'], updateData.items);
 
-//     //             console.log(`sohl.SoHL | Upgrading Actor document ${a.name} with ${gear.names.length} gear and ${updateData.items.length} items`);
+//     //             console.log(`hm.SoHL | Upgrading Actor document ${a.name} with ${gear.names.length} gear and ${updateData.items.length} items`);
 //     //             if (updateData.items.length) {
 //     //                 for (let idx = 0; idx < gear.names.length; idx++) {
 //     //                     let found = updateData.items.find(it => it.name === gear.names[idx]);
@@ -4163,7 +4154,7 @@ export class LgndTour extends Tour {
 //     //                         found.system.quantity = gear.qty[idx];
 //     //                         deleteDocs.push(gear.item[idx]._id);
 //     //                     } else {
-//     //                         console.log(`sohl.SoHL |    can't find ${gear.names[idx]}`);
+//     //                         console.log(`hm.SoHL |    can't find ${gear.names[idx]}`);
 //     //                     }
 //     //                 }
 //     //             }
@@ -4172,18 +4163,18 @@ export class LgndTour extends Tour {
 //     //             await a.createEmbeddedDocuments("Item", updateData.items, { enforceTypes: false });
 
 //     //         } catch (err) {
-//     //             err.message = `sohl.SoHL | Failed upgrade for Actor ${a.name}: ${err.message}`;
+//     //             err.message = `hm.SoHL | Failed upgrade for Actor ${a.name}: ${err.message}`;
 //     //             console.error(err);
 //     //         }
 //     //     }
 
-//     //     ui.notifications.info(`sohl.SoHL | Upgrade of Actors complete!`, { permanent: true });
+//     //     ui.notifications.info(`hm.SoHL | Upgrade of Actors complete!`, { permanent: true });
 //     // };
 
 //     // static async addCombatTechniques(actor, updateData) {
 //     //     let ctList = [];
 //     //     if (actor.type === 'character') {
-//     //         ctList = LGND.FLAVOR.defaultCharacterCombatTechniques.reduce((ary, traitName) => {
+//     //         ctList = HMK.FLAVOR.defaultCharacterCombatTechniques.reduce((ary, traitName) => {
 //     //             if (!actor.items.some(it => it.system instanceof CombatTechniqueItemData && it.name === traitName)) {
 //     //                 ary.push(traitName);
 //     //             }
@@ -4193,9 +4184,9 @@ export class LgndTour extends Tour {
 
 //     //     if (ctList.length) {
 //     //         if (!updateData.items) updateData.items = [];
-//     //         console.log(`sohl.SoHL | ${actor.name} is of type ${actor.type}`);
-//     //         console.log(`sohl.SoHL | ${actor.name} Adding Combat Techniques ${ctList.join(',')}`);
-//     //         await sohl.Utility.addItemsFromPack(ctList, LGND.FLAVOR.COMPENDIUMS.combattechniques, updateData.items)
+//     //         console.log(`hm.SoHL | ${actor.name} is of type ${actor.type}`);
+//     //         console.log(`hm.SoHL | ${actor.name} Adding Combat Techniques ${ctList.join(',')}`);
+//     //         await hm.Utility.addItemsFromPack(ctList, HMK.FLAVOR.COMPENDIUMS.combattechniques, updateData.items)
 //     //     }
 //     // }
 
@@ -4203,27 +4194,27 @@ export class LgndTour extends Tour {
 //     //     let traitList = [];
 //     //     let skillList = [];
 //     //     if (actor.type === 'character') {
-//     //         traitList = LGND.CONFIG.defaultCharacterTraits.reduce((ary, traitName) => {
+//     //         traitList = HMK.CONFIG.defaultCharacterTraits.reduce((ary, traitName) => {
 //     //             if (!actor.items.some(it => it.system instanceof TraitData && it.name===traitName)) {
 //     //                 ary.push(traitName);
 //     //             }
 //     //             return ary;
 //     //         }, []);
-//     //         skillList = LGND.CONFIG.defaultCharacterSkills.reduce((ary, skillName) => {
-//     //             if (!actor.items.some(it => it.type ===LgndSkillData.TYPENAME && it.name===skillName)) {
+//     //         skillList = HMK.CONFIG.defaultCharacterSkills.reduce((ary, skillName) => {
+//     //             if (!actor.items.some(it => it.type ===HMKSkillData.TYPENAME && it.name===skillName)) {
 //     //                 ary.push(skillName);
 //     //             }
 //     //             return ary;
 //     //         }, []);
 //     //     } else if (actor.type === 'creature') {
-//     //         traitList = LGND.CONFIG.defaultCreatureTraits.reduce((ary, traitName) => {
+//     //         traitList = HMK.CONFIG.defaultCreatureTraits.reduce((ary, traitName) => {
 //     //             if (!actor.items.some(it => it.system instanceof TraitData && it.name===traitName)) {
 //     //                 ary.push(traitName);
 //     //             }
 //     //             return ary;
 //     //         }, []);
-//     //         skillList = LGND.CONFIG.defaultCreatureSkills.reduce((ary, skillName) => {
-//     //             if (!actor.items.some(it => it.type ===LgndSkillData.TYPENAME && it.name===skillName)) {
+//     //         skillList = HMK.CONFIG.defaultCreatureSkills.reduce((ary, skillName) => {
+//     //             if (!actor.items.some(it => it.type ===HMKSkillData.TYPENAME && it.name===skillName)) {
 //     //                 ary.push(skillName);
 //     //             }
 //     //             return ary;
@@ -4232,39 +4223,39 @@ export class LgndTour extends Tour {
 
 //     //     if (traitList.length || skillList.length) {
 //     //         if (!updateData.items) updateData.items = [];
-//     //         console.log(`sohl.SoHL | ${actor.name} is of type ${actor.type}`);
-//     //         console.log(`sohl.SoHL | ${actor.name} Adding Traits ${traitList.join(',')}`);
-//     //         console.log(`sohl.SoHL | ${actor.name} Adding Skills ${skillList.join(',')}`);
-//     //         await sohl.Utility.addItemsFromPack(traitList, LGND.CONFIG.COMPENDIUMS.traits, updateData.items)
-//     //         await sohl.Utility.addItemsFromPack(skillList, LGND.CONFIG.COMPENDIUMS.skills, updateData.items)
+//     //         console.log(`hm.SoHL | ${actor.name} is of type ${actor.type}`);
+//     //         console.log(`hm.SoHL | ${actor.name} Adding Traits ${traitList.join(',')}`);
+//     //         console.log(`hm.SoHL | ${actor.name} Adding Skills ${skillList.join(',')}`);
+//     //         await hm.Utility.addItemsFromPack(traitList, HMK.CONFIG.COMPENDIUMS.traits, updateData.items)
+//     //         await hm.Utility.addItemsFromPack(skillList, HMK.CONFIG.COMPENDIUMS.skills, updateData.items)
 //     //     }
 //     // }
 
 //     // function _convertAttributesToTraits(actor, items) {
-//     //     items.push({name: 'Strength', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/biceps.svg', 'system.type': 'Physique', 'system.abbr': 'str',
+//     //     items.push({name: 'Strength', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/biceps.svg', 'system.type': 'Physique', 'system.abbr': 'str',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.strength.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Endurance', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/climbing.svg', 'system.type': 'Physique', 'system.abbr': 'end',
+//     //     items.push({name: 'Endurance', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/climbing.svg', 'system.type': 'Physique', 'system.abbr': 'end',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.endurance.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Dexterity', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/juggler.svg', 'system.type': 'Physique', 'system.abbr': 'dex',
+//     //     items.push({name: 'Dexterity', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/juggler.svg', 'system.type': 'Physique', 'system.abbr': 'dex',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.dexterity.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Agility', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/acrobatics.svg', 'system.type': 'Physique', 'system.abbr': 'agl',
+//     //     items.push({name: 'Agility', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/acrobatics.svg', 'system.type': 'Physique', 'system.abbr': 'agl',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.agility.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Perception', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/awareness.svg', 'system.type': 'Physique', 'system.abbr': 'per',
+//     //     items.push({name: 'Perception', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/awareness.svg', 'system.type': 'Physique', 'system.abbr': 'per',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.perception.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Comeliness', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/charm.svg', 'system.type': 'Physique', 'system.abbr': 'cml',
+//     //     items.push({name: 'Comeliness', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/charm.svg', 'system.type': 'Physique', 'system.abbr': 'cml',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.comeliness.base.toString(), 'system.intensity': 'Attribute'});
 
-//     //     items.push({name: 'Aura', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/aura.svg', 'system.type': 'Transcendent', 'system.abbr': 'aur',
+//     //     items.push({name: 'Aura', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/aura.svg', 'system.type': 'Transcendent', 'system.abbr': 'aur',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.aura.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Will', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/will.svg', 'system.type': 'Personality', 'system.abbr': 'wil',
+//     //     items.push({name: 'Will', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/will.svg', 'system.type': 'Personality', 'system.abbr': 'wil',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.will.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Reasoning', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/reasoning.svg', 'system.type': 'Personality', 'system.abbr': 'rea',
+//     //     items.push({name: 'Reasoning', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/reasoning.svg', 'system.type': 'Personality', 'system.abbr': 'rea',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.reasoning.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Creativity', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/creativity.svg', 'system.type': 'Personality', 'system.abbr': 'cre',
+//     //     items.push({name: 'Creativity', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/creativity.svg', 'system.type': 'Personality', 'system.abbr': 'cre',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.creativity.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Empathy', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/empathy.svg', 'system.type': 'Personality', 'system.abbr': 'emp',
+//     //     items.push({name: 'Empathy', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/empathy.svg', 'system.type': 'Personality', 'system.abbr': 'emp',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.empathy.base.toString(), 'system.intensity': 'Attribute'});
-//     //     items.push({name: 'Eloquence', type: TraitData.TYPENAME, img: 'systems/sohl/assets/icons/oratory.svg', 'system.type': 'Personality', 'system.abbr': 'elo',
+//     //     items.push({name: 'Eloquence', type: TraitData.TYPENAME, img: 'systems/hm/assets/icons/oratory.svg', 'system.type': 'Personality', 'system.abbr': 'elo',
 //     //         'system.isNumeric': true, 'system.textValue': actor.system.attributes.eloquence.base.toString(), 'system.intensity': 'Attribute'});
 //     // }
 
@@ -4309,19 +4300,19 @@ export class LgndTour extends Tour {
 //                 // Save the entry, if data was changed
 //                 if (foundry.utils.isEmpty(updateData)) continue;
 //                 await doc.update(updateData);
-//                 console.log(`sohl.SoHL | Migrated ${documentName} document ${doc.name} in Compendium ${pack.collection}`);
+//                 console.log(`hm.SoHL | Migrated ${documentName} document ${doc.name} in Compendium ${pack.collection}`);
 //             }
 
 //             // Handle migration failures
 //             catch (err) {
-//                 err.message = `sohl.SoHL | Failed system migration for document ${doc.name} in pack ${pack.collection}: ${err.message}`;
+//                 err.message = `hm.SoHL | Failed system migration for document ${doc.name} in pack ${pack.collection}: ${err.message}`;
 //                 console.error(err);
 //             }
 //         }
 
 //         // Apply the original locked status for the pack
 //         await pack.configure({ locked: wasLocked });
-//         console.log(`sohl.SoHL | Migrated all ${documentName} documents from Compendium ${pack.collection}`);
+//         console.log(`hm.SoHL | Migrated all ${documentName} documents from Compendium ${pack.collection}`);
 //     };
 
 //     /* -------------------------------------------- */
@@ -4413,7 +4404,7 @@ export class LgndTour extends Tour {
 
 //         // Migrate embedded effects
 //         if (!item.parent && item.effects) {
-//             //console.log(`sohl.SoHL | Migrating ${item.name} effects`);
+//             //console.log(`hm.SoHL | Migrating ${item.name} effects`);
 //             const effects = migrateEffects(item, migrationData);
 //             if (effects.length > 0) updateData.effects = effects;
 //         }
@@ -4603,7 +4594,7 @@ export class LgndTour extends Tour {
 //         for (let [k, v] of Object.entries(data)) {
 //             if (getType(v) === "Object") {
 //                 if (v._deprecated === true) {
-//                     console.log(`sohl.SoHL | Deleting deprecated object key ${k}`);
+//                     console.log(`hm.SoHL | Deleting deprecated object key ${k}`);
 //                     delete data[k];
 //                 }
 //                 else removeDeprecatedObjects(v);
@@ -4613,20 +4604,20 @@ export class LgndTour extends Tour {
 //     }
 
 //     static upgrade() {
-//         console.log(`sohl.SoHL | Beginning upgrade of World Items`);
+//         console.log(`hm.SoHL | Beginning upgrade of World Items`);
 //         game.items.forEach(it => {
 //             it.effects.forEach(e => {
 //                 if (e.targetType !== 'actor') {
-//                     console.log(`sohl.SoHL | Changing effect ${e.name} on item ${it.name} to target 'this'`);
-//                     e.update({ 'flags.legendary.targetType': 'this', 'flags.legendary.targetName': '' });
+//                     console.log(`hm.SoHL | Changing effect ${e.name} on item ${it.name} to target 'this'`);
+//                     e.update({ 'flags.kethira.targetType': 'this', 'flags.kethira.targetName': '' });
 //                 }
 //             });
 //         });
-//         console.log(`sohl.SoHL | Finished upgrade of World Items`);
+//         console.log(`hm.SoHL | Finished upgrade of World Items`);
 //     }
 // }
 
-// class LgndHotbar {
+// class HMKHotbar {
 //     /**
 //      * Create a script macro from an Item drop.
 //      * Get an existing item macro if one exists, otherwise create a new one.
@@ -4634,7 +4625,7 @@ export class LgndTour extends Tour {
 //      * @param {number} slot     The hotbar slot to use
 //      * @returns {Promise}
 //      */
-//     static createLgndMacro(data, slot) {
+//     static createHMKMacro(data, slot) {
 //         if (data.type !== "Item") return true;  // Continue normal processing for non-Item documents
 //         handleItemMacro(data, slot);
 //         return false;
@@ -4654,15 +4645,15 @@ export class LgndTour extends Tour {
 
 //         let cmdSuffix;
 //         switch (item.type) {
-//             case sohl.ArtifactRulesetSkillItemData.typeName:
+//             case hm.ArtifactRulesetSkillItemData.typeName:
 //                 cmdSuffix = `skillRoll("${item.uuid}");`;
 //                 break;
 
-//             case sohl.MysticalAbilityItemData.typeName:
+//             case hm.MysticalAbilityItemData.typeName:
 //                 cmdSuffix = `castSpellRoll("${item.uuid}");`;
 //                 break;
 
-//             case LgndWeaponGearItemData.typeName:
+//             case HMKWeaponGearItemData.typeName:
 //                 return await askWeaponMacro(item.uuid, slot, item.img);
 
 //             case InjuryItemData.typeName:
@@ -4673,11 +4664,11 @@ export class LgndTour extends Tour {
 //                 return null;  // Unhandled item, so ignore
 //         }
 
-//         return await applyMacro(title, `await game.sohl.macros.${cmdSuffix}`, slot, item.img, { "hm3.itemMacro": false });
+//         return await applyMacro(title, `await game.hm.macros.${cmdSuffix}`, slot, item.img, { "hm3.itemMacro": false });
 //     }
 
 //     static async applyMacro(name, command, slot, img, flags) {
-//         let macro = [game.legendary.cmds.values()].find(m => (m.name === name) && (m.command === command));
+//         let macro = [game.kethira.cmds.values()].find(m => (m.name === name) && (m.command === command));
 //         if (!macro) {
 //             macro = await Macro.create({
 //                 name: name,
@@ -4713,25 +4704,25 @@ export class LgndTour extends Tour {
 //                     enhAttackButton: {
 //                         label: "Automated Combat",
 //                         callback: async (html) => {
-//                             return await applyMacro(`${item.name} Automated Combat`, `await game.sohl.macros.weaponAttack("${weaponUuid}");`, slot, img, { "hm3.itemMacro": false });
+//                             return await applyMacro(`${item.name} Automated Combat`, `await game.hm.macros.weaponAttack("${weaponUuid}");`, slot, img, { "hm3.itemMacro": false });
 //                         }
 //                     },
 //                     attackButton: {
 //                         label: "Attack",
 //                         callback: async (html) => {
-//                             return await applyMacro(`${actorName}${item.name} Attack Roll`, `await game.sohl.macros.weaponAttackRoll("${weaponUuid}");`, slot, img, { "hm3.itemMacro": false });
+//                             return await applyMacro(`${actorName}${item.name} Attack Roll`, `await game.hm.macros.weaponAttackRoll("${weaponUuid}");`, slot, img, { "hm3.itemMacro": false });
 //                         }
 //                     },
 //                     defendButton: {
 //                         label: "Defend",
 //                         callback: async (html) => {
-//                             return await applyMacro(`${actorName}${item.name} Defend Roll`, `await game.sohl.macros.weaponDefendRoll("${weaponUuid}");`, slot, img, { "hm3.itemMacro": false });
+//                             return await applyMacro(`${actorName}${item.name} Defend Roll`, `await game.hm.macros.weaponDefendRoll("${weaponUuid}");`, slot, img, { "hm3.itemMacro": false });
 //                         }
 //                     },
 //                     damageButton: {
 //                         label: "Damage",
 //                         callback: async (html) => {
-//                             return await applyMacro(`${actorName}${item.name} Damage Roll`, `await game.sohl.macros.weaponDamageRoll("${weaponUuid}");`, slot, img, { "hm3.itemMacro": false });
+//                             return await applyMacro(`${actorName}${item.name} Damage Roll`, `await game.hm.macros.weaponDamageRoll("${weaponUuid}");`, slot, img, { "hm3.itemMacro": false });
 //                         }
 //                     }
 //                 },
@@ -4753,19 +4744,19 @@ export class LgndTour extends Tour {
 //                     enhAttackButton: {
 //                         label: "Automated Combat",
 //                         callback: async (html) => {
-//                             return await applyMacro(`${name} Automated Combat`, `game.sohl.macros.missileAttack("${name}");`, slot, img, { "hm3.itemMacro": false });
+//                             return await applyMacro(`${name} Automated Combat`, `game.hm.macros.missileAttack("${name}");`, slot, img, { "hm3.itemMacro": false });
 //                         }
 //                     },
 //                     attackButton: {
 //                         label: "Attack",
 //                         callback: async (html) => {
-//                             return await applyMacro(`${actorName}'s ${name} Attack Roll`, `game.sohl.macros.missileAttackRoll("${name}"${actorSuffix});`, slot, img, { "hm3.itemMacro": false });
+//                             return await applyMacro(`${actorName}'s ${name} Attack Roll`, `game.hm.macros.missileAttackRoll("${name}"${actorSuffix});`, slot, img, { "hm3.itemMacro": false });
 //                         }
 //                     },
 //                     damageButton: {
 //                         label: "Damage",
 //                         callback: async (html) => {
-//                             return await applyMacro(`${actorName}'s ${name} Damage Roll`, `game.sohl.macros.missileDamageRoll("${name}"${actorSuffix});`, slot, img, { "hm3.itemMacro": false });
+//                             return await applyMacro(`${actorName}'s ${name} Damage Roll`, `game.hm.macros.missileDamageRoll("${name}"${actorSuffix});`, slot, img, { "hm3.itemMacro": false });
 //                         }
 //                     }
 //                 },
@@ -4776,7 +4767,7 @@ export class LgndTour extends Tour {
 //     }
 // }
 
-export class LgndUtility extends sohl.Utility {
+export class HMKUtility extends hm.Utility {
     static strImpactMod(str) {
         if (typeof str !== "number") return -10;
         return str > 5
@@ -4785,20 +4776,20 @@ export class LgndUtility extends sohl.Utility {
     }
 }
 
-class LgndActorSheet extends sohl.SohlActorSheet {
+class HMKActorSheet extends hm.SohlActorSheet {
     getData() {
         const data = super.getData();
         data.effectStatus = {
-            sleep: this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Sleep),
-            prone: this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Prone),
-            stun: this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Stunned),
+            sleep: this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Sleep),
+            prone: this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Prone),
+            stun: this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Stunned),
             incapacitated: this.actor.statuses.has(
-                LGND.CONST.STATUSEFFECTS.Incapacitated,
+                HMK.CONST.STATUSEFFECTS.Incapacitated,
             ),
             unconscious: this.actor.statuses.has(
-                LGND.CONST.STATUSEFFECTS.Unconscious,
+                HMK.CONST.STATUSEFFECTS.Unconscious,
             ),
-            dead: this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Dead),
+            dead: this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Dead),
         };
 
         data.fateMods = this.actor.system.$ssMod;
@@ -4807,7 +4798,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
     }
 }
 
-// class LgndCharacterCreatureActorRuleset extends sohl.CharacterCreatureActorRuleset {
+// class HMKCharacterCreatureActorRuleset extends hm.CharacterCreatureActorRuleset {
 //     shock;
 //     combatReach;
 //     weapons = [];
@@ -4822,16 +4813,16 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //     constructor(parentTypeDataModel) {
 //         super(parentTypeDataModel);
-//         this.shock = LGND.CONST.SHOCK.None;
+//         this.shock = HMK.CONST.SHOCK.None;
 //         this.combatReach = -99;
 //         this.fatigue = {
-//             personal: (new sohl.ValueModifier(this)).setBase(5),
-//             weakness: new sohl.ValueModifier(this),
-//             weariness: new sohl.ValueModifier(this),
-//             windedness: new sohl.ValueModifier(this)
+//             personal: (new hm.ValueModifier(this)).setBase(5),
+//             weakness: new hm.ValueModifier(this),
+//             weariness: new hm.ValueModifier(this),
+//             windedness: new hm.ValueModifier(this)
 //         };
-//         this.pull = new sohl.ValueModifier(this);
-//         this.fate = new LgndMasteryLevelModifier(this);
+//         this.pull = new hm.ValueModifier(this);
+//         this.fate = new HMKMasteryLevelModifier(this);
 //     }
 
 //     get strengthMod() {
@@ -4865,7 +4856,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         const vals = [];
 //         for (let attrName of attrNames) {
 //             const attr = this.actor.getTrait(attrName);
-//             if (attr?.system.intensity === sohl.TraitItemData.intensities.Attribute) {
+//             if (attr?.system.intensity === hm.TraitItemData.intensities.Attribute) {
 //                 const attrVal = attr.system.targetLevel.effective;
 //                 vals.push(attrVal);
 //             }
@@ -4894,33 +4885,33 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //     calcDomainDegree(spellDomain) {
 //         const affinityTrait = this.actor.getTrait("Arcane Attunement");
 
-//         const affinityIdx = LGND.FLAVOR.DOMAINS.indexOf(affinityTrait.system.textValue);
-//         const spellDomainIdx = LGND.FLAVOR.DOMAINS.indexOf(spellDomain);
+//         const affinityIdx = HMK.FLAVOR.DOMAINS.indexOf(affinityTrait.system.textValue);
+//         const spellDomainIdx = HMK.FLAVOR.DOMAINS.indexOf(spellDomain);
 
 //         // If either is not a Domain, then it is Diametric
-//         if (affinityIdx < 0 || spellDomainIdx < 0) return LGND.CONST.DOMAINDEGREE.Diametric;
+//         if (affinityIdx < 0 || spellDomainIdx < 0) return HMK.CONST.DOMAINDEGREE.Diametric;
 
 //         // If the affinity is the same as the domain, it is always Primary
-//         if (affinityIdx === spellDomainIdx) return LGND.CONST.DOMAINDEGREE.Primary;
+//         if (affinityIdx === spellDomainIdx) return HMK.CONST.DOMAINDEGREE.Primary;
 
 //         // If the affinity is Neutral, then all spell domains are treated as Primary (i.e., grey mage)
-//         if (affinityIdx === LGND.CONST.DOMAINDEGREE.Neutral) return LGND.CONST.DOMAINDEGREE.Primary;
+//         if (affinityIdx === HMK.CONST.DOMAINDEGREE.Neutral) return HMK.CONST.DOMAINDEGREE.Primary;
 
 //         // If the spell domain is Neutral, then treat degree as Neutral regardless of affinity
-//         if (spellDomainIdx === LGND.CONST.DOMAINDEGREE.Neutral) return LGND.CONST.DOMAINDEGREE.Neutral;
+//         if (spellDomainIdx === HMK.CONST.DOMAINDEGREE.Neutral) return HMK.CONST.DOMAINDEGREE.Neutral;
 
 //         // Otherwise, the result is based on the distance between affinity and spell domain
 //         let result = Math.abs(spellDomainIdx - affinityIdx);
 //         switch (result) {
-//             case 1: return LGND.CONST.DOMAINDEGREE.Secondary;
-//             case 2: return LGND.CONST.DOMAINDEGREE.Tertiary;
-//             case 3: return LGND.CONST.DOMAINDEGREE.Diametric;
-//             case 4: return LGND.CONST.DOMAINDEGREE.Tertiary;
-//             case 5: return LGND.CONST.DOMAINDEGREE.Secondary;
+//             case 1: return HMK.CONST.DOMAINDEGREE.Secondary;
+//             case 2: return HMK.CONST.DOMAINDEGREE.Tertiary;
+//             case 3: return HMK.CONST.DOMAINDEGREE.Diametric;
+//             case 4: return HMK.CONST.DOMAINDEGREE.Tertiary;
+//             case 5: return HMK.CONST.DOMAINDEGREE.Secondary;
 //         }
 
 //         // This should never happen, since all cases should have been handled above
-//         return LGND.CONST.DOMAINDEGREE.Diametric;
+//         return HMK.CONST.DOMAINDEGREE.Diametric;
 //     }
 
 //     prepareBaseData() {
@@ -4935,20 +4926,20 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         if (this.actor.type === 'container') return;
 
 //         // Calculate shock state from effects flags
-//         if (this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Dead)) {
-//             this.shock = LGND.CONST.SHOCK.Killed;
+//         if (this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Dead)) {
+//             this.shock = HMK.CONST.SHOCK.Killed;
 //             this.health.value = 0;
-//         } else if (this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Unconscious)) {
-//             this.shock = LGND.CONST.SHOCK.Unconscious;
-//         } else if (this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Incapacitated)) {
-//             this.shock = LGND.CONST.SHOCK.Incapacitated;
+//         } else if (this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Unconscious)) {
+//             this.shock = HMK.CONST.SHOCK.Unconscious;
+//         } else if (this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Incapacitated)) {
+//             this.shock = HMK.CONST.SHOCK.Incapacitated;
 //             this.health.value = Math.floor(this.health.max * 0.1);
-//         } else if (this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Stunned)) {
-//             this.shock = LGND.CONST.SHOCK.Stunned;
+//         } else if (this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Stunned)) {
+//             this.shock = HMK.CONST.SHOCK.Stunned;
 //             this.health.value = Math.floor(this.system.health.value * 0.5);
 //         } else {
-//             this.shock = LGND.CONST.SHOCK.None;
-//             if (this.actor.statuses.has(LGND.CONST.STATUSEFFECTS.Prone)) {
+//             this.shock = HMK.CONST.SHOCK.None;
+//             if (this.actor.statuses.has(HMK.CONST.STATUSEFFECTS.Prone)) {
 //                 this.health.value = Math.floor(this.health.value * 0.75);
 //             }
 //         }
@@ -4983,7 +4974,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      */
 //     static insideEngagementZone(atkWeapon, tgtDistance) {
 //         let result = false;
-//         if (['weapon', sohl.CombatTechniqueItemData.typeName].includes(atkWeapon.type)) {
+//         if (['weapon', hm.CombatTechniqueItemData.typeName].includes(atkWeapon.type)) {
 //             let ezReach = 1;
 //             if (atkWeapon.reach.effective >= 2) {
 //                 ezReach += Math.trunc((atkWeapon.reach.effective - 2) / 5) * 5;
@@ -5014,7 +5005,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         // This function does not use the standard d100StdRoll function, since it also includes
 //         // the ShockIndex.  So we do all the calculation here.
 
-//         const mods = LgndCombatModifier.create(this, this.actor.getCombatStat('Shock'));
+//         const mods = HMKCombatModifier.create(this, this.actor.getCombatStat('Shock'));
 
 //         const rollData = {
 //             diceSize: 100,
@@ -5030,7 +5021,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //         if (!skipDialog) {
 //             // Render modal dialog
-//             let dlgTemplate = "systems/sohl/templates/dialog/shock-test-dialog.html";
+//             let dlgTemplate = "systems/hm/templates/dialog/shock-test-dialog.html";
 //             let dialogData = {
 //                 target: rollData.mod.effective,
 //                 mods: rollData.mod.mods,
@@ -5067,20 +5058,20 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             rollData.mod.mods = dlgResult.mods;
 //             rollData.mod.successLevelMod = dlgResult.successLevelMod;
 //             rollData.shockIndex = dlgResult.shockIndex;
-//             LgndUtility.applyMods(rollData.mod);
+//             HMKUtility.applyMods(rollData.mod);
 //         }
 
-//         const roll = await LgndDice.rollTest(rollData);
+//         const roll = await HMKDice.rollTest(rollData);
 //         if (!roll) return null;
 
 //         // Prepare for Chat Message
-//         const chatTemplate = 'systems/sohl/templates/chat/shock-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/shock-card.html';
 
 //         const shockRollMod = 1 - roll.successLevel;
 //         const curShock = this.system.shock;
 //         let finalShockIndex = rollData.shockIndex + shockRollMod;
 
-//         const shockText = Object.keys(LGND.CONST.SHOCK);
+//         const shockText = Object.keys(HMK.CONST.SHOCK);
 
 //         const chatTemplateData = {
 //             title: rollData.title,
@@ -5107,22 +5098,22 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         };
 
 //         if (finalShockIndex >= 10) {
-//             chatTemplateData.shockText = shockText[LGND.CONST.SHOCK.Killed];
+//             chatTemplateData.shockText = shockText[HMK.CONST.SHOCK.Killed];
 //         } else if (finalShockIndex === 9) {
-//             chatTemplateData.shockText = shockText[LGND.CONST.SHOCK.Unconscious];
+//             chatTemplateData.shockText = shockText[HMK.CONST.SHOCK.Unconscious];
 //         } else if (finalShockIndex === 8) {
-//             if (curShock === LGND.CONST.SHOCK.Incapacitated) {
-//                 chatTemplateData.shockText = shockText[LGND.CONST.SHOCK.Unconscious];
+//             if (curShock === HMK.CONST.SHOCK.Incapacitated) {
+//                 chatTemplateData.shockText = shockText[HMK.CONST.SHOCK.Unconscious];
 //                 chatTemplateData.shockUpgradeText = "Incapacitated result when already incapacitated changes to Unconscious"
 //             } else {
-//                 chatTemplateData.shockText = shockText[LGND.CONST.SHOCK.Incapacitated];
+//                 chatTemplateData.shockText = shockText[HMK.CONST.SHOCK.Incapacitated];
 //             }
 //         } else if (finalShockIndex === 7) {
-//             if (curShock === LGND.CONST.SHOCK.Stunned) {
-//                 chatTemplateData.shockText = shockText[LGND.CONST.SHOCK.Incapacitated];
+//             if (curShock === HMK.CONST.SHOCK.Stunned) {
+//                 chatTemplateData.shockText = shockText[HMK.CONST.SHOCK.Incapacitated];
 //                 chatTemplateData.shockUpgradeText = "Stunned result when already stunned changes to Incapacitated"
 //             } else {
-//                 chatTemplateData.shockText = shockText[LGND.CONST.SHOCK.Stunned];
+//                 chatTemplateData.shockText = shockText[HMK.CONST.SHOCK.Stunned];
 //             }
 //         }
 
@@ -5159,13 +5150,13 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @override
 //      */
 //     async shockReTest({ skipDialog = false } = {}) {
-//         const extraMods = LgndUtility.addMod([], 'Shock Re-Test', 'ShkRT', -20);
+//         const extraMods = HMKUtility.addMod([], 'Shock Re-Test', 'ShkRT', -20);
 
 //         const shockSkill = this.itemTypes.skill.find(it => it.name === 'Shock');
 //         if (!shockSkill) {
 //             const msg = `${this.isToken ? this.token.name : this.name} does not have the Shock skill, can't perform Shock Re-Test`;
 //             ui.notifications.warn(msg);
-//             console.warn(`sohl.SoHL | ${msg}`);
+//             console.warn(`hm.SoHL | ${msg}`);
 //             return null;
 //         }
 
@@ -5191,7 +5182,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                     skillRollResult.resultDesc = 'Character suffers Extended Shock (HR4)';
 //                 }
 
-//                 if (this.effects.has(LGND.CONST.STATUSEFFECTS.UNCONSCIOUS)) {
+//                 if (this.effects.has(HMK.CONST.STATUSEFFECTS.UNCONSCIOUS)) {
 //                     skillRollResult.resultText += ' and Coma';
 //                     skillRollResult.resultDesc += ' and lapses into a Coma';
 //                 }
@@ -5206,7 +5197,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             }
 //         }
 
-//         const chatTemplate = 'systems/sohl/templates/chat/standard-test-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/standard-test-card.html';
 
 //         const html = await renderTemplate(chatTemplate, skillRollResult);
 
@@ -5283,7 +5274,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         if (!dlgResult) return null;
 //         const aspect = dlgResult.aspect;
 //         const severity = dlgResult.severity;
-//         const treatBase = LGND.CONST.treatment[aspect][severity];
+//         const treatBase = HMK.CONST.treatment[aspect][severity];
 
 //         const confirmTreatment = await Dialog.confirm({
 //             title: "Confirm Treatment",
@@ -5294,18 +5285,18 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         });
 //         if (!confirmTreatment) return null;
 
-//         let treatmentMods = treatBase.mod ? LgndUtility.addMod([], treatBase.mod.name, treatBase.mod.abbr, treatBase.mod.value) : [];
+//         let treatmentMods = treatBase.mod ? HMKUtility.addMod([], treatBase.mod.name, treatBase.mod.abbr, treatBase.mod.value) : [];
 //         if (aspect === 'Projectile') {
 //             if (severity === 'S') {
-//                 LgndUtility.addMod(treatmentMods, 'Broadhead Penalty', 'BrdPnlt', -20);
+//                 HMKUtility.addMod(treatmentMods, 'Broadhead Penalty', 'BrdPnlt', -20);
 //             } else if (severity === 'G') {
-//                 LgndUtility.addMod(treatmentMods, 'Broadhead Penalty', 'BrdPnlt', -30);
+//                 HMKUtility.addMod(treatmentMods, 'Broadhead Penalty', 'BrdPnlt', -30);
 //             }
 //         }
 
 //         if (treatBase.useDexMod) {
 //             const attr = this.itemTypes.trait.find(trait => trait.name === 'Dexterity')?.system;
-//             if (attr) LgndUtility.addMod(treatmentMods, 'Dexterity Secondary Modifier', 'Dex2Mod', attr.targetLevel.secMod);
+//             if (attr) HMKUtility.addMod(treatmentMods, 'Dexterity Secondary Modifier', 'Dex2Mod', attr.targetLevel.secMod);
 //         }
 
 //         const skillRollResult = await this.skillTest("Physician", {
@@ -5348,8 +5339,8 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         //     newSev: treatBaseResult.newInj > 3 ? "G" : (treatBaseResult.newInj > 1 ? "S" : "M"),
 //         // }, treatBaseResult);
 
-//         //    const chatTemplate = 'systems/sohl/templates/chat/treatment-result-card.html';
-//         const chatTemplate = 'systems/sohl/templates/chat/standard-test-card.html';
+//         //    const chatTemplate = 'systems/hm/templates/chat/treatment-result-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/standard-test-card.html';
 
 //         const html = await renderTemplate(chatTemplate, skillRollResult);
 
@@ -5377,11 +5368,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @override
 //      */
 //     async fearTest(fearName, { skipDialog = false } = {}) {
-//         let fearItem = fearName ? this.getItem(fearName, { types: [sohl.StressItemData.typeName] }) : null;
+//         let fearItem = fearName ? this.getItem(fearName, { types: [hm.StressItemData.typeName] }) : null;
 
 //         if (fearItem) {
 //             if (fearItem.system.type !== 'Fear') {
-//                 throw new Error(`sohl.SoHL | Stress item ${fearItem.name} is of type '${fearItem.system.type}', not Fear`);
+//                 throw new Error(`hm.SoHL | Stress item ${fearItem.name} is of type '${fearItem.system.type}', not Fear`);
 //             }
 //         } else {
 //             let dlgHtml = `
@@ -5390,7 +5381,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                     <label>Fear Sources:</label>
 //                     <select name="source">
 //                         <option value="New">New</option>`;
-//             const fearItems = this.items.filter(it => it.system instanceof sohl.StressItemData && it.system.type === 'Fear');
+//             const fearItems = this.items.filter(it => it.system instanceof hm.StressItemData && it.system.type === 'Fear');
 //             fearItems.forEach(fear => {
 //                 dlgHtml += `<option value="${fear.id}">${fear.name}</option>`;
 //             });
@@ -5407,28 +5398,28 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             });
 //             if (!dlgResult) return null;
 //             if (dlgResult !== 'New') {
-//                 fearItem = this.getItem(dlgResult, { types: [sohl.StressItemData.typeName] });
+//                 fearItem = this.getItem(dlgResult, { types: [hm.StressItemData.typeName] });
 //             } else {
-//                 const name = sohl.SohlActorSheet._createUniqueName('New Fear', this.itemTypes.stress);
+//                 const name = hm.SohlActorSheet._createUniqueName('New Fear', this.itemTypes.stress);
 //                 fearItem = {
 //                     name: name,
-//                     type: sohl.StressItemData.typeName,
+//                     type: hm.StressItemData.typeName,
 //                     system: {
 //                         type: 'Fear',
 //                         level: {
-//                             base: sohl.StressItemData.fearLevels.Steady,
-//                             mods: LgndUtility.setModBase(sohl.StressItemData.fearLevels.Steady)
+//                             base: hm.StressItemData.fearLevels.Steady,
+//                             mods: HMKUtility.setModBase(hm.StressItemData.fearLevels.Steady)
 //                         },
 //                         nextCheckTime: game.time.worldTime,
 //                         createdTime: game.time.worldTime
 //                     }
 //                 };
-//                 LgndUtility.applyMods(fearItem.system.level);
+//                 HMKUtility.applyMods(fearItem.system.level);
 //             }
 //         }
 
 //         const oldFearLevel = fearItem.system.level.effective;
-//         const fearStates = Object.keys(sohl.StressItemData.fearLevels);
+//         const fearStates = Object.keys(hm.StressItemData.fearLevels);
 
 //         const attrRollResult = await this.attributeTest("Will", {
 //             skipDialog,
@@ -5436,35 +5427,35 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             noChat: true
 //         });
 //         const name = this.isToken ? this.token.name : this.name
-//         let newFearLevel = sohl.StressItemData.fearLevels.Steady;
+//         let newFearLevel = hm.StressItemData.fearLevels.Steady;
 //         let addInspiredAE = false;
 
 //         if (attrRollResult.isCritical) {
 //             if (attrRollResult.isSuccess) {
-//                 attrRollResult.resultText = fearStates[sohl.StressItemData.fearLevels.Brave];
+//                 attrRollResult.resultText = fearStates[hm.StressItemData.fearLevels.Brave];
 //                 attrRollResult.resultDesc = '';
 //                 addInspiredAE = true;
-//                 newFearLevel = sohl.StressItemData.fearLevels.Brave;
+//                 newFearLevel = hm.StressItemData.fearLevels.Brave;
 //             } else {
 //                 if (attrRollResult.lastDigit === 5) {
-//                     attrRollResult.resultText = fearStates[sohl.StressItemData.fearLevels.Terrified];
+//                     attrRollResult.resultText = fearStates[hm.StressItemData.fearLevels.Terrified];
 //                     attrRollResult.resultDesc = '';
-//                     newFearLevel = sohl.StressItemData.fearLevels.Terrified;
+//                     newFearLevel = hm.StressItemData.fearLevels.Terrified;
 //                 } else {
-//                     attrRollResult.resultText = fearStates[sohl.StressItemData.fearLevels.Catatonic];
+//                     attrRollResult.resultText = fearStates[hm.StressItemData.fearLevels.Catatonic];
 //                     attrRollResult.resultDesc = '';
-//                     newFearLevel = sohl.StressItemData.fearLevels.Catatonic;
+//                     newFearLevel = hm.StressItemData.fearLevels.Catatonic;
 //                 }
 //             }
 //         } else {
 //             if (attrRollResult.isSuccess) {
-//                 attrRollResult.resultText = fearStates[sohl.StressItemData.fearLevels.Steady];
+//                 attrRollResult.resultText = fearStates[hm.StressItemData.fearLevels.Steady];
 //                 attrRollResult.resultDesc = '';
-//                 newFearLevel = sohl.StressItemData.fearLevels.Steady;
+//                 newFearLevel = hm.StressItemData.fearLevels.Steady;
 //             } else {
-//                 attrRollResult.resultText = fearStates[sohl.StressItemData.fearLevels.Afraid];
+//                 attrRollResult.resultText = fearStates[hm.StressItemData.fearLevels.Afraid];
 //                 attrRollResult.resultDesc = '';
-//                 newFearLevel = sohl.StressItemData.fearLevels.Afraid;
+//                 newFearLevel = hm.StressItemData.fearLevels.Afraid;
 //             }
 //         }
 
@@ -5480,7 +5471,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             await fearItem.update({ "system.level.base": newFearLevel });
 //         }
 
-//         const chatTemplate = 'systems/sohl/templates/chat/standard-test-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/standard-test-card.html';
 
 //         const html = await renderTemplate(chatTemplate, attrRollResult);
 
@@ -5514,11 +5505,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @override
 //      */
 //     async moraleTest(moraleName, { skipDialog = false } = {}) {
-//         let morale = this.getItem(moraleName, { types: [sohl.StressItemData.typeName] });
+//         let morale = this.getItem(moraleName, { types: [hm.StressItemData.typeName] });
 
 //         if (morale) {
 //             if (morale.system.type !== 'Morale') {
-//                 throw new Error(`sohl.SoHL | Stress item ${morale.name} is of type '${morale.system.type}', not Morale`);
+//                 throw new Error(`hm.SoHL | Stress item ${morale.name} is of type '${morale.system.type}', not Morale`);
 //             }
 //         } else {
 //             let dlgHtml = `
@@ -5527,7 +5518,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                     <label>Morale Sources:</label>
 //                     <select name="source">
 //                         <option value="New">New</option>`;
-//             const moraleItems = this.items.filter(it => it.system instanceof sohl.StressItemData && it.system.type === 'Morale');
+//             const moraleItems = this.items.filter(it => it.system instanceof hm.StressItemData && it.system.type === 'Morale');
 //             moraleItems.forEach(mi => {
 //                 dlgHtml += `<option value="${mi.id}">${mi.name}</option>`;
 //             });
@@ -5544,28 +5535,28 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             });
 //             if (!dlgResult) return null;
 //             if (dlgResult !== 'New') {
-//                 morale = this.getItem(dlgResult, sohl.StressItemData.typeName);
+//                 morale = this.getItem(dlgResult, hm.StressItemData.typeName);
 //             } else {
-//                 const name = sohl.SohlActorSheet._createUniqueName('New Morale', this.itemTypes.stress);
+//                 const name = hm.SohlActorSheet._createUniqueName('New Morale', this.itemTypes.stress);
 //                 morale = {
 //                     name: name,
-//                     type: sohl.StressItemData.typeName,
+//                     type: hm.StressItemData.typeName,
 //                     system: {
 //                         type: 'Morale',
 //                         level: {
-//                             base: sohl.StressItemData.moraleLevels.Steady,
-//                             mods: LgndUtility.setModBase(sohl.StressItemData.moraleLevels.Steady)
+//                             base: hm.StressItemData.moraleLevels.Steady,
+//                             mods: HMKUtility.setModBase(hm.StressItemData.moraleLevels.Steady)
 //                         },
 //                         nextCheckTime: game.time.worldTime,
 //                         createdTime: game.time.worldTime
 //                     }
 //                 };
-//                 LgndUtility.applyMods(morale.system.level);
+//                 HMKUtility.applyMods(morale.system.level);
 //             }
 //         }
 
 //         const oldMoraleLevel = morale.system.level.effective;
-//         const moraleStates = Object.keys(sohl.StressItemData.moraleLevels);
+//         const moraleStates = Object.keys(hm.StressItemData.moraleLevels);
 
 //         const skillRollResult = await this.skillTest("Initiative", {
 //             skipDialog,
@@ -5575,34 +5566,34 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         if (!skillRollResult) return null;
 
 //         skillRollResult.title = 'Morale Test';
-//         let newMoraleLevel = sohl.StressItemData.moraleLevels.Steady;
+//         let newMoraleLevel = hm.StressItemData.moraleLevels.Steady;
 //         let addInspiredAE = false;
 //         if (skillRollResult.isCritical) {
 //             if (skillRollResult.isSuccess) {
-//                 skillRollResult.resultText = moraleStates[sohl.StressItemData.fearLevels.Brave];
+//                 skillRollResult.resultText = moraleStates[hm.StressItemData.fearLevels.Brave];
 //                 skillRollResult.resultDesc = '';
 //                 addInspiredAE = true;
-//                 newMoraleLevel = sohl.StressItemData.moraleLevels.Brave;
+//                 newMoraleLevel = hm.StressItemData.moraleLevels.Brave;
 //             } else {
 //                 if (skillRollResult.lastDigit === 5) {
-//                     skillRollResult.resultText = moraleStates[sohl.StressItemData.fearLevels.Terrified];
+//                     skillRollResult.resultText = moraleStates[hm.StressItemData.fearLevels.Terrified];
 //                     skillRollResult.resultDesc = '';
-//                     newMoraleLevel = sohl.StressItemData.moraleLevels.Routed;
+//                     newMoraleLevel = hm.StressItemData.moraleLevels.Routed;
 //                 } else {
-//                     skillRollResult.resultText = moraleStates[sohl.StressItemData.fearLevels.Catatonic];
+//                     skillRollResult.resultText = moraleStates[hm.StressItemData.fearLevels.Catatonic];
 //                     skillRollResult.resultDesc = '';
-//                     newMoraleLevel = sohl.StressItemData.moraleLevels.Catatonic;
+//                     newMoraleLevel = hm.StressItemData.moraleLevels.Catatonic;
 //                 }
 //             }
 //         } else {
 //             if (skillRollResult.isSuccess) {
-//                 skillRollResult.resultText = moraleStates[sohl.StressItemData.fearLevels.Steady];
+//                 skillRollResult.resultText = moraleStates[hm.StressItemData.fearLevels.Steady];
 //                 skillRollResult.resultDesc = '';
-//                 newMoraleLevel = sohl.StressItemData.moraleLevels.Steady;
+//                 newMoraleLevel = hm.StressItemData.moraleLevels.Steady;
 //             } else {
-//                 skillRollResult.resultText = moraleStates[sohl.StressItemData.fearLevels.Afraid];
+//                 skillRollResult.resultText = moraleStates[hm.StressItemData.fearLevels.Afraid];
 //                 skillRollResult.resultDesc = '';
-//                 newMoraleLevel = sohl.StressItemData.moraleLevels.Withdrawing;
+//                 newMoraleLevel = hm.StressItemData.moraleLevels.Withdrawing;
 //             }
 //         }
 
@@ -5614,7 +5605,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             await morale.update({ "system.level.base": newMoraleLevel });
 //         }
 
-//         const chatTemplate = 'systems/sohl/templates/chat/standard-test-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/standard-test-card.html';
 
 //         const html = await renderTemplate(chatTemplate, skillRollResult);
 
@@ -5676,7 +5667,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             }
 //         }
 
-//         const chatTemplate = 'systems/sohl/templates/chat/standard-test-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/standard-test-card.html';
 
 //         const html = await renderTemplate(chatTemplate, skillRollResult);
 
@@ -5711,13 +5702,13 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      */
 //     async stumbleTest({ skipDialog = false } = {}) {
 //         let skillRollResult;
-//         const acrobatics = this.items.find(it => it.system instanceof sohl.SkillItemData && it.name === 'Acrobatics');
+//         const acrobatics = this.items.find(it => it.system instanceof hm.SkillItemData && it.name === 'Acrobatics');
 //         const aglAttr = this.itemTypes.trait.find(trait => trait.name === 'Agility');
 
 //         if (!acrobatics && !aglAttr) {
 //             const msg = `${this.isToken ? this.token.name : this.name} does not have Acrobatics skill or Agility attribute, so cannot Stumble`;
 //             ui.notifications.warn(msg);
-//             console.warn(`sohl.SoHL | ${msg}`);
+//             console.warn(`hm.SoHL | ${msg}`);
 //             return null;
 //         }
 
@@ -5746,13 +5737,13 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @override
 //      */
 //     async fumbleTest({ skipDialog = false } = {}) {
-//         const legerdemain = this.items.find(it => it.system instanceof sohl.SkillItemData && it.name === 'Legerdemain');
+//         const legerdemain = this.items.find(it => it.system instanceof hm.SkillItemData && it.name === 'Legerdemain');
 //         const dexAttr = this.itemTypes.trait.find(trait => trait.name === 'Dexterity');
 
 //         if (!legerdemain && !dexAttr) {
 //             const msg = `${this.isToken ? this.token.name : this.name} does not have Legerdemain skill or Dexterity attribute, so cannot Fumble`;
 //             ui.notifications.warn(msg);
-//             console.warn(`sohl.SoHL | ${msg}`);
+//             console.warn(`hm.SoHL | ${msg}`);
 //             return null;
 //         }
 
@@ -5775,7 +5766,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //     /**
 //      * Modify the quantity of projectiles carried.
 //      *
-//      * @param {LgndItem} item Projectile to change quantity
+//      * @param {HMKItem} item Projectile to change quantity
 //      * @param {string} newValue New quantity value.  If starts with + or -, then quantity change will
 //      * be relative to current quantity, otherwise quantity will be set to the specified value
 //      * @param {object} [options={}] Options which specify how to perform the test
@@ -5783,7 +5774,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @override
 //      */
 //     async changeMissileQuanity(projectileName, newValue, options = {}) {
-//         let item = this.getItem(projectileName, { types: [sohl.ProjectileGearItemData.typeName] });
+//         let item = this.getItem(projectileName, { types: [hm.ProjectileGearItemData.typeName] });
 //         if (!item) return null;
 
 //         if (!this.actor.isOwner) {
@@ -5814,13 +5805,13 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //     /**
 //      * Perform an opposed test for the given skill, attribute, spell, or arcane talent against the current targeted token.
 //      *
-//      * @param {LgndItem} item Skill, attribute, spell, or arcane talent to oppose
+//      * @param {HMKItem} item Skill, attribute, spell, or arcane talent to oppose
 //      * @param {object} [options={}] Options which specify how to perform the test
 //      *
 //      * @override
 //      */
 //     async opposedTest(skillName, options = {}) {
-//         let item = this.getItem(skillName, { types: [sohl.SkillItemData.typeName, sohl.TraitItemData.typeName, sohl.MysticalAbilityItemData.typeName] });
+//         let item = this.getItem(skillName, { types: [hm.SkillItemData.typeName, hm.TraitItemData.typeName, hm.MysticalAbilityItemData.typeName] });
 
 //         //const targetToken = this.#getTargetedToken();
 //         //if (!targetToken) return null;
@@ -5829,11 +5820,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         if (!targetLevel) {
 //             const msg = `${item.name} does not support opposed rolls.`;
 //             ui.notifications.warn(msg);
-//             console.warn(`sohl.SoHL | ${msg}`);
+//             console.warn(`hm.SoHL | ${msg}`);
 //             return null;
 //         }
 
-//         if (this && this.system.shock === LGND.CONST.SHOCK.Stunned) targetLevel.successLevelMod--;
+//         if (this && this.system.shock === HMK.CONST.SHOCK.Stunned) targetLevel.successLevelMod--;
 
 //         const dialogOptions = foundry.utils.mergeObject({
 //             type: `opposed-${item.type}-roll`,
@@ -5842,13 +5833,13 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         }, targetLevel);
 
 //         // Get roll info
-//         const rollData = await LgndDice.d100StdDialog(dialogOptions);
+//         const rollData = await HMKDice.d100StdDialog(dialogOptions);
 
 //         // If user cancelled the roll, then return immediately
 //         if (!rollData) return null;
 
 //         // Prepare for Chat Message
-//         const chatTemplate = 'systems/sohl/templates/chat/standard-test-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/standard-test-card.html';
 
 //         const chatTemplateData = {
 //             isOpposedTest: true,
@@ -5894,7 +5885,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @param {string} [options.weaponUuid=null] Weapon ID to use (bypass dialog)
 //      * @returns {object} Selected weapon
 //      */
-//     static async _selectWeaponDialog(atkToken, distanceToTarget, { types = ['weapon', 'missile', sohl.CombatTechniqueItemData.typeName], weaponId = null } = {}) {
+//     static async _selectWeaponDialog(atkToken, distanceToTarget, { types = ['weapon', 'missile', hm.CombatTechniqueItemData.typeName], weaponId = null } = {}) {
 //         let result = null;
 //         if (weaponId) {
 //             const item = atkToken.actor.getItem(weaponId, { types });
@@ -5914,11 +5905,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             const atkWpns = this.#getWeapons(atkToken, distanceToTarget, { types });
 
 //             if (!atkWpns.weapons.length) {
-//                 ui.notifications.warn(`${atkToken.name} does not have any usable weapons of type ${types.map(t => LgndItem.typeLabels[t].singular).join(' or ')}.`);
+//                 ui.notifications.warn(`${atkToken.name} does not have any usable weapons of type ${types.map(t => HMKItem.typeLabels[t].singular).join(' or ')}.`);
 //                 return null;
 //             }
 
-//             const queryWeaponDialog = "systems/sohl/templates/dialog/query-weapon-dialog.html";
+//             const queryWeaponDialog = "systems/hm/templates/dialog/query-weapon-dialog.html";
 
 //             const dlgHtml = await renderTemplate(queryWeaponDialog, {
 //                 weapons: atkWpns.weapons,
@@ -5953,7 +5944,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      */
 //     static #zoneDieChoices(minZoneDie, maxZones) {
 //         const result = [];
-//         for (let zd in sohl.BodyZoneData.dice) {
+//         for (let zd in hm.BodyZoneData.dice) {
 //             if (zd < minZoneDie) continue;
 //             if (zd > maxZones) continue;
 //             result.push(zd);
@@ -6005,7 +5996,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             attackerMoving: false
 //         };
 
-//         const attackDialogTemplate = "systems/sohl/templates/dialog/attack-dialog.html";
+//         const attackDialogTemplate = "systems/hm/templates/dialog/attack-dialog.html";
 //         const dlgHtml = await renderTemplate(attackDialogTemplate, dialogOptions);
 
 //         // Request weapon details
@@ -6018,11 +6009,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                 const formZoneOffset = Number.parseInt(form.zoneOffset.value, 10) || 0;
 //                 const formZoneDie = Number.parseInt(form.zoneDie.value, 10) || weaponItem.zoneDie;
 //                 const formAttackModifier = Number.parseInt(form.attackModifier.value, 10) || 0;
-//                 const formLgndImpactModifier = Number.parseInt(form.impactModifier.value, 10) || 0;
+//                 const formHMKImpactModifier = Number.parseInt(form.impactModifier.value, 10) || 0;
 //                 const formSuccessLevelMod = Number.parseInt(form.successLevelMod.value, 10) || 0;
 
 //                 const result = {
-//                     zoneDieFormula: LgndInjuryRuleset.calcZoneDieFormula(formZoneDie, formZoneOffset),
+//                     zoneDieFormula: HMKInjuryRuleset.calcZoneDieFormula(formZoneDie, formZoneOffset),
 //                     successLevelMod: formSuccessLevelMod,
 //                     isStillTarget: false,
 //                     attack: foundry.utils.deepClone(type === 'Counterstrike' ? weaponItem.defense.counterstrike : weaponItem.attack),
@@ -6033,8 +6024,8 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                     result.attack.add("Player Modifier", "PlyrMod", formAttackModifier);
 //                 }
 
-//                 if (formLgndImpactModifier) {
-//                     result.impact.add("Player Modifier", "PlyrMod", formLgndImpactModifier);
+//                 if (formHMKImpactModifier) {
+//                     result.impact.add("Player Modifier", "PlyrMod", formHMKImpactModifier);
 //                 }
 
 //                 if (dialogOptions.isMissle) {
@@ -6059,8 +6050,8 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                     }
 //                 }
 
-//                 LgndUtility.applyMods(result.attack);
-//                 LgndUtility.applyMods(result.impact);
+//                 HMKUtility.applyMods(result.attack);
+//                 HMKUtility.applyMods(result.impact);
 
 //                 return result;
 //             },
@@ -6155,12 +6146,12 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //     async #checkWeaponBreak(atkToken, atkWeapon, defToken, defWeapon) {
 //         if (!atkWeapon || !atkToken) {
-//             console.error(`sohl.SoHL | Attack weapon was not specified`);
+//             console.error(`hm.SoHL | Attack weapon was not specified`);
 //             return { attackWeaponBroke: false, defendWeaponBroke: false };
 //         }
 
 //         if (!defWeapon || !defToken) {
-//             console.error(`sohl.SoHL | Defend weapon was not specified`);
+//             console.error(`hm.SoHL | Defend weapon was not specified`);
 //             return { attackWeaponBroke: false, defendWeaponBroke: false };
 //         }
 
@@ -6192,7 +6183,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             sound: CONFIG.sounds.dice
 //         };
 
-//         const chatTemplate = "systems/sohl/templates/chat/weapon-break-card.html";
+//         const chatTemplate = "systems/hm/templates/chat/weapon-break-card.html";
 
 //         // Prepare and generate Attack Weapon Break chat message
 
@@ -6318,20 +6309,20 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             }
 //             result.defTA = result.victoryStars < -1 ? (-result.victoryStars) - 1 : 0;
 //         } else if (defenseType === 'ignore') {
-//             if (atkRoll.successLevel <= sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalFailure) {
+//             if (atkRoll.successLevel <= hm.HM.CONST.SUCCESS_LEVEL.CriticalFailure) {
 //                 result.desc = 'Attacker missed.';
 //                 return result;
 //             }
-//             if (atkRoll.successLevel === sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalFailure) {
+//             if (atkRoll.successLevel === hm.HM.CONST.SUCCESS_LEVEL.MarginalFailure) {
 //                 result.desc = "Attacker hit.";
 //                 result.victoryStars = 1;
 //                 result.atkSuccess = true;
-//             } else if (atkRoll.successLevel >= sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess) {
+//             } else if (atkRoll.successLevel >= hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess) {
 //                 result.desc = "Attacker hit.";
 //                 result.victoryStars = atkRoll.successLevel + 2;
 //                 result.atkSuccess = true;
 //             }
-//             result.atkTA = atkRoll.successLevel >= sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess ? atkRoll.successLevel + 1 : 0;
+//             result.atkTA = atkRoll.successLevel >= hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess ? atkRoll.successLevel + 1 : 0;
 //         } else if (defenseType === 'counterstrike') {
 //             if (result.victoryStars === null) return result;
 //             if (result.victoryStars === 0) {
@@ -6385,7 +6376,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         }
 
 //         if (atkToken.actor.type === 'container') {
-//             const msg = `sohl.SoHL | Attacker ${this.token.name} is invalid (it is a container).`;
+//             const msg = `hm.SoHL | Attacker ${this.token.name} is invalid (it is a container).`;
 //             ui.notifications.warn(msg);
 //             throw new Error(msg);
 //         }
@@ -6397,19 +6388,19 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         }
 
 //         if (defToken && defToken.actor.type === 'container') {
-//             const msg = `sohl.SoHL | Defender ${defToken.name} is invalid (it is a container).`;
+//             const msg = `hm.SoHL | Defender ${defToken.name} is invalid (it is a container).`;
 //             ui.notifications.warn(msg);
 //             throw new Error(msg);
 //         }
 
 //         let targetDistance = 0;
 //         if (defToken) {
-//             targetDistance = sohl.Utility.rangeToTarget(atkToken, defToken, false);
+//             targetDistance = hm.Utility.rangeToTarget(atkToken, defToken, false);
 //         } else {
-//             targetDistance = sohl.Utility.rangeToTarget(atkToken, canvas.templates.placeables[0], false)
+//             targetDistance = hm.Utility.rangeToTarget(atkToken, canvas.templates.placeables[0], false)
 //         }
 
-//         const wpn = await LgndCharacterCreatureActorRuleset._selectWeaponDialog(atkToken, targetDistance, { weaponId, volleyOnly: !defToken });
+//         const wpn = await HMKCharacterCreatureActorRuleset._selectWeaponDialog(atkToken, targetDistance, { weaponId, volleyOnly: !defToken });
 //         if (!wpn) return null;
 
 //         let volleyTarget = null;
@@ -6424,7 +6415,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             volleyTarget = canvas.templates.placeables[0];
 //         }
 
-//         const dialogResult = await LgndCharacterCreatureActorRuleset._attackDialog({
+//         const dialogResult = await HMKCharacterCreatureActorRuleset._attackDialog({
 //             distance: targetDistance,
 //             type: 'Attack',
 //             attackToken: atkToken,
@@ -6453,14 +6444,14 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //             // If Missile Quantity Tracking option is enabled, reduce missile quantity by 1
 //             // If projectiles are in use, those will be reduced, otherwise the missile itself
-//             if (projectile && game.settings.get("sohl", sohl.SOHL.CONST.SETTINGS.optionProjectileTracking.key)) {
+//             if (projectile && game.settings.get("hm", hm.HM.CONST.SETTINGS.optionProjectileTracking.key)) {
 //                 await projectile.update({ 'system.quantity': mitem.system.quantity - 1 });
 //             }
 
 //             // Here we go.  Missiles don't allow the target to defend itself from the missile, so
 //             // we're going to go ahead and handle the attack here directly.  This is unlike melee
 //             // combat, since there you have a defender actually choosing a particular defense.
-//             const roll = await LgndDice.rollTest({
+//             const roll = await HMKDice.rollTest({
 //                 diceSides: 100,
 //                 diceNum: 1,
 //                 successLevelMod: dialogResult.attack.successLevelMod,
@@ -6480,10 +6471,10 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             const victoryStars = this.calcVictoryStars(roll.successLevel);
 //             let numTAs = isTA ? 0 : Math.max(combatResult.victoryStars - 1, 0);
 //             const victoryStarsText = this.victoryStarsText(victoryStars);
-//             const tacticalAdvantageList = [LGND.CONST.TACADV.PRECISION, LGND.CONST.TACADV.IMPACT];
+//             const tacticalAdvantageList = [HMK.CONST.TACADV.PRECISION, HMK.CONST.TACADV.IMPACT];
 //             if (isVolley) {
 
-//                 if (roll.successLevel <= sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalFailure) {
+//                 if (roll.successLevel <= hm.HM.CONST.SUCCESS_LEVEL.CriticalFailure) {
 //                     // Mishap
 //                     isStrike = false;
 //                     if (roll.isCritical && roll.lastDigit === 0) {
@@ -6518,7 +6509,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                     const volleyGridUseNeighbors = Math.floor(15 / canvas.scene.grid.units) > 0
 //                     const newCenterDistance = Math.ceil(15 / canvas.scene.grid.units);
 
-//                     if (roll.successLevel === sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalFailure) {
+//                     if (roll.successLevel === hm.HM.CONST.SUCCESS_LEVEL.MarginalFailure) {
 //                         // Calculate Deviation
 //                         const newCenterDistance = Math.ceil(15 / canvas.scene.grid.units);
 //                         const direction = Math.floor(MersenneTwister.random() * neighborGrids);
@@ -6537,11 +6528,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //                     // We handle Precision TAs directly, so we never present Precision TAs to the player
 //                     let numRolls = 0;
-//                     if (roll.successLevel >= sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalFailure) {
+//                     if (roll.successLevel >= hm.HM.CONST.SUCCESS_LEVEL.MarginalFailure) {
 //                         numRolls = 1
 //                     }
-//                     if (roll.successLevel > sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess) {
-//                         numRolls += Math.max(roll.successLevel - sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess, 0) * 2
+//                     if (roll.successLevel > hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess) {
+//                         numRolls += Math.max(roll.successLevel - hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess, 0) * 2
 //                     }
 
 //                     if (numRolls) {
@@ -6615,7 +6606,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                     }
 //                 }
 //             } else {
-//                 if (roll.successLevel <= sohl.SOHL.CONST.SUCCESS_LEVEL.CriticalFailure) {
+//                 if (roll.successLevel <= hm.HM.CONST.SUCCESS_LEVEL.CriticalFailure) {
 //                     // Mishap
 //                     isStrike = false;
 //                     if (roll.isCritical && roll.lastDigit === 0) {
@@ -6631,10 +6622,10 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                             isStumble = true;
 //                         }
 //                     }
-//                 } else if (roll.successLevel === sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalFailure) {
+//                 } else if (roll.successLevel === hm.HM.CONST.SUCCESS_LEVEL.MarginalFailure) {
 //                     // Miss
 //                     isStrike = false;
-//                 } else if (roll.successLevel === sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess) {
+//                 } else if (roll.successLevel === hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess) {
 //                     // Success
 //                     isStrike = true;
 //                     if (dialogResult.isStillTarget) taChoice["Precision"]++;  // Addl Precision TA
@@ -6642,7 +6633,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                     // Success + n Tactical Advantages
 //                     isStrike = true;
 //                     if (dialogResult.isStillTarget) taChoice["Precision"]++; // Addl Precision TA
-//                     numTAs = roll.successLevel - sohl.SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess;
+//                     numTAs = roll.successLevel - hm.HM.CONST.SUCCESS_LEVEL.MarginalSuccess;
 //                 }
 //             }
 
@@ -6653,7 +6644,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                 const targets = []
 //                 canvas.tokens.placeables.forEach(t => {
 //                     if (t.id !== atkToken.id) {
-//                         const distance = sohl.Utility.rangeToTarget(atkToken, t, false);
+//                         const distance = hm.Utility.rangeToTarget(atkToken, t, false);
 //                         if (distance <= 7) {
 //                             targets.push(t);
 //                         }
@@ -6666,17 +6657,17 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                 }
 //             }
 
-//             taChoice = await LgndCharacterCreatureActorRuleset._getTacticalAdvantages(Object.keys(taChoice), numTAs, wpn, taChoice);
+//             taChoice = await HMKCharacterCreatureActorRuleset._getTacticalAdvantages(Object.keys(taChoice), numTAs, wpn, taChoice);
 
 //             if (taChoice['Impact']) {
-//                 const impactAdd = (wpn.traits.impactTA || LGND.CONST.IMPACTTA[dialogResult.impact.aspect]) * taChoice['Impact'];
+//                 const impactAdd = (wpn.traits.impactTA || HMK.CONST.IMPACTTA[dialogResult.impact.aspect]) * taChoice['Impact'];
 //                 dialogResult.impact.add(`${taChoice['Impact']} Impact TAs`, "ImpTA", impactAdd);
 //                 taChoice['Impact'] = 0;
 //             }
-//             LgndUtility.applyMods(dialogResult.impact);
+//             HMKUtility.applyMods(dialogResult.impact);
 
 //             // Prepare for Chat Message
-//             const chatTemplate = 'systems/sohl/templates/chat/attack-result-card.html';
+//             const chatTemplate = 'systems/hm/templates/chat/attack-result-card.html';
 
 //             const chatTemplateData = {
 //                 title: `${missileItem.name} Attack Result`,
@@ -6720,7 +6711,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             };
 //         } else {
 //             // Prepare for Chat Message
-//             const chatTemplate = 'systems/sohl/templates/chat/attack-card.html';
+//             const chatTemplate = 'systems/hm/templates/chat/attack-card.html';
 
 //             const chatTemplateData = {
 //                 title: `${wpn.name} Melee Attack`,
@@ -6765,11 +6756,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //         // Create a chat message
 //         await ChatMessage.create(messageData, messageOptions);
-//         if (game.settings.get("sohl", sohl.SOHL.CONST.SETTINGS.combatAudio.key)) {
+//         if (game.settings.get("hm", hm.HM.CONST.SETTINGS.combatAudio.key)) {
 //             AudioHelper.play({ src: "sounds/drums.wav", autoplay: true, loop: false }, true);
 //         }
 
-//         const updateData = { "flags.legendary.didCombat": true };
+//         const updateData = { "flags.kethira.didCombat": true };
 //         await atkToken.combatant.update(updateData);
 
 //         return chatTemplateData;
@@ -6839,7 +6830,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @returns {MeleeResumeChatData} Data that was used to create chat message
 //      */
 //     async meleeCounterstrikeResume({ atkToken, atkWeapon, attack, impact, atkZDFormula } = {}) {
-//         if (!LgndCharacterCreatureActorRuleset._isLivingToken(atkToken)) return null;
+//         if (!HMKCharacterCreatureActorRuleset._isLivingToken(atkToken)) return null;
 
 //         const defToken = this.token;
 //         if (!defToken) {
@@ -6852,14 +6843,14 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             return null;
 //         }
 
-//         const targetRange = sohl.Utility.rangeToTarget(defToken, atkToken, false);
+//         const targetRange = hm.Utility.rangeToTarget(defToken, atkToken, false);
 
-//         const defWeaponId = await LgndCharacterCreatureActorRuleset._selectWeaponDialog(defToken, targetRange, { type: 'weapon' });
+//         const defWeaponId = await HMKCharacterCreatureActorRuleset._selectWeaponDialog(defToken, targetRange, { type: 'weapon' });
 //         if (!defWeaponId) return null;
 
 //         const defWeapon = defToken.actor.getItem(defWeaponId);
 
-//         const csDialogResult = await LgndCharacterCreatureActorRuleset._attackDialog({
+//         const csDialogResult = await HMKCharacterCreatureActorRuleset._attackDialog({
 //             distance: targetRange,
 //             type: 'Counterstrike',
 //             attackToken: defToken,
@@ -6872,17 +6863,17 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //         if (atkWeapon.traits.opponentDefenseMod) {
 //             csDefense.add(`${atkWeapon.name} Opponent Defense`, 'OppDef', atkWeapon.traits.opponentDefenseMod);
-//             LgndUtility.applyMods(csDefense);
+//             HMKUtility.applyMods(csDefense);
 //         }
 
 //         const csReachPenalty = Math.max(0, atkToken.actor.system.combatReach - csOptions.weapon.reach) * -5;
 //         if (csReachPenalty) {
 //             csDefense.add("Reach Penalty", "Rch", csReachPenalty);
-//             LgndUtility.applyMods(csDefense);
+//             HMKUtility.applyMods(csDefense);
 //         }
 
 //         // Roll Attacker's Attack
-//         const atkRoll = await LgndDice.rollTest({
+//         const atkRoll = await HMKDice.rollTest({
 //             data: {},
 //             diceSides: 100,
 //             diceNum: 1,
@@ -6891,7 +6882,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         });
 
 //         // Roll Counterstrike Attack
-//         const defRoll = await LgndDice.rollTest({
+//         const defRoll = await HMKDice.rollTest({
 //             data: {},
 //             diceSides: 100,
 //             diceNum: 1,
@@ -6908,9 +6899,9 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             await game.dice3d.showForRoll(defRoll.rollObj, game.user, true);
 //         }
 
-//         const combatResult = LgndCharacterCreatureActorRuleset._meleeCombatResult(atkRoll, defRoll, 'counterstrike');
+//         const combatResult = HMKCharacterCreatureActorRuleset._meleeCombatResult(atkRoll, defRoll, 'counterstrike');
 //         const victoryStarsText = this.victoryStarsText(combatResult.victoryStars);
-//         LgndUtility.applyMods(dialogResult.impact);
+//         HMKUtility.applyMods(dialogResult.impact);
 
 //         const chatData = {
 //             title: `Attack Result`,
@@ -6944,7 +6935,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             defImpactJson: combatResult.defSuccess ? JSON.stringify(csDialogResult.impact) : '',
 //             isProjectile: false,
 //             atkZoneDieFormula: atkZDFormula,
-//             defZoneDieFormula: LgndInjuryRuleset.calcZoneDieFormula(csDialogResult.zoneDie, csDialogResult.zoneOffset),
+//             defZoneDieFormula: HMKInjuryRuleset.calcZoneDieFormula(csDialogResult.zoneDie, csDialogResult.zoneOffset),
 //             isAtkStumbleTest: !atkRoll.isSuccess && atkRoll.lastDigit === 5,
 //             isAtkFumbleTest: !atkRoll.isSuccess && atkRoll.lastDigit === 0,
 //             isDefStumbleTest: !defRoll.isSuccess && defRoll.lastDigit === 5,
@@ -6953,7 +6944,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             defHandlerTokenUuid: defToken.uuid
 //         }
 
-//         let chatTemplate = "systems/sohl/templates/chat/attack-result-card.html";
+//         let chatTemplate = "systems/hm/templates/chat/attack-result-card.html";
 
 //         const html = await renderTemplate(chatTemplate, chatData);
 
@@ -6969,7 +6960,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         // Create a chat message
 //         await ChatMessage.create(messageData, messageOptions)
 
-//         const updateData = { "flags.legendary.didCombat": true };
+//         const updateData = { "flags.kethira.didCombat": true };
 //         await defToken.combatant.update(updateData);
 
 //         return chatData;
@@ -6989,7 +6980,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @returns {MeleeResumeChatData} Data that was used to create chat message
 //      */
 //     async dodgeResume({ atkToken, atkWeapon, attack, impact, atkZDFormula } = {}) {
-//         if (!LgndCharacterCreatureActorRuleset._isLivingToken(atkToken)) return null;
+//         if (!HMKCharacterCreatureActorRuleset._isLivingToken(atkToken)) return null;
 
 //         const defToken = this.token;
 //         if (!defToken) {
@@ -7002,7 +6993,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             return null;
 //         }
 
-//         const atkRoll = await LgndDice.rollTest({
+//         const atkRoll = await HMKDice.rollTest({
 //             data: {},
 //             diceSides: 100,
 //             diceNum: 1,
@@ -7012,7 +7003,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //         const defense = foundry.utils.deepClone(defToken.actor.getCombatStat('Dodge'));
 
-//         const defRoll = await LgndDice.rollTest({
+//         const defRoll = await HMKDice.rollTest({
 //             data: {},
 //             diceSides: 100,
 //             diceNum: 1,
@@ -7030,10 +7021,10 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             await game.dice3d.showForRoll(dRoll, game.user, true);
 //         }
 
-//         const combatResult = LgndCharacterCreatureActorRuleset._meleeCombatResult(atkRoll, defRoll, 'dodge');
+//         const combatResult = HMKCharacterCreatureActorRuleset._meleeCombatResult(atkRoll, defRoll, 'dodge');
 //         // If this attack is the result of a TA, no more TAs are allowed
 //         const victoryStarsText = this.victoryStarsText(combatResult.victoryStars);
-//         LgndUtility.applyMods(dialogResult.impact);
+//         HMKUtility.applyMods(dialogResult.impact);
 
 //         const chatData = {
 //             title: `Attack Result`,
@@ -7076,7 +7067,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             defHandlerTokenUuid: defToken.uuid
 //         }
 
-//         let chatTemplate = "systems/sohl/templates/chat/attack-result-card.html";
+//         let chatTemplate = "systems/hm/templates/chat/attack-result-card.html";
 
 //         const html = await renderTemplate(chatTemplate, chatData);
 
@@ -7091,11 +7082,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //         // Create a chat message
 //         await ChatMessage.create(messageData, messageOptions)
-//         if (combatResult.defSuccess && game.settings.get("sohl", sohl.SOHL.CONST.SETTINGS.combatAudio.key)) {
-//             AudioHelper.play({ src: "systems/sohl/audio/swoosh1.ogg", autoplay: true, loop: false }, true);
+//         if (combatResult.defSuccess && game.settings.get("hm", hm.HM.CONST.SETTINGS.combatAudio.key)) {
+//             AudioHelper.play({ src: "systems/hm/audio/swoosh1.ogg", autoplay: true, loop: false }, true);
 //         }
 
-//         const updateData = { "flags.legendary.didCombat": true };
+//         const updateData = { "flags.kethira.didCombat": true };
 //         await defToken.combatant.update(updateData);
 
 //         return chatData;
@@ -7115,7 +7106,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @returns {MeleeResumeChatData} Data that was used to create chat message
 //      */
 //     async blockResume({ atkToken, defToken, atkWeapon, attack, impact, zoneDie, zoneOffset } = {}) {
-//         if (!LgndCharacterCreatureActorRuleset._isLivingToken(atkToken) || !LgndCharacterCreatureActorRuleset._isLivingToken(defToken)) return null;
+//         if (!HMKCharacterCreatureActorRuleset._isLivingToken(atkToken) || !HMKCharacterCreatureActorRuleset._isLivingToken(defToken)) return null;
 //         if (!defToken.isOwner) {
 //             ui.notifications.warn(`You do not have permissions to perform this operation on ${defToken.name}`);
 //             return null;
@@ -7139,18 +7130,18 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             return null;
 //         }
 
-//         const weaponId = await LgndCharacterCreatureActorRuleset._selectWeaponDialog(defToken, 0, { type: 'weapon', defaultWeaponId: defaultWeapon.id });
+//         const weaponId = await HMKCharacterCreatureActorRuleset._selectWeaponDialog(defToken, 0, { type: 'weapon', defaultWeaponId: defaultWeapon.id });
 //         if (!weaponId) return null;
 
 //         const weaponItem = defToken.actor.getItem(weaponId);
 
 //         const atkReachPenalty = Math.max(0, atkWeapon.reach - weaponItem.reach) * -5;
 //         if (atkReachPenalty) {
-//             attack.add(LGND.CONST.MODS.REACH.NAME, LGND.CONST.MODS.REACH.ABBR, atkReachPenalty);
-//             LgndUtility.applyMods(attack);
+//             attack.add(HMK.CONST.MODS.REACH.NAME, HMK.CONST.MODS.REACH.ABBR, atkReachPenalty);
+//             HMKUtility.applyMods(attack);
 //         }
 
-//         const atkRoll = await LgndDice.rollTest({
+//         const atkRoll = await HMKDice.rollTest({
 //             data: {},
 //             diceSides: 100,
 //             diceNum: 1,
@@ -7158,7 +7149,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             target: attack.effective
 //         });
 
-//         const defRoll = await LgndDice.rollTest({
+//         const defRoll = await HMKDice.rollTest({
 //             data: {},
 //             diceSides: 100,
 //             diceNum: 1,
@@ -7180,10 +7171,10 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             "Action": 0,
 //             "Setup": 0
 //         };
-//         const combatResult = LgndCharacterCreatureActorRuleset._meleeCombatResult(atkRoll, defRoll, 'block');
+//         const combatResult = HMKCharacterCreatureActorRuleset._meleeCombatResult(atkRoll, defRoll, 'block');
 //         // If this attack is the result of a TA, no more TAs are allowed
 //         const victoryStarsText = this.victoryStarsText(combatResult.victoryStars);
-//         LgndUtility.applyMods(dialogResult.impact);
+//         HMKUtility.applyMods(dialogResult.impact);
 
 //         const chatData = {
 //             title: `Attack Result`,
@@ -7226,7 +7217,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             defHandlerTokenUuid: defToken.uuid
 //         }
 
-//         let chatTemplate = "systems/sohl/templates/chat/attack-result-card.html";
+//         let chatTemplate = "systems/hm/templates/chat/attack-result-card.html";
 
 //         const html = await renderTemplate(chatTemplate, chatData);
 
@@ -7241,11 +7232,11 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //         // Create a chat message
 //         await ChatMessage.create(messageData, messageOptions)
-//         if ((combatResult.atkSuccess || combatResult.defSuccess) && game.settings.get("sohl", sohl.SOHL.CONST.SETTINGS.combatAudio.key)) {
-//             AudioHelper.play({ src: "systems/sohl/audio/shield-bash.ogg", autoplay: true, loop: false }, true);
+//         if ((combatResult.atkSuccess || combatResult.defSuccess) && game.settings.get("hm", hm.HM.CONST.SETTINGS.combatAudio.key)) {
+//             AudioHelper.play({ src: "systems/hm/audio/shield-bash.ogg", autoplay: true, loop: false }, true);
 //         }
 
-//         const updateData = { "flags.legendary.didCombat": true };
+//         const updateData = { "flags.kethira.didCombat": true };
 //         await defToken.combatant.update(updateData);
 
 //         return chatData;
@@ -7265,7 +7256,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //      * @returns {MeleeResumeChatData} Data that was used to create chat message
 //      */
 //     async ignoreResume({ atkToken, atkWeapon, attack, impact, zoneDie, zoneOffset } = {}) {
-//         if (!LgndCharacterCreatureActorRuleset._isLivingToken(atkToken)) return null;
+//         if (!HMKCharacterCreatureActorRuleset._isLivingToken(atkToken)) return null;
 //         const defToken = this.token;
 
 //         if (!defToken) {
@@ -7278,7 +7269,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             return null;
 //         }
 
-//         const atkRoll = await LgndDice.rollTest({
+//         const atkRoll = await HMKDice.rollTest({
 //             data: {},
 //             diceSides: 100,
 //             diceNum: 1,
@@ -7294,7 +7285,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             await game.dice3d.showForRoll(aRoll, game.user, true);
 //         }
 
-//         const combatResult = LgndCharacterCreatureActorRuleset._meleeCombatResult(atkRoll, null, 'ignore');
+//         const combatResult = HMKCharacterCreatureActorRuleset._meleeCombatResult(atkRoll, null, 'ignore');
 //         const victoryStarsText = this.victoryStarsText(combatResult.victoryStars);
 
 //         const chatData = {
@@ -7341,7 +7332,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //             defHandlerTokenUuid: defToken.uuid
 //         }
 
-//         let chatTemplate = "systems/sohl/templates/chat/attack-result-card.html";
+//         let chatTemplate = "systems/hm/templates/chat/attack-result-card.html";
 
 //         const html = await renderTemplate(chatTemplate, chatData);
 
@@ -7383,7 +7374,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //     }
 
 //     /*dumpActorCSV() {
-//         const defaultSkills = new Collection(game.items.filter(it => it.type ===LgndSkillData.TYPENAME).map(it => {
+//         const defaultSkills = new Collection(game.items.filter(it => it.type ===HMKSkillData.TYPENAME).map(it => {
 //             return [it.name, -1];
 //         }));
 
@@ -7408,7 +7399,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //             const skills = foundry.utils.deepClone(defaultSkills);
 //             actor.items.forEach(it => {
-//                 if (it.type ===LgndSkillData.TYPENAME) {
+//                 if (it.type ===HMKSkillData.TYPENAME) {
 //                     if (skills.has(it.name)) {
 //                         skills.set(it.name, it.system.masteryLevel.base);
 //                     }
@@ -7449,7 +7440,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         const actorData = this.system;
 //         const actorItems = this.items;
 
-//         const secsToNextCheck = game.settings.get("sohl", sohl.SOHL.CONST.SETTINGS.healingSeconds.key);
+//         const secsToNextCheck = game.settings.get("hm", hm.HM.CONST.SETTINGS.healingSeconds.key);
 //         const hitLocations = actorItems.reduce((prev, cur) => {
 //             return cur.system instanceof BodyLocationData ? prev.concat(cur.name) : prev;
 //         }, ['Random']);
@@ -7485,7 +7476,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         result.outsideZone = result.zoneNum > result.maxZones;
 
 //         // Prepare for Chat Message
-//         const chatTemplate = 'systems/sohl/templates/chat/injury-card.html';
+//         const chatTemplate = 'systems/hm/templates/chat/injury-card.html';
 
 //         result.title = `${name} Injury`;
 //         result.handlerActorUuid = this.uuid;
@@ -7511,8 +7502,8 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 
 //         // Create a chat message
 //         await ChatMessage.create(messageData, messageOptions);
-//         if (game.settings.get("sohl", sohl.SOHL.CONST.SETTINGS.combatAudio.key)) {
-//             AudioHelper.play({ src: "systems/sohl/audio/grunt1.ogg", autoplay: true, loop: false }, true);
+//         if (game.settings.get("hm", hm.HM.CONST.SETTINGS.combatAudio.key)) {
+//             AudioHelper.play({ src: "systems/hm/audio/grunt1.ogg", autoplay: true, loop: false }, true);
 //         }
 //         return result;
 //     }
@@ -7588,7 +7579,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         numPrecisionTAs = 0,
 //         armorReduction } = {}) {
 
-//         const recordInjury = game.settings.get("sohl", sohl.SOHL.CONST.SETTINGS.recordInjuries.key);
+//         const recordInjury = game.settings.get("hm", hm.HM.CONST.SETTINGS.recordInjuries.key);
 
 //         const result = {
 //             location: hitLocations[0],
@@ -7606,7 +7597,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         if (skipDialog) return impactVal ? result : null;
 
 //         // Render modal dialog
-//         let dlgTemplate = "systems/sohl/templates/dialog/injury-dialog.html";
+//         let dlgTemplate = "systems/hm/templates/dialog/injury-dialog.html";
 
 //         const html = await renderTemplate(dlgTemplate, {
 //             hitLocations,
@@ -7633,7 +7624,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //                 if (!zoneDieFormula) {
 //                     const formZoneDie = Number.parseInt(form.zoneDie.value, 10) || 0;
 //                     const formZoneOffset = Number.parseInt(form.zoneOffset.value, 10) || 0;
-//                     zoneDieFormula = LgndInjuryRuleset.calcZoneDieFormula(formZoneDie, formZoneOffset);
+//                     zoneDieFormula = HMKInjuryRuleset.calcZoneDieFormula(formZoneDie, formZoneOffset);
 //                 }
 //                 const formSecsToNextCheck = Number.parseInt(form.secsToNextCheck.value, 10) || 432000;  // 5 days in seconds
 
@@ -7900,7 +7891,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //         result.injuryLevel = injuryLevel;
 //         result.injuryLevelText = injuryLevel >= 5 ? `G${injuryLevel}` : InjuryData.injuryLevels[injuryLevel];
 //         result.severity = result.injuryLevelText.charAt(0);
-//         const injDesc = LGND.CONST.INJURYDESC[result.aspect][result.severity];
+//         const injDesc = HMK.CONST.INJURYDESC[result.aspect][result.severity];
 //         result.name = `${result.bodyLocationName} ${injDesc || ''}`;
 
 //         // In this section we calculate whether the injury is a bleeder
@@ -7941,7 +7932,7 @@ class LgndActorSheet extends sohl.SohlActorSheet {
 //     }
 // }
 
-export class LgndCommands extends sohl.Commands {
+export class HMKCommands extends hm.Commands {
     static async importActors(jsonFilename, folderName) {
         const response = await fetch(jsonFilename);
         const content = await response.json();
@@ -7957,16 +7948,16 @@ export class LgndCommands extends sohl.Commands {
 
         actorFolder = await Folder.create({ type: "Actor", name: folderName });
 
-        await sohl.Utility.asyncForEach(content.Actor, async (f) => {
+        await hm.Utility.asyncForEach(content.Actor, async (f) => {
             console.log("Processing Animate Entity ${f.name}");
-            const actor = await sohl.SohlActor.create({ name: f.name });
+            const actor = await hm.SohlActor.create({ name: f.name });
             const updateData = [];
             const itemData = [];
             // Fill in attribute values
             Object.keys(f.system.attributes).forEach((attr) => {
                 const attrItem = actor.items.find(
                     (it) =>
-                        it.system instanceof sohl.TraitItemData &&
+                        it.system instanceof hm.TraitItemData &&
                         it.name.toLowerCase() === attr,
                 );
                 if (attrItem)
@@ -7991,115 +7982,115 @@ export class LgndCommands extends sohl.Commands {
         });
     }
 }
-sohl.SOHL.cmds = LgndCommands;
+hm.HM.cmds = HMKCommands;
 
-const LgndActorDataModels = foundry.utils.mergeObject(
-    sohl.SohlActorDataModels,
+const HMKActorDataModels = foundry.utils.mergeObject(
+    hm.SohlActorDataModels,
     {
-        [sohl.AnimateEntityActorData.typeName]: LgndAnimateEntityActorData,
+        [hm.AnimateEntityActorData.typeName]: HMKAnimateEntityActorData,
     },
     { inplace: false },
 );
 
-const LgndItemDataModels = foundry.utils.mergeObject(
-    sohl.SohlItemDataModels,
+const HMKItemDataModels = foundry.utils.mergeObject(
+    hm.SohlItemDataModels,
     {
-        [sohl.MysticalAbilityItemData.typeName]: LgndMysticalAbilityItemData,
-        [sohl.TraitItemData.typeName]: LgndTraitItemData,
-        [sohl.SkillItemData.typeName]: LgndSkillItemData,
-        [sohl.InjuryItemData.typeName]: LgndInjuryItemData,
-        [sohl.DomainItemData.typeName]: LgndDomainItemData,
-        [sohl.AfflictionItemData.typeName]: LgndAfflictionItemData,
-        [sohl.BodyZoneItemData.typeName]: LgndBodyZoneItemData,
-        [sohl.BodyPartItemData.typeName]: LgndBodyPartItemData,
-        [sohl.BodyLocationItemData.typeName]: LgndBodyLocationItemData,
-        [sohl.MeleeWeaponStrikeModeItemData.typeName]:
-            LgndMeleeWeaponStrikeModeItemData,
-        [sohl.MissileWeaponStrikeModeItemData.typeName]:
-            LgndMissileWeaponStrikeModeItemData,
-        [sohl.CombatTechniqueStrikeModeItemData.typeName]:
-            LgndCombatTechniqueStrikeModeItemData,
-        [sohl.ArmorGearItemData.typeName]: LgndArmorGearItemData,
-        [sohl.WeaponGearItemData.typeName]: LgndWeaponGearItemData,
+        [hm.MysticalAbilityItemData.typeName]: HMKMysticalAbilityItemData,
+        [hm.TraitItemData.typeName]: HMKTraitItemData,
+        [hm.SkillItemData.typeName]: HMKSkillItemData,
+        [hm.InjuryItemData.typeName]: HMKInjuryItemData,
+        [hm.DomainItemData.typeName]: HMKDomainItemData,
+        [hm.AfflictionItemData.typeName]: HMKAfflictionItemData,
+        [hm.BodyZoneItemData.typeName]: HMKBodyZoneItemData,
+        [hm.BodyPartItemData.typeName]: HMKBodyPartItemData,
+        [hm.BodyLocationItemData.typeName]: HMKBodyLocationItemData,
+        [hm.MeleeWeaponStrikeModeItemData.typeName]:
+            HMKMeleeWeaponStrikeModeItemData,
+        [hm.MissileWeaponStrikeModeItemData.typeName]:
+            HMKMissileWeaponStrikeModeItemData,
+        [hm.CombatTechniqueStrikeModeItemData.typeName]:
+            HMKCombatTechniqueStrikeModeItemData,
+        [hm.ArmorGearItemData.typeName]: HMKArmorGearItemData,
+        [hm.WeaponGearItemData.typeName]: HMKWeaponGearItemData,
     },
     { inplace: false },
 );
 
-const LgndModifiers = foundry.utils.mergeObject(
-    sohl.SohlModifiers,
+const HMKModifiers = foundry.utils.mergeObject(
+    hm.SohlModifiers,
     {
-        ImpactModifier: LgndImpactModifier,
-        MasteryLevelModifier: LgndMasteryLevelModifier,
+        ImpactModifier: HMKImpactModifier,
+        MasteryLevelModifier: HMKMasteryLevelModifier,
     },
     { inplace: false },
 );
 
 export const verData = {
-    id: "legendary",
-    label: "Song of Heroic Lands: Legendary Edition",
+    id: "kethira",
+    label: "HarnMaster Kethira",
     CONFIG: {
         Helper: {
-            modifiers: LgndModifiers,
-            contextMenu: sohl.SohlContextMenu,
+            modifiers: HMKModifiers,
+            contextMenu: hm.SohlContextMenu,
         },
         Actor: {
-            documentClass: sohl.SohlActor,
+            documentClass: hm.SohlActor,
             documentSheets: [
                 {
-                    cls: LgndActorSheet,
-                    types: Object.keys(LgndActorDataModels),
+                    cls: HMKActorSheet,
+                    types: Object.keys(HMKActorDataModels),
                 },
             ],
-            dataModels: LgndActorDataModels,
-            typeLabels: sohl.SohlActorTypeLabels,
-            typeIcons: sohl.SohlActorTypeIcons,
-            types: Object.keys(LgndActorDataModels),
-            defaultType: sohl.AnimateEntityActorData.typeName,
-            compendiums: ["sohl.leg-characters", "sohl.leg-creatures"],
+            dataModels: HMKActorDataModels,
+            typeLabels: hm.SohlActorTypeLabels,
+            typeIcons: hm.SohlActorTypeIcons,
+            types: Object.keys(HMKActorDataModels),
+            defaultType: hm.AnimateEntityActorData.typeName,
+            compendiums: ["hm.leg-characters", "hm.leg-creatures"],
         },
         Item: {
-            documentClass: sohl.SohlItem,
+            documentClass: hm.SohlItem,
             documentSheets: [
                 {
-                    cls: sohl.SohlItemSheet,
-                    types: Object.keys(LgndItemDataModels).filter(
-                        (t) => t !== sohl.ContainerGearItemData.typeName,
+                    cls: hm.SohlItemSheet,
+                    types: Object.keys(HMKItemDataModels).filter(
+                        (t) => t !== hm.ContainerGearItemData.typeName,
                     ),
                 },
                 {
-                    cls: sohl.SohlContainerGearItemSheet,
-                    types: [sohl.ContainerGearItemData.typeName],
+                    cls: hm.SohlContainerGearItemSheet,
+                    types: [hm.ContainerGearItemData.typeName],
                 },
             ],
-            dataModels: LgndItemDataModels,
-            typeLabels: sohl.SohlItemTypeLabels,
-            typeIcons: sohl.SohlItemTypeIcons,
-            types: Object.keys(LgndItemDataModels),
+            dataModels: HMKItemDataModels,
+            typeLabels: hm.SohlItemTypeLabels,
+            typeIcons: hm.SohlItemTypeIcons,
+            types: Object.keys(HMKItemDataModels),
             compendiums: [
-                "sohl.leg-characteristics",
-                "sohl.leg-possessions",
-                "sohl.leg-mysteries",
+                "hm.leg-characteristics",
+                "hm.leg-possessions",
+                "hm.leg-mysteries",
             ],
         },
         ActiveEffect: {
-            documentClass: sohl.SohlActiveEffect,
+            documentClass: hm.SohlActiveEffect,
             dataModels: {
-                [sohl.SohlActiveEffectData.typeName]: sohl.SohlActiveEffectData,
+                [hm.SohlActiveEffectData.typeName]: hm.SohlActiveEffectData,
             },
             typeLabels: {
-                [sohl.SohlActiveEffectData.typeName]:
-                    sohl.SohlActiveEffectData.typeLabel.singular,
+                [hm.SohlActiveEffectData.typeName]:
+                    hm.SohlActiveEffectData.typeLabel.singular,
             },
-            typeIcons: { [sohl.SohlActiveEffectData.typeName]: "fas fa-gears" },
-            types: [sohl.SohlActiveEffectData.typeName],
+            typeIcons: { [hm.SohlActiveEffectData.typeName]: "fas fa-gears" },
+            types: [hm.SohlActiveEffectData.typeName],
             legacyTransferral: false,
         },
         Macro: {
-            documentClass: sohl.SohlMacro,
-            documentSheet: sohl.SohlMacroConfig,
+            documentClass: hm.SohlMacro,
+            documentSheet: hm.SohlMacroConfig,
         },
     },
-    CONST: foundry.utils.mergeObject(sohl.SOHL.CONST, LGND.CONST, {
+    CONST: foundry.utils.mergeObject(hm.HM.CONST, HMK.CONST, {
         inplace: false,
     }),
 };

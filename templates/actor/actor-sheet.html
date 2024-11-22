@@ -3,7 +3,7 @@
     <head>
         <link href="fonts/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-        <link href="systems/sohl/css/hmk.css" rel="stylesheet" type="text/css" media="all"><div class="hmk actor sheet flexcol" autocomplete="off">
+        <link href="systems/hm/css/hmk.css" rel="stylesheet" type="text/css" media="all"><div class="hmk actor sheet flexcol" autocomplete="off">
     </head>
     <body class="sheet" style="overflow: auto; position: relative; background: white">
         {{!-- Sheet Body --}}
@@ -867,7 +867,7 @@
                                         <div class="detail source">{{system.fieldData}}</div>
                                         <div class="detail ele">
                                             {{#if (or (eq system.subType "fateBonus") (eq system.subType "blessing"))}}
-                                            <span>{{numberFormat system.$level.effective sign=true}}{{#if flags.sohl.pool}}<i class="fas fa-ball-pile"></i>{{/if}}</span>
+                                            <span>{{numberFormat system.$level.effective sign=true}}{{#if flags.hm.pool}}<i class="fas fa-ball-pile"></i>{{/if}}</span>
                                             {{else}}
                                             <i class="fas fa-xmark fa-lg"></i>
                                             {{/if}}
@@ -1260,7 +1260,7 @@
                             </header>
                             <ol class="items-list action-list">
                                 {{#each system.actions as |action|}}
-                                {{#unless flags.sohl.isIntrinsicAction}}
+                                {{#unless flags.hm.isIntrinsicAction}}
                                 <li class="item action-item flexrow" data-action-name="{{ action.name }}" data-parent-uuid="{{ action.nestedIn.uuid }}" data-item-id="{{action.id}}">
                                     <div class="item-name name flexrow">
                                         <div
@@ -1269,7 +1269,7 @@
                                         <h4>{{ action.name }}</h4>
                                     </div>
                                     <div class="ele">{{ action.type }}</div>
-                                    <div class="notes">{{ action.flags.sohl.notes }}</div>
+                                    <div class="notes">{{ action.flags.hm.notes }}</div>
                                     {{#unless printable}}
                                     <div class="item-controls">
                                         <a class="item-control item-contextmenu" title="Menu"><i
@@ -1291,7 +1291,7 @@
                             </header>
                             <ol class="items-list action-list">
                                 {{#each system.actions as |action|}}
-                                {{#if flags.sohl.isIntrinsicAction}}
+                                {{#if flags.hm.isIntrinsicAction}}
                                 <li class="item action-item flexrow" data-action-name="{{ action.name }}" data-parent-uuid="{{ action.nestedIn.uuid }}" data-item-id="{{action.id}}">
                                     <div class="item-name name flexrow">
                                         <div
@@ -1299,8 +1299,8 @@
                                             style="background-image: url('{{ action.img }}')"></div>
                                         <h4>{{ action.name }}</h4>
                                     </div>
-                                    <div class="detail source">{{ action.flags.sohl.functionName }}</div>
-                                    <div class="notes">{{ action.flags.sohl.notes }}</div>
+                                    <div class="detail source">{{ action.flags.hm.functionName }}</div>
+                                    <div class="notes">{{ action.flags.hm.notes }}</div>
                                     {{#unless printable}}
                                     <div class="item-controls">
                                         {{#if action.canExecute}}

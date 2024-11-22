@@ -1,6 +1,6 @@
 - name: Black Death
   id: gNNVfPh0ooYkfJZU
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -23,7 +23,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Leprosy
   id: JLwnXqD0Ih30vIQY
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -47,7 +47,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Smallpox
   id: ft652e2oEuiW1EOq
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -71,7 +71,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Typhoid Fever
   id: G7W1ahZqC5iXEINh
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -96,7 +96,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Chicken Pox
   id: JRZbKLzCE4lM3PeX
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -121,7 +121,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Malaria
   id: RuyvpAU3VHXfCCgQ
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -145,7 +145,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Tuburculosis
   id: cENpCaIDYMMmBt9v
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -169,7 +169,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Cholera
   id: G77cuNmZpBjx6pNU
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -194,7 +194,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Pneumonia
   id: MWnYy93iS3DO1cqD
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -219,7 +219,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Bronchitis
   id: 8yXf2j4lDpH7otHO
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -243,7 +243,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Measles
   id: Dlzv1oqgflmAtInB
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -268,7 +268,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Dengue Fever
   id: wB9ANiSb5sC9YX5P
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -293,7 +293,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Leishmaniasis
   id: nnRrIAu42BuORIP6
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -322,7 +322,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Elephantiasis
   id: 6xeeY5YQQiPIe326
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -347,7 +347,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: River Blindness
   id: 3XsslO0k18M7rRWx
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -372,7 +372,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Trachoma
   id: 3BGrdy9PCIzWr20Y
-  img: systems/sohl/assets/icons/disease.svg
+  img: systems/hm/assets/icons/disease.svg
   subType: disease
   diagnosisBonus: 0
   level: 1
@@ -397,7 +397,7 @@
   folderId: AcBtDYVewyDiK9zA
 - name: Hemotoxin
   id: qgDF3vVDt9BX1B93
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -425,7 +425,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Neurotoxin
   id: ieVNDIy56rNOgjzq
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -452,7 +452,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Cytotoxin
   id: uXdY3E1OzXepSS9S
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -480,7 +480,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Hemorrhagic Venom
   id: GF1c8zMqVPVGGAhW
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -506,7 +506,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Bee Venom
   id: EMqdYaJ7X8tGEhRi
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -537,7 +537,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Wasp Venom
   id: SZ2fZ54CUPIhJz8I
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -568,7 +568,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Cnidarian Toxin
   id: dK0hw4BkUWAi5KiK
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -600,7 +600,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Protein Toxin
   id: 1hB1Y3KMI1an8IOn
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -627,7 +627,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Tetrodotoxin
   id: zZjDfgjLxkRw2uHz
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -658,7 +658,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Poneratoxin
   id: qzCiP0GibDhQ9mcg
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -684,7 +684,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Arsenic
   id: cKYHVFfg3w78eeEO
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -701,7 +701,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Belladonna
   id: bzbN2G3r1SWRZMYt
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -718,7 +718,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Hemlock
   id: XiXrJMPZpSmdZrpv
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -735,7 +735,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Aconite
   id: avyDvHvhyDC2zxVd
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -752,7 +752,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Digitalis
   id: ymlS24R2v3lM5fjO
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -769,7 +769,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Curare
   id: QSI1Des4pKMMbCRO
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -786,7 +786,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Mandrake
   id: jbQU6N7jQuWpoU7c
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1
@@ -803,7 +803,7 @@
   folderId: ZSPorSdfrawLi3WB
 - name: Ricin
   id: V7zgaQ5ATKC1BXm0
-  img: systems/sohl/assets/icons/poison-bottle.svg
+  img: systems/hm/assets/icons/poison-bottle.svg
   subType: poisontoxin
   diagnosisBonus: 0
   level: 1

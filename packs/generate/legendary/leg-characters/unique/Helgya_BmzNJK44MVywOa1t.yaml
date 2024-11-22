@@ -198,7 +198,7 @@ prototypeToken:
   randomImg: false
 items:
   - name: Strength
-    img: systems/sohl/assets/icons/biceps.svg
+    img: systems/hm/assets/icons/biceps.svg
     system:
       notes: ""
       description: ""
@@ -229,7 +229,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -240,7 +240,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385348940
@@ -248,7 +248,7 @@ items:
     _id: n2qSIE4qVFbHGmgL
     sort: 0
   - name: Endurance
-    img: systems/sohl/assets/icons/climbing.svg
+    img: systems/hm/assets/icons/climbing.svg
     system:
       notes: ""
       description: ""
@@ -279,7 +279,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -290,7 +290,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385460153
@@ -298,7 +298,7 @@ items:
     _id: bUm48FhHaYAGSyQC
     sort: 0
   - name: Dexterity
-    img: systems/sohl/assets/icons/juggler.svg
+    img: systems/hm/assets/icons/juggler.svg
     system:
       notes: ""
       description: ""
@@ -329,7 +329,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -340,7 +340,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385366934
@@ -348,7 +348,7 @@ items:
     _id: 2fUKE7bxzbpfSwhF
     sort: 0
   - name: Agility
-    img: systems/sohl/assets/icons/acrobatics.svg
+    img: systems/hm/assets/icons/acrobatics.svg
     system:
       notes: ""
       description: ""
@@ -379,7 +379,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -390,7 +390,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385373168
@@ -398,7 +398,7 @@ items:
     _id: yJv9TLfz7GmjUobz
     sort: 0
   - name: Perception
-    img: systems/sohl/assets/icons/awareness.svg
+    img: systems/hm/assets/icons/awareness.svg
     system:
       notes: ""
       description: ""
@@ -429,7 +429,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -440,7 +440,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385443747
@@ -448,7 +448,7 @@ items:
     _id: Upc4n7eVQAaILxnx
     sort: 0
   - name: Comeliness
-    img: systems/sohl/assets/icons/charm.svg
+    img: systems/hm/assets/icons/charm.svg
     system:
       notes: ""
       description: ""
@@ -479,7 +479,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -490,7 +490,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385384885
@@ -498,7 +498,7 @@ items:
     _id: F87Y9FbMdCRRpsEU
     sort: 0
   - name: Aura
-    img: systems/sohl/assets/icons/aura.svg
+    img: systems/hm/assets/icons/aura.svg
     system:
       notes: ""
       description: ""
@@ -529,7 +529,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -540,7 +540,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385398473
@@ -548,7 +548,7 @@ items:
     _id: Pk0DImYAlJScZ9wk
     sort: 0
   - name: Will
-    img: systems/sohl/assets/icons/will.svg
+    img: systems/hm/assets/icons/will.svg
     system:
       notes: ""
       description: ""
@@ -579,7 +579,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -590,7 +590,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385477740
@@ -598,7 +598,7 @@ items:
     _id: X2HZX0tdGjBzIi9S
     sort: 0
   - name: Reasoning
-    img: systems/sohl/assets/icons/reasoning.svg
+    img: systems/hm/assets/icons/reasoning.svg
     system:
       notes: ""
       description: ""
@@ -629,7 +629,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -640,7 +640,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385491164
@@ -648,7 +648,7 @@ items:
     _id: Sibmw3nzuj5ppauE
     sort: 0
   - name: Creativity
-    img: systems/sohl/assets/icons/creativity.svg
+    img: systems/hm/assets/icons/creativity.svg
     system:
       notes: ""
       description: ""
@@ -679,7 +679,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -690,7 +690,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385420141
@@ -698,7 +698,7 @@ items:
     _id: hcFauvllk69rfUaG
     sort: 0
   - name: Empathy
-    img: systems/sohl/assets/icons/empathy.svg
+    img: systems/hm/assets/icons/empathy.svg
     system:
       notes: ""
       description: ""
@@ -729,7 +729,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -740,7 +740,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385425586
@@ -748,7 +748,7 @@ items:
     _id: dIgs2dfJlA5yhqoC
     sort: 0
   - name: Eloquence
-    img: systems/sohl/assets/icons/oratory.svg
+    img: systems/hm/assets/icons/oratory.svg
     system:
       notes: ""
       description: ""
@@ -779,7 +779,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -790,7 +790,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385514066
@@ -798,7 +798,7 @@ items:
     _id: 5tfrG7stXUGt8sHc
     sort: 0
   - name: Voice
-    img: systems/sohl/assets/icons/sing.svg
+    img: systems/hm/assets/icons/sing.svg
     system:
       notes: ""
       description: ""
@@ -829,7 +829,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -840,7 +840,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385545922
@@ -848,7 +848,7 @@ items:
     _id: VJL6U0otndLZHMr9
     sort: 0
   - name: Morality
-    img: systems/sohl/assets/icons/morality.svg
+    img: systems/hm/assets/icons/morality.svg
     system:
       notes: ""
       description: ""
@@ -885,7 +885,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         diceFormula: 3d6
     ownership:
       default: 0
@@ -896,7 +896,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385553567
@@ -904,7 +904,7 @@ items:
     _id: OXFiz5COCmXKxjnK
     sort: 0
   - name: Sunsign
-    img: systems/sohl/assets/icons/astrology.svg
+    img: systems/hm/assets/icons/astrology.svg
     system:
       notes: ""
       description: ""
@@ -950,14 +950,14 @@ items:
           scope: global
           command: |-
             this.setupVirtualItems();
-            const values = this.item.getFlag("sohl", "values");
+            const values = this.item.getFlag("hm", "values");
             this.actor.system.$ssMod = values[this.textValue];
           folder: null
           sort: 0
           ownership:
             default: 0
           flags:
-            sohl:
+            hm:
               notes: ""
               functionName: setupVirtualItems
               contextLabel: ""
@@ -967,7 +967,7 @@ items:
               useAsync: false
           _stats:
             coreVersion: "12.327"
-            systemId: sohl
+            systemId: hm
             systemVersion: 0.9.0
             createdTime: null
             modifiedTime: null
@@ -981,7 +981,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         values:
           ulandus:
             label: Ùlándus
@@ -1232,7 +1232,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385710865
@@ -1241,7 +1241,7 @@ items:
     sort: 0
   - name: Basic Fate
     type: trait
-    img: systems/sohl/assets/icons/user-gear.svg
+    img: systems/hm/assets/icons/user-gear.svg
     system:
       subType: transcendent
       macros:
@@ -1261,7 +1261,7 @@ items:
             }
             const ss = this.actor.getTraitByAbbrev("ss");
             if (ss) {
-                const values = ss.getFlag("sohl", "values");
+                const values = ss.getFlag("hm", "values");
                 const value = values[this.textValue];
                 if (value) {
                     this.$masteryLevel.add("Sunsign Modifier", "SS", value["aura"] || 0);
@@ -1272,7 +1272,7 @@ items:
           ownership:
             default: 0
           flags:
-            sohl:
+            hm:
               notes: ""
               contextIconClass: ""
               contextCondition: ""
@@ -1280,7 +1280,7 @@ items:
               useAsync: false
           _stats:
             coreVersion: "12.330"
-            systemId: sohl
+            systemId: hm
             systemVersion: 0.9.0
             createdTime: null
             modifiedTime: null
@@ -1312,7 +1312,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -1320,7 +1320,7 @@ items:
     _id: B0i5mxpOVHCbue3R
     sort: 0
   - name: Size
-    img: systems/sohl/assets/icons/body-height.svg
+    img: systems/hm/assets/icons/body-height.svg
     system:
       notes: ""
       description: ""
@@ -1350,7 +1350,7 @@ items:
           scope: global
           command: |-
             this.setupVirtualItems();
-            const sizes = this.item.getFlag("sohl", "sizes");
+            const sizes = this.item.getFlag("hm", "sizes");
             this.$params = sizes?.[this.textValue] || {
                 maxStr: 19,
                 lbs: 400,
@@ -1365,7 +1365,7 @@ items:
           ownership:
             default: 0
           flags:
-            sohl:
+            hm:
               notes: ""
               functionName: setupVirtualItems
               contextLabel: ""
@@ -1375,7 +1375,7 @@ items:
               useAsync: false
           _stats:
             coreVersion: "12.329"
-            systemId: sohl
+            systemId: hm
             systemVersion: 0.9.0
             createdTime: null
             modifiedTime: null
@@ -1389,7 +1389,7 @@ items:
       improveFlag: false
     effects: []
     flags:
-      sohl:
+      hm:
         sizes:
           tiny:
             maxStr: 4
@@ -1464,7 +1464,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -1486,7 +1486,7 @@ items:
             gw.maxFight.setBase(this.$score.base);
             gw.max.setBase(this.max);
           flags:
-            sohl:
+            hm:
               notes: ""
               functionName: processSiblings
               contextLabel: ""
@@ -1509,7 +1509,7 @@ items:
       skillBaseFormula: ""
       masteryLevelBase: 0
       improveFlag: false
-    img: systems/sohl/assets/icons/carrying-sack.svg
+    img: systems/hm/assets/icons/carrying-sack.svg
     effects: []
     flags: {}
     ownership:
@@ -1520,7 +1520,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -1528,7 +1528,7 @@ items:
     _id: aodQvn7weejpgNUF
     sort: 0
   - name: Move
-    img: systems/sohl/assets/icons/run.svg
+    img: systems/hm/assets/icons/run.svg
     system:
       notes: ""
       description: ""
@@ -1559,7 +1559,7 @@ items:
             }});
           sort: 0
           flags:
-            sohl:
+            hm:
               notes: ""
               functionName: processSiblings
               contextLabel: ""
@@ -1573,7 +1573,7 @@ items:
             default: 0
           _stats:
             coreVersion: "12.330"
-            systemId: sohl
+            systemId: hm
             systemVersion: 0.9.0
             createdTime: null
             modifiedTime: null
@@ -1596,7 +1596,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723405619349
@@ -1604,7 +1604,7 @@ items:
     _id: 6zqS6l5pELD5WNLK
     sort: 0
   - name: Favored Parts
-    img: systems/sohl/assets/icons/hands.svg
+    img: systems/hm/assets/icons/hands.svg
     system:
       notes: ""
       description: ""
@@ -1634,7 +1634,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -1642,7 +1642,7 @@ items:
     _id: At5JgIDu86qu4WXL
     sort: 0
   - name: Body Weight
-    img: systems/sohl/assets/icons/weight.svg
+    img: systems/hm/assets/icons/weight.svg
     system:
       notes: ""
       description: ""
@@ -1672,7 +1672,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -1680,7 +1680,7 @@ items:
     _id: SPRY7trPlewL5snE
     sort: 0
   - name: Experience Points
-    img: systems/sohl/assets/icons/beams-aura.svg
+    img: systems/hm/assets/icons/beams-aura.svg
     system:
       notes: ""
       description: ""
@@ -1710,7 +1710,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -1718,7 +1718,7 @@ items:
     _id: 0EOnHQBJSDD1Ze6d
     sort: 0
   - name: Area Attack Shock
-    img: systems/sohl/assets/icons/shock.svg
+    img: systems/hm/assets/icons/shock.svg
     system:
       notes: ""
       description: ""
@@ -1748,7 +1748,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -1757,7 +1757,7 @@ items:
     sort: 0
   - name: Charm
     type: skill
-    img: systems/sohl/assets/icons/charm.svg
+    img: systems/hm/assets/icons/charm.svg
     system:
       notes: ""
       description: ""
@@ -1774,7 +1774,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -1786,7 +1786,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385764840
@@ -1795,7 +1795,7 @@ items:
     sort: 0
   - name: Command
     type: skill
-    img: systems/sohl/assets/icons/rhetoric.svg
+    img: systems/hm/assets/icons/rhetoric.svg
     system:
       notes: ""
       description: ""
@@ -1812,7 +1812,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 2
         expertise:
           required: false
@@ -1824,7 +1824,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385783719
@@ -1833,7 +1833,7 @@ items:
     sort: 0
   - name: Discourse
     type: skill
-    img: systems/sohl/assets/icons/face-to-face.svg
+    img: systems/hm/assets/icons/face-to-face.svg
     system:
       notes: ""
       description: ""
@@ -1850,7 +1850,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 2
         expertise:
           required: false
@@ -1862,7 +1862,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385797262
@@ -1871,7 +1871,7 @@ items:
     sort: 0
   - name: Guile
     type: skill
-    img: systems/sohl/assets/icons/mischevous.svg
+    img: systems/hm/assets/icons/mischevous.svg
     system:
       notes: ""
       description: ""
@@ -1888,7 +1888,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -1900,7 +1900,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385819067
@@ -1909,7 +1909,7 @@ items:
     sort: 0
   - name: Intrigue
     type: skill
-    img: systems/sohl/assets/icons/cloak-dagger.svg
+    img: systems/hm/assets/icons/cloak-dagger.svg
     system:
       notes: ""
       description: ""
@@ -1926,7 +1926,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -1938,7 +1938,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385835446
@@ -1947,7 +1947,7 @@ items:
     sort: 0
   - name: Singing
     type: skill
-    img: systems/sohl/assets/icons/sing.svg
+    img: systems/hm/assets/icons/sing.svg
     system:
       notes: ""
       description: ""
@@ -1964,7 +1964,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -1976,7 +1976,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723386582284
@@ -1985,7 +1985,7 @@ items:
     sort: 0
   - name: Theatrics
     type: skill
-    img: systems/sohl/assets/icons/drama-masks.svg
+    img: systems/hm/assets/icons/drama-masks.svg
     system:
       notes: ""
       description: ""
@@ -2002,7 +2002,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 1
         expertise:
           required: false
@@ -2014,7 +2014,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723385847260
@@ -2023,7 +2023,7 @@ items:
     sort: 0
   - name: Survival
     type: skill
-    img: systems/sohl/assets/icons/survival.svg
+    img: systems/hm/assets/icons/survival.svg
     system:
       notes: ""
       description: ""
@@ -2040,7 +2040,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 1
         expertise:
           required: false
@@ -2052,7 +2052,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723386514806
@@ -2061,7 +2061,7 @@ items:
     sort: 0
   - name: Drawing
     type: skill
-    img: systems/sohl/assets/icons/drawing.svg
+    img: systems/hm/assets/icons/drawing.svg
     system:
       notes: ""
       description: ""
@@ -2078,7 +2078,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 2
         expertise:
           required: false
@@ -2090,7 +2090,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723386604281
@@ -2099,7 +2099,7 @@ items:
     sort: 0
   - name: Cookery
     type: skill
-    img: systems/sohl/assets/icons/cookery.svg
+    img: systems/hm/assets/icons/cookery.svg
     system:
       notes: ""
       description: ""
@@ -2116,7 +2116,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 2
         expertise:
           required: false
@@ -2128,7 +2128,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723386625304
@@ -2137,7 +2137,7 @@ items:
     sort: 0
   - name: Folklore
     type: skill
-    img: systems/sohl/assets/icons/unicorn.svg
+    img: systems/hm/assets/icons/unicorn.svg
     system:
       notes: ""
       description: ""
@@ -2154,7 +2154,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 1
         expertise:
           required: false
@@ -2166,7 +2166,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723386636891
@@ -2175,7 +2175,7 @@ items:
     sort: 0
   - name: Physician
     type: skill
-    img: systems/sohl/assets/icons/caduceus.svg
+    img: systems/hm/assets/icons/caduceus.svg
     system:
       notes: ""
       description: ""
@@ -2192,7 +2192,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 1
         expertise:
           required: false
@@ -2204,7 +2204,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723386662517
@@ -2213,7 +2213,7 @@ items:
     sort: 0
   - name: Awareness
     type: skill
-    img: systems/sohl/assets/icons/awareness.svg
+    img: systems/hm/assets/icons/awareness.svg
     system:
       notes: ""
       description: ""
@@ -2230,7 +2230,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -2242,7 +2242,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387080383
@@ -2251,7 +2251,7 @@ items:
     sort: 0
   - name: Climbing
     type: skill
-    img: systems/sohl/assets/icons/climbing.svg
+    img: systems/hm/assets/icons/climbing.svg
     system:
       notes: ""
       description: ""
@@ -2268,7 +2268,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -2280,7 +2280,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387094497
@@ -2289,7 +2289,7 @@ items:
     sort: 0
   - name: Dancing
     type: skill
-    img: systems/sohl/assets/icons/dance.svg
+    img: systems/hm/assets/icons/dance.svg
     system:
       notes: ""
       description: ""
@@ -2306,7 +2306,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 2
         expertise:
           required: false
@@ -2318,7 +2318,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387109394
@@ -2327,7 +2327,7 @@ items:
     sort: 0
   - name: Jumping
     type: skill
-    img: systems/sohl/assets/icons/jump-across.svg
+    img: systems/hm/assets/icons/jump-across.svg
     system:
       notes: ""
       description: ""
@@ -2344,7 +2344,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 4
         expertise:
           required: false
@@ -2356,7 +2356,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387126034
@@ -2365,7 +2365,7 @@ items:
     sort: 0
   - name: Riding
     type: skill
-    img: systems/sohl/assets/icons/horse-riding.svg
+    img: systems/hm/assets/icons/horse-riding.svg
     system:
       notes: ""
       description: ""
@@ -2382,7 +2382,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 1
         expertise:
           required: false
@@ -2394,7 +2394,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387138004
@@ -2403,7 +2403,7 @@ items:
     sort: 0
   - name: Stealth
     type: skill
-    img: systems/sohl/assets/icons/stealth.svg
+    img: systems/hm/assets/icons/stealth.svg
     system:
       notes: ""
       description: ""
@@ -2420,7 +2420,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -2432,7 +2432,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387154449
@@ -2441,7 +2441,7 @@ items:
     sort: 0
   - name: Swimming
     type: skill
-    img: systems/sohl/assets/icons/swimming.svg
+    img: systems/hm/assets/icons/swimming.svg
     system:
       notes: ""
       description: ""
@@ -2458,7 +2458,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 1
         expertise:
           required: false
@@ -2470,7 +2470,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387162933
@@ -2479,7 +2479,7 @@ items:
     sort: 0
   - name: Initiative
     type: skill
-    img: systems/sohl/assets/icons/initiative.svg
+    img: systems/hm/assets/icons/initiative.svg
     system:
       notes: ""
       description: ""
@@ -2496,7 +2496,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -2508,7 +2508,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387177177
@@ -2517,7 +2517,7 @@ items:
     sort: 0
   - name: Shock
     type: skill
-    img: systems/sohl/assets/icons/shock.svg
+    img: systems/hm/assets/icons/shock.svg
     system:
       notes: ""
       description: ""
@@ -2534,7 +2534,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 3
         expertise:
           required: false
@@ -2546,7 +2546,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387191239
@@ -2555,7 +2555,7 @@ items:
     sort: 0
   - name: Melee
     type: skill
-    img: systems/sohl/assets/icons/crossed-swords.svg
+    img: systems/hm/assets/icons/crossed-swords.svg
     system:
       notes: ""
       description: ""
@@ -2572,7 +2572,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 2
         expertise:
           required: false
@@ -2584,7 +2584,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387201837
@@ -2593,7 +2593,7 @@ items:
     sort: 0
   - name: Dodge
     type: skill
-    img: systems/sohl/assets/icons/dodge.svg
+    img: systems/hm/assets/icons/dodge.svg
     system:
       notes: ""
       description: ""
@@ -2610,7 +2610,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 2
         expertise:
           required: false
@@ -2622,7 +2622,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387233157
@@ -2631,7 +2631,7 @@ items:
     sort: 0
   - name: Archery
     type: skill
-    img: systems/sohl/assets/icons/striking-arrows.svg
+    img: systems/hm/assets/icons/striking-arrows.svg
     system:
       notes: ""
       description: ""
@@ -2648,7 +2648,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 1
         expertise:
           required: false
@@ -2660,7 +2660,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387250976
@@ -2669,7 +2669,7 @@ items:
     sort: 0
   - name: Throwing
     type: skill
-    img: systems/sohl/assets/icons/throw.svg
+    img: systems/hm/assets/icons/throw.svg
     system:
       notes: ""
       description: ""
@@ -2686,7 +2686,7 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         initSkillMult: 2
         expertise:
           required: false
@@ -2698,7 +2698,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: 1723387261785
@@ -2722,12 +2722,12 @@ items:
         value: 5
         max: 0
       skills: []
-    img: systems/sohl/assets/icons/sparkles.svg
+    img: systems/hm/assets/icons/sparkles.svg
     effects: []
     flags:
       exportSource:
-        world: sohl-test
-        system: sohl
+        world: hm-test
+        system: hm
         coreVersion: "12.330"
         systemVersion: 0.9.0
     ownership:
@@ -2738,7 +2738,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -2747,7 +2747,7 @@ items:
     sort: 0
   - name: Bite
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/fangs.svg
+    img: systems/hm/assets/icons/fangs.svg
     system:
       notes: ""
       textReference: ""
@@ -2794,7 +2794,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -2804,7 +2804,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385127673
@@ -2814,8 +2814,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 2
     ownership:
       default: 0
@@ -2825,7 +2825,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -2834,7 +2834,7 @@ items:
     sort: 0
   - name: Grab (Hold)
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/grab-hold.svg
+    img: systems/hm/assets/icons/grab-hold.svg
     system:
       notes: ""
       textReference: ""
@@ -2881,7 +2881,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -2891,7 +2891,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385127804
@@ -2901,8 +2901,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 4
     ownership:
       default: 0
@@ -2912,7 +2912,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -2921,7 +2921,7 @@ items:
     sort: 0
   - name: Grab (Take)
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/grab-take.svg
+    img: systems/hm/assets/icons/grab-take.svg
     system:
       notes: ""
       textReference: ""
@@ -2968,7 +2968,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -2978,7 +2978,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385127975
@@ -2988,8 +2988,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 4
     ownership:
       default: 0
@@ -2999,7 +2999,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -3008,7 +3008,7 @@ items:
     sort: 0
   - name: Headbutt
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/headbutt.svg
+    img: systems/hm/assets/icons/headbutt.svg
     system:
       notes: ""
       textReference: ""
@@ -3051,7 +3051,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -3061,7 +3061,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385128125
@@ -3071,8 +3071,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 4
     ownership:
       default: 0
@@ -3082,7 +3082,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -3091,7 +3091,7 @@ items:
     sort: 0
   - name: Limb Block
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/high-punch.svg
+    img: systems/hm/assets/icons/high-punch.svg
     system:
       notes: ""
       textReference: ""
@@ -3130,7 +3130,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -3140,7 +3140,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385128256
@@ -3150,8 +3150,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 0
     ownership:
       default: 0
@@ -3161,7 +3161,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -3170,7 +3170,7 @@ items:
     sort: 0
   - name: Kick
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/high-kick.svg
+    img: systems/hm/assets/icons/high-kick.svg
     system:
       notes: ""
       textReference: ""
@@ -3213,7 +3213,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -3223,7 +3223,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385128429
@@ -3233,8 +3233,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 4
     ownership:
       default: 0
@@ -3244,7 +3244,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -3253,7 +3253,7 @@ items:
     sort: 0
   - name: Press
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/push.svg
+    img: systems/hm/assets/icons/push.svg
     system:
       notes: ""
       textReference: ""
@@ -3300,7 +3300,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -3310,7 +3310,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385128554
@@ -3320,8 +3320,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 0
     ownership:
       default: 0
@@ -3331,7 +3331,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -3340,7 +3340,7 @@ items:
     sort: 0
   - name: Punch
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/punch-blast.svg
+    img: systems/hm/assets/icons/punch-blast.svg
     system:
       notes: ""
       textReference: ""
@@ -3383,7 +3383,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -3393,7 +3393,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385128672
@@ -3403,8 +3403,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 4
     ownership:
       default: 0
@@ -3414,7 +3414,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -3423,7 +3423,7 @@ items:
     sort: 0
   - name: Trip
     type: combattechniquestrikemode
-    img: systems/sohl/assets/icons/trip.svg
+    img: systems/hm/assets/icons/trip.svg
     system:
       notes: ""
       textReference: ""
@@ -3470,7 +3470,7 @@ items:
         transfer: true
         statuses: []
         flags:
-          sohl:
+          hm:
             targetType: this
             targetName: ""
             onsetTime: 0
@@ -3480,7 +3480,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: "12.330"
-          systemId: sohl
+          systemId: hm
           systemVersion: 0.9.0
           createdTime: null
           modifiedTime: 1723385128787
@@ -3490,8 +3490,8 @@ items:
         system: {}
         sort: 0
     flags:
-      sohl:
-        legendary:
+      hm:
+        kethira:
           zoneDie: 0
     ownership:
       default: 0
@@ -3501,7 +3501,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: null
       modifiedTime: null
@@ -3510,7 +3510,7 @@ items:
     sort: 0
   - name: Ivínian
     type: skill
-    img: systems/sohl/assets/icons/speaking.svg
+    img: systems/hm/assets/icons/speaking.svg
     system:
       notes: ""
       description: ""
@@ -3527,14 +3527,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.2yfbMe6ZTqPR1nFb
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.2yfbMe6ZTqPR1nFb
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385869999
       modifiedTime: 1723386686982
@@ -3548,7 +3548,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Jârin
     type: skill
-    img: systems/sohl/assets/icons/speaking.svg
+    img: systems/hm/assets/icons/speaking.svg
     system:
       notes: ""
       description: ""
@@ -3565,14 +3565,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.MONOo4chhMcTu1pG
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.MONOo4chhMcTu1pG
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385883174
       modifiedTime: 1723386694602
@@ -3586,7 +3586,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Hârnic
     type: skill
-    img: systems/sohl/assets/icons/speaking.svg
+    img: systems/hm/assets/icons/speaking.svg
     system:
       notes: ""
       description: ""
@@ -3603,14 +3603,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.woFaMUgznLPQREME
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.woFaMUgznLPQREME
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385890679
       modifiedTime: 1723386702789
@@ -3624,7 +3624,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Sárajìn
     type: skill
-    img: systems/sohl/assets/icons/sarajin.png
+    img: systems/hm/assets/icons/sarajin.png
     system:
       notes: ""
       description: ""
@@ -3641,14 +3641,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.4N4tdZFvVVXQeNcq
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.4N4tdZFvVVXQeNcq
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385904840
       modifiedTime: 1723386749341
@@ -3662,7 +3662,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Ilvîr
     type: skill
-    img: systems/sohl/assets/icons/ilvir.png
+    img: systems/hm/assets/icons/ilvir.png
     system:
       notes: ""
       description: ""
@@ -3679,14 +3679,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.BL0SMfIJsWRVDXsP
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.BL0SMfIJsWRVDXsP
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385912992
       modifiedTime: 1723386756656
@@ -3700,7 +3700,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Runic
     type: skill
-    img: systems/sohl/assets/icons/scroll-unfurled.svg
+    img: systems/hm/assets/icons/scroll-unfurled.svg
     system:
       notes: ""
       description: ""
@@ -3717,14 +3717,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.zhF7K76YOQR30Vfg
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.zhF7K76YOQR30Vfg
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385926733
       modifiedTime: 1723386726458
@@ -3738,7 +3738,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Lakíse
     type: skill
-    img: systems/sohl/assets/icons/scroll-unfurled.svg
+    img: systems/hm/assets/icons/scroll-unfurled.svg
     system:
       notes: ""
       description: ""
@@ -3755,14 +3755,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.DiFLbQpEF1ZJm262
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.DiFLbQpEF1ZJm262
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385932886
       modifiedTime: 1723386734223
@@ -3776,7 +3776,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Animalcraft
     type: skill
-    img: systems/sohl/assets/icons/animalcraft.svg
+    img: systems/hm/assets/icons/animalcraft.svg
     system:
       notes: ""
       description: ""
@@ -3793,14 +3793,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.K1sBrJikLWiQIjjB
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.K1sBrJikLWiQIjjB
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385944402
       modifiedTime: 1723386526280
@@ -3814,7 +3814,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Herblore
     type: skill
-    img: systems/sohl/assets/icons/herblore.svg
+    img: systems/hm/assets/icons/herblore.svg
     system:
       notes: ""
       description: ""
@@ -3831,14 +3831,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.d6bv7kUA4uEgtGOw
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.d6bv7kUA4uEgtGOw
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385951984
       modifiedTime: 1723386535554
@@ -3852,7 +3852,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Tracking
     type: skill
-    img: systems/sohl/assets/icons/tracking.svg
+    img: systems/hm/assets/icons/tracking.svg
     system:
       notes: ""
       description: ""
@@ -3869,14 +3869,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.r84g3zzaBmp1zDl4
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.r84g3zzaBmp1zDl4
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385959613
       modifiedTime: 1723386547644
@@ -3890,7 +3890,7 @@ items:
       RsnPoY20XgcrucTn: 3
   - name: Trance
     type: skill
-    img: systems/sohl/assets/icons/meditation.svg
+    img: systems/hm/assets/icons/meditation.svg
     system:
       notes: ""
       description: ""
@@ -3907,14 +3907,14 @@ items:
       domain: ""
     effects: []
     flags:
-      sohl:
+      hm:
         expertise:
           required: false
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.QUY1z2KG9kreEJTr
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.QUY1z2KG9kreEJTr
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385973153
       modifiedTime: 1723386856419
@@ -3930,7 +3930,7 @@ items:
     name: Sensitivity
     type: mysticalability
     _id: R0sby33lpxXb3de2
-    img: systems/sohl/assets/icons/psionics.svg
+    img: systems/hm/assets/icons/psionics.svg
     system:
       notes: ""
       description: ""
@@ -3957,10 +3957,10 @@ items:
       RsnPoY20XgcrucTn: 3
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.GvNrbskSwZjdAamV
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.GvNrbskSwZjdAamV
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385980862
       modifiedTime: 1723386922730
@@ -3969,7 +3969,7 @@ items:
     name: Elemental Bolt
     type: mysticalability
     _id: EfS89UmNOE5kAmyu
-    img: systems/sohl/assets/icons/psionics.svg
+    img: systems/hm/assets/icons/psionics.svg
     system:
       notes: ""
       description: ""
@@ -3996,17 +3996,17 @@ items:
       RsnPoY20XgcrucTn: 3
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.gDV7D2Cmb3Ww5sBe
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.gDV7D2Cmb3Ww5sBe
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723385989502
       modifiedTime: 1723386930784
       lastModifiedBy: RsnPoY20XgcrucTn
   - name: Staff
     type: weapongear
-    img: systems/sohl/assets/icons/staff.svg
+    img: systems/hm/assets/icons/staff.svg
     system:
       macros: []
       nestedItems:
@@ -4044,7 +4044,7 @@ items:
                   value: -1
                   priority: null
               flags:
-                sohl:
+                hm:
                   targetType: this
                   targetName: ""
                   strikeMode: Crush
@@ -4099,7 +4099,7 @@ items:
                   value: 3
                   priority: null
               flags:
-                sohl:
+                hm:
                   targetType: this
                   targetName: ""
                   strikeMode: Shaft
@@ -4121,8 +4121,8 @@ items:
               statuses: []
               _key: '!items.effects!GmxhLs1EFGlzZg6H.13eLz7S95RYMYUJ6'
           flags:
-            sohl:
-              legendary:
+            hm:
+              kethira:
                 zoneDie: 8
           _id: iSIsw8GyTvyvgiCH
           _key: '!items!GmxhLs1EFGlzZg6H'
@@ -4169,7 +4169,7 @@ items:
                   value: "true"
                   priority: null
               flags:
-                sohl:
+                hm:
                   targetType: this
                   targetName: ""
                   strikeMode: Half-Sword Shaft
@@ -4191,8 +4191,8 @@ items:
               statuses: []
               _key: '!items.effects!3wvWWmndeimjciMF.shz8RgTQ5B7Nii09'
           flags:
-            sohl:
-              legendary: {}
+            hm:
+              kethira: {}
           _id: rFPwVXSUqG9n20iv
           _key: '!items!3wvWWmndeimjciMF'
           sort: 300000
@@ -4213,10 +4213,10 @@ items:
     effects: []
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.MHe30MVgUd2B7AXS
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.MHe30MVgUd2B7AXS
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386032409
       modifiedTime: 1723406115151
@@ -4229,7 +4229,7 @@ items:
     sort: 0
   - name: Dagger
     type: weapongear
-    img: systems/sohl/assets/icons/broad-dagger.svg
+    img: systems/hm/assets/icons/broad-dagger.svg
     system:
       macros: []
       nestedItems:
@@ -4263,7 +4263,7 @@ items:
                   value: "true"
                   priority: null
               flags:
-                sohl:
+                hm:
                   targetType: this
                   targetName: ""
                   strikeMode: Impale
@@ -4318,7 +4318,7 @@ items:
                   value: "true"
                   priority: null
               flags:
-                sohl:
+                hm:
                   targetType: this
                   targetName: ""
                   strikeMode: Cut
@@ -4373,7 +4373,7 @@ items:
                   value: 3
                   priority: null
               flags:
-                sohl:
+                hm:
                   targetType: this
                   targetName: ""
                   strikeMode: Pommel
@@ -4395,8 +4395,8 @@ items:
               statuses: []
               _key: '!items.effects!6nxQJIEFijtyiYN7.MgdVLXEemfrSq1BN'
           flags:
-            sohl:
-              legendary:
+            hm:
+              kethira:
                 zoneDie: 4
           _id: iCfObNpmDK8LuOpH
           _key: '!items!6nxQJIEFijtyiYN7'
@@ -4418,10 +4418,10 @@ items:
     effects: []
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.9ijT9drcTK805O5F
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.9ijT9drcTK805O5F
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386037390
       modifiedTime: 1723386397752
@@ -4434,7 +4434,7 @@ items:
     sort: 0
   - name: Worsted Dress
     type: armorgear
-    img: systems/sohl/assets/icons/dress.svg
+    img: systems/hm/assets/icons/dress.svg
     system:
       macros: []
       nestedItems: []
@@ -4482,10 +4482,10 @@ items:
       RsnPoY20XgcrucTn: 3
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.wPcQ8ykyivZCyikd
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.wPcQ8ykyivZCyikd
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386048976
       modifiedTime: 1723405780330
@@ -4495,7 +4495,7 @@ items:
     sort: 0
   - name: Worsted Cowl
     type: armorgear
-    img: systems/sohl/assets/icons/hood.svg
+    img: systems/hm/assets/icons/hood.svg
     system:
       macros: []
       nestedItems: []
@@ -4528,10 +4528,10 @@ items:
       RsnPoY20XgcrucTn: 3
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.HwAZqhOppRIqVbJs
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.HwAZqhOppRIqVbJs
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386080248
       modifiedTime: 1723386405552
@@ -4541,7 +4541,7 @@ items:
     sort: 0
   - name: Russet Gloves
     type: armorgear
-    img: systems/sohl/assets/icons/gloves.svg
+    img: systems/hm/assets/icons/gloves.svg
     system:
       macros: []
       nestedItems: []
@@ -4574,10 +4574,10 @@ items:
       RsnPoY20XgcrucTn: 3
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.WNrm1UMM4JpiawVA
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.WNrm1UMM4JpiawVA
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386106517
       modifiedTime: 1723386406219
@@ -4587,7 +4587,7 @@ items:
     sort: 0
   - name: Rawhide Calf Boots
     type: armorgear
-    img: systems/sohl/assets/icons/leather-boot.svg
+    img: systems/hm/assets/icons/leather-boot.svg
     system:
       macros: []
       nestedItems: []
@@ -4622,10 +4622,10 @@ items:
       RsnPoY20XgcrucTn: 3
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.oOOMdsP9QBnFL6yp
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.oOOMdsP9QBnFL6yp
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386121574
       modifiedTime: 1723386406890
@@ -4635,7 +4635,7 @@ items:
     sort: 0
   - name: Backpack
     type: containergear
-    img: systems/sohl/assets/icons/sack.svg
+    img: systems/hm/assets/icons/sack.svg
     system:
       notes: ""
       description: ""
@@ -4649,7 +4649,7 @@ items:
       nestedItems:
         - name: Rations, Standard
           type: miscgear
-          img: systems/sohl/assets/icons/miscgear.svg
+          img: systems/hm/assets/icons/miscgear.svg
           system:
             notes: 1 day/person, shelf life 10 days
             description: ""
@@ -4668,10 +4668,10 @@ items:
           effects: []
           flags: {}
           _stats:
-            compendiumSource: Compendium.sohl.legendary-basic-items.Item.0jGZS74JTgQ4lTrA
+            compendiumSource: Compendium.hm.kethira-basic-items.Item.0jGZS74JTgQ4lTrA
             duplicateSource: null
             coreVersion: "12.330"
-            systemId: sohl
+            systemId: hm
             systemVersion: 0.9.0
             createdTime: 1723386207795
             modifiedTime: 1723386207795
@@ -4690,10 +4690,10 @@ items:
     effects: []
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.rMnbWzyue0vPuDdS
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.rMnbWzyue0vPuDdS
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386137304
       modifiedTime: 1723386375431
@@ -4706,7 +4706,7 @@ items:
     sort: 0
   - name: Bedroll, heavy
     type: miscgear
-    img: systems/sohl/assets/icons/sleeping-bag.svg
+    img: systems/hm/assets/icons/sleeping-bag.svg
     system:
       notes: Tied under backpack
       description: ""
@@ -4725,10 +4725,10 @@ items:
     effects: []
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.I6gNf8y6ZgxFgxdI
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.I6gNf8y6ZgxFgxdI
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386175421
       modifiedTime: 1723386418988
@@ -4741,7 +4741,7 @@ items:
     sort: 0
   - name: Waterskin, 2qt.
     type: containergear
-    img: systems/sohl/assets/icons/miscgear.svg
+    img: systems/hm/assets/icons/miscgear.svg
     system:
       notes: Tied at waist
       description: ""
@@ -4755,7 +4755,7 @@ items:
       nestedItems:
         - name: Water, 1pt.
           type: concoctiongear
-          img: systems/sohl/assets/icons/potion.svg
+          img: systems/hm/assets/icons/potion.svg
           system:
             notes: ""
             description: ""
@@ -4777,10 +4777,10 @@ items:
           effects: []
           flags: {}
           _stats:
-            compendiumSource: Compendium.sohl.legendary-basic-items.Item.QrVx5mD4WSidHTTV
+            compendiumSource: Compendium.hm.kethira-basic-items.Item.QrVx5mD4WSidHTTV
             duplicateSource: null
             coreVersion: "12.330"
-            systemId: sohl
+            systemId: hm
             systemVersion: 0.9.0
             createdTime: 1723386198359
             modifiedTime: 1723386198359
@@ -4799,10 +4799,10 @@ items:
     effects: []
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.DdlmMVb2ldCpGzkk
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.DdlmMVb2ldCpGzkk
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386196435
       modifiedTime: 1723386451280
@@ -4815,7 +4815,7 @@ items:
     sort: 0
   - name: Belt pouch, leather, med
     type: containergear
-    img: systems/sohl/assets/icons/sack.svg
+    img: systems/hm/assets/icons/sack.svg
     system:
       notes: ""
       description: ""
@@ -4829,7 +4829,7 @@ items:
       nestedItems:
         - name: Pence
           type: miscgear
-          img: systems/sohl/assets/icons/coins.svg
+          img: systems/hm/assets/icons/coins.svg
           system:
             notes: ""
             description: ""
@@ -4848,10 +4848,10 @@ items:
           effects: []
           flags: {}
           _stats:
-            compendiumSource: Compendium.sohl.legendary-basic-items.Item.cIPNCrBR04BqbtqJ
+            compendiumSource: Compendium.hm.kethira-basic-items.Item.cIPNCrBR04BqbtqJ
             duplicateSource: null
             coreVersion: "12.330"
-            systemId: sohl
+            systemId: hm
             systemVersion: 0.9.0
             createdTime: 1723386161886
             modifiedTime: 1723386265922
@@ -4864,7 +4864,7 @@ items:
           sort: 100000
         - name: Bandage
           type: miscgear
-          img: systems/sohl/assets/icons/bandage-roll.svg
+          img: systems/hm/assets/icons/bandage-roll.svg
           system:
             notes: 1 bandage per IL for CLEAN &amp; DRESS treatment; STAUNCH treatment uses d6 bandages per Bloodloss Point
             description: ""
@@ -4883,10 +4883,10 @@ items:
           effects: []
           flags: {}
           _stats:
-            compendiumSource: Compendium.sohl.legendary-basic-items.Item.28T0XYglrvCALMTy
+            compendiumSource: Compendium.hm.kethira-basic-items.Item.28T0XYglrvCALMTy
             duplicateSource: null
             coreVersion: "12.330"
-            systemId: sohl
+            systemId: hm
             systemVersion: 0.9.0
             createdTime: 1723386190433
             modifiedTime: 1723386280573
@@ -4905,10 +4905,10 @@ items:
     effects: []
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.JMXUmoqI6uWt5LN4
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.JMXUmoqI6uWt5LN4
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386242431
       modifiedTime: 1723386375212
@@ -4937,7 +4937,7 @@ items:
         max: 1
       skills: []
     _id: aB5V7amqPxqUuaRh
-    img: systems/sohl/assets/icons/sparkles.svg
+    img: systems/hm/assets/icons/sparkles.svg
     effects: []
     folder: null
     sort: 0
@@ -4949,7 +4949,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386790879
       modifiedTime: 1723486813794
@@ -4958,7 +4958,7 @@ items:
     name: Spirit
     type: mysticalability
     _id: xBZ3vbgJw0ez7YOh
-    img: systems/sohl/assets/icons/psionics.svg
+    img: systems/hm/assets/icons/psionics.svg
     system:
       notes: ""
       description: ""
@@ -4985,10 +4985,10 @@ items:
       RsnPoY20XgcrucTn: 3
     flags: {}
     _stats:
-      compendiumSource: Compendium.sohl.legendary-basic-items.Item.lKVbkvzIGDFCC3UI
+      compendiumSource: Compendium.hm.kethira-basic-items.Item.lKVbkvzIGDFCC3UI
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386886458
       modifiedTime: 1723386900792
@@ -5021,7 +5021,7 @@ items:
         max: 0
       skills: []
     _id: fHY7WhaVIkMudtfm
-    img: systems/sohl/assets/icons/sparkles.svg
+    img: systems/hm/assets/icons/sparkles.svg
     effects: []
     folder: null
     sort: 0
@@ -5033,7 +5033,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723386996052
       modifiedTime: 1723603936705
@@ -5051,7 +5051,7 @@ items:
       transfer: false
       nestedItems: []
       philosophy: ""
-    img: systems/sohl/assets/icons/crow.svg
+    img: systems/hm/assets/icons/crow.svg
     effects: []
     ownership:
       default: 0
@@ -5062,7 +5062,7 @@ items:
       compendiumSource: Item.gT7ZXA5YJo9gvL1G
       duplicateSource: null
       coreVersion: "12.330"
-      systemId: sohl
+      systemId: hm
       systemVersion: 0.9.0
       createdTime: 1723496390025
       modifiedTime: 1723496390025
@@ -5074,13 +5074,13 @@ effects: []
 folder: null
 flags:
   exportSource:
-    world: sohl-test
-    system: sohl
+    world: hm-test
+    system: hm
     coreVersion: "12.330"
     systemVersion: 0.9.0
 _stats:
   coreVersion: "12.330"
-  systemId: sohl
+  systemId: hm
   systemVersion: 0.9.0
   createdTime: 1723385127464
   modifiedTime: 1723385628512

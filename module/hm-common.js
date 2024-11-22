@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /*===============================================================*/
-/*      SOHL Common Classes                                        */
+/*      HM Common Classes                                        */
 /*===============================================================*/
 /**
  * The fields property is a shortcut for foundry FieldData definitions
@@ -10,28 +10,28 @@
 const fields = foundry.data.fields;
 
 /**
- * Base SOHL object containing various properties, constants, and configuration
- * parameters related to the SOHL system,
+ * Base HM object containing various properties, constants, and configuration
+ * parameters related to the HM system,
  */
-export const SOHL = {
+export const HM = {
     ready: false,
     hasSimpleCalendar: false,
     versionsData: {},
-    defaultVersion: "legendary",
+    defaultVersion: "kethira",
     sysVer: {},
     registerSystemVersion: function (verId, verData) {
-        SOHL.versionsData[verId] = verData;
+        HM.versionsData[verId] = verData;
     },
     statusEffects: [
         {
             id: "incapacitated",
             name: "incapacitated",
-            img: "systems/sohl/assets/icons/knockout.svg",
+            img: "systems/hm/assets/icons/knockout.svg",
         },
         {
             id: "vanquished",
             name: "vanquished",
-            img: "systems/sohl/assets/icons/surrender.svg",
+            img: "systems/hm/assets/icons/surrender.svg",
         },
     ],
 
@@ -40,27 +40,19 @@ export const SOHL = {
     },
 
     controlIcons: {
-        defeated: "systems/sohl/assets/icons/surrender.svg",
+        defeated: "systems/hm/assets/icons/surrender.svg",
     },
 
     CONST: {
         // ASCII Artwork (Doom font)
-        sohlInitMessage: `Initializing the Song of Heroic Lands Game System
+        hmInitMessage: `Initializing the HârnMaster Game System
 ===========================================================
- _____                            __
-/  ___|                          / _|
-\\ \`--.  ___  _ __   __ _    ___ | |_
- \`--. \\/ _ \\| '_ \\ / _\` |  / _ \\|  _|
-/\\__/ / (_) | | | | (_| | | (_) | |
-\\____/ \\___/|_| |_|\\__, |  \\___/|_|
-                    __/ |
-                   |___/
- _   _                _        _                     _
-| | | |              (_)      | |                   | |
-| |_| | ___ _ __ ___  _  ___  | |     __ _ _ __   __| |___
-|  _  |/ _ \\ '__/ _ \\| |/ __| | |    / _\` | '_ \\ / _\` / __|
-| | | |  __/ | | (_) | | (__  | |___| (_| | | | | (_| \\__ \\
-\\_| |_/\\___|_|  \\___/|_|\\___| \\_____/\\__,_|_| |_|\\__,_|___/
+ _   _   __            ___  ___          _
+| | | | //\\\\           |  \\/  |         | |
+| |_| | __ _ _ __ _ __ | .  . | __ _ ___| |_ ___ _ __
+|  _  |/ _\` | '__| '_ \\| |\\/| |/ _\` / __| __/ _ \\ '__|
+| | | | (_| | |  | | | | |  | | (_| \\__ \\ ||  __/ |
+\\_| |_/\\__,_|_|  |_| |_\\_|  |_/\\__,_|___/\\__\\___|_|
 ===========================================================`,
 
         /** @enum */
@@ -138,8 +130,8 @@ export const SOHL = {
             systemMigrationVersion: {
                 key: "systemMigrationVersion",
             },
-            sohlVersion: {
-                key: "sohlVersion",
+            hmVersion: {
+                key: "hmVersion",
             },
             showWelcomeDialog: {
                 key: "showWelcomeDialog",
@@ -705,15 +697,15 @@ export class ValueModifier {
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.MULTIPLY:
-                    html += `${SOHL.CONST.CHARS.TIMES}${m.value}`;
+                    html += `${HM.CONST.CHARS.TIMES}${m.value}`;
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.DOWNGRADE:
-                    html += `${SOHL.CONST.CHARS.LESSTHANOREQUAL}${m.value}`;
+                    html += `${HM.CONST.CHARS.LESSTHANOREQUAL}${m.value}`;
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.UPGRADE:
-                    html += `${SOHL.CONST.CHARS.GREATERTHANOREQUAL}${m.value}`;
+                    html += `${HM.CONST.CHARS.GREATERTHANOREQUAL}${m.value}`;
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.OVERRIDE:
@@ -721,7 +713,7 @@ export class ValueModifier {
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.CUSTOM:
-                    html += `${SOHL.CONST.CHARS.STAR}${m.value}`;
+                    html += `${HM.CONST.CHARS.STAR}${m.value}`;
                     break;
 
                 default:
@@ -801,15 +793,15 @@ export class ValueModifier {
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.MULTIPLY:
-                    this._abbrev += `${adj.abbrev} ${SOHL.CONST.CHARS.TIMES}${adj.value}`;
+                    this._abbrev += `${adj.abbrev} ${HM.CONST.CHARS.TIMES}${adj.value}`;
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.DOWNGRADE:
-                    this._abbrev += `${adj.abbrev} ${SOHL.CONST.CHARS.LESSTHANOREQUAL}${adj.value}`;
+                    this._abbrev += `${adj.abbrev} ${HM.CONST.CHARS.LESSTHANOREQUAL}${adj.value}`;
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.UPGRADE:
-                    this._abbrev += `${adj.abbrev} ${SOHL.CONST.CHARS.GREATERTHANOREQUAL}${adj.value}`;
+                    this._abbrev += `${adj.abbrev} ${HM.CONST.CHARS.GREATERTHANOREQUAL}${adj.value}`;
                     break;
 
                 case CONST.ACTIVE_EFFECT_MODES.OVERRIDE:
@@ -1083,7 +1075,7 @@ export class MasteryLevelModifier extends ValueModifier {
         if (!skipDialog) {
             // Render modal dialog
             let dlgTemplate =
-                "systems/sohl/templates/dialog/standard-test-dialog.html";
+                "systems/hm/templates/dialog/standard-test-dialog.html";
 
             let dialogData = {
                 type,
@@ -1252,10 +1244,10 @@ export class MasteryLevelModifier extends ValueModifier {
                     )
                 ) {
                     chatData.successLevel =
-                        SOHL.CONST.SUCCESS_LEVEL.CriticalSuccess;
+                        HM.CONST.SUCCESS_LEVEL.CriticalSuccess;
                 } else {
                     chatData.successLevel =
-                        SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess;
+                        HM.CONST.SUCCESS_LEVEL.MarginalSuccess;
                 }
             } else {
                 if (
@@ -1264,19 +1256,17 @@ export class MasteryLevelModifier extends ValueModifier {
                     )
                 ) {
                     chatData.successLevel =
-                        SOHL.CONST.SUCCESS_LEVEL.CriticalFailure;
+                        HM.CONST.SUCCESS_LEVEL.CriticalFailure;
                 } else {
                     chatData.successLevel =
-                        SOHL.CONST.SUCCESS_LEVEL.MarginalFailure;
+                        HM.CONST.SUCCESS_LEVEL.MarginalFailure;
                 }
             }
         } else {
             if (roll.total <= chatData.effTarget) {
-                chatData.successLevel =
-                    SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess;
+                chatData.successLevel = HM.CONST.SUCCESS_LEVEL.MarginalSuccess;
             } else {
-                chatData.successLevel =
-                    SOHL.CONST.SUCCESS_LEVEL.MarginalFailure;
+                chatData.successLevel = HM.CONST.SUCCESS_LEVEL.MarginalFailure;
             }
         }
         chatData.successLevel += chatData.successLevelMod;
@@ -1285,19 +1275,18 @@ export class MasteryLevelModifier extends ValueModifier {
             chatData.successLevel = Math.min(
                 Math.max(
                     chatData.successLevel,
-                    SOHL.CONST.SUCCESS_LEVEL.MarginalFailure,
+                    HM.CONST.SUCCESS_LEVEL.MarginalFailure,
                 ),
-                SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess,
+                HM.CONST.SUCCESS_LEVEL.MarginalSuccess,
             );
         }
         chatData.isCritical =
             critAllowed &&
-            (chatData.successLevel <=
-                SOHL.CONST.SUCCESS_LEVEL.CriticalFailure ||
+            (chatData.successLevel <= HM.CONST.SUCCESS_LEVEL.CriticalFailure ||
                 chatData.successLevel >=
-                    SOHL.CONST.SUCCESS_LEVEL.CriticalSuccess);
+                    HM.CONST.SUCCESS_LEVEL.CriticalSuccess);
         chatData.isSuccess =
-            chatData.successLevel >= SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess;
+            chatData.successLevel >= HM.CONST.SUCCESS_LEVEL.MarginalSuccess;
         chatData.description = `${critAllowed ? (chatData.isCritical ? "Critical " : "Marginal ") : ""}${chatData.isSuccess ? "Success" : "Failure"}`;
 
         // If success level is greater than critical success or less than critical failure
@@ -1307,8 +1296,8 @@ export class MasteryLevelModifier extends ValueModifier {
             successLevelIncr =
                 chatData.successLevel -
                 (chatData.isSuccess
-                    ? SOHL.CONST.SUCCESS_LEVEL.CriticalSuccess
-                    : SOHL.CONST.SUCCESS_LEVEL.CriticalFailure);
+                    ? HM.CONST.SUCCESS_LEVEL.CriticalSuccess
+                    : HM.CONST.SUCCESS_LEVEL.CriticalFailure);
         }
         if (successLevelIncr) {
             chatData.description = `${chatData.description} (${
@@ -1342,8 +1331,8 @@ export class MasteryLevelModifier extends ValueModifier {
             // so, then that one will be used, otherwise the
             // default one will be used.
             const svTable =
-                this.parent.item.getFlag("sohl", "successValueTable") ||
-                SOHL.sysVer.CONST.SUCCESS_VALUE_TABLE;
+                this.parent.item.getFlag("hm", "successValueTable") ||
+                HM.sysVer.CONST.SUCCESS_VALUE_TABLE;
 
             // The meaning of the success value bonus ("svBonus") is
             // unique to each type of success value.  Sometimes it
@@ -1360,7 +1349,7 @@ export class MasteryLevelModifier extends ValueModifier {
 
         if (!noChat) {
             const chatTemplate =
-                "systems/sohl/templates/chat/standard-test-card.html";
+                "systems/hm/templates/chat/standard-test-card.html";
 
             const html = await renderTemplate(chatTemplate, chatData);
 
@@ -1685,7 +1674,7 @@ export class SohlItem extends Item {
             !!types || !documentTypes.some((t) => t.value === data.type);
 
         const itemClassSubtypes =
-            SOHL.sysVer.CONFIG.Item.dataModels[defaultType].subTypes;
+            HM.sysVer.CONFIG.Item.dataModels[defaultType].subTypes;
         let subTypes = itemClassSubtypes
             ? Object.entries(itemClassSubtypes).reduce((ary, [name, value]) => {
                   ary.push({ name, label: value });
@@ -1796,7 +1785,7 @@ export class SohlItem extends Item {
                 data.type = formType || type;
 
                 const subTypes =
-                    SOHL.sysVer.CONFIG.Item.dataModels[data.type].subTypes;
+                    HM.sysVer.CONFIG.Item.dataModels[data.type].subTypes;
                 if (subTypes && Object.keys(subTypes)?.includes(formSubType)) {
                     data["system.subType"] = formSubType;
                 }
@@ -1834,7 +1823,7 @@ export class SohlItem extends Item {
         formTop.elements.type.disabled = !askType;
 
         // Determine if subtypes exist for this type, and if so, create the subtype dropdown
-        const subTypeObj = SOHL.sysVer.CONFIG.Item.dataModels[type]?.subTypes;
+        const subTypeObj = HM.sysVer.CONFIG.Item.dataModels[type]?.subTypes;
         if (typeof subTypeObj === "object" && Object.keys(subTypeObj).length) {
             let subTypes = Object.entries(subTypeObj)?.reduce(
                 (ary, [name, value]) => {
@@ -2382,7 +2371,7 @@ export class SohlItem extends Item {
 
         if (!newData.img) {
             newData.img =
-                SOHL.sysVer.CONFIG.Item.dataModels[newData.type]?.defaultImage;
+                HM.sysVer.CONFIG.Item.dataModels[newData.type]?.defaultImage;
         }
 
         // If nestedIn is specified, use update() on the nestedIn
@@ -2595,7 +2584,7 @@ export class SohlBaseData extends foundry.abstract.TypeDataModel {
 
         // Finally, add in the intrinsic actions (unless an action with same
         // name has already been added).  All of these macros will have the
-        // flag "flags.sohl.isIntrinsicAction" set to true.
+        // flag "flags.hm.isIntrinsicAction" set to true.
         this.intrinsicActions.forEach((intrinsicAction) => {
             if (!ary.some(([, m]) => m.name === intrinsicAction.name)) {
                 let contextCondition;
@@ -2614,9 +2603,9 @@ export class SohlBaseData extends foundry.abstract.TypeDataModel {
                             this.parent.uuid + intrinsicAction.name,
                         ),
                         type: CONST.MACRO_TYPES.SCRIPT,
-                        img: "systems/sohl/assets/icons/default-action.svg",
+                        img: "systems/hm/assets/icons/default-action.svg",
                         flags: {
-                            sohl: {
+                            hm: {
                                 notes: "",
                                 description: "",
                                 params: {},
@@ -2642,13 +2631,13 @@ export class SohlBaseData extends foundry.abstract.TypeDataModel {
         let hasDefault = false;
         ary.forEach((a) => {
             const isDefault =
-                foundry.utils.getProperty(a[1], "flags.sohl.contextGroup") ===
+                foundry.utils.getProperty(a[1], "flags.hm.contextGroup") ===
                 SohlContextMenu.sortGroups.Default;
             if (hasDefault) {
                 if (isDefault) {
                     foundry.utils.setProperty(
                         a[1],
-                        "flags.sohl.contextGroup",
+                        "flags.hm.contextGroup",
                         SohlContextMenu.sortGroups.Primary,
                     );
                 }
@@ -2659,10 +2648,10 @@ export class SohlBaseData extends foundry.abstract.TypeDataModel {
 
         ary.sort((a, b) => {
             const contextGroupA =
-                a[1].getFlag("sohl", "contextGroup") ||
+                a[1].getFlag("hm", "contextGroup") ||
                 SohlContextMenu.sortGroups.General;
             const contextGroupB =
-                b[1].getFlag("sohl", "contextGroup") ||
+                b[1].getFlag("hm", "contextGroup") ||
                 SohlContextMenu.sortGroups.General;
             return contextGroupA.localeCompare(contextGroupB);
         });
@@ -2671,7 +2660,7 @@ export class SohlBaseData extends foundry.abstract.TypeDataModel {
         if (!hasDefault && ary.length) {
             foundry.utils.setProperty(
                 ary[0][1],
-                "flags.sohl.contextGroup",
+                "flags.hm.contextGroup",
                 SohlContextMenu.sortGroups.Default,
             );
         }
@@ -2888,7 +2877,7 @@ export class SohlActorData extends SohlBaseData {
     }
 
     static get sheet() {
-        return "systems/sohl/templates/actor/actor-sheet.html";
+        return "systems/hm/templates/actor/actor-sheet.html";
     }
 
     /** @override */
@@ -2960,7 +2949,7 @@ export class SohlActorData extends SohlBaseData {
 
 export class SohlItemData extends SohlBaseData {
     static get sheet() {
-        return `systems/sohl/templates/item/${this.typeName}-sheet.html`;
+        return `systems/hm/templates/item/${this.typeName}-sheet.html`;
     }
 
     getEvent(eventTag) {
@@ -3210,7 +3199,7 @@ export class SohlItemData extends SohlBaseData {
             }
         }
 
-        const chatTemplate = "systems/sohl/templates/chat/item-desc-card.html";
+        const chatTemplate = "systems/hm/templates/chat/item-desc-card.html";
 
         const html = await renderTemplate(chatTemplate, chatData);
 
@@ -3461,8 +3450,7 @@ export class AnimateEntityActorData extends SohlActorData {
     } = {}) {
         if (skipDialog && !impactMod) return null;
 
-        const impactModifier =
-            SOHL.sysVer.CONFIG.Helper.modifiers.ImpactModifier;
+        const impactModifier = HM.sysVer.CONFIG.Helper.modifiers.ImpactModifier;
         const strikeMode =
             impactMod.parent instanceof StrikeModeItemData
                 ? impactMod.parent.item
@@ -3497,7 +3485,7 @@ export class AnimateEntityActorData extends SohlActorData {
         }
 
         // Prepare for Chat Message
-        const chatTemplate = "systems/sohl/templates/chat/damage-card.html";
+        const chatTemplate = "systems/hm/templates/chat/damage-card.html";
         const chatTemplateData = {
             title:
                 dialogOptions.label +
@@ -3536,7 +3524,7 @@ export class AnimateEntityActorData extends SohlActorData {
      */
     async _damageDialog({ type, label, strikeMode, impactMod, ...options }) {
         // Render modal dialog
-        let dlgTemplate = "systems/sohl/templates/dialog/damage-dialog.html";
+        let dlgTemplate = "systems/hm/templates/dialog/damage-dialog.html";
         let dialogData = {
             type,
             strikeMode,
@@ -3546,7 +3534,7 @@ export class AnimateEntityActorData extends SohlActorData {
             askImpact: !impactMod,
             addlWeaponImpact: 0,
             addlArmorReduction: 0,
-            config: SOHL.sysVer.CONFIG,
+            config: HM.sysVer.CONFIG,
             ...options,
         };
         const html = await renderTemplate(dlgTemplate, dialogData);
@@ -3802,7 +3790,7 @@ export class AnimateEntityActorData extends SohlActorData {
                         it.system instanceof TraitItemData &&
                         it.system.intensity === "attribute"
                             ? "Attribute"
-                            : SOHL.sysVer.CONFIG.Item.typeLabels[it.type];
+                            : HM.sysVer.CONFIG.Item.typeLabels[it.type];
                     if (it.system.subType) {
                         itemTypeName += ` (${it.system.subType})`;
                     }
@@ -3831,11 +3819,11 @@ export class AnimateEntityActorData extends SohlActorData {
             modifier: 0,
             successLevelMod: 0,
         };
-        if (this.$shockState === SOHL.CONST.SHOCK.Stunned)
+        if (this.$shockState === HM.CONST.SHOCK.Stunned)
             dialogOptions.successLevelMod--;
 
         const dlgTemplate =
-            "systems/sohl/templates/dialog/opposed-response-dialog.html";
+            "systems/hm/templates/dialog/opposed-response-dialog.html";
         const dlgHtml = await renderTemplate(dlgTemplate, dialogOptions);
 
         // Pop up the dialog to get the defender's data
@@ -3967,7 +3955,7 @@ export class AnimateEntityActorData extends SohlActorData {
 
         // Prepare for Chat Message
         const chatTemplate =
-            "systems/sohl/templates/chat/opposed-result-card.html";
+            "systems/hm/templates/chat/opposed-result-card.html";
 
         const chatTemplateData = {
             title: `Opposed Roll Result`,
@@ -4016,7 +4004,7 @@ export class AnimateEntityActorData extends SohlActorData {
         });
         this.$zoneSum = 0;
         this.$isSetup = true;
-        this.$shockState = SOHL.CONST.SHOCK.None;
+        this.$shockState = HM.CONST.SHOCK.None;
         this.$engagedOpponents = new ValueModifier(this);
         this.$engagedOpponents.setBase(0);
         this.$domains = Object.fromEntries(
@@ -4042,9 +4030,9 @@ export class AnimateEntityActorData extends SohlActorData {
 
 //     static getDefaultArtwork(data) {
 //         return {
-//             img: "systems/sohl/images/silhouette/character-headshot.webp",
+//             img: "systems/hm/images/silhouette/character-headshot.webp",
 //             texture: {
-//                 src: "systems/sohl/images/silhouette/character-token.svg",
+//                 src: "systems/hm/images/silhouette/character-token.svg",
 //             },
 //         };
 //     }
@@ -4063,9 +4051,9 @@ export class AnimateEntityActorData extends SohlActorData {
 
 //     static getDefaultArtwork(data) {
 //         return {
-//             img: "systems/sohl/assets/icons/claw.svg",
+//             img: "systems/hm/assets/icons/claw.svg",
 //             texture: {
-//                 src: "systems/sohl/images/silhouette/creature-token.svg",
+//                 src: "systems/hm/images/silhouette/creature-token.svg",
 //             },
 //         };
 //     }
@@ -4805,7 +4793,7 @@ export class CombatManeuverItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/sparkle.svg";
+        return "systems/hm/assets/icons/sparkle.svg";
     }
 }
 export class MasteryLevelItemData extends SohlItemData {
@@ -4843,7 +4831,7 @@ export class MasteryLevelItemData extends SohlItemData {
                     it.system instanceof MysteryItemData &&
                     it.system.subType === "fate"
                 ) {
-                    const fateSkills = this.item.getFlag("sohl", "fateSkills");
+                    const fateSkills = this.item.getFlag("hm", "fateSkills");
                     if (
                         !fateSkills?.length ||
                         fateSkills.includes(this.item.name)
@@ -4863,7 +4851,7 @@ export class MasteryLevelItemData extends SohlItemData {
                     it.system instanceof MysteryItemData &&
                     it.system.subType === "fateBonus"
                 ) {
-                    const skills = it.getFlag("sohl", "fateSkills");
+                    const skills = it.getFlag("hm", "fateSkills");
                     if (!skills || skills.includes(this.item.name)) {
                         if (
                             !it.system.$charges.disabled ||
@@ -5258,11 +5246,11 @@ export class MasteryLevelItemData extends SohlItemData {
                 let successLevelMod =
                     Number.parseInt(formdata.successLevelMod, 10) || 0;
 
-                if (this.actor.system.shock === SOHL.CONST.SHOCK.Stunned)
+                if (this.actor.system.shock === HM.CONST.SHOCK.Stunned)
                     successLevelMod--;
 
                 const chatTemplate =
-                    "systems/sohl/templates/chat/opposed-request-card.html";
+                    "systems/hm/templates/chat/opposed-request-card.html";
 
                 const chatData = {
                     sourceToken: token,
@@ -5457,7 +5445,7 @@ export class MasteryLevelItemData extends SohlItemData {
             this.constructor.typeLabel.singular
         }`;
         const chatTemplate =
-            "systems/sohl/templates/chat/standard-test-card.html";
+            "systems/hm/templates/chat/standard-test-card.html";
         const chatTemplateData = {
             type: `${this.type}-${this.name}-improve-sdr`,
             title: `${this.item.label} Development Roll`,
@@ -5509,7 +5497,7 @@ export class MasteryLevelItemData extends SohlItemData {
             await xpItem.update({
                 "system.textValue": String(newXPVal),
             });
-            const chatTemplate = "systems/sohl/templates/chat/xp-card.html";
+            const chatTemplate = "systems/hm/templates/chat/xp-card.html";
             const chatTemplateData = {
                 type: `${this.type}-${this.name}-improve-xp`,
                 title: `${this.item.label} Experience Point Increase`,
@@ -5629,7 +5617,7 @@ export class MysteryItemData extends SubtypeMixin(SohlItemData) {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/sparkles.svg";
+        return "systems/hm/assets/icons/sparkles.svg";
     }
 
     static get effectKeys() {
@@ -5783,7 +5771,7 @@ export class MysticalAbilityItemData extends SubtypeMixin(
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/hand-sparkles.svg";
+        return "systems/hm/assets/icons/hand-sparkles.svg";
     }
 
     static get effectKeys() {
@@ -6102,7 +6090,7 @@ export class DomainItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/sparkle.svg";
+        return "systems/hm/assets/icons/sparkle.svg";
     }
 
     static defineSchema() {
@@ -6159,7 +6147,7 @@ export class InjuryItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/injury.svg";
+        return "systems/hm/assets/icons/injury.svg";
     }
 
     static get aspectTypes() {
@@ -6458,7 +6446,7 @@ export class InjuryItemData extends SohlItemData {
 
         if (!Object.hasOwn(options, "healTestDuration")) {
             options.healTestDuration = game.settings.get(
-                "sohl",
+                "hm",
                 "healingSeconds",
             );
         }
@@ -6531,7 +6519,7 @@ export class AfflictionItemData extends SubtypeMixin(SohlItemData) {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/sick.svg";
+        return "systems/hm/assets/icons/sick.svg";
     }
 
     static get subTypes() {
@@ -6920,7 +6908,7 @@ export class TraitItemData extends SubtypeMixin(MasteryLevelItemData) {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/user-gear.svg";
+        return "systems/hm/assets/icons/user-gear.svg";
     }
 
     static get subTypes() {
@@ -7127,7 +7115,7 @@ export class SkillItemData extends SubtypeMixin(MasteryLevelItemData) {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/head-gear.svg";
+        return "systems/hm/assets/icons/head-gear.svg";
     }
 
     /** @enum */
@@ -7202,7 +7190,7 @@ export class AffiliationItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/people-group.svg";
+        return "systems/hm/assets/icons/people-group.svg";
     }
 
     static defineSchema() {
@@ -7249,7 +7237,7 @@ export class AnatomyItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/person.svg";
+        return "systems/hm/assets/icons/person.svg";
     }
 
     static defineSchema() {
@@ -7305,7 +7293,7 @@ export class BodyZoneItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/person.svg";
+        return "systems/hm/assets/icons/person.svg";
     }
 
     static defineSchema() {
@@ -7414,7 +7402,7 @@ export class BodyPartItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/ribcage.svg";
+        return "systems/hm/assets/icons/ribcage.svg";
     }
 
     static defineSchema() {
@@ -7576,7 +7564,7 @@ export class BodyLocationItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/hand.svg";
+        return "systems/hm/assets/icons/hand.svg";
     }
 
     static get effectKeys() {
@@ -7733,7 +7721,7 @@ export class MysticalDeviceItemData extends SubtypeMixin(SohlItemData) {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/magic-wand.svg";
+        return "systems/hm/assets/icons/magic-wand.svg";
     }
 
     /** @enum */
@@ -7945,7 +7933,7 @@ export class ConcoctionGearItemData extends SubtypeMixin(GearItemData) {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/potion.svg";
+        return "systems/hm/assets/icons/potion.svg";
     }
 
     static get potencyTypes() {
@@ -7988,7 +7976,7 @@ export class MiscGearItemData extends GearItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/miscgear.svg";
+        return "systems/hm/assets/icons/miscgear.svg";
     }
 }
 
@@ -8007,7 +7995,7 @@ export class ContainerGearItemData extends GearItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/sack.svg";
+        return "systems/hm/assets/icons/sack.svg";
     }
 
     static get status() {
@@ -8087,7 +8075,7 @@ export class ArmorGearItemData extends GearItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/armor.svg";
+        return "systems/hm/assets/icons/armor.svg";
     }
 
     static get rididArmor() {
@@ -8233,7 +8221,7 @@ export class WeaponGearItemData extends GearItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/sword.svg";
+        return "systems/hm/assets/icons/sword.svg";
     }
 
     /** @override */
@@ -8279,7 +8267,7 @@ export class ProjectileGearItemData extends SubtypeMixin(GearItemData) {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/arrow.svg";
+        return "systems/hm/assets/icons/arrow.svg";
     }
 
     static get effectKeys() {
@@ -8378,7 +8366,7 @@ export class EventItemData extends SohlItemData {
     }
 
     static get defaultImage() {
-        return "systems/sohl/assets/icons/gear.svg";
+        return "systems/hm/assets/icons/gear.svg";
     }
 
     static get operators() {
@@ -8575,7 +8563,7 @@ export class EventItemData extends SohlItemData {
      */
     static getWorldDateLabel(time) {
         let worldDateLabel = "No Calendar";
-        if (SOHL.hasSimpleCalendar) {
+        if (HM.hasSimpleCalendar) {
             const ct = SimpleCalendar.api.timestampToDate(time);
             worldDateLabel = `${ct.display.day} ${ct.display.monthName} ${ct.display.yearPrefix}${ct.display.year}${ct.display.yearPostfix} ${ct.display.time}`;
         }
@@ -8964,7 +8952,7 @@ export class Utility {
             secs,
         };
 
-        let dlgTemplate = "systems/sohl/templates/dialog/time-dialog.html";
+        let dlgTemplate = "systems/hm/templates/dialog/time-dialog.html";
         const html = await renderTemplate(dlgTemplate, dialogData);
 
         const dlgResult = await Dialog.prompt({
@@ -9035,13 +9023,13 @@ export class Utility {
      */
     static calcVictoryStars(atkSuccLvl, defSuccLvl = null) {
         if (defSuccLvl === null) {
-            return atkSuccLvl >= SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess
+            return atkSuccLvl >= HM.CONST.SUCCESS_LEVEL.MarginalSuccess
                 ? atkSuccLvl
                 : null;
         } else {
             if (
-                atkSuccLvl <= SOHL.CONST.SUCCESS_LEVEL.MarginalFailure &&
-                defSuccLvl <= SOHL.CONST.SUCCESS_LEVEL.MarginalFailure
+                atkSuccLvl <= HM.CONST.SUCCESS_LEVEL.MarginalFailure &&
+                defSuccLvl <= HM.CONST.SUCCESS_LEVEL.MarginalFailure
             ) {
                 return null;
             } else {
@@ -9065,8 +9053,8 @@ export class Utility {
                 result.isOpponent = !result.isTester;
                 result.vsList = new Array(result.victoryStars).fill(
                     result.isTester
-                        ? SOHL.CONST.CHARS.STARF
-                        : SOHL.CONST.CHARS.STAR,
+                        ? HM.CONST.CHARS.STARF
+                        : HM.CONST.CHARS.STAR,
                 );
                 result.text = result.vsList.join("");
             } else {
@@ -9153,7 +9141,7 @@ export class Utility {
 
                 const hasAction = parent.system.actions.some(
                     (it) =>
-                        !it.getFlag("sohl", "isIntrinsicAction") &&
+                        !it.getFlag("hm", "isIntrinsicAction") &&
                         it.name === formData.name,
                 );
                 if (hasAction) {
@@ -9366,12 +9354,11 @@ export class Utility {
 
         rollResults.successLevel =
             roll.total <= rollResults.target
-                ? SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess
-                : SOHL.CONST.SUCCESS_LEVEL.MarginalFailure;
+                ? HM.CONST.SUCCESS_LEVEL.MarginalSuccess
+                : HM.CONST.SUCCESS_LEVEL.MarginalFailure;
         rollResults.successLevel += successLevelMod;
         rollResults.isSuccess =
-            rollResults.successLevel >=
-            SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess;
+            rollResults.successLevel >= HM.CONST.SUCCESS_LEVEL.MarginalSuccess;
 
         if (critSuccess.length || critFailure.length) {
             rollResults.isCritical = rollResults.isSuccess
@@ -9394,8 +9381,8 @@ export class Utility {
                 successLevelIncr =
                     rollResults.successLevel -
                     (rollResults.isSuccess
-                        ? SOHL.CONST.SUCCESS_LEVEL.CriticalSuccess
-                        : SOHL.CONST.SUCCESS_LEVEL.CriticalFailure);
+                        ? HM.CONST.SUCCESS_LEVEL.CriticalSuccess
+                        : HM.CONST.SUCCESS_LEVEL.CriticalFailure);
             }
             if (successLevelIncr > 1 || successLevelIncr < -1) {
                 rollResults.description = `${rollResults.description} (${
@@ -9406,9 +9393,9 @@ export class Utility {
             rollResults.successLevel = Math.max(
                 Math.min(
                     rollResults.successLevel,
-                    SOHL.CONST.SUCCESS_LEVEL.MarginalSuccess,
+                    HM.CONST.SUCCESS_LEVEL.MarginalSuccess,
                 ),
-                SOHL.CONST.SUCCESS_LEVEL.MarginalFailure,
+                HM.CONST.SUCCESS_LEVEL.MarginalFailure,
             );
             rollResults.description = rollResults.isSuccess
                 ? "Success"
@@ -9444,7 +9431,7 @@ export class Utility {
         }
 
         // If the current scene is marked "Theatre of the Mind", then range is always 0
-        if (canvas.scene.getFlag("sohl", "isTotm")) return 0;
+        if (canvas.scene.getFlag("hm", "isTotm")) return 0;
 
         const source = sourceToken.center;
         const dest = targetToken.center;
@@ -9767,7 +9754,7 @@ export class SohlContextMenu extends ContextMenu {
 
 export class SohlActiveEffectData extends foundry.abstract.TypeDataModel {
     static get typeName() {
-        return "sohlactiveeffect";
+        return "hmactiveeffect";
     }
 
     static get typeLabel() {
@@ -9835,7 +9822,7 @@ export class SohlActiveEffectData extends foundry.abstract.TypeDataModel {
 
     /* Return the single target of this one active effect */
     get target() {
-        // This really doesn't make sense, since AE in SOHL can have multiple targets,
+        // This really doesn't make sense, since AE in HM can have multiple targets,
         // but this method is used in a number of places so we make it kinda work
         const targets = this.targets;
         return targets.length ? this.targets[0] : null;
@@ -9869,7 +9856,7 @@ export class SohlActiveEffectData extends foundry.abstract.TypeDataModel {
             // If the targetAttr is defined, find all of the sibling items with that attribute in their SB Formula
             if (
                 targetAttr &&
-                SOHL.sysVer.CONFIG.Item.dataModels[targetType] instanceof
+                HM.sysVer.CONFIG.Item.dataModels[targetType] instanceof
                     MasteryLevelItemData
             ) {
                 const targetAttrNames = this.targetAttr.split(",");
@@ -10483,13 +10470,12 @@ export class SohlActiveEffect extends ActiveEffect {
         if (type === "this") {
             type = this.parent.system.constructor.typeName;
         }
-        const eKey =
-            SOHL.sysVer.CONFIG.Item.dataModels?.[type].effectKeys?.[key];
+        const eKey = HM.sysVer.CONFIG.Item.dataModels?.[type].effectKeys?.[key];
         return eKey || { label: "Unknown", abbrev: "UNKNOWN" };
     }
 
     getEffectKeyChoices(type) {
-        return SOHL.sysVer.CONFIG.Item.dataModels?.[type].effectKeys || [];
+        return HM.sysVer.CONFIG.Item.dataModels?.[type].effectKeys || [];
     }
 
     /**
@@ -10528,13 +10514,13 @@ export class SohlActiveEffect extends ActiveEffect {
                             val,
                         )}`;
                     case modes.MULTIPLY:
-                        return `${prefix} ${SOHL.CONST.CHARS.TIMES} ${val}`;
+                        return `${prefix} ${HM.CONST.CHARS.TIMES} ${val}`;
                     case modes.OVERRIDE:
                         return `${prefix} = ${val}`;
                     case modes.UPGRADE:
-                        return `${prefix} ${SOHL.CONST.CHARS.GREATERTHANOREQUAL} ${val}`;
+                        return `${prefix} ${HM.CONST.CHARS.GREATERTHANOREQUAL} ${val}`;
                     case modes.DOWNGRADE:
-                        return `${prefix} ${SOHL.CONST.CHARS.LESSTHANOREQUAL} ${val}`;
+                        return `${prefix} ${HM.CONST.CHARS.LESSTHANOREQUAL} ${val}`;
                     default:
                         return !val ? `${prefix}` : `${prefix} ~ ${val}`;
                 }
@@ -10740,7 +10726,7 @@ export class SohlActiveEffectConfig extends ActiveEffectConfig {
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            template: "systems/sohl/templates/effect/active-effect-config.html",
+            template: "systems/hm/templates/effect/active-effect-config.html",
         });
     }
 
@@ -10765,7 +10751,7 @@ export class SohlActiveEffectConfig extends ActiveEffectConfig {
                 this.object.parent instanceof Actor
                     ? "This Actor"
                     : `This ${
-                          SOHL.sysVer.CONFIG.Item.typeLabels[
+                          HM.sysVer.CONFIG.Item.typeLabels[
                               this.object.parent.type
                           ]
                       }`,
@@ -10775,7 +10761,7 @@ export class SohlActiveEffectConfig extends ActiveEffectConfig {
             context.targetTypes.actor = "Actor";
         }
 
-        for (const key of Object.keys(SOHL.sysVer.CONFIG.Item.dataModels)) {
+        for (const key of Object.keys(HM.sysVer.CONFIG.Item.dataModels)) {
             switch (key) {
                 case "actor":
                     context.targetTypes[key] = "Actor";
@@ -10783,12 +10769,12 @@ export class SohlActiveEffectConfig extends ActiveEffectConfig {
 
                 default:
                     context.targetTypes[key] =
-                        SOHL.sysVer.CONFIG.Item.typeLabels[key];
+                        HM.sysVer.CONFIG.Item.typeLabels[key];
                     break;
             }
         }
 
-        if (SOHL.hasSimpleCalendar) {
+        if (HM.hasSimpleCalendar) {
             const ct = SimpleCalendar.api.timestampToDate(
                 context.data.duration.startTime,
             );
@@ -10871,27 +10857,27 @@ export class SohlMacro extends Macro {
     }
 
     get notes() {
-        return this.getFlag("sohl", "notes") || "";
+        return this.getFlag("hm", "notes") || "";
     }
 
     set notes(value) {
-        this.setFlag("sohl", "notes", value ?? "");
+        this.setFlag("hm", "notes", value ?? "");
     }
 
     get description() {
-        return this.getFlag("sohl", "description") || "";
+        return this.getFlag("hm", "description") || "";
     }
 
     set description(value) {
-        this.setFlag("sohl", "description", value ?? "");
+        this.setFlag("hm", "description", value ?? "");
     }
 
     get useAsync() {
-        return this.getFlag("sohl", "useAsync");
+        return this.getFlag("hm", "useAsync");
     }
 
     set useAsync(val) {
-        this.setFlag("sohl", "useAsync", !!val);
+        this.setFlag("hm", "useAsync", !!val);
     }
 
     get nameParts() {
@@ -10903,47 +10889,47 @@ export class SohlMacro extends Macro {
     }
 
     get params() {
-        return this.getFlag("sohl", "params") || {};
+        return this.getFlag("hm", "params") || {};
     }
 
     get functionName() {
-        return this.getFlag("sohl", "functionName") ?? "";
+        return this.getFlag("hm", "functionName") ?? "";
     }
 
     set functionName(value) {
-        this.setFlag("sohl", "functionName", value);
+        this.setFlag("hm", "functionName", value);
     }
 
     get isIntrinsicAction() {
-        return !!this.getFlag("sohl", "isIntrinsicAction");
+        return !!this.getFlag("hm", "isIntrinsicAction");
     }
 
     set isIntrinsicAction(value) {
-        this.setFlag("sohl", "isIntrinsicAction", !!value);
+        this.setFlag("hm", "isIntrinsicAction", !!value);
     }
 
     get contextIconClass() {
-        return this.getFlag("sohl", "contextIconClass") ?? "";
+        return this.getFlag("hm", "contextIconClass") ?? "";
     }
 
     set contextIconClass(value) {
-        this.setFlag("sohl", "contextIconClass", value);
+        this.setFlag("hm", "contextIconClass", value);
     }
 
     get contextCondition() {
-        return this.getFlag("sohl", "contextCondition") ?? false;
+        return this.getFlag("hm", "contextCondition") ?? false;
     }
 
     set contextCondition(value) {
-        this.setFlag("sohl", "contextCondition", value);
+        this.setFlag("hm", "contextCondition", value);
     }
 
     get contextGroup() {
-        return this.getFlag("sohl", "contextGroup") ?? "";
+        return this.getFlag("hm", "contextGroup") ?? "";
     }
 
     set contextGroup(value) {
-        this.setFlag("sohl", "contextGroup", value);
+        this.setFlag("hm", "contextGroup", value);
     }
 
     setParam(name, value) {
@@ -10955,13 +10941,13 @@ export class SohlMacro extends Macro {
 
         const newParams = foundry.utils.deepClone(this.params);
         newParams[name] = value;
-        this.setFlag("sohl", "params", newParams);
+        this.setFlag("hm", "params", newParams);
     }
 
     deleteParam(name) {
         const newParams = foundry.utils.deepClone(this.params);
         delete newParams[name];
-        this.setFlag("sohl", "params", newParams);
+        this.setFlag("hm", "params", newParams);
     }
 
     get paramsLabel() {
@@ -11053,7 +11039,7 @@ export class SohlMacro extends Macro {
             {
                 type: CONST.MACRO_TYPES.SCRIPT,
                 flags: {
-                    sohl: {
+                    hm: {
                         notes: "",
                         description: "",
                         params: {},
@@ -11283,8 +11269,8 @@ export class SohlMacroConfig extends MacroConfig {
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["sohl", "sheet", "macro", "macro-sheet"],
-            template: "systems/sohl/templates/dialog/macro-config.html",
+            classes: ["hm", "sheet", "macro", "macro-sheet"],
+            template: "systems/hm/templates/dialog/macro-config.html",
             tabs: [
                 {
                     navSelector: ".sheet-tabs",
@@ -11311,8 +11297,8 @@ export class SohlMacroConfig extends MacroConfig {
             return obj;
         }, {});
         data.editable = this.isEditable;
-        data.const = SOHL.sysVer.CONST;
-        data.config = SOHL.sysVer.CONFIG;
+        data.const = HM.sysVer.CONST;
+        data.config = HM.sysVer.CONFIG;
         return data;
     }
 
@@ -11393,7 +11379,7 @@ export class SohlActor extends Actor {
     }
 
     get itemSubtypes() {
-        const result = Object.values(SOHL.sysVer.CONFIG.Item.dataModels).reduce(
+        const result = Object.values(HM.sysVer.CONFIG.Item.dataModels).reduce(
             (ist, clazz) => {
                 // Only create a subtype list if there are, in fact, subtypes defined
                 if (clazz.subTypes) {
@@ -11481,7 +11467,7 @@ export class SohlActor extends Actor {
                 actor = game.user.character;
                 if (!actor) {
                     const msg = `Cannot identify a default character; please consider defining your default character in your user profile.`;
-                    console.warn(`sohl.SoHL | ${msg}`);
+                    console.warn(`hm.SoHL | ${msg}`);
                     ui.notifications.warn(msg);
                     return null;
                 }
@@ -11664,11 +11650,11 @@ export class SohlActor extends Actor {
         const title = game.i18n.format("DOCUMENT.Create", { type: label });
         const type = data.type || defaultType;
         let userCompendiums = game.settings
-            .get("sohl", "searchActorCompendiums")
+            .get("hm", "searchActorCompendiums")
             .split(",")
             .map((s) => s.trim());
         const defaultAnimateEntity = game.settings.get(
-            "sohl",
+            "hm",
             "defaultAnimateEntity",
         );
 
@@ -11679,8 +11665,8 @@ export class SohlActor extends Actor {
                     label: actor.name,
                 };
                 ary.push(elem);
-                return ary;
             }
+            return ary;
         }, []);
 
         const userPackActors = (
@@ -11698,10 +11684,10 @@ export class SohlActor extends Actor {
         }, []);
 
         const sysPackActors = (
-            await Utility.getDocsFromPacks(
-                SOHL.sysVer.CONFIG.Actor.compendiums,
-                { documentName: "Actor", docType: "entity" },
-            )
+            await Utility.getDocsFromPacks(HM.sysVer.CONFIG.Actor.compendiums, {
+                documentName: "Actor",
+                docType: "entity",
+            })
         ).reduce((ary, actor) => {
             const elem = {
                 value: actor.uuid,
@@ -11857,7 +11843,7 @@ export class SohlActor extends Actor {
                         parent,
                         pack,
                     });
-                return this.implementation.create(data, {
+                return this.create(data, {
                     parent,
                     pack,
                     renderSheet: true,
@@ -11929,7 +11915,7 @@ export class SohlActor extends Actor {
                 ) {
                     const rollFormula =
                         (options.rollFormula === "default"
-                            ? obj.flags?.sohl?.diceFormula
+                            ? obj.flags?.hm?.diceFormula
                             : options.rollFormula) || "0";
 
                     let roll = await Roll.create(rollFormula).evaluate();
@@ -11946,12 +11932,12 @@ export class SohlActor extends Actor {
             // Calculate initial skills mastery levels
             for (const obj of updateData.items) {
                 if (obj.type === "skill") {
-                    if (obj.flags?.sohl?.legendary?.initSkillMult) {
+                    if (obj.flags?.hm?.kethira?.initSkillMult) {
                         const sb = new SkillBase(obj.system.skillBaseFormula, {
                             items: updateData.items,
                         });
                         obj.system.masteryLevelBase =
-                            sb.value * obj.flags.sohl.legendary.initSkillMult;
+                            sb.value * obj.flags.hm.kethira.initSkillMult;
                     }
                 }
             }
@@ -12077,12 +12063,23 @@ export class SohlActor extends Actor {
             await this.updateEmbeddedDocuments("ActiveEffect", actorUpdate);
         }
 
-        for (const it of this.allItems()) {
+        for (const it of this.items) {
             const toUpdate = it.updateEffectsOrigin();
             if (toUpdate.length) {
                 await it.updateEmbeddedDocuments("ActiveEffect", toUpdate);
             }
         }
+
+        this.system.virtualItems.forEach((it) => {
+            const toUpdate = it.updateEffectsOrigin();
+            while (toUpdate.length) {
+                const eChange = toUpdate.pop();
+                const effect = it.effects.get(eChange._id);
+                if (effect) {
+                    effect.update({ origin: eChange.origin });
+                }
+            }
+        });
     }
 
     /**
@@ -12148,7 +12145,7 @@ export class SohlActor extends Actor {
 
         const typeNames =
             types
-                .map((t) => SOHL.sysVer.CONFIG.Item.typeLabels[t])
+                .map((t) => HM.sysVer.CONFIG.Item.typeLabels[t])
                 .join(" or ") || "item";
 
         let item = null;
@@ -12228,9 +12225,9 @@ export class SohlActor extends Actor {
         if (!types.includes(item.type)) {
             throw new Error(
                 `Item ${item.system.typeLabel.singular} must be one of "${types
-                    .map((t) => SOHL.sysVer.CONFIG.Item.typeLabels[t])
+                    .map((t) => HM.sysVer.CONFIG.Item.typeLabels[t])
                     .join(", ")}" but type is ${
-                    SOHL.sysVer.CONFIG.Item.typeLabels[item.type]
+                    HM.sysVer.CONFIG.Item.typeLabels[item.type]
                 }`,
             );
         }
@@ -12429,8 +12426,8 @@ function SohlSheetMixin(Base) {
 
         getData() {
             const data = super.getData();
-            data.const = SOHL.sysVer.CONST;
-            data.config = SOHL.sysVer.CONFIG;
+            data.const = HM.sysVer.CONST;
+            data.config = HM.sysVer.CONFIG;
             data.owner = this.document.isOwner;
             data.limited = this.document.limited;
             data.options = this.options;
@@ -12570,11 +12567,11 @@ function SohlSheetMixin(Base) {
 
         async _onEffectCreate() {
             const dlgTemplate =
-                "systems/sohl/templates/dialog/active-effect-start.html";
+                "systems/hm/templates/dialog/active-effect-start.html";
             const dialogData = {
                 gameTime: game.time.worldTime,
             };
-            if (SOHL.hasSimpleCalendar) {
+            if (HM.hasSimpleCalendar) {
                 const ct = SimpleCalendar.api.timestampToDate(
                     dialogData.gameTime,
                 );
@@ -12791,7 +12788,7 @@ function SohlSheetMixin(Base) {
                 if (isActor && itemData.type.startsWith("body")) {
                     ui.notifications.warn(
                         `You may not drop a ${
-                            SOHL.sysVer.CONFIG.Item.typeLabels[itemData.type]
+                            HM.sysVer.CONFIG.Item.typeLabels[itemData.type]
                         } onto an Actor`,
                     );
                     return false;
@@ -13142,7 +13139,7 @@ function SohlSheetMixin(Base) {
             };
 
             let dlgTemplate =
-                "systems/sohl/templates/dialog/keyvalue-dialog.html";
+                "systems/hm/templates/dialog/keyvalue-dialog.html";
             const html = await renderTemplate(dlgTemplate, dialogData);
 
             const dlgResult = await Dialog.prompt({
@@ -13316,7 +13313,7 @@ export class SohlActorSheet extends SohlSheetMixin(ActorSheet) {
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["sohl", "sheet", "actor"],
+            classes: ["hm", "sheet", "actor"],
             width: 900,
             height: 640,
             filters: [
@@ -13629,13 +13626,13 @@ export class SohlActorSheet extends SohlSheetMixin(ActorSheet) {
     //                         val,
     //                     )}`;
     //                 case modes.MULTIPLY:
-    //                     return `${prefix} ${SOHL.CONST.CHARS.TIMES} ${val}`;
+    //                     return `${prefix} ${HM.CONST.CHARS.TIMES} ${val}`;
     //                 case modes.OVERRIDE:
     //                     return `${prefix} = ${val}`;
     //                 case modes.UPGRADE:
-    //                     return `${prefix} ${SOHL.CONST.CHARS.GREATERTHANOREQUAL} ${val}`;
+    //                     return `${prefix} ${HM.CONST.CHARS.GREATERTHANOREQUAL} ${val}`;
     //                 case modes.DOWNGRADE:
-    //                     return `${prefix} ${SOHL.CONST.CHARS.LESSTHANOREQUAL} ${val}`;
+    //                     return `${prefix} ${HM.CONST.CHARS.LESSTHANOREQUAL} ${val}`;
     //                 default:
     //                     return !val ? `${prefix}` : `${prefix} ~ ${val}`;
     //             }
@@ -13686,7 +13683,7 @@ export class SohlActorSheet extends SohlSheetMixin(ActorSheet) {
         };
         if (dataset.type) {
             if (dataset.type === "gear") {
-                options.types = SOHL.CONST.GEARTYPES;
+                options.types = HM.CONST.GEARTYPES;
                 data.type = options.types[0];
             } else if (dataset.type === "body") {
                 options.types = [
@@ -13836,7 +13833,7 @@ export class SohlItemSheet extends SohlSheetMixin(ItemSheet) {
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["sohl", "sheet", "item"],
+            classes: ["hm", "sheet", "item"],
             width: 560,
             height: 550,
         });
@@ -14157,7 +14154,7 @@ export class SohlItemSheet extends SohlSheetMixin(ItemSheet) {
         const options = { nestedIn: this.item, parent: this.item.actor };
         const data = { name: "" };
         if (dataset.type === "gear") {
-            options.types = SOHL.CONST.GEARTYPES;
+            options.types = HM.CONST.GEARTYPES;
             data.type = options.types[0];
         } else if (dataset.type) {
             data.type = dataset.type;
@@ -14287,7 +14284,7 @@ export class Commands {
             for (let [name, type] of descObj.nestedItems) {
                 const itemData = await Utility.getItemFromPacks(
                     name,
-                    SOHL.sysVer.CONFIG.Item.compendiums,
+                    HM.sysVer.CONFIG.Item.compendiums,
                     { itemType: type },
                 );
                 if (itemData) {
@@ -14314,14 +14311,11 @@ export class Commands {
     static handleCombatFatigue(combat) {
         combat.turns.forEach((combatant) => {
             const actor = combatant.token.actor;
-            const didCombat = combatant.getFlag("sohl", "didCombat");
+            const didCombat = combatant.getFlag("hm", "didCombat");
 
             if (didCombat) {
                 // Calculate distance combatant has moved
-                const startLocation = combatant.getFlag(
-                    "sohl",
-                    "startLocation",
-                );
+                const startLocation = combatant.getFlag("hm", "startLocation");
                 const dist = startLocation
                     ? combat.getDistance(startLocation, combatant.token.center)
                     : 0;
@@ -14330,8 +14324,8 @@ export class Commands {
             }
 
             combatant.update({
-                "flags.sohl.didCombat": false,
-                "flags.sohl.startLocation": combatant.token.center,
+                "flags.hm.didCombat": false,
+                "flags.hm.startLocation": combatant.token.center,
             });
         });
     }
@@ -14402,7 +14396,7 @@ export class Commands {
         button.disabled = false;
     }
 }
-SOHL.cmds = Commands;
+HM.cmds = Commands;
 
 export const SohlActorDataModels = {
     [AnimateEntityActorData.typeName]: AnimateEntityActorData,
@@ -14518,7 +14512,7 @@ export const SohlItemTypeLabels = {
     [WeaponGearItemData.typeName]: WeaponGearItemData.typeLabel.singular,
 };
 
-SOHL.class = {
+HM.class = {
     SohlActor,
     SohlItem,
     SohlMacro,
@@ -14533,7 +14527,7 @@ SOHL.class = {
     Commands,
 };
 
-SOHL.CONST.GEARTYPES = [
+HM.CONST.GEARTYPES = [
     MiscGearItemData.typeName,
     ContainerGearItemData.typeName,
     ArmorGearItemData.typeName,

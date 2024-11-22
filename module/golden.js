@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import * as sohl from "./sohl-common.js";
+import * as hm from "./hm-common.js";
 
 /* ====================================================================== */
 /*          Constants                                                     */
@@ -14,76 +14,76 @@ const GOLD = {
 };
 
 const GoldActorDataModels = foundry.utils.mergeObject(
-    sohl.SohlActorDataModels,
+    hm.SohlActorDataModels,
     {},
     { inplace: false },
 );
 
 const GoldItemDataModels = foundry.utils.mergeObject(
-    sohl.SohlItemDataModels,
+    hm.SohlItemDataModels,
     {},
     { inplace: false },
 );
 
 const GoldModifiers = foundry.utils.mergeObject(
-    sohl.SohlModifiers,
+    hm.SohlModifiers,
     {},
     { inplace: false },
 );
 
 export const verData = {
-    id: "legendary",
-    label: "Song of Heroic Lands: Golden Edition",
+    id: "gold",
+    label: "HarnMaster: Gold Edition",
     CONFIG: {
         Helper: {
             modifiers: GoldModifiers,
-            contextMenu: sohl.SohlContextMenu,
+            contextMenu: hm.SohlContextMenu,
         },
         Actor: {
-            documentClass: sohl.SohlActor,
+            documentClass: hm.SohlActor,
             documentSheets: [
                 {
-                    cls: sohl.SohlActorSheet,
+                    cls: hm.SohlActorSheet,
                     types: Object.keys(GoldActorDataModels),
                 },
             ],
             dataModels: GoldActorDataModels,
-            typeLabels: sohl.SohlActorTypeLabels,
-            typeIcons: sohl.SohlActorTypeIcons,
+            typeLabels: hm.SohlActorTypeLabels,
+            typeIcons: hm.SohlActorTypeIcons,
             types: Object.keys(GoldActorDataModels),
-            defaultType: sohl.AnimateEntityActorData.typeName,
+            defaultType: hm.AnimateEntityActorData.typeName,
             compendiums: [],
         },
         Item: {
-            documentClass: sohl.SohlItem,
+            documentClass: hm.SohlItem,
             documentSheets: [
                 {
-                    cls: sohl.SohlItemSheet,
+                    cls: hm.SohlItemSheet,
                     types: Object.keys(GoldItemDataModels).filter(
-                        (t) => t !== sohl.ContainerGearItemData.typeName,
+                        (t) => t !== hm.ContainerGearItemData.typeName,
                     ),
                 },
                 {
-                    cls: sohl.SohlContainerGearItemSheet,
-                    types: [sohl.ContainerGearItemData.typeName],
+                    cls: hm.SohlContainerGearItemSheet,
+                    types: [hm.ContainerGearItemData.typeName],
                 },
             ],
             dataModels: GoldItemDataModels,
-            typeLabels: sohl.SohlItemTypeLabels,
-            typeIcons: sohl.SohlItemTypeIcons,
+            typeLabels: hm.SohlItemTypeLabels,
+            typeIcons: hm.SohlItemTypeIcons,
             types: Object.keys(GoldItemDataModels),
-            compendiums: ["sohl.golden-basic-items"],
+            compendiums: ["hm.golden-basic-items"],
         },
         ActiveEffect: {
-            documentClass: sohl.SohlActiveEffect,
+            documentClass: hm.SohlActiveEffect,
             legacyTransferral: false,
         },
         Macro: {
-            documentClass: sohl.SohlMacro,
-            documentSheet: sohl.SohlMacroConfig,
+            documentClass: hm.SohlMacro,
+            documentSheet: hm.SohlMacroConfig,
         },
     },
-    CONST: foundry.utils.mergeObject(sohl.SOHL.CONST, GOLD.CONST, {
+    CONST: foundry.utils.mergeObject(hm.HM.CONST, GOLD.CONST, {
         inplace: false,
     }),
 };
