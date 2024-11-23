@@ -1,9 +1,9 @@
 name: Helgya
 type: entity
-img: hmk-assets/images/helgya-headshot.png
+img: systems/hm/assets/images/character/helgya-headshot.webp
 system:
   macros: []
-  bioImage: hmk-assets/images/helgya.png
+  bioImage: systems/hm/assets/images/character/helgya.webp
   description: |-
     <table style="user-select:text;width:95%;color:#191813;font-size:13px" border="1">
     <tbody style="box-sizing:border-box;user-select:text">
@@ -129,7 +129,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: hmk-assets/images/helgya-token.png
+    src: systems/hm/assets/images/character/helgya-token.webp
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
