@@ -1,15 +1,15 @@
 {
-  "name": "Helgya",
+  "name": "Elben",
   "type": "entity",
-  "img": "hmk-assets/images/helgya-headshot.png",
+  "img": "systems/hm/assets/images/character/elben-headshot.webp",
   "system": {
     "macros": [],
-    "bioImage": "hmk-assets/images/helgya.png",
+    "bioImage": "systems/hm/assets/images/character/elben.webp",
     "description": "<table style=\"user-select:text;width:95%;color:#191813;font-size:13px\" border=\"1\">\n<tbody style=\"box-sizing:border-box;user-select:text\">\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Apparent Age</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Culture</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Social Class</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Height</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Frame</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Weight</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Appearance/Comeliness</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Hair Color</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Eye Color</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:16px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:16px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Voice</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:16px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:23px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:23px\"><strong>Obvious Medical Traits</strong><span style=\"box-sizing:border-box;user-select:text\"><br style=\"box-sizing:border-box;user-select:text\" /></span></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:23px\"><span style=\"box-sizing:border-box;user-select:text\"> </span></td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:23px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:23px\"><strong>Apparent Occupation</strong><span style=\"box-sizing:border-box;user-select:text\"><br style=\"box-sizing:border-box;user-select:text\" /></span></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:23px\"><span style=\"box-sizing:border-box;user-select:text\"> </span></td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:23px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:23px\"><strong>Apparent Wealth</strong><span style=\"box-sizing:border-box;user-select:text\"><br style=\"box-sizing:border-box;user-select:text\" /></span></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:23px\"><span style=\"box-sizing:border-box;user-select:text\"> </span></td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:23px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:23px\"><strong>Weapons</strong><span style=\"box-sizing:border-box;user-select:text\"><br style=\"box-sizing:border-box;user-select:text\" /></span></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:23px\"><span style=\"box-sizing:border-box;user-select:text\"> </span></td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:23px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:23px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Armour</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:23px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:23px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:23px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Companions</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:23px\"> </td>\n</tr>\n<tr style=\"box-sizing:border-box;user-select:text;height:23px\">\n<td style=\"box-sizing:border-box;user-select:text;width:143.2px;height:23px\"><strong><span style=\"box-sizing:border-box;user-select:text\">Other obvious features</span></strong></td>\n<td style=\"box-sizing:border-box;user-select:text;width:365.6px;height:23px\"> </td>\n</tr>\n</tbody>\n</table>",
-    "biography": "<h1>Data</h1>\n<table style=\"width:95%;height:144px\" border=\"1\">\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Birthdate</strong></td>\n<td style=\"width:435px;height:16px\">27 Peonu 697</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Birthplace</strong></td>\n<td style=\"width:435px;height:16px\">Raldlund, Ivinia</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Sibling Rank</strong></td>\n<td style=\"width:435px;height:16px\">2 of 3</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Parent(s)</strong></td>\n<td style=\"width:435px;height:16px\">Gundar and Jofrid Green-Eye</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Parent Affiliation</strong></td>\n<td style=\"width:435px;height:16px\"> </td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Estrangement</strong></td>\n<td style=\"width:435px;height:16px\">Popular</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Clanhead</strong></td>\n<td style=\"width:435px;height:16px\"> </td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Medical Traits</strong></td>\n<td style=\"width:435px;height:16px\"> </td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:140px;height:16px\"><strong>Psyche Traits</strong></td>\n<td style=\"width:435px;height:16px\"> </td>\n</tr>\n</tbody>\n</table>\n<h1>Life Story</h1>"
+    "biography": "<h1>Data</h1>\n<table style=\"width:95%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width:140px\"><strong>Birthdate</strong></td>\n<td style=\"width:435px\">670TR</td>\n</tr>\n<tr>\n<td style=\"width:140px\"><strong>Birthplace</strong></td>\n<td style=\"width:435px\">Melderyn</td>\n</tr>\n<tr>\n<td style=\"width:140px\"><strong>Sibling Rank</strong></td>\n<td style=\"width:435px\"> </td>\n</tr>\n<tr>\n<td style=\"width:140px\"><strong>Parent(s)</strong></td>\n<td style=\"width:435px\"> </td>\n</tr>\n<tr>\n<td style=\"width:140px\"><strong>Parent Affiliation</strong></td>\n<td style=\"width:435px\"> </td>\n</tr>\n<tr>\n<td style=\"width:140px\"><strong>Estrangement</strong></td>\n<td style=\"width:435px\"> Unpopular 40</td>\n</tr>\n<tr>\n<td style=\"width:140px\"><strong>Clanhead</strong></td>\n<td style=\"width:435px\"> </td>\n</tr>\n<tr>\n<td style=\"width:140px\"><strong>Medical Traits</strong></td>\n<td style=\"width:435px\"> </td>\n</tr>\n<tr>\n<td style=\"width:140px\"><strong>Psyche Traits</strong></td>\n<td style=\"width:435px\"> </td>\n</tr>\n</tbody>\n</table>\n<h1>Life Story</h1>\n<p class=\"p1\"> </p>\n<p class=\"p2\"><strong>Purpose: </strong>to accompany Nólora during her journey to Azadmere, as an emissary of Melderyn and ally of Emelrene; ...to serve asNólora’s translator and advisor.</p>\n<p class=\"p2\"><strong>Church of Save-K’nor: </strong>Laity (God of knowledge, tricks, and jest).</p>\n<p class=\"p2\"><strong>Blessing bonus: </strong>Folklore.</p>\n<p class=\"p2\"><strong>Arcane talent: Elemental Bolt (Aura)</strong>. You can invoke as a 1-turn action and target an entity within 70 feet and LOS. If successful,the target must test Spirit; for each step-loss, it suffers Aural Shock 1.</p>\n<p class=\"p2\"><strong>Arcane talent: Sensitivity</strong>. You can sense arcane energy within 35 feet. A free passive roll by the GM can give you a very generalidea or hunch. You can then actively invoke as a 1-round action to gain more details.</p>"
   },
   "prototypeToken": {
-    "name": "Helgya",
+    "name": "Elben",
     "displayName": 50,
     "actorLink": true,
     "appendNumber": false,
@@ -17,7 +17,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "hmk-assets/images/helgya-token.png",
+      "src": "systems/hm/assets/images/character/elben-token.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -82,12 +82,12 @@
       "radius": 0
     },
     "ring": {
-      "enabled": true,
+      "enabled": false,
       "colors": {
-        "ring": "#e21898",
+        "ring": "#f70202",
         "background": "#ffffff"
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -105,7 +105,7 @@
         "description": "",
         "subType": "physique",
         "abbrev": "str",
-        "textValue": "11",
+        "textValue": "9",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -162,9 +162,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "n2qSIE4qVFbHGmgL",
+      "_id": "BEMwwnBccoayWe1r",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.n2qSIE4qVFbHGmgL"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.BEMwwnBccoayWe1r"
     },
     {
       "name": "Endurance",
@@ -174,7 +174,7 @@
         "description": "",
         "subType": "physique",
         "abbrev": "end",
-        "textValue": "9",
+        "textValue": "12",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -231,9 +231,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "bUm48FhHaYAGSyQC",
+      "_id": "53vJywH5B0SPy9hg",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.bUm48FhHaYAGSyQC"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.53vJywH5B0SPy9hg"
     },
     {
       "name": "Dexterity",
@@ -243,7 +243,7 @@
         "description": "",
         "subType": "physique",
         "abbrev": "dex",
-        "textValue": "10",
+        "textValue": "8",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -300,9 +300,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "2fUKE7bxzbpfSwhF",
+      "_id": "MfMRqNw9VEeHSpnI",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.2fUKE7bxzbpfSwhF"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.MfMRqNw9VEeHSpnI"
     },
     {
       "name": "Agility",
@@ -312,7 +312,7 @@
         "description": "",
         "subType": "physique",
         "abbrev": "agl",
-        "textValue": "14",
+        "textValue": "11",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -369,9 +369,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "yJv9TLfz7GmjUobz",
+      "_id": "Z0MoeUufx6VZYaQO",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.yJv9TLfz7GmjUobz"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.Z0MoeUufx6VZYaQO"
     },
     {
       "name": "Perception",
@@ -381,7 +381,7 @@
         "description": "",
         "subType": "physique",
         "abbrev": "per",
-        "textValue": "11",
+        "textValue": "14",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -438,9 +438,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "Upc4n7eVQAaILxnx",
+      "_id": "pBvP6mRE7VJfYt7N",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Upc4n7eVQAaILxnx"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.pBvP6mRE7VJfYt7N"
     },
     {
       "name": "Comeliness",
@@ -450,7 +450,7 @@
         "description": "",
         "subType": "physique",
         "abbrev": "cml",
-        "textValue": "14",
+        "textValue": "11",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -507,9 +507,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "F87Y9FbMdCRRpsEU",
+      "_id": "XpJYNPi8TxVlg5Cu",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.F87Y9FbMdCRRpsEU"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.XpJYNPi8TxVlg5Cu"
     },
     {
       "name": "Aura",
@@ -519,7 +519,7 @@
         "description": "",
         "subType": "transcendent",
         "abbrev": "aur",
-        "textValue": "17",
+        "textValue": "15",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -576,9 +576,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "Pk0DImYAlJScZ9wk",
+      "_id": "a35q7dBXMEXO76eF",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Pk0DImYAlJScZ9wk"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.a35q7dBXMEXO76eF"
     },
     {
       "name": "Will",
@@ -588,7 +588,7 @@
         "description": "",
         "subType": "personality",
         "abbrev": "wil",
-        "textValue": "12",
+        "textValue": "13",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -645,9 +645,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "X2HZX0tdGjBzIi9S",
+      "_id": "UrPvusvM0PXPYmYH",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.X2HZX0tdGjBzIi9S"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.UrPvusvM0PXPYmYH"
     },
     {
       "name": "Reasoning",
@@ -657,7 +657,7 @@
         "description": "",
         "subType": "personality",
         "abbrev": "rea",
-        "textValue": "10",
+        "textValue": "17",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -714,9 +714,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "Sibmw3nzuj5ppauE",
+      "_id": "H2OnCNZcLBf8k3zk",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Sibmw3nzuj5ppauE"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.H2OnCNZcLBf8k3zk"
     },
     {
       "name": "Creativity",
@@ -726,7 +726,7 @@
         "description": "",
         "subType": "personality",
         "abbrev": "cre",
-        "textValue": "15",
+        "textValue": "10",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -783,9 +783,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "hcFauvllk69rfUaG",
+      "_id": "QJxuciVMvkiwM8JG",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.hcFauvllk69rfUaG"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.QJxuciVMvkiwM8JG"
     },
     {
       "name": "Empathy",
@@ -795,7 +795,7 @@
         "description": "",
         "subType": "personality",
         "abbrev": "emp",
-        "textValue": "14",
+        "textValue": "9",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -852,9 +852,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "dIgs2dfJlA5yhqoC",
+      "_id": "WUKfbTYgYQnjShMf",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.dIgs2dfJlA5yhqoC"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.WUKfbTYgYQnjShMf"
     },
     {
       "name": "Eloquence",
@@ -864,7 +864,7 @@
         "description": "",
         "subType": "personality",
         "abbrev": "elo",
-        "textValue": "9",
+        "textValue": "13",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -921,9 +921,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "5tfrG7stXUGt8sHc",
+      "_id": "kVBFjEZVNPb9TJAl",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.5tfrG7stXUGt8sHc"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.kVBFjEZVNPb9TJAl"
     },
     {
       "name": "Voice",
@@ -933,7 +933,7 @@
         "description": "",
         "subType": "physique",
         "abbrev": "voi",
-        "textValue": "12",
+        "textValue": "13",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -990,9 +990,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "VJL6U0otndLZHMr9",
+      "_id": "UBX27D8UZDR0ZX1Q",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.VJL6U0otndLZHMr9"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.UBX27D8UZDR0ZX1Q"
     },
     {
       "name": "Morality",
@@ -1002,7 +1002,7 @@
         "description": "",
         "subType": "personality",
         "abbrev": "mor",
-        "textValue": "15",
+        "textValue": "12",
         "isNumeric": true,
         "intensity": "attribute",
         "max": 0,
@@ -1071,9 +1071,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "OXFiz5COCmXKxjnK",
+      "_id": "KyT7pj5TLXtoh9Xn",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.OXFiz5COCmXKxjnK"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.KyT7pj5TLXtoh9Xn"
     },
     {
       "name": "Sunsign",
@@ -1083,7 +1083,7 @@
         "description": "",
         "subType": "transcendent",
         "abbrev": "ss",
-        "textValue": "aralius",
+        "textValue": "taraeltai",
         "isNumeric": false,
         "intensity": "trait",
         "max": null,
@@ -1469,9 +1469,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "mSZhHhqJ5TkgHnpy",
+      "_id": "fsPdVRnzZQNQqJLM",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.mSZhHhqJ5TkgHnpy"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.fsPdVRnzZQNQqJLM"
     },
     {
       "name": "Basic Fate",
@@ -1547,9 +1547,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "B0i5mxpOVHCbue3R",
+      "_id": "wdI2jQ7aVzMkUt5r",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.B0i5mxpOVHCbue3R"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.wdI2jQ7aVzMkUt5r"
     },
     {
       "name": "Size",
@@ -1713,9 +1713,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "TYQknuqstNxhdHYU",
+      "_id": "3s9vrjMJ5zXEzivh",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.TYQknuqstNxhdHYU"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.3s9vrjMJ5zXEzivh"
     },
     {
       "name": "Carrying Capacity",
@@ -1776,9 +1776,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "aodQvn7weejpgNUF",
+      "_id": "U99frmD33K5DBsYU",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.aodQvn7weejpgNUF"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.U99frmD33K5DBsYU"
     },
     {
       "name": "Move",
@@ -1788,7 +1788,7 @@
         "description": "",
         "subType": "physique",
         "abbrev": "mov",
-        "textValue": "0",
+        "textValue": "40",
         "isNumeric": true,
         "intensity": "trait",
         "max": 0,
@@ -1856,9 +1856,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "6zqS6l5pELD5WNLK",
+      "_id": "67IV2ndzROqh2ZCr",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.6zqS6l5pELD5WNLK"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.67IV2ndzROqh2ZCr"
     },
     {
       "name": "Favored Parts",
@@ -1900,9 +1900,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "At5JgIDu86qu4WXL",
+      "_id": "ziR647MUpGlvVVFC",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.At5JgIDu86qu4WXL"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.ziR647MUpGlvVVFC"
     },
     {
       "name": "Body Weight",
@@ -1944,9 +1944,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "SPRY7trPlewL5snE",
+      "_id": "QgTrAHLJ5L6I9ImL",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.SPRY7trPlewL5snE"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.QgTrAHLJ5L6I9ImL"
     },
     {
       "name": "Experience Points",
@@ -1988,9 +1988,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "0EOnHQBJSDD1Ze6d",
+      "_id": "0C3haVHxx05CI1hQ",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.0EOnHQBJSDD1Ze6d"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.0C3haVHxx05CI1hQ"
     },
     {
       "name": "Area Attack Shock",
@@ -2032,9 +2032,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "Dsr8bZurkQjSoDAk",
+      "_id": "dX4T6nExlAvJTo5P",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Dsr8bZurkQjSoDAk"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.dX4T6nExlAvJTo5P"
     },
     {
       "name": "Charm",
@@ -2045,7 +2045,7 @@
         "description": "",
         "skillBaseFormula": "@cml, @emp",
         "textReference": "",
-        "masteryLevelBase": 42,
+        "masteryLevelBase": 30,
         "weaponGroup": "none",
         "subType": "social",
         "macros": [],
@@ -2079,9 +2079,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "AmplMGFigl1eyPjQ",
+      "_id": "aXYgVPGxpa2RkV6l",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.AmplMGFigl1eyPjQ"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.aXYgVPGxpa2RkV6l"
     },
     {
       "name": "Command",
@@ -2092,7 +2092,7 @@
         "description": "",
         "skillBaseFormula": "@wil, @elo",
         "textReference": "",
-        "masteryLevelBase": 23,
+        "masteryLevelBase": 26,
         "weaponGroup": "none",
         "subType": "social",
         "macros": [],
@@ -2126,9 +2126,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "IuJNTe5RMkWBV5U0",
+      "_id": "fPdqQVKIwK5UMauD",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.IuJNTe5RMkWBV5U0"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.fPdqQVKIwK5UMauD"
     },
     {
       "name": "Discourse",
@@ -2139,7 +2139,7 @@
         "description": "",
         "skillBaseFormula": "@rea, @elo",
         "textReference": "",
-        "masteryLevelBase": 20,
+        "masteryLevelBase": 75,
         "weaponGroup": "none",
         "subType": "social",
         "macros": [],
@@ -2173,9 +2173,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "IrHackORm95Ky3uE",
+      "_id": "uHUx8Dcb1Hkp8B1H",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.IrHackORm95Ky3uE"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.uHUx8Dcb1Hkp8B1H"
     },
     {
       "name": "Guile",
@@ -2186,7 +2186,7 @@
         "description": "",
         "skillBaseFormula": "@emp, @cre",
         "textReference": "",
-        "masteryLevelBase": 42,
+        "masteryLevelBase": 27,
         "weaponGroup": "none",
         "subType": "social",
         "macros": [],
@@ -2220,9 +2220,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "ZpfmslkdtlVqG0aZ",
+      "_id": "d8mjlKvXFU3Fx0IU",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.ZpfmslkdtlVqG0aZ"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.d8mjlKvXFU3Fx0IU"
     },
     {
       "name": "Intrigue",
@@ -2233,7 +2233,7 @@
         "description": "",
         "skillBaseFormula": "@emp, @rea",
         "textReference": "",
-        "masteryLevelBase": 36,
+        "masteryLevelBase": 76,
         "weaponGroup": "none",
         "subType": "social",
         "macros": [],
@@ -2267,9 +2267,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "XRc180JAVuYWSrCj",
+      "_id": "R1Q2Qmumrsdw60VC",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.XRc180JAVuYWSrCj"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.R1Q2Qmumrsdw60VC"
     },
     {
       "name": "Singing",
@@ -2280,7 +2280,7 @@
         "description": "",
         "skillBaseFormula": "@voi, @cre",
         "textReference": "",
-        "masteryLevelBase": 39,
+        "masteryLevelBase": 36,
         "weaponGroup": "none",
         "subType": "craft",
         "macros": [],
@@ -2314,9 +2314,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "0BIKAcwtJjOeXClp",
+      "_id": "dRSqTv7BwcNNxDmT",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.0BIKAcwtJjOeXClp"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.dRSqTv7BwcNNxDmT"
     },
     {
       "name": "Theatrics",
@@ -2327,7 +2327,7 @@
         "description": "",
         "skillBaseFormula": "@cre, @elo",
         "textReference": "",
-        "masteryLevelBase": 12,
+        "masteryLevelBase": 11,
         "weaponGroup": "none",
         "subType": "social",
         "macros": [],
@@ -2361,9 +2361,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "IKxWaln1RVPl0NkO",
+      "_id": "tsP488VsvusEO5Dl",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.IKxWaln1RVPl0NkO"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.tsP488VsvusEO5Dl"
     },
     {
       "name": "Survival",
@@ -2374,7 +2374,7 @@
         "description": "",
         "skillBaseFormula": "@per, @wil",
         "textReference": "",
-        "masteryLevelBase": 75,
+        "masteryLevelBase": 28,
         "weaponGroup": "none",
         "subType": "nature",
         "macros": [],
@@ -2408,9 +2408,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "CtddqlEfLRRHAD4c",
+      "_id": "xfBNbKlyere7DLbE",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.CtddqlEfLRRHAD4c"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.xfBNbKlyere7DLbE"
     },
     {
       "name": "Drawing",
@@ -2421,7 +2421,7 @@
         "description": "",
         "skillBaseFormula": "@per, @dex",
         "textReference": "",
-        "masteryLevelBase": 48,
+        "masteryLevelBase": 22,
         "weaponGroup": "none",
         "subType": "craft",
         "macros": [],
@@ -2455,9 +2455,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "1ZzrWdFtZ2Eq4JtY",
+      "_id": "65ZrFdV09aohVZ0U",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.1ZzrWdFtZ2Eq4JtY"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.65ZrFdV09aohVZ0U"
     },
     {
       "name": "Cookery",
@@ -2468,7 +2468,7 @@
         "description": "",
         "skillBaseFormula": "@per, @rea",
         "textReference": "",
-        "masteryLevelBase": 22,
+        "masteryLevelBase": 30,
         "weaponGroup": "none",
         "subType": "lore",
         "macros": [],
@@ -2502,9 +2502,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "u1RHH2HIpZGCabHq",
+      "_id": "VvFSxzYxJSzUxpVK",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.u1RHH2HIpZGCabHq"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.VvFSxzYxJSzUxpVK"
     },
     {
       "name": "Folklore",
@@ -2515,7 +2515,7 @@
         "description": "",
         "skillBaseFormula": "@rea, @wil",
         "textReference": "",
-        "masteryLevelBase": 45,
+        "masteryLevelBase": 88,
         "weaponGroup": "none",
         "subType": "lore",
         "macros": [],
@@ -2549,9 +2549,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "ES7lVuEcIxTGZkOD",
+      "_id": "K6b9keRxxVmIOUBq",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.ES7lVuEcIxTGZkOD"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.K6b9keRxxVmIOUBq"
     },
     {
       "name": "Physician",
@@ -2562,7 +2562,7 @@
         "description": "",
         "skillBaseFormula": "@rea, @per",
         "textReference": "",
-        "masteryLevelBase": 50,
+        "masteryLevelBase": 80,
         "weaponGroup": "none",
         "subType": "lore",
         "macros": [],
@@ -2596,9 +2596,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "rwbiIbeCgF1Kl6UC",
+      "_id": "dF9PsoABSXRaKggA",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.rwbiIbeCgF1Kl6UC"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.dF9PsoABSXRaKggA"
     },
     {
       "name": "Awareness",
@@ -2609,7 +2609,7 @@
         "description": "",
         "skillBaseFormula": "@per, @wil",
         "textReference": "",
-        "masteryLevelBase": 33,
+        "masteryLevelBase": 56,
         "weaponGroup": "none",
         "subType": "physical",
         "macros": [],
@@ -2643,9 +2643,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "S9LkWGVNcI80BMmq",
+      "_id": "x6uhdhPfA12C3OB0",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.S9LkWGVNcI80BMmq"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.x6uhdhPfA12C3OB0"
     },
     {
       "name": "Climbing",
@@ -2656,7 +2656,7 @@
         "description": "",
         "skillBaseFormula": "@agl, @dex",
         "textReference": "",
-        "masteryLevelBase": 36,
+        "masteryLevelBase": 30,
         "weaponGroup": "none",
         "subType": "physical",
         "macros": [],
@@ -2690,9 +2690,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "XIh9lOpQt7QGNgH0",
+      "_id": "v6zzTYtBnrMrO5Ru",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.XIh9lOpQt7QGNgH0"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.v6zzTYtBnrMrO5Ru"
     },
     {
       "name": "Dancing",
@@ -2703,7 +2703,7 @@
         "description": "",
         "skillBaseFormula": "@agl, @end",
         "textReference": "",
-        "masteryLevelBase": 24,
+        "masteryLevelBase": 22,
         "weaponGroup": "none",
         "subType": "physical",
         "macros": [],
@@ -2737,9 +2737,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "llyiJJEb6rgF6WVE",
+      "_id": "cIrxWJwkwfd6stg1",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.llyiJJEb6rgF6WVE"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.cIrxWJwkwfd6stg1"
     },
     {
       "name": "Jumping",
@@ -2750,7 +2750,7 @@
         "description": "",
         "skillBaseFormula": "@agl, @str",
         "textReference": "",
-        "masteryLevelBase": 39,
+        "masteryLevelBase": 30,
         "weaponGroup": "none",
         "subType": "physical",
         "macros": [],
@@ -2784,9 +2784,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "es1rBa8YJcDZN9EJ",
+      "_id": "9IzY2oIez7wt72aV",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.es1rBa8YJcDZN9EJ"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.9IzY2oIez7wt72aV"
     },
     {
       "name": "Riding",
@@ -2797,7 +2797,7 @@
         "description": "",
         "skillBaseFormula": "@emp, @agl",
         "textReference": "",
-        "masteryLevelBase": 14,
+        "masteryLevelBase": 10,
         "weaponGroup": "none",
         "subType": "physical",
         "macros": [],
@@ -2831,9 +2831,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "voDwnQDAi88Q1cTN",
+      "_id": "oF3nfP19nSKrK2Gc",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.voDwnQDAi88Q1cTN"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.oF3nfP19nSKrK2Gc"
     },
     {
       "name": "Stealth",
@@ -2844,7 +2844,7 @@
         "description": "",
         "skillBaseFormula": "@agl, @per",
         "textReference": "",
-        "masteryLevelBase": 42,
+        "masteryLevelBase": 36,
         "weaponGroup": "none",
         "subType": "physical",
         "macros": [],
@@ -2878,9 +2878,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "hYLk5x20jK3t6zc4",
+      "_id": "revkPQpdoSD47o8r",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.hYLk5x20jK3t6zc4"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.revkPQpdoSD47o8r"
     },
     {
       "name": "Swimming",
@@ -2925,9 +2925,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "rqZqxFwaoxffWI9v",
+      "_id": "QV8J6e0WtETJ5Fxp",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.rqZqxFwaoxffWI9v"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.QV8J6e0WtETJ5Fxp"
     },
     {
       "name": "Initiative",
@@ -2938,7 +2938,7 @@
         "description": "",
         "skillBaseFormula": "@wil, @rea",
         "textReference": "",
-        "masteryLevelBase": 33,
+        "masteryLevelBase": 60,
         "weaponGroup": "none",
         "subType": "combat",
         "macros": [],
@@ -2972,9 +2972,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "Ra3oGqSukY01rZCY",
+      "_id": "3kDk3Q5s8aO4PpNL",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Ra3oGqSukY01rZCY"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.3kDk3Q5s8aO4PpNL"
     },
     {
       "name": "Shock",
@@ -2985,7 +2985,7 @@
         "description": "",
         "skillBaseFormula": "@str, @end",
         "textReference": "",
-        "masteryLevelBase": 33,
+        "masteryLevelBase": 40,
         "weaponGroup": "none",
         "subType": "combat",
         "macros": [],
@@ -3019,9 +3019,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "zHHiRHrpDISmgOE2",
+      "_id": "C8TiUgQoyf4zufVr",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.zHHiRHrpDISmgOE2"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.C8TiUgQoyf4zufVr"
     },
     {
       "name": "Melee",
@@ -3032,7 +3032,7 @@
         "description": "",
         "skillBaseFormula": "@dex, @agl",
         "textReference": "",
-        "masteryLevelBase": 24,
+        "masteryLevelBase": 50,
         "weaponGroup": "melee",
         "subType": "combat",
         "macros": [],
@@ -3066,9 +3066,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "BlTnwOycn45ke2pC",
+      "_id": "vAicQE9juYSZCh2g",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.BlTnwOycn45ke2pC"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.vAicQE9juYSZCh2g"
     },
     {
       "name": "Dodge",
@@ -3079,7 +3079,7 @@
         "description": "",
         "skillBaseFormula": "@agl, @per",
         "textReference": "",
-        "masteryLevelBase": 26,
+        "masteryLevelBase": 60,
         "weaponGroup": "none",
         "subType": "combat",
         "macros": [],
@@ -3113,9 +3113,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "RrKwWss5Nq5kdSeC",
+      "_id": "QK3RknsKQNdijpl1",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.RrKwWss5Nq5kdSeC"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.QK3RknsKQNdijpl1"
     },
     {
       "name": "Archery",
@@ -3160,9 +3160,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "LQbXDLfwxWm0j2gi",
+      "_id": "F22Kqj07PMifyVXX",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.LQbXDLfwxWm0j2gi"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.F22Kqj07PMifyVXX"
     },
     {
       "name": "Throwing",
@@ -3173,7 +3173,7 @@
         "description": "",
         "skillBaseFormula": "@dex, @per",
         "textReference": "",
-        "masteryLevelBase": 20,
+        "masteryLevelBase": 22,
         "weaponGroup": "missile",
         "subType": "combat",
         "macros": [],
@@ -3207,9 +3207,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "YKFfDNYPQ4KYxV0B",
+      "_id": "ID1kia67TV7psaOO",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.YKFfDNYPQ4KYxV0B"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.ID1kia67TV7psaOO"
     },
     {
       "name": "Premonition",
@@ -3256,9 +3256,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "zMzMpGhhCg48QfK7",
+      "_id": "VQjBuSqAxuDsKZqu",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.zMzMpGhhCg48QfK7"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.VQjBuSqAxuDsKZqu"
     },
     {
       "name": "Bite",
@@ -3285,7 +3285,7 @@
       "effects": [
         {
           "name": "Bite Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.2o2XhQXyQB7R8yor",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.6NE59csGgmQvcmTT",
           "_id": "Jh2naQoAd90Bxcmi",
           "changes": [
             {
@@ -3343,7 +3343,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.2o2XhQXyQB7R8yor.Jh2naQoAd90Bxcmi"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.6NE59csGgmQvcmTT.Jh2naQoAd90Bxcmi"
         }
       ],
       "flags": {
@@ -3368,9 +3368,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "2o2XhQXyQB7R8yor",
+      "_id": "6NE59csGgmQvcmTT",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.2o2XhQXyQB7R8yor"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.6NE59csGgmQvcmTT"
     },
     {
       "name": "Grab (Hold)",
@@ -3397,7 +3397,7 @@
       "effects": [
         {
           "name": "Grab (Hold) Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.1gTdui1KxIQdjozS",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.HwSIXYWG8ImxI4Yl",
           "_id": "tLb3IbqT4a5uZsg0",
           "changes": [
             {
@@ -3455,7 +3455,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.1gTdui1KxIQdjozS.tLb3IbqT4a5uZsg0"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.HwSIXYWG8ImxI4Yl.tLb3IbqT4a5uZsg0"
         }
       ],
       "flags": {
@@ -3480,9 +3480,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "1gTdui1KxIQdjozS",
+      "_id": "HwSIXYWG8ImxI4Yl",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.1gTdui1KxIQdjozS"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.HwSIXYWG8ImxI4Yl"
     },
     {
       "name": "Grab (Take)",
@@ -3509,7 +3509,7 @@
       "effects": [
         {
           "name": "Grab (Hold) Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.52pc9Y0mHyIzjMBf",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.9nuhuit2zQ6PFfJg",
           "_id": "80Le8vlDzYbm5zOz",
           "changes": [
             {
@@ -3567,7 +3567,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.52pc9Y0mHyIzjMBf.80Le8vlDzYbm5zOz"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.9nuhuit2zQ6PFfJg.80Le8vlDzYbm5zOz"
         }
       ],
       "flags": {
@@ -3592,9 +3592,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "52pc9Y0mHyIzjMBf",
+      "_id": "9nuhuit2zQ6PFfJg",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.52pc9Y0mHyIzjMBf"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.9nuhuit2zQ6PFfJg"
     },
     {
       "name": "Headbutt",
@@ -3621,7 +3621,7 @@
       "effects": [
         {
           "name": "Headbutt Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.YPdZTxgS196h1P92",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.MiGyBpwzHjVaLbh2",
           "_id": "pRvNFHvpsFgvh65a",
           "changes": [
             {
@@ -3673,7 +3673,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.YPdZTxgS196h1P92.pRvNFHvpsFgvh65a"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.MiGyBpwzHjVaLbh2.pRvNFHvpsFgvh65a"
         }
       ],
       "flags": {
@@ -3698,9 +3698,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "YPdZTxgS196h1P92",
+      "_id": "MiGyBpwzHjVaLbh2",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.YPdZTxgS196h1P92"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.MiGyBpwzHjVaLbh2"
     },
     {
       "name": "Limb Block",
@@ -3727,7 +3727,7 @@
       "effects": [
         {
           "name": "Limb Block Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.yZ5FFip37dN8yiiB",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.jN2Qmbu3lGucFXF4",
           "_id": "vBzDOY0EEIvlhV9p",
           "changes": [
             {
@@ -3773,7 +3773,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.yZ5FFip37dN8yiiB.vBzDOY0EEIvlhV9p"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.jN2Qmbu3lGucFXF4.vBzDOY0EEIvlhV9p"
         }
       ],
       "flags": {
@@ -3798,9 +3798,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "yZ5FFip37dN8yiiB",
+      "_id": "jN2Qmbu3lGucFXF4",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.yZ5FFip37dN8yiiB"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.jN2Qmbu3lGucFXF4"
     },
     {
       "name": "Kick",
@@ -3827,7 +3827,7 @@
       "effects": [
         {
           "name": "Kick Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.YdkmAyoAovM2IpOy",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.94S7iZpTRimRfWd8",
           "_id": "pDNFKukg4vaahtJR",
           "changes": [
             {
@@ -3879,7 +3879,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.YdkmAyoAovM2IpOy.pDNFKukg4vaahtJR"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.94S7iZpTRimRfWd8.pDNFKukg4vaahtJR"
         }
       ],
       "flags": {
@@ -3904,9 +3904,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "YdkmAyoAovM2IpOy",
+      "_id": "94S7iZpTRimRfWd8",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.YdkmAyoAovM2IpOy"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.94S7iZpTRimRfWd8"
     },
     {
       "name": "Press",
@@ -3933,7 +3933,7 @@
       "effects": [
         {
           "name": "Press Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.OulzDc9ck1WAuDfa",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.sXD0XapZJaRix3RG",
           "_id": "8DZUnu0NIgDCsvHg",
           "changes": [
             {
@@ -3991,7 +3991,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.OulzDc9ck1WAuDfa.8DZUnu0NIgDCsvHg"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.sXD0XapZJaRix3RG.8DZUnu0NIgDCsvHg"
         }
       ],
       "flags": {
@@ -4016,9 +4016,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "OulzDc9ck1WAuDfa",
+      "_id": "sXD0XapZJaRix3RG",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.OulzDc9ck1WAuDfa"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.sXD0XapZJaRix3RG"
     },
     {
       "name": "Punch",
@@ -4045,7 +4045,7 @@
       "effects": [
         {
           "name": "Punch Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.rYacKrJNW8EleuGI",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.Xhthh4Br86NQSgMB",
           "_id": "V2B2dpCf6MHaj7Nh",
           "changes": [
             {
@@ -4097,7 +4097,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.rYacKrJNW8EleuGI.V2B2dpCf6MHaj7Nh"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.Xhthh4Br86NQSgMB.V2B2dpCf6MHaj7Nh"
         }
       ],
       "flags": {
@@ -4122,9 +4122,9 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "rYacKrJNW8EleuGI",
+      "_id": "Xhthh4Br86NQSgMB",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.rYacKrJNW8EleuGI"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.Xhthh4Br86NQSgMB"
     },
     {
       "name": "Trip",
@@ -4151,7 +4151,7 @@
       "effects": [
         {
           "name": "Trip Traits",
-          "origin": "Actor.BmzNJK44MVywOa1t.Item.xhxxFL9aXnzQYL4Q",
+          "origin": "Actor.dfoCSj3En8shuMx1.Item.4nEZ0jFZTrMZV6ox",
           "_id": "Dcc6Z7IFoCcae0ZV",
           "changes": [
             {
@@ -4209,7 +4209,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!Crm4ZEGtfbNyACCI.xhxxFL9aXnzQYL4Q.Dcc6Z7IFoCcae0ZV"
+          "_key": "!actors.items.effects!sbWCxxaUDObWojZq.4nEZ0jFZTrMZV6ox.Dcc6Z7IFoCcae0ZV"
         }
       ],
       "flags": {
@@ -4234,563 +4234,44 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "xhxxFL9aXnzQYL4Q",
+      "_id": "4nEZ0jFZTrMZV6ox",
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.xhxxFL9aXnzQYL4Q"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.4nEZ0jFZTrMZV6ox"
     },
     {
-      "name": "Ivínian",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/speaking.svg",
+      "name": "Enigmatic",
+      "type": "trait",
       "system": {
+        "subType": "personality",
+        "macros": [],
         "notes": "",
         "description": "",
-        "skillBaseFormula": "@elo, @rea",
         "textReference": "",
-        "masteryLevelBase": 65,
-        "weaponGroup": "none",
-        "subType": "language",
-        "macros": [],
         "nestedItems": [],
-        "improveFlag": false,
         "transfer": false,
-        "abbrev": "ivinian",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.2yfbMe6ZTqPR1nFb",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "evxGl6bHAVpxkHmN",
-      "_id": "EwyWa0yZPIBcT4oO",
-      "sort": 900000,
-      "ownership": {
-        "default": 0,
-        "osJE0diDAAoo8Ydn": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.EwyWa0yZPIBcT4oO"
-    },
-    {
-      "name": "Jârin",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/speaking.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@elo, @rea",
-        "textReference": "",
-        "masteryLevelBase": 42,
-        "weaponGroup": "none",
-        "subType": "language",
-        "macros": [],
-        "nestedItems": [],
+        "abbrev": "",
+        "skillBaseFormula": "",
+        "masteryLevelBase": 0,
         "improveFlag": false,
-        "transfer": false,
-        "abbrev": "jarin",
-        "domain": ""
+        "textValue": "",
+        "max": null,
+        "isNumeric": false,
+        "intensity": "trait",
+        "valueDesc": [],
+        "choices": {}
       },
+      "_id": "vmW8ApX3Jy1i8rol",
+      "img": "systems/hm/assets/icons/user-gear.svg",
       "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.MONOo4chhMcTu1pG",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "evxGl6bHAVpxkHmN",
-      "_id": "17ddeyvtRY13GN87",
-      "sort": 800000,
-      "ownership": {
-        "default": 0,
-        "osJE0diDAAoo8Ydn": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.17ddeyvtRY13GN87"
-    },
-    {
-      "name": "Hârnic",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/speaking.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@elo, @rea",
-        "textReference": "",
-        "masteryLevelBase": 42,
-        "weaponGroup": "none",
-        "subType": "language",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "harnic",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.woFaMUgznLPQREME",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "evxGl6bHAVpxkHmN",
-      "_id": "YTb9VcYs5Vbvl2fV",
-      "sort": 1100000,
-      "ownership": {
-        "default": 0,
-        "osJE0diDAAoo8Ydn": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.YTb9VcYs5Vbvl2fV"
-    },
-    {
-      "name": "Sárajìn",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/sarajin.png",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@wil, @rea",
-        "textReference": "",
-        "masteryLevelBase": 11,
-        "weaponGroup": "none",
-        "subType": "ritual",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "sarajin",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.4N4tdZFvVVXQeNcq",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "7ndtuoO1haJpQbgf",
-      "_id": "EmYzYmRuaaYR2Y1k",
-      "sort": 101563,
-      "ownership": {
-        "default": 0,
-        "osJE0diDAAoo8Ydn": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.EmYzYmRuaaYR2Y1k"
-    },
-    {
-      "name": "Ilvîr",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/ilvir.png",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@wil, @rea",
-        "textReference": "",
-        "masteryLevelBase": 11,
-        "weaponGroup": "none",
-        "subType": "ritual",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "ilvir",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.BL0SMfIJsWRVDXsP",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "7ndtuoO1haJpQbgf",
-      "_id": "Yy92yraYwvsRYyAq",
-      "sort": 150000,
-      "ownership": {
-        "default": 0,
-        "osJE0diDAAoo8Ydn": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Yy92yraYwvsRYyAq"
-    },
-    {
-      "name": "Runic",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/scroll-unfurled.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@rea, @per",
-        "textReference": "",
-        "masteryLevelBase": 20,
-        "weaponGroup": "none",
-        "subType": "script",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "runic",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.zhF7K76YOQR30Vfg",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "evxGl6bHAVpxkHmN",
-      "_id": "LI8XLcsZEr2LJiCB",
-      "sort": 100025,
-      "ownership": {
-        "default": 0,
-        "osJE0diDAAoo8Ydn": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.LI8XLcsZEr2LJiCB"
-    },
-    {
-      "name": "Lakíse",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/scroll-unfurled.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@rea, @per",
-        "textReference": "",
-        "masteryLevelBase": 15,
-        "weaponGroup": "none",
-        "subType": "script",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "lakise",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.DiFLbQpEF1ZJm262",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "evxGl6bHAVpxkHmN",
-      "_id": "EQv6FlHuBhCmqTdz",
-      "sort": 100098,
-      "ownership": {
-        "default": 0,
-        "osJE0diDAAoo8Ydn": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.EQv6FlHuBhCmqTdz"
-    },
-    {
-      "name": "Animalcraft",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/animalcraft.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@emp, @wil",
-        "textReference": "",
-        "masteryLevelBase": 13,
-        "weaponGroup": "none",
-        "subType": "nature",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "anmcft",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.K1sBrJikLWiQIjjB",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "9dJU1q9ijfWF6Qlp",
-      "folder": "I7NdWG9IXkYkhYci",
+      "folder": null,
       "sort": 0,
       "ownership": {
         "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.9dJU1q9ijfWF6Qlp"
-    },
-    {
-      "name": "Herblore",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/herblore.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@rea, @per",
-        "textReference": "",
-        "masteryLevelBase": 92,
-        "weaponGroup": "none",
-        "subType": "nature",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "herb",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.d6bv7kUA4uEgtGOw",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "u3677db5uUR4k6xY",
-      "folder": "I7NdWG9IXkYkhYci",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.u3677db5uUR4k6xY"
-    },
-    {
-      "name": "Tracking",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/tracking.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@per, @rea",
-        "textReference": "",
-        "masteryLevelBase": 33,
-        "weaponGroup": "none",
-        "subType": "nature",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "trak",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.r84g3zzaBmp1zDl4",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "3VPyRa7AjTknbpk2",
-      "folder": "I7NdWG9IXkYkhYci",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.3VPyRa7AjTknbpk2"
-    },
-    {
-      "name": "Trance",
-      "type": "skill",
-      "img": "systems/hm/assets/icons/meditation.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@aur, @cre",
-        "textReference": "",
-        "masteryLevelBase": 80,
-        "weaponGroup": "none",
-        "subType": "esoteric",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "transfer": false,
-        "abbrev": "trnc",
-        "domain": ""
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "expertise": {
-            "required": false
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.QUY1z2KG9kreEJTr",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "JmDMMNIxfuROyYAF",
-      "folder": "I7NdWG9IXkYkhYci",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.JmDMMNIxfuROyYAF"
-    },
-    {
-      "folder": "BXfH5cKFM0lUbyhg",
-      "name": "Sensitivity",
-      "type": "mysticalability",
-      "_id": "R0sby33lpxXb3de2",
-      "img": "systems/hm/assets/icons/psionics.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@aur, @wil",
-        "textReference": "",
-        "masteryLevelBase": 48,
-        "subType": "arcanetalent",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "domain": "",
-        "transfer": false,
-        "abbrev": "snst",
-        "levelBase": 0,
-        "charges": {
-          "usesCharges": false,
-          "value": 0,
-          "max": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
         "RsnPoY20XgcrucTn": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.GvNrbskSwZjdAamV",
+        "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
         "systemId": "hm",
@@ -4799,20 +4280,143 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.R0sby33lpxXb3de2"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.vmW8ApX3Jy1i8rol"
+    },
+    {
+      "name": "Unemotional",
+      "type": "trait",
+      "system": {
+        "subType": "personality",
+        "macros": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "nestedItems": [],
+        "transfer": false,
+        "abbrev": "",
+        "skillBaseFormula": "",
+        "masteryLevelBase": 0,
+        "improveFlag": false,
+        "textValue": "",
+        "max": null,
+        "isNumeric": false,
+        "intensity": "trait",
+        "valueDesc": [],
+        "choices": {}
+      },
+      "_id": "etftAqwe7dC62AYd",
+      "img": "systems/hm/assets/icons/user-gear.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.etftAqwe7dC62AYd"
+    },
+    {
+      "name": "Church of Sávè-K'nôr",
+      "type": "affiliation",
+      "_id": "FEFoMXA6W79bJdDB",
+      "img": "systems/hm/assets/icons/people-group.svg",
+      "system": {
+        "macros": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "nestedItems": [],
+        "transfer": false,
+        "society": "",
+        "office": "",
+        "title": "Laity",
+        "level": 0
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.FEFoMXA6W79bJdDB"
+    },
+    {
+      "name": "Velére Ceremony",
+      "type": "mystery",
+      "system": {
+        "subType": "blessing",
+        "macros": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "nestedItems": [],
+        "transfer": false,
+        "domain": "Folklore",
+        "levelBase": 2,
+        "charges": {
+          "usesCharges": false,
+          "value": 0,
+          "max": 0
+        },
+        "skills": []
+      },
+      "_id": "HcvVaASliqWeC4Fn",
+      "img": "systems/hm/assets/icons/sparkles.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.HcvVaASliqWeC4Fn"
     },
     {
       "folder": "BXfH5cKFM0lUbyhg",
-      "name": "Elemental Bolt",
+      "name": "Elemental Bolt (Aura)",
       "type": "mysticalability",
-      "_id": "EfS89UmNOE5kAmyu",
+      "_id": "17ireREP0TxwGJcU",
       "img": "systems/hm/assets/icons/psionics.svg",
       "system": {
         "notes": "",
         "description": "",
         "skillBaseFormula": "@aur, @wil",
         "textReference": "",
-        "masteryLevelBase": 51,
+        "masteryLevelBase": 75,
         "subType": "arcanetalent",
         "macros": [],
         "nestedItems": [],
@@ -4845,279 +4449,44 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.EfS89UmNOE5kAmyu"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.17ireREP0TxwGJcU"
     },
     {
-      "name": "Staff",
-      "type": "weapongear",
-      "img": "systems/hm/assets/icons/staff.svg",
+      "folder": "BXfH5cKFM0lUbyhg",
+      "name": "Sensitivity",
+      "type": "mysticalability",
+      "_id": "8FhX1yK2wnzO29Oi",
+      "img": "systems/hm/assets/icons/psionics.svg",
       "system": {
-        "macros": [],
-        "nestedItems": [
-          {
-            "name": "Staff (Crush)",
-            "type": "meleestrikemode",
-            "system": {
-              "macros": [],
-              "nestedItems": [],
-              "notes": "",
-              "description": "",
-              "textReference": "",
-              "transfer": true,
-              "mode": "Crush",
-              "minParts": 1,
-              "assocSkillName": "Melee",
-              "impactBase": {
-                "numDice": 1,
-                "die": 6,
-                "modifier": 3,
-                "aspect": "blunt"
-              }
-            },
-            "effects": [
-              {
-                "name": "Staff Traits",
-                "icon": "icons/svg/aura.svg",
-                "changes": [
-                  {
-                    "key": "system.$traits.impactTA",
-                    "mode": 5,
-                    "value": 3,
-                    "priority": null
-                  },
-                  {
-                    "key": "system.$traits.swung",
-                    "mode": 5,
-                    "value": "true",
-                    "priority": null
-                  },
-                  {
-                    "key": "system.$traits.twoHandLen",
-                    "mode": 2,
-                    "value": -1,
-                    "priority": null
-                  }
-                ],
-                "flags": {
-                  "hm": {
-                    "targetType": "this",
-                    "targetName": "",
-                    "strikeMode": "Crush",
-                    "onsetTime": 0
-                  }
-                },
-                "_id": "zNhrqu7rG98bWjcS",
-                "disabled": false,
-                "duration": {
-                  "startTime": null,
-                  "seconds": null,
-                  "combat": null,
-                  "rounds": null,
-                  "turns": null,
-                  "startRound": null,
-                  "startTurn": null
-                },
-                "origin": "",
-                "tint": null,
-                "transfer": false,
-                "description": "",
-                "statuses": [],
-                "_key": "!items.effects!jWw9oGraqYYwdZOz.QS2jZpQvHVm4edTR"
-              }
-            ],
-            "flags": {},
-            "_id": "qK0rfvOFaVtqIcTo",
-            "_key": "!items!jWw9oGraqYYwdZOz",
-            "sort": 100000
-          },
-          {
-            "name": "Staff (Shaft)",
-            "type": "meleestrikemode",
-            "system": {
-              "macros": [],
-              "nestedItems": [],
-              "notes": "",
-              "description": "",
-              "textReference": "",
-              "transfer": true,
-              "mode": "Shaft",
-              "minParts": 1,
-              "assocSkillName": "Melee",
-              "impactBase": {
-                "numDice": 1,
-                "die": 6,
-                "modifier": 1,
-                "aspect": "blunt"
-              }
-            },
-            "effects": [
-              {
-                "name": "Staff Traits",
-                "icon": "icons/svg/aura.svg",
-                "changes": [
-                  {
-                    "key": "mod:system.$length",
-                    "mode": 2,
-                    "value": -2,
-                    "priority": null
-                  },
-                  {
-                    "key": "system.$traits.impactTA",
-                    "mode": 5,
-                    "value": 3,
-                    "priority": null
-                  }
-                ],
-                "flags": {
-                  "hm": {
-                    "targetType": "this",
-                    "targetName": "",
-                    "strikeMode": "Shaft",
-                    "onsetTime": 0
-                  }
-                },
-                "_id": "Za3vLDVwofTJvqqd",
-                "disabled": false,
-                "duration": {
-                  "startTime": null,
-                  "seconds": null,
-                  "combat": null,
-                  "rounds": null,
-                  "turns": null,
-                  "startRound": null,
-                  "startTurn": null
-                },
-                "origin": "",
-                "tint": null,
-                "transfer": false,
-                "description": "",
-                "statuses": [],
-                "_key": "!items.effects!GmxhLs1EFGlzZg6H.13eLz7S95RYMYUJ6"
-              }
-            ],
-            "flags": {
-              "hm": {
-                "kethira": {
-                  "zoneDie": 8
-                }
-              }
-            },
-            "_id": "iSIsw8GyTvyvgiCH",
-            "_key": "!items!GmxhLs1EFGlzZg6H",
-            "sort": 200000
-          },
-          {
-            "name": "Staff (Half-Sword Shaft)",
-            "type": "meleestrikemode",
-            "system": {
-              "macros": [],
-              "nestedItems": [],
-              "notes": "",
-              "description": "",
-              "textReference": "",
-              "transfer": true,
-              "mode": "Half-Sword Shaft",
-              "minParts": 2,
-              "assocSkillName": "Melee",
-              "impactBase": {
-                "numDice": 1,
-                "die": 6,
-                "modifier": 0,
-                "aspect": "blunt"
-              }
-            },
-            "effects": [
-              {
-                "name": "Staff Traits",
-                "icon": "icons/svg/aura.svg",
-                "changes": [
-                  {
-                    "key": "mod:system.$length",
-                    "mode": 2,
-                    "value": -2,
-                    "priority": null
-                  },
-                  {
-                    "key": "mod:system.$length",
-                    "mode": 4,
-                    "value": 3,
-                    "priority": null
-                  },
-                  {
-                    "key": "system.$traits.halfSword",
-                    "mode": 5,
-                    "value": "true",
-                    "priority": null
-                  },
-                  {
-                    "key": "system.$traits.impactTA",
-                    "mode": 5,
-                    "value": 3,
-                    "priority": null
-                  },
-                  {
-                    "key": "system.$traits.thrust",
-                    "mode": 5,
-                    "value": "true",
-                    "priority": null
-                  }
-                ],
-                "flags": {
-                  "hm": {
-                    "targetType": "this",
-                    "targetName": "",
-                    "strikeMode": "Half-Sword Shaft",
-                    "onsetTime": 0
-                  }
-                },
-                "_id": "h8ePOndcB5c4Rb2x",
-                "disabled": false,
-                "duration": {
-                  "startTime": null,
-                  "seconds": null,
-                  "combat": null,
-                  "rounds": null,
-                  "turns": null,
-                  "startRound": null,
-                  "startTurn": null
-                },
-                "origin": "",
-                "tint": null,
-                "transfer": false,
-                "description": "",
-                "statuses": [],
-                "_key": "!items.effects!3wvWWmndeimjciMF.shz8RgTQ5B7Nii09"
-              }
-            ],
-            "flags": {
-              "hm": {
-                "kethira": {}
-              }
-            },
-            "_id": "rFPwVXSUqG9n20iv",
-            "_key": "!items!3wvWWmndeimjciMF",
-            "sort": 300000
-          }
-        ],
         "notes": "",
         "description": "",
+        "skillBaseFormula": "@aur, @wil",
         "textReference": "",
-        "transfer": true,
-        "quantity": 1,
-        "weightBase": 4,
-        "valueBase": 24,
-        "isCarried": true,
-        "isEquipped": false,
-        "qualityBase": 0,
-        "durabilityBase": 11,
-        "abbrev": "Stf",
-        "heftBase": 12,
-        "lengthBase": 6
+        "masteryLevelBase": 75,
+        "subType": "arcanetalent",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "domain": "",
+        "transfer": false,
+        "abbrev": "snst",
+        "levelBase": 0,
+        "charges": {
+          "usesCharges": false,
+          "value": 0,
+          "max": 0
+        }
       },
       "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.MHe30MVgUd2B7AXS",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.GvNrbskSwZjdAamV",
         "duplicateSource": null,
         "coreVersion": "12.330",
         "systemId": "hm",
@@ -5126,14 +4495,977 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.8FhX1yK2wnzO29Oi"
+    },
+    {
+      "name": "Hârnic",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/speaking.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@elo, @rea",
+        "textReference": "",
+        "masteryLevelBase": 84,
+        "weaponGroup": "none",
+        "subType": "language",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "harnic",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.woFaMUgznLPQREME",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "evxGl6bHAVpxkHmN",
+      "_id": "wkt8hi2nkYTxJ7te",
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "osJE0diDAAoo8Ydn": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.wkt8hi2nkYTxJ7te"
+    },
+    {
+      "name": "Jârin",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/speaking.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@elo, @rea",
+        "textReference": "",
+        "masteryLevelBase": 56,
+        "weaponGroup": "none",
+        "subType": "language",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "jarin",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.MONOo4chhMcTu1pG",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "evxGl6bHAVpxkHmN",
+      "_id": "DKjpNtleVbiVRZkn",
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "osJE0diDAAoo8Ydn": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.DKjpNtleVbiVRZkn"
+    },
+    {
+      "name": "Emélan",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/speaking.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@elo, @rea",
+        "textReference": "",
+        "masteryLevelBase": 70,
+        "weaponGroup": "none",
+        "subType": "language",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "emelan",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.xNVWK8WcTKT0J9M7",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "evxGl6bHAVpxkHmN",
+      "_id": "WRqQ6OdEY9iUhI9j",
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "osJE0diDAAoo8Ydn": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.WRqQ6OdEY9iUhI9j"
+    },
+    {
+      "name": "Kúzhan",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/speaking.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@elo, @rea",
+        "textReference": "",
+        "masteryLevelBase": 56,
+        "weaponGroup": "none",
+        "subType": "language",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "kuzhan",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.2bTEKOeV2DQCdcYc",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "evxGl6bHAVpxkHmN",
+      "_id": "YHsplZGaJelNrPqj",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "osJE0diDAAoo8Ydn": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.YHsplZGaJelNrPqj"
+    },
+    {
+      "name": "Animalcraft",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/animalcraft.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@emp, @wil",
+        "textReference": "",
+        "masteryLevelBase": 11,
+        "weaponGroup": "none",
+        "subType": "nature",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "anmcft",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.K1sBrJikLWiQIjjB",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "Z8VvluFJXEnEKoVL",
+      "folder": "I7NdWG9IXkYkhYci",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.Z8VvluFJXEnEKoVL"
+    },
+    {
+      "name": "Masonry",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/masonry.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@per, @str",
+        "textReference": "",
+        "masteryLevelBase": 24,
+        "weaponGroup": "none",
+        "subType": "craft",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "masn",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.kL8SqiGClE8YL98r",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "g19xhsWMImS6ujaa",
+      "folder": "I7NdWG9IXkYkhYci",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.g19xhsWMImS6ujaa"
+    },
+    {
+      "name": "Metalcraft",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/metal-bar.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@per, @str",
+        "textReference": "",
+        "masteryLevelBase": 12,
+        "weaponGroup": "none",
+        "subType": "craft",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "mtlc",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.AuTAhJALpmkM0BJL",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "4ylkoRrgFuS8dA3Q",
+      "folder": "I7NdWG9IXkYkhYci",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.4ylkoRrgFuS8dA3Q"
+    },
+    {
+      "name": "Woodworking",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/woodcraft.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@per, @dex",
+        "textReference": "",
+        "masteryLevelBase": 11,
+        "weaponGroup": "none",
+        "subType": "craft",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "wood",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.sOVLNMohekLbnHs7",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "D0rtyXbmY2J3M1HK",
+      "folder": "I7NdWG9IXkYkhYci",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.D0rtyXbmY2J3M1HK"
+    },
+    {
+      "name": "Mathematics",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/mathematics.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@rea, @cre",
+        "textReference": "",
+        "masteryLevelBase": 42,
+        "weaponGroup": "none",
+        "subType": "lore",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "math",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.SLWaEQlzVIYj4MhH",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "yPCocRLgrn2CEaLQ",
+      "folder": "I7NdWG9IXkYkhYci",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.yPCocRLgrn2CEaLQ"
+    },
+    {
+      "name": "Engineering",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/engineering.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@rea, @cre",
+        "textReference": "",
+        "masteryLevelBase": 42,
+        "weaponGroup": "none",
+        "subType": "lore",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "eng",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.Fip584W95bPFEJUp",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ae2SL14Isx8hVO5B",
+      "folder": "I7NdWG9IXkYkhYci",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.ae2SL14Isx8hVO5B"
+    },
+    {
+      "name": "Sávè-K'nôr",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/saveknor.png",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@wil, @rea",
+        "textReference": "",
+        "masteryLevelBase": 15,
+        "weaponGroup": "none",
+        "subType": "ritual",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "saveknor",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.gO8X0Xri4b3f3tId",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "7ndtuoO1haJpQbgf",
+      "_id": "eVdYZyhFERBfBF8D",
+      "sort": 100782,
+      "ownership": {
+        "default": 0,
+        "osJE0diDAAoo8Ydn": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.eVdYZyhFERBfBF8D"
+    },
+    {
+      "name": "Lakíse",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/scroll-unfurled.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@rea, @per",
+        "textReference": "",
+        "masteryLevelBase": 80,
+        "weaponGroup": "none",
+        "subType": "script",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "lakise",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.DiFLbQpEF1ZJm262",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "evxGl6bHAVpxkHmN",
+      "_id": "D8rdAEMFuRKauzpb",
+      "sort": 100098,
+      "ownership": {
+        "default": 0,
+        "osJE0diDAAoo8Ydn": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.D8rdAEMFuRKauzpb"
+    },
+    {
+      "name": "Khrúni",
+      "type": "skill",
+      "img": "systems/hm/assets/icons/scroll-unfurled.svg",
+      "system": {
+        "notes": "",
+        "description": "",
+        "skillBaseFormula": "@rea, @per",
+        "textReference": "",
+        "masteryLevelBase": 80,
+        "weaponGroup": "none",
+        "subType": "script",
+        "macros": [],
+        "nestedItems": [],
+        "improveFlag": false,
+        "transfer": false,
+        "abbrev": "khruni",
+        "domain": ""
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "expertise": {
+            "required": false
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.Soq0vRso2XXolGH7",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "evxGl6bHAVpxkHmN",
+      "_id": "E8m2jUIw6pNtnbaa",
+      "sort": 100196,
+      "ownership": {
+        "default": 0,
+        "osJE0diDAAoo8Ydn": 3,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.E8m2jUIw6pNtnbaa"
+    },
+    {
+      "name": "Velvet Cap",
+      "type": "armorgear",
+      "img": "systems/hm/assets/icons/cap.svg",
+      "system": {
+        "macros": [],
+        "nestedItems": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "transfer": true,
+        "quantity": 1,
+        "weightBase": 0.2,
+        "valueBase": 14,
+        "isCarried": true,
+        "isEquipped": true,
+        "qualityBase": 0,
+        "durabilityBase": 10,
+        "abbrev": "VCap",
+        "material": "Velvet",
+        "locations": {
+          "flexible": [
+            "Skull"
+          ],
+          "rigid": []
+        },
+        "protectionBase": {
+          "blunt": 0,
+          "edged": 1,
+          "piercing": 0,
+          "fire": 1
+        }
+      },
+      "effects": [],
       "ownership": {
         "default": 0,
         "RsnPoY20XgcrucTn": 3
       },
-      "_id": "Z7oYjBojnCNpPrFt",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.mdr7FK9aysGCeN35",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "47CWpGF2vbRKgE2J",
       "folder": null,
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Z7oYjBojnCNpPrFt"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.47CWpGF2vbRKgE2J"
+    },
+    {
+      "name": "Worsted Coat",
+      "type": "armorgear",
+      "img": "systems/hm/assets/icons/tunic.svg",
+      "system": {
+        "macros": [],
+        "nestedItems": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "transfer": true,
+        "quantity": 1,
+        "weightBase": 2.6,
+        "valueBase": 154,
+        "isCarried": true,
+        "isEquipped": true,
+        "qualityBase": 0,
+        "durabilityBase": 9,
+        "abbrev": "WCoat",
+        "material": "Worsted",
+        "locations": {
+          "flexible": [
+            "Left Shoulder",
+            "Right Shoulder",
+            "Left Upper Arm",
+            "Right Upper Arm",
+            "Left Elbow",
+            "Right Elbow",
+            "Left Forearm",
+            "Right Forearm",
+            "Thorax",
+            "Abdomen",
+            "Pelvis",
+            "Left Thigh",
+            "Right Thigh"
+          ],
+          "rigid": []
+        },
+        "protectionBase": {
+          "blunt": 0,
+          "edged": 1,
+          "piercing": 0,
+          "fire": 1
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.sweAj8dG7Nt3ePZp",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "oY1j5caYHqtzxwRA",
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!sbWCxxaUDObWojZq.oY1j5caYHqtzxwRA"
+    },
+    {
+      "name": "Rawhide Sleeved Tunic",
+      "type": "armorgear",
+      "img": "systems/hm/assets/icons/tunic.svg",
+      "system": {
+        "macros": [],
+        "nestedItems": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "transfer": true,
+        "quantity": 1,
+        "weightBase": 6.8,
+        "valueBase": 150,
+        "isCarried": true,
+        "isEquipped": true,
+        "qualityBase": 0,
+        "durabilityBase": 11,
+        "abbrev": "RhSTunic",
+        "material": "Rawhide",
+        "locations": {
+          "flexible": [
+            "Left Shoulder",
+            "Right Shoulder",
+            "Left Upper Arm",
+            "Right Upper Arm",
+            "Left Elbow",
+            "Right Elbow",
+            "Thorax",
+            "Abdomen",
+            "Pelvis"
+          ],
+          "rigid": []
+        },
+        "protectionBase": {
+          "blunt": 1,
+          "edged": 2,
+          "piercing": 1,
+          "fire": 3
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.iGq4R9CH2A7xvsEJ",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "lSnh0qb5uPWYSExU",
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!sbWCxxaUDObWojZq.lSnh0qb5uPWYSExU"
+    },
+    {
+      "name": "Worsted Leggings",
+      "type": "armorgear",
+      "img": "systems/hm/assets/icons/leggings.svg",
+      "system": {
+        "macros": [],
+        "nestedItems": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "transfer": true,
+        "quantity": 1,
+        "weightBase": 1.4,
+        "valueBase": 86,
+        "isCarried": true,
+        "isEquipped": true,
+        "qualityBase": 0,
+        "durabilityBase": 9,
+        "abbrev": "WLeg",
+        "material": "Worsted",
+        "locations": {
+          "flexible": [
+            "Pelvis",
+            "Left Thigh",
+            "Right Thigh",
+            "Left Knee",
+            "Right Knee",
+            "Left Calf",
+            "Right Calf",
+            "Left Foot",
+            "Right Foot"
+          ],
+          "rigid": []
+        },
+        "protectionBase": {
+          "blunt": 0,
+          "edged": 1,
+          "piercing": 0,
+          "fire": 1
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.xqqU1VZTRdHq4E5i",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "afRDa8P5Xwei44lD",
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!sbWCxxaUDObWojZq.afRDa8P5Xwei44lD"
+    },
+    {
+      "name": "Worsted Trousers",
+      "type": "armorgear",
+      "img": "systems/hm/assets/icons/leggings.svg",
+      "system": {
+        "macros": [],
+        "nestedItems": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "transfer": true,
+        "quantity": 1,
+        "weightBase": 1.6,
+        "valueBase": 94,
+        "isCarried": true,
+        "isEquipped": true,
+        "qualityBase": 0,
+        "durabilityBase": 9,
+        "abbrev": "WTrsr",
+        "material": "Worsted",
+        "locations": {
+          "flexible": [
+            "Pelvis",
+            "Left Thigh",
+            "Right Thigh",
+            "Left Knee",
+            "Right Knee",
+            "Left Calf",
+            "Right Calf"
+          ],
+          "rigid": []
+        },
+        "protectionBase": {
+          "blunt": 0,
+          "edged": 1,
+          "piercing": 0,
+          "fire": 1
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.JK2jkjV7EPZXyLxJ",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "PkmykSNbYPu6YFlq",
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!sbWCxxaUDObWojZq.PkmykSNbYPu6YFlq"
+    },
+    {
+      "name": "Rawhide Shoes",
+      "type": "armorgear",
+      "img": "systems/hm/assets/icons/shoe.svg",
+      "system": {
+        "macros": [],
+        "nestedItems": [],
+        "notes": "",
+        "description": "",
+        "textReference": "",
+        "transfer": true,
+        "quantity": 1,
+        "weightBase": 1.5,
+        "valueBase": 35,
+        "isCarried": true,
+        "isEquipped": true,
+        "qualityBase": 0,
+        "durabilityBase": 11,
+        "abbrev": "RhShoe",
+        "material": "Rawhide",
+        "locations": {
+          "flexible": [
+            "Left Foot",
+            "Right Foot"
+          ],
+          "rigid": []
+        },
+        "protectionBase": {
+          "blunt": 1,
+          "edged": 2,
+          "piercing": 1,
+          "fire": 3
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "RsnPoY20XgcrucTn": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.60eXCKPwcOPZTzZi",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "RQr1mwLMNfGYiKTu",
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!sbWCxxaUDObWojZq.RQr1mwLMNfGYiKTu"
     },
     {
       "name": "Dagger",
@@ -5188,7 +5520,7 @@
                     "onsetTime": 0
                   }
                 },
-                "_id": "OGbC0EZr6stwMDKd",
+                "_id": "2CTKVnQSKpqA0YLK",
                 "disabled": false,
                 "duration": {
                   "startTime": null,
@@ -5208,7 +5540,7 @@
               }
             ],
             "flags": {},
-            "_id": "MxiNMkDmWq1avWlU",
+            "_id": "oBTT522fDiP1wZS2",
             "_key": "!items!D1K2tze7iNK1plqh",
             "sort": 100000
           },
@@ -5258,7 +5590,7 @@
                     "onsetTime": 0
                   }
                 },
-                "_id": "DQzGprpfY4SQQTO7",
+                "_id": "3ytp1P4IOYHp7GTP",
                 "disabled": false,
                 "duration": {
                   "startTime": null,
@@ -5278,7 +5610,7 @@
               }
             ],
             "flags": {},
-            "_id": "SS7Gark9sYaA9ygJ",
+            "_id": "6rtlJZsY2b9xOwiZ",
             "_key": "!items!B0FtAea9Dop60ajy",
             "sort": 200000
           },
@@ -5328,7 +5660,7 @@
                     "onsetTime": 0
                   }
                 },
-                "_id": "LI5ZgE67TKIj6Cp1",
+                "_id": "sQadFF53VPclDUIp",
                 "disabled": false,
                 "duration": {
                   "startTime": null,
@@ -5354,12 +5686,12 @@
                 }
               }
             },
-            "_id": "iCfObNpmDK8LuOpH",
+            "_id": "rujYNTQ8KA0KX7F4",
             "_key": "!items!6nxQJIEFijtyiYN7",
             "sort": 300000
           }
         ],
-        "notes": "In sheath on right hip",
+        "notes": "In sheath on left hip",
         "description": "",
         "textReference": "",
         "transfer": true,
@@ -5390,68 +5722,232 @@
         "default": 0,
         "RsnPoY20XgcrucTn": 3
       },
-      "_id": "IKFJoRlW5AnxJjkr",
+      "_id": "eejwIfsYPlLuYBZq",
       "folder": null,
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.IKFJoRlW5AnxJjkr"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.eejwIfsYPlLuYBZq"
     },
     {
-      "name": "Worsted Dress",
-      "type": "armorgear",
-      "img": "systems/hm/assets/icons/dress.svg",
+      "name": "Walking Stick",
+      "type": "weapongear",
+      "img": "systems/hm/assets/icons/club.svg",
       "system": {
         "macros": [],
-        "nestedItems": [],
+        "nestedItems": [
+          {
+            "name": "Stick (Crush)",
+            "type": "meleestrikemode",
+            "system": {
+              "macros": [],
+              "nestedItems": [],
+              "notes": "",
+              "description": "",
+              "textReference": "",
+              "transfer": true,
+              "mode": "Crush",
+              "minParts": 1,
+              "assocSkillName": "Melee",
+              "impactBase": {
+                "numDice": 1,
+                "die": 6,
+                "modifier": 0,
+                "aspect": "blunt"
+              }
+            },
+            "effects": [
+              {
+                "name": "Stick Traits",
+                "icon": "icons/svg/aura.svg",
+                "changes": [
+                  {
+                    "key": "mod:system.$defense.block",
+                    "mode": 2,
+                    "value": -10,
+                    "priority": null
+                  },
+                  {
+                    "key": "mod:system.$defense.counterstrike",
+                    "mode": 2,
+                    "value": -10,
+                    "priority": null
+                  },
+                  {
+                    "key": "mod:system.$traits.opponentDef",
+                    "mode": 2,
+                    "value": -10,
+                    "priority": null
+                  },
+                  {
+                    "key": "system.$traits.impactTA",
+                    "mode": 5,
+                    "value": 3,
+                    "priority": null
+                  },
+                  {
+                    "key": "system.$traits.notInClose",
+                    "mode": 5,
+                    "value": "true",
+                    "priority": null
+                  },
+                  {
+                    "key": "system.$traits.swung",
+                    "mode": 5,
+                    "value": "true",
+                    "priority": null
+                  }
+                ],
+                "flags": {
+                  "hm": {
+                    "targetType": "this",
+                    "targetName": "",
+                    "strikeMode": "Crush",
+                    "onsetTime": 0
+                  }
+                },
+                "_id": "Ajbhr7GvDRQt620M",
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": null,
+                  "combat": null,
+                  "rounds": null,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "origin": "",
+                "tint": null,
+                "transfer": false,
+                "description": "",
+                "statuses": [],
+                "_key": "!items.effects!SNyslmVBVqcdKbHi.lLelDOeVqhOhbQ11"
+              }
+            ],
+            "flags": {},
+            "_id": "J4PHmigpvtlhLsiw",
+            "_key": "!items!SNyslmVBVqcdKbHi",
+            "sort": 100000
+          },
+          {
+            "name": "Stick (Pommel)",
+            "type": "meleestrikemode",
+            "system": {
+              "macros": [],
+              "nestedItems": [],
+              "notes": "",
+              "description": "",
+              "textReference": "",
+              "transfer": true,
+              "mode": "Pommel",
+              "minParts": 1,
+              "assocSkillName": "Melee",
+              "impactBase": {
+                "numDice": 1,
+                "die": 6,
+                "modifier": 0,
+                "aspect": "blunt"
+              }
+            },
+            "effects": [
+              {
+                "name": "Stick Traits",
+                "icon": "icons/svg/aura.svg",
+                "changes": [
+                  {
+                    "key": "mod:system.$length",
+                    "mode": 5,
+                    "value": 1,
+                    "priority": null
+                  },
+                  {
+                    "key": "mod:system.$defense.block",
+                    "mode": 2,
+                    "value": -10,
+                    "priority": null
+                  },
+                  {
+                    "key": "mod:system.$defense.counterstrike",
+                    "mode": 2,
+                    "value": -10,
+                    "priority": null
+                  },
+                  {
+                    "key": "mod:system.$traits.opponentDef",
+                    "mode": 2,
+                    "value": -10,
+                    "priority": null
+                  },
+                  {
+                    "key": "system.$traits.impactTA",
+                    "mode": 5,
+                    "value": 3,
+                    "priority": null
+                  },
+                  {
+                    "key": "system.$traits.notInClose",
+                    "mode": 5,
+                    "value": "true",
+                    "priority": null
+                  }
+                ],
+                "flags": {
+                  "hm": {
+                    "targetType": "this",
+                    "targetName": "",
+                    "strikeMode": "Pommel",
+                    "onsetTime": 0
+                  }
+                },
+                "_id": "STEvKGNfrfAXS781",
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": null,
+                  "combat": null,
+                  "rounds": null,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "origin": "",
+                "tint": null,
+                "transfer": false,
+                "description": "",
+                "statuses": [],
+                "_key": "!items.effects!21yw4pUPFzEEm0nT.ZhJLIJxOIKpsIoxw"
+              }
+            ],
+            "flags": {
+              "hm": {
+                "kethira": {
+                  "zoneDie": 4
+                }
+              }
+            },
+            "_id": "XFSuaSj0oCJ8prMg",
+            "_key": "!items!21yw4pUPFzEEm0nT",
+            "sort": 200000
+          }
+        ],
         "notes": "",
         "description": "",
         "textReference": "",
         "transfer": true,
         "quantity": 1,
-        "weightBase": 3.2,
-        "valueBase": 190,
+        "weightBase": 1,
+        "valueBase": 6,
         "isCarried": true,
-        "isEquipped": true,
+        "isEquipped": false,
         "qualityBase": 0,
-        "durabilityBase": 9,
-        "abbrev": "WDress",
-        "material": "Worsted",
-        "locations": {
-          "flexible": [
-            "Left Shoulder",
-            "Right Shoulder",
-            "Left Upper Arm",
-            "Right Upper Arm",
-            "Left Elbow",
-            "Right Elbow",
-            "Left Forearm",
-            "Right Forearm",
-            "Thorax",
-            "Abdomen",
-            "Pelvis",
-            "Left Thigh",
-            "Right Thigh",
-            "Left Knee",
-            "Right Knee",
-            "Left Calf",
-            "Right Calf"
-          ],
-          "rigid": []
-        },
-        "protectionBase": {
-          "blunt": 0,
-          "edged": 1,
-          "piercing": 0,
-          "fire": 1
-        }
+        "durabilityBase": 8,
+        "abbrev": "Stk",
+        "heftBase": 9,
+        "lengthBase": 3
       },
       "effects": [],
-      "ownership": {
-        "default": 0,
-        "RsnPoY20XgcrucTn": 3
-      },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.wPcQ8ykyivZCyikd",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.qYFSh2Fr38UHKT5f",
         "duplicateSource": null,
         "coreVersion": "12.330",
         "systemId": "hm",
@@ -5460,177 +5956,14 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_id": "jumZZ38k9SDXIEbI",
-      "folder": null,
-      "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.jumZZ38k9SDXIEbI"
-    },
-    {
-      "name": "Worsted Cowl",
-      "type": "armorgear",
-      "img": "systems/hm/assets/icons/hood.svg",
-      "system": {
-        "macros": [],
-        "nestedItems": [],
-        "notes": "",
-        "description": "",
-        "textReference": "",
-        "transfer": true,
-        "quantity": 1,
-        "weightBase": 0.2,
-        "valueBase": 14,
-        "isCarried": true,
-        "isEquipped": true,
-        "qualityBase": 0,
-        "durabilityBase": 9,
-        "abbrev": "WCowl",
-        "material": "Worsted",
-        "locations": {
-          "flexible": [
-            "Skull",
-            "Neck"
-          ],
-          "rigid": []
-        },
-        "protectionBase": {
-          "blunt": 0,
-          "edged": 1,
-          "piercing": 0,
-          "fire": 1
-        }
-      },
-      "effects": [],
       "ownership": {
         "default": 0,
         "RsnPoY20XgcrucTn": 3
       },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.HwAZqhOppRIqVbJs",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "ao0OGDFW2GhSZ6MR",
+      "_id": "myQQXXwuNNpJNe8f",
       "folder": null,
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.ao0OGDFW2GhSZ6MR"
-    },
-    {
-      "name": "Russet Gloves",
-      "type": "armorgear",
-      "img": "systems/hm/assets/icons/gloves.svg",
-      "system": {
-        "macros": [],
-        "nestedItems": [],
-        "notes": "",
-        "description": "",
-        "textReference": "",
-        "transfer": true,
-        "quantity": 1,
-        "weightBase": 0.2,
-        "valueBase": 24,
-        "isCarried": true,
-        "isEquipped": true,
-        "qualityBase": 0,
-        "durabilityBase": 7,
-        "abbrev": "RGlv",
-        "material": "Russet",
-        "locations": {
-          "flexible": [
-            "Left Hand",
-            "Right Hand"
-          ],
-          "rigid": []
-        },
-        "protectionBase": {
-          "blunt": 0,
-          "edged": 0,
-          "piercing": 0,
-          "fire": 0
-        }
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.WNrm1UMM4JpiawVA",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "mhlpfVbY89xCRsSh",
-      "folder": null,
-      "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.mhlpfVbY89xCRsSh"
-    },
-    {
-      "name": "Rawhide Calf Boots",
-      "type": "armorgear",
-      "img": "systems/hm/assets/icons/leather-boot.svg",
-      "system": {
-        "macros": [],
-        "nestedItems": [],
-        "notes": "",
-        "description": "",
-        "textReference": "",
-        "transfer": true,
-        "quantity": 1,
-        "weightBase": 2.9,
-        "valueBase": 76,
-        "isCarried": true,
-        "isEquipped": true,
-        "qualityBase": 0,
-        "durabilityBase": 11,
-        "abbrev": "LtCBoot",
-        "material": "Rawhide",
-        "locations": {
-          "flexible": [
-            "Left Calf",
-            "Right Calf",
-            "Left Foot",
-            "Right Foot"
-          ],
-          "rigid": []
-        },
-        "protectionBase": {
-          "blunt": 1,
-          "edged": 2,
-          "piercing": 1,
-          "fire": 3
-        }
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.oOOMdsP9QBnFL6yp",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "u9ILM0RvGz5pBZoY",
-      "folder": null,
-      "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.u9ILM0RvGz5pBZoY"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.myQQXXwuNNpJNe8f"
     },
     {
       "name": "Backpack",
@@ -5654,7 +5987,7 @@
             "system": {
               "notes": "1 day/person, shelf life 10 days",
               "description": "",
-              "quantity": 1,
+              "quantity": 3,
               "isCarried": true,
               "isEquipped": false,
               "qualityBase": 0,
@@ -5675,17 +6008,97 @@
               "coreVersion": "12.330",
               "systemId": "hm",
               "systemVersion": "0.9.0",
-              "createdTime": 1723386207795,
-              "modifiedTime": 1723386207795,
+              "createdTime": 1723382291540,
+              "modifiedTime": 1723382300812,
               "lastModifiedBy": "RsnPoY20XgcrucTn"
             },
             "ownership": {
               "default": 0,
               "RsnPoY20XgcrucTn": 3
             },
-            "_id": "zYjDGWXDOprd31UP",
+            "_id": "mRnVtvv34HKno5be",
+            "folder": null,
+            "sort": 100000
+          },
+          {
+            "name": "Bandage",
+            "type": "miscgear",
+            "img": "systems/hm/assets/icons/bandage-roll.svg",
+            "system": {
+              "notes": "1 bandage per IL for CLEAN &amp; DRESS treatment; STAUNCH treatment uses d6 bandages per Bloodloss Point",
+              "description": "",
+              "quantity": 20,
+              "isCarried": true,
+              "isEquipped": false,
+              "qualityBase": 0,
+              "durabilityBase": 7,
+              "textReference": "",
+              "macros": [],
+              "nestedItems": [],
+              "valueBase": 0.75,
+              "weightBase": 0.1,
+              "abbrev": "",
+              "transfer": true
+            },
+            "effects": [],
+            "flags": {},
+            "_stats": {
+              "compendiumSource": "Compendium.hm.kethira-basic-items.Item.28T0XYglrvCALMTy",
+              "duplicateSource": null,
+              "coreVersion": "12.330",
+              "systemId": "hm",
+              "systemVersion": "0.9.0",
+              "createdTime": 1723382267619,
+              "modifiedTime": 1723382278607,
+              "lastModifiedBy": "RsnPoY20XgcrucTn"
+            },
+            "ownership": {
+              "default": 0,
+              "RsnPoY20XgcrucTn": 3
+            },
+            "_id": "tCPFIcEeXdNDhmLi",
             "folder": null,
             "sort": 200000
+          },
+          {
+            "name": "Surgical Tools",
+            "type": "miscgear",
+            "img": "systems/hm/assets/icons/surgical-instruments.svg",
+            "system": {
+              "notes": "Required for EXTRACTION and SURGERY treatments",
+              "description": "",
+              "quantity": 1,
+              "isCarried": true,
+              "isEquipped": false,
+              "qualityBase": 0,
+              "durabilityBase": 4,
+              "textReference": "",
+              "macros": [],
+              "nestedItems": [],
+              "valueBase": 96,
+              "weightBase": 6,
+              "abbrev": "",
+              "transfer": true
+            },
+            "effects": [],
+            "flags": {},
+            "_stats": {
+              "compendiumSource": "Compendium.hm.kethira-basic-items.Item.b2eXoudRP1pXDDZS",
+              "duplicateSource": null,
+              "coreVersion": "12.330",
+              "systemId": "hm",
+              "systemVersion": "0.9.0",
+              "createdTime": 1723382259144,
+              "modifiedTime": 1723382259144,
+              "lastModifiedBy": "RsnPoY20XgcrucTn"
+            },
+            "ownership": {
+              "default": 0,
+              "RsnPoY20XgcrucTn": 3
+            },
+            "_id": "ybr6HIEkYIh2M5Ai",
+            "folder": null,
+            "sort": 300000
           }
         ],
         "maxCapacityBase": 30,
@@ -5710,17 +6123,17 @@
         "default": 0,
         "RsnPoY20XgcrucTn": 3
       },
-      "_id": "G2xcqbNDccg9MIZx",
+      "_id": "cNGC7BTX7ngA7D6b",
       "folder": null,
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.G2xcqbNDccg9MIZx"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.cNGC7BTX7ngA7D6b"
     },
     {
       "name": "Bedroll, heavy",
       "type": "miscgear",
       "img": "systems/hm/assets/icons/sleeping-bag.svg",
       "system": {
-        "notes": "Tied under backpack",
+        "notes": "Tied beneath backpack",
         "description": "",
         "quantity": 1,
         "isCarried": true,
@@ -5751,17 +6164,17 @@
         "default": 0,
         "RsnPoY20XgcrucTn": 3
       },
-      "_id": "VAe5wR9YJPLTtAUg",
+      "_id": "nbfWxGCwMHPPTEOx",
       "folder": null,
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.VAe5wR9YJPLTtAUg"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.nbfWxGCwMHPPTEOx"
     },
     {
       "name": "Waterskin, 2qt.",
       "type": "containergear",
       "img": "systems/hm/assets/icons/miscgear.svg",
       "system": {
-        "notes": "Tied at waist",
+        "notes": "At left hip",
         "description": "",
         "quantity": 1,
         "isCarried": true,
@@ -5778,7 +6191,7 @@
             "system": {
               "notes": "",
               "description": "",
-              "quantity": 1,
+              "quantity": 4,
               "isCarried": true,
               "isEquipped": false,
               "qualityBase": 0,
@@ -5790,7 +6203,7 @@
               "macros": [],
               "nestedItems": [],
               "valueBase": 0,
-              "weightBase": 4,
+              "weightBase": 1,
               "abbrev": "",
               "transfer": true
             },
@@ -5802,15 +6215,15 @@
               "coreVersion": "12.330",
               "systemId": "hm",
               "systemVersion": "0.9.0",
-              "createdTime": 1723386198359,
-              "modifiedTime": 1723386198359,
+              "createdTime": 1723382321118,
+              "modifiedTime": 1723382327808,
               "lastModifiedBy": "RsnPoY20XgcrucTn"
             },
             "ownership": {
               "default": 0,
               "RsnPoY20XgcrucTn": 3
             },
-            "_id": "ynXtkKNe4FcAM1AZ",
+            "_id": "0NcZ5OeFdQi9NLxO",
             "folder": null,
             "sort": 100000
           }
@@ -5837,17 +6250,17 @@
         "default": 0,
         "RsnPoY20XgcrucTn": 3
       },
-      "_id": "78RdpAKXSHWycLvW",
+      "_id": "CSuitqOJemYzMmjR",
       "folder": null,
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.78RdpAKXSHWycLvW"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.CSuitqOJemYzMmjR"
     },
     {
-      "name": "Belt pouch, leather, med",
+      "name": "Purse, leather",
       "type": "containergear",
       "img": "systems/hm/assets/icons/sack.svg",
       "system": {
-        "notes": "",
+        "notes": "Slung crosswise across chest",
         "description": "",
         "quantity": 1,
         "isCarried": true,
@@ -5864,7 +6277,7 @@
             "system": {
               "notes": "",
               "description": "",
-              "quantity": 63,
+              "quantity": 154,
               "isCarried": true,
               "isEquipped": false,
               "qualityBase": 0,
@@ -5885,69 +6298,29 @@
               "coreVersion": "12.330",
               "systemId": "hm",
               "systemVersion": "0.9.0",
-              "createdTime": 1723386161886,
-              "modifiedTime": 1723386265922,
+              "createdTime": 1723382163302,
+              "modifiedTime": 1723382182977,
               "lastModifiedBy": "RsnPoY20XgcrucTn"
             },
             "ownership": {
               "default": 0,
               "RsnPoY20XgcrucTn": 3
             },
-            "_id": "XXPAwkDTbX76Ywlq",
+            "_id": "btYmns3Ul8EY6KDG",
             "folder": null,
             "sort": 100000
-          },
-          {
-            "name": "Bandage",
-            "type": "miscgear",
-            "img": "systems/hm/assets/icons/bandage-roll.svg",
-            "system": {
-              "notes": "1 bandage per IL for CLEAN &amp; DRESS treatment; STAUNCH treatment uses d6 bandages per Bloodloss Point",
-              "description": "",
-              "quantity": 16,
-              "isCarried": true,
-              "isEquipped": false,
-              "qualityBase": 0,
-              "durabilityBase": 7,
-              "textReference": "",
-              "macros": [],
-              "nestedItems": [],
-              "valueBase": 0.75,
-              "weightBase": 0.1,
-              "abbrev": "",
-              "transfer": true
-            },
-            "effects": [],
-            "flags": {},
-            "_stats": {
-              "compendiumSource": "Compendium.hm.kethira-basic-items.Item.28T0XYglrvCALMTy",
-              "duplicateSource": null,
-              "coreVersion": "12.330",
-              "systemId": "hm",
-              "systemVersion": "0.9.0",
-              "createdTime": 1723386190433,
-              "modifiedTime": 1723386280573,
-              "lastModifiedBy": "RsnPoY20XgcrucTn"
-            },
-            "ownership": {
-              "default": 0,
-              "RsnPoY20XgcrucTn": 3
-            },
-            "_id": "LaHXB55pivyFs3hF",
-            "folder": null,
-            "sort": 200000
           }
         ],
-        "maxCapacityBase": 3,
-        "valueBase": 4,
-        "weightBase": 0.5,
+        "maxCapacityBase": 2,
+        "valueBase": 2,
+        "weightBase": 0.25,
         "abbrev": "",
         "transfer": true
       },
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.JMXUmoqI6uWt5LN4",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.shEjHWvNGFd5XIRt",
         "duplicateSource": null,
         "coreVersion": "12.330",
         "systemId": "hm",
@@ -5960,184 +6333,16 @@
         "default": 0,
         "RsnPoY20XgcrucTn": 3
       },
-      "_id": "vwcudN2ORCDuO09p",
+      "_id": "aYo2pXeWwfwOequm",
       "folder": null,
       "sort": 0,
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.vwcudN2ORCDuO09p"
-    },
-    {
-      "name": "Ilvirian Piety",
-      "type": "mystery",
-      "system": {
-        "subType": "piety",
-        "macros": [],
-        "notes": "",
-        "description": "",
-        "textReference": "",
-        "nestedItems": [],
-        "transfer": false,
-        "domain": "ilvir",
-        "levelBase": 0,
-        "charges": {
-          "usesCharges": true,
-          "value": 1,
-          "max": 1
-        },
-        "skills": []
-      },
-      "_id": "aB5V7amqPxqUuaRh",
-      "img": "systems/hm/assets/icons/sparkles.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.aB5V7amqPxqUuaRh"
-    },
-    {
-      "folder": "BXfH5cKFM0lUbyhg",
-      "name": "Spirit",
-      "type": "mysticalability",
-      "_id": "xBZ3vbgJw0ez7YOh",
-      "img": "systems/hm/assets/icons/psionics.svg",
-      "system": {
-        "notes": "",
-        "description": "",
-        "skillBaseFormula": "@aur, @wil",
-        "textReference": "",
-        "masteryLevelBase": 88,
-        "subType": "arcanetalent",
-        "macros": [],
-        "nestedItems": [],
-        "improveFlag": false,
-        "domain": "",
-        "transfer": false,
-        "abbrev": "sprt",
-        "levelBase": 0,
-        "charges": {
-          "usesCharges": false,
-          "value": 0,
-          "max": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "RsnPoY20XgcrucTn": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.lKVbkvzIGDFCC3UI",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.xBZ3vbgJw0ez7YOh"
-    },
-    {
-      "name": "Crow",
-      "type": "domain",
-      "img": "systems/hm/assets/icons/crow.svg",
-      "_id": "aVPLLAn3Cvqb72Cr",
-      "system": {
-        "notes": "",
-        "textReference": "",
-        "description": "",
-        "macros": [],
-        "nestedItems": [],
-        "transfer": false,
-        "categories": [],
-        "abbrev": "crow",
-        "philosophy": "Totem"
-      },
-      "effects": [],
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.hm.mysteries.Item.gqv7Cco3Axw0FaAt",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "ZJzBrmBAMjcUijuX",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "0year58XBVccywIu": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.aVPLLAn3Cvqb72Cr"
-    },
-    {
-      "name": "Crow: Curious and Resourceful",
-      "type": "mystery",
-      "img": "systems/hm/assets/icons/crow.svg",
-      "_id": "bUi4Y4FXqzmyYgQj",
-      "system": {
-        "subType": "totem",
-        "notes": "",
-        "textReference": "",
-        "description": "<p><strong>Animal Ideal:</strong> Mischievous and vindictive, crows are highly intelligent birds that can hold grudges and are known to play tricks on both animals and humans.</p>\n<p><strong>Description:</strong> Mischevous, curious, and resourceful, this person has a knack for problem-solving and enjoys playing tricks. They are curious and often use their wits to navigate complex situations.</p>\n<ul>\n<li><strong>Physical:</strong> Keen, observant eyes; lean and agile.</li>\n<li><strong>Behavioral:</strong> Highly curious, resourceful in problem-solving and tool use.</li><li><strong>Positive:</strong> Resourceful, innovative, and problem-solving.</li>\n<li><strong>Negative:</strong> Mischievous, vindictive, and may play tricks on others.</li>\n<li><strong>Minor Trait:</strong> Innovative</li>\n<li><strong>Major Disorder:</strong> Narcissistic Personality Disorder (NPD), linked with vindictive and manipulative behaviors.</li>\n</ul>",
-        "macros": [],
-        "nestedItems": [],
-        "transfer": false,
-        "domain": "crow",
-        "skills": [],
-        "levelBase": 0,
-        "charges": {
-          "usesCharges": false,
-          "value": 0,
-          "max": 0
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.hm.mysteries.Item.XHwwkctPOTYwybx5",
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "eJSuuML2ROg3V1W6",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "0year58XBVccywIu": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.bUi4Y4FXqzmyYgQj"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.aYo2pXeWwfwOequm"
     },
     {
       "name": "Nadái",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "jt8vCwlwokZq47hy",
+      "_id": "iCoCstxmkqsO8nXi",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6184,13 +6389,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.jt8vCwlwokZq47hy"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.iCoCstxmkqsO8nXi"
     },
     {
       "name": "Arálius-Fenéri",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "T4z059UYJ73U4P6j",
+      "_id": "fsDu7717JWdbH6V8",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6237,13 +6442,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.T4z059UYJ73U4P6j"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.fsDu7717JWdbH6V8"
     },
     {
       "name": "Môrgath",
       "type": "domain",
       "img": "systems/hm/assets/icons/morgath.png",
-      "_id": "p3t7SM8TQT59jqSx",
+      "_id": "UPkoj3A8yhRFDwZd",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6284,13 +6489,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.p3t7SM8TQT59jqSx"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.UPkoj3A8yhRFDwZd"
     },
     {
       "name": "Skôrus-Masâra",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "cGEoy27idSdITrVu",
+      "_id": "SodbIAvu0FgpLGvM",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6337,13 +6542,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.cGEoy27idSdITrVu"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.SodbIAvu0FgpLGvM"
     },
     {
       "name": "Ùlándus-Arálius",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "WPa7EK7q1aH1sWEn",
+      "_id": "0vDjsiRn30HTX0uN",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6390,13 +6595,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.WPa7EK7q1aH1sWEn"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.0vDjsiRn30HTX0uN"
     },
     {
       "name": "Fenéri",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "JI2y9HH8MnUFIR7H",
+      "_id": "bu3Z3bDVwJgyrR1y",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6443,13 +6648,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.JI2y9HH8MnUFIR7H"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.bu3Z3bDVwJgyrR1y"
     },
     {
       "name": "Masâra",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "vpQa0ZAl5ZZ4KA3e",
+      "_id": "RThu831pjwKEkOXZ",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6496,13 +6701,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.vpQa0ZAl5ZZ4KA3e"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.RThu831pjwKEkOXZ"
     },
     {
       "name": "Ùlándus",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "Mww81Bs6TS4QBCVz",
+      "_id": "dlKy9lpNsBXfQFgd",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6549,13 +6754,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Mww81Bs6TS4QBCVz"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.dlKy9lpNsBXfQFgd"
     },
     {
       "name": "Hîrin",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "tNVNxwRyL5WpHBcR",
+      "_id": "hP8kefbP6wJDJvQB",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6602,13 +6807,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.tNVNxwRyL5WpHBcR"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.hP8kefbP6wJDJvQB"
     },
     {
       "name": "Tai",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "FJDJEFwVUV0HCNg2",
+      "_id": "yQgVsPANaadxttkB",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6655,13 +6860,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.FJDJEFwVUV0HCNg2"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.yQgVsPANaadxttkB"
     },
     {
       "name": "Navéh",
       "type": "domain",
       "img": "systems/hm/assets/icons/naveh.png",
-      "_id": "uowIWuhijAn17UkX",
+      "_id": "mpJ0m2daDrh8VXxG",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6702,13 +6907,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.uowIWuhijAn17UkX"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.mpJ0m2daDrh8VXxG"
     },
     {
       "name": "Angberélius-Nadái",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "oafWIA8ghcJwNsxS",
+      "_id": "ipFQ9Mberw8RvvfE",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6755,13 +6960,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.oafWIA8ghcJwNsxS"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.ipFQ9Mberw8RvvfE"
     },
     {
       "name": "Haléa",
       "type": "domain",
       "img": "systems/hm/assets/icons/halea.png",
-      "_id": "4byVTuTIyAinG9Es",
+      "_id": "lZCePNZsh4n6rVrn",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6802,13 +7007,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.4byVTuTIyAinG9Es"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.lZCePNZsh4n6rVrn"
     },
     {
       "name": "Sárajìn",
       "type": "domain",
       "img": "systems/hm/assets/icons/sarajin.png",
-      "_id": "31NlV0tlW0rXFvyL",
+      "_id": "6o34HBDG15bIhciZ",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6849,13 +7054,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.31NlV0tlW0rXFvyL"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.6o34HBDG15bIhciZ"
     },
     {
       "name": "Skôrus",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "e0NoHQA77bcNVqE1",
+      "_id": "RAELSc4aF6nUKDtf",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6902,13 +7107,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.e0NoHQA77bcNVqE1"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.RAELSc4aF6nUKDtf"
     },
     {
       "name": "Ládo",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "TnvCGwgSwkCApGQX",
+      "_id": "kB0jAvtZKWlJA3Ar",
       "system": {
         "notes": "",
         "textReference": "",
@@ -6955,113 +7160,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.TnvCGwgSwkCApGQX"
-    },
-    {
-      "name": "Táræl",
-      "type": "domain",
-      "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "J4kxf0jyvfHjmiQO",
-      "system": {
-        "notes": "",
-        "textReference": "",
-        "description": "",
-        "macros": [],
-        "nestedItems": [],
-        "transfer": false,
-        "categories": [
-          "astral"
-        ],
-        "abbrev": "tarael",
-        "philosophy": "West Venârian"
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "cusp": false,
-          "kethira": {
-            "ssMod": {
-              "earth": -10,
-              "metal": -10,
-              "fire": 0,
-              "air": 10,
-              "aura": 10,
-              "water": 0
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "PkHkW8isQDuz1LmJ",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "0year58XBVccywIu": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.J4kxf0jyvfHjmiQO"
-    },
-    {
-      "name": "Ilvîr",
-      "type": "domain",
-      "img": "systems/hm/assets/icons/ilvir.png",
-      "_id": "qAF5EqZd7U7eLRAt",
-      "system": {
-        "notes": "",
-        "textReference": "",
-        "description": "",
-        "macros": [],
-        "nestedItems": [],
-        "transfer": false,
-        "categories": [
-          "divine"
-        ],
-        "abbrev": "ilvir",
-        "philosophy": "West Venârian"
-      },
-      "effects": [],
-      "flags": {
-        "hm": {
-          "kethira": {
-            "aspects": [
-              "ivo"
-            ]
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.330",
-        "systemId": "hm",
-        "systemVersion": "0.9.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "PkHkW8isQDuz1LmJ",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "TMJsvJWT6ytpHZ0M": 3,
-        "0year58XBVccywIu": 3
-      },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.qAF5EqZd7U7eLRAt"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.kB0jAvtZKWlJA3Ar"
     },
     {
       "name": "Nadái-Hîrin",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "zDWhLpIlr3Rz1LSI",
+      "_id": "mn6uSHofRp0VJbuM",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7108,13 +7213,113 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.zDWhLpIlr3Rz1LSI"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.mn6uSHofRp0VJbuM"
+    },
+    {
+      "name": "Táræl",
+      "type": "domain",
+      "img": "systems/hm/assets/icons/astrology.svg",
+      "_id": "NbZFG8MeaUYvgMnG",
+      "system": {
+        "notes": "",
+        "textReference": "",
+        "description": "",
+        "macros": [],
+        "nestedItems": [],
+        "transfer": false,
+        "categories": [
+          "astral"
+        ],
+        "abbrev": "tarael",
+        "philosophy": "West Venârian"
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "cusp": false,
+          "kethira": {
+            "ssMod": {
+              "earth": -10,
+              "metal": -10,
+              "fire": 0,
+              "air": 10,
+              "aura": 10,
+              "water": 0
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "PkHkW8isQDuz1LmJ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "0year58XBVccywIu": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.NbZFG8MeaUYvgMnG"
+    },
+    {
+      "name": "Ilvîr",
+      "type": "domain",
+      "img": "systems/hm/assets/icons/ilvir.png",
+      "_id": "JtzIk9WbRBBQlW7Q",
+      "system": {
+        "notes": "",
+        "textReference": "",
+        "description": "",
+        "macros": [],
+        "nestedItems": [],
+        "transfer": false,
+        "categories": [
+          "divine"
+        ],
+        "abbrev": "ilvir",
+        "philosophy": "West Venârian"
+      },
+      "effects": [],
+      "flags": {
+        "hm": {
+          "kethira": {
+            "aspects": [
+              "ivo"
+            ]
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "hm",
+        "systemVersion": "0.9.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "PkHkW8isQDuz1LmJ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "TMJsvJWT6ytpHZ0M": 3,
+        "0year58XBVccywIu": 3
+      },
+      "_key": "!actors.items!sbWCxxaUDObWojZq.JtzIk9WbRBBQlW7Q"
     },
     {
       "name": "Hîrin-Táræl",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "O2obTlOgxrZ4ClDb",
+      "_id": "DLKpPRDNL7x70IGt",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7161,13 +7366,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.O2obTlOgxrZ4ClDb"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.DLKpPRDNL7x70IGt"
     },
     {
       "name": "Fenéri-Áhnù",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "mVkYzqa0013WEDUr",
+      "_id": "X00TcWdP81EhzEwy",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7214,13 +7419,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.mVkYzqa0013WEDUr"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.X00TcWdP81EhzEwy"
     },
     {
       "name": "Tai-Skôrus",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "vUK9vJCkIiQVxatW",
+      "_id": "gSxsCfUf7Dqq2NEW",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7267,13 +7472,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.vUK9vJCkIiQVxatW"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.gSxsCfUf7Dqq2NEW"
     },
     {
       "name": "Áhnù",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "4CQLoEkccVCwDQmQ",
+      "_id": "JnQGH4yA1rYuHIHR",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7320,13 +7525,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.4CQLoEkccVCwDQmQ"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.JnQGH4yA1rYuHIHR"
     },
     {
       "name": "Masâra-Ládo",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "62GqL8QCOTK4VaNs",
+      "_id": "Xwn1qejG7r0EByFm",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7373,13 +7578,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.62GqL8QCOTK4VaNs"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.Xwn1qejG7r0EByFm"
     },
     {
       "name": "Ágrik",
       "type": "domain",
       "img": "systems/hm/assets/icons/agrik.png",
-      "_id": "z9eaVtZZjSyMGYaJ",
+      "_id": "rNqTEINjrzFwM1Ti",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7420,13 +7625,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.z9eaVtZZjSyMGYaJ"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.rNqTEINjrzFwM1Ti"
     },
     {
       "name": "Siém",
       "type": "domain",
       "img": "systems/hm/assets/icons/siem.png",
-      "_id": "lDgdPlWRPEbSC5PN",
+      "_id": "pFA3LAEHtLPIbQM4",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7467,13 +7672,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.lDgdPlWRPEbSC5PN"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.pFA3LAEHtLPIbQM4"
     },
     {
       "name": "Peóni",
       "type": "domain",
       "img": "systems/hm/assets/icons/peoni.png",
-      "_id": "bw8UFFYAvo3SgZqC",
+      "_id": "WZlMdHbNhpymgYDO",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7514,13 +7719,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.bw8UFFYAvo3SgZqC"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.WZlMdHbNhpymgYDO"
     },
     {
       "name": "Sávè-K'nôr",
       "type": "domain",
       "img": "systems/hm/assets/icons/saveknor.png",
-      "_id": "YxZSvqFLkMH06e5M",
+      "_id": "7ZuqigAe6K4y5n4D",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7561,13 +7766,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.YxZSvqFLkMH06e5M"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.7ZuqigAe6K4y5n4D"
     },
     {
       "name": "Laráni",
       "type": "domain",
       "img": "systems/hm/assets/icons/larani.png",
-      "_id": "A0pU93ow1XrWNg3n",
+      "_id": "MswQnmW0DWHiB7KY",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7608,13 +7813,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.A0pU93ow1XrWNg3n"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.MswQnmW0DWHiB7KY"
     },
     {
       "name": "Angberélius",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "0xux98CkXobWOV1E",
+      "_id": "nHiN5pGyYJopCdkv",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7661,13 +7866,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.0xux98CkXobWOV1E"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.nHiN5pGyYJopCdkv"
     },
     {
       "name": "Arálius",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "Z3ZP82nkeRZJpwS0",
+      "_id": "hLg5uWotHiG7O0Mq",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7714,13 +7919,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.Z3ZP82nkeRZJpwS0"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.hLg5uWotHiG7O0Mq"
     },
     {
       "name": "Táræl-Tai",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "I8ow1kA6dEVysjRB",
+      "_id": "lsRWV5Bv6zk2JZwy",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7767,13 +7972,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.I8ow1kA6dEVysjRB"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.lsRWV5Bv6zk2JZwy"
     },
     {
       "name": "Ládo-Ùlándus",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "h4JnDKQzZx3tUbqs",
+      "_id": "V945StDyIEB06iUm",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7820,13 +8025,13 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.h4JnDKQzZx3tUbqs"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.V945StDyIEB06iUm"
     },
     {
       "name": "Áhnù-Angberélius",
       "type": "domain",
       "img": "systems/hm/assets/icons/astrology.svg",
-      "_id": "jlhvn1yvA9TQiWnm",
+      "_id": "oV0ys0kvHmFMuShN",
       "system": {
         "notes": "",
         "textReference": "",
@@ -7873,7 +8078,7 @@
         "TMJsvJWT6ytpHZ0M": 3,
         "0year58XBVccywIu": 3
       },
-      "_key": "!actors.items!Crm4ZEGtfbNyACCI.jlhvn1yvA9TQiWnm"
+      "_key": "!actors.items!sbWCxxaUDObWojZq.oV0ys0kvHmFMuShN"
     }
   ],
   "effects": [],
@@ -7892,15 +8097,15 @@
     "coreVersion": "12.330",
     "systemId": "hm",
     "systemVersion": "0.9.0",
-    "createdTime": 1724530631972,
+    "createdTime": 1724530628173,
     "modifiedTime": 1724530632126,
     "lastModifiedBy": "0year58XBVccywIu"
   },
-  "_id": "Crm4ZEGtfbNyACCI",
-  "sort": 200000,
+  "_id": "sbWCxxaUDObWojZq",
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "0year58XBVccywIu": 3
   },
-  "_key": "!actors!Crm4ZEGtfbNyACCI"
+  "_key": "!actors!sbWCxxaUDObWojZq"
 }
