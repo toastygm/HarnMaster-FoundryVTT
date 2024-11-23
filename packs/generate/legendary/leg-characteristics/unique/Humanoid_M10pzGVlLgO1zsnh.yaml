@@ -1,6 +1,6 @@
 name: Humanoid
 type: anatomy
-img: systems/sohl/assets/icons/body.svg
+img: systems/hm/assets/icons/body.svg
 system:
   notes: ""
   description: ""
@@ -9,7 +9,7 @@ system:
   nestedItems:
     - name: Head
       type: bodyzone
-      img: systems/sohl/assets/icons/body.svg
+      img: systems/hm/assets/icons/body.svg
       system:
         notes: ""
         description: ""
@@ -19,7 +19,7 @@ system:
         nestedItems:
           - name: Head
             type: bodypart
-            img: systems/sohl/assets/icons/body.svg
+            img: systems/hm/assets/icons/body.svg
             system:
               notes: ""
               description: ""
@@ -32,7 +32,7 @@ system:
               nestedItems:
                 - name: Skull
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -57,15 +57,15 @@ system:
                     default: 0
                   _id: 0XmtjaBJDxMk0Ucd
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: 0
                         shockValue: 5
                 - name: Left Eye
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -90,15 +90,15 @@ system:
                     default: 0
                   _id: 6kX9YIUIVja3Y0MP
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 5
                 - name: Left Ear
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -123,15 +123,15 @@ system:
                     default: 0
                   _id: UwvPtm6rbB5noi7l
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 4
                 - name: Left Cheek
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -156,15 +156,15 @@ system:
                     default: 0
                   _id: 8J1XWjV1tsFyugVH
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 4
                 - name: Right Eye
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -189,15 +189,15 @@ system:
                     default: 0
                   _id: QEfArWukfNxKta0f
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 5
                 - name: Right Ear
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -222,15 +222,15 @@ system:
                     default: 0
                   _id: htpEEuxEAhz7AAsP
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 4
                 - name: Right Cheek
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -255,15 +255,15 @@ system:
                     default: 0
                   _id: ofe4FzVdGkKkZQV2
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 4
                 - name: Nose
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -288,15 +288,15 @@ system:
                     default: 0
                   _id: QRVralNrMEk93Kwj
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 5
                 - name: Mouth
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -321,15 +321,15 @@ system:
                     default: 0
                   _id: U30OhbPBl2QhBQoF
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 4
                 - name: Jaw
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -354,15 +354,15 @@ system:
                     default: 0
                   _id: ogK3sN7cu2ajAT5K
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 4
                 - name: Neck
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -387,8 +387,8 @@ system:
                     default: 0
                   _id: vZA6OW3EaN0ggS6U
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 3
                         amputatePenalty: -10
@@ -409,8 +409,8 @@ system:
       ownership:
         default: 0
       flags:
-        sohl:
-          legendary:
+        hm:
+          kethira:
             zones:
               - 1
             affectsMobility: true
@@ -430,7 +430,7 @@ system:
       _id: XQJBDj4Zd2ILR5rH
     - name: Arms
       type: bodyzone
-      img: systems/sohl/assets/icons/body.svg
+      img: systems/hm/assets/icons/body.svg
       system:
         notes: ""
         description: ""
@@ -440,7 +440,7 @@ system:
         nestedItems:
           - name: Left Arm
             type: bodypart
-            img: systems/sohl/assets/icons/body.svg
+            img: systems/hm/assets/icons/body.svg
             system:
               notes: ""
               description: ""
@@ -453,7 +453,7 @@ system:
               nestedItems:
                 - name: Left Shoulder
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -478,15 +478,15 @@ system:
                     default: 0
                   _id: nuInmwcEVKaPbhiH
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 3
                 - name: Left Upper Arm
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -511,15 +511,15 @@ system:
                     default: 0
                   _id: NGjZLBbjFzHdvv0l
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 1
                 - name: Left Elbow
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -544,15 +544,15 @@ system:
                     default: 0
                   _id: ubWdclQbNEQ70pEe
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 2
                 - name: Left Forearm
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -577,15 +577,15 @@ system:
                     default: 0
                   _id: 6mLZet21nySm9VVd
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 1
                 - name: Left Hand
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -610,8 +610,8 @@ system:
                     default: 0
                   _id: SrpubIBD6K42tsO1
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 0
                         amputatePenalty: -30
@@ -626,7 +626,7 @@ system:
             _id: rnqBua6Rduc0u0P6
           - name: Right Arm
             type: bodypart
-            img: systems/sohl/assets/icons/body.svg
+            img: systems/hm/assets/icons/body.svg
             system:
               notes: ""
               description: ""
@@ -639,7 +639,7 @@ system:
               nestedItems:
                 - name: Right Shoulder
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -664,15 +664,15 @@ system:
                     default: 0
                   _id: V7F5ilVtTWnzoyu6
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 3
                 - name: Right Upper Arm
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -697,15 +697,15 @@ system:
                     default: 0
                   _id: YfN7RARAAi0UrPld
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 1
                 - name: Right Elbow
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -730,15 +730,15 @@ system:
                     default: 0
                   _id: 1kH02rurCS8ft63Q
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 2
                 - name: Right Forearm
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -763,15 +763,15 @@ system:
                     default: 0
                   _id: pNB4IdNQHFPOnvwD
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 1
                 - name: Right Hand
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -796,8 +796,8 @@ system:
                     default: 0
                   _id: Rfi2iUDdK2qQz2pv
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 0
                         amputatePenalty: -30
@@ -818,8 +818,8 @@ system:
       ownership:
         default: 0
       flags:
-        sohl:
-          legendary:
+        hm:
+          kethira:
             zones:
               - 2
               - 3
@@ -838,7 +838,7 @@ system:
       _id: DzyCHcZwLLZekBgq
     - name: Torso
       type: bodyzone
-      img: systems/sohl/assets/icons/body.svg
+      img: systems/hm/assets/icons/body.svg
       system:
         notes: ""
         description: ""
@@ -848,7 +848,7 @@ system:
         nestedItems:
           - name: Torso
             type: bodypart
-            img: systems/sohl/assets/icons/body.svg
+            img: systems/hm/assets/icons/body.svg
             system:
               notes: ""
               description: ""
@@ -861,7 +861,7 @@ system:
               nestedItems:
                 - name: Thorax
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -886,15 +886,15 @@ system:
                     default: 0
                   _id: Sfp6lj3H6N20woHc
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
                         shockValue: 4
                 - name: Abdomen
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -919,15 +919,15 @@ system:
                     default: 0
                   _id: GYWlGzJ1oE2QlVc0
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 3
                         amputatePenalty: 0
                         shockValue: 4
                 - name: Pelvis
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -952,8 +952,8 @@ system:
                     default: 0
                   _id: yMsU1PHsaPfGlygr
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: 0
@@ -974,8 +974,8 @@ system:
       ownership:
         default: 0
       flags:
-        sohl:
-          legendary:
+        hm:
+          kethira:
             zones:
               - 4
               - 5
@@ -997,7 +997,7 @@ system:
       _id: qPncC1ZBr2H8lPSy
     - name: Legs
       type: bodyzone
-      img: systems/sohl/assets/icons/body.svg
+      img: systems/hm/assets/icons/body.svg
       system:
         notes: ""
         description: ""
@@ -1007,7 +1007,7 @@ system:
         nestedItems:
           - name: Left Leg
             type: bodypart
-            img: systems/sohl/assets/icons/body.svg
+            img: systems/hm/assets/icons/body.svg
             system:
               notes: ""
               description: ""
@@ -1020,7 +1020,7 @@ system:
               nestedItems:
                 - name: Left Thigh
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -1045,15 +1045,15 @@ system:
                     default: 0
                   _id: pOsgjfKKFAr8I8aE
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: -10
                         shockValue: 3
                 - name: Left Knee
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -1078,15 +1078,15 @@ system:
                     default: 0
                   _id: gi2S9Dt4w46x2wOL
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 2
                 - name: Left Calf
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -1111,15 +1111,15 @@ system:
                     default: 0
                   _id: IX6Bbg9YSahDwI45
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 1
                 - name: Left Foot
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -1144,8 +1144,8 @@ system:
                     default: 0
                   _id: REmu5X3CBlbfLqvh
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 0
                         amputatePenalty: -20
@@ -1160,7 +1160,7 @@ system:
             _id: KocnXsjJtL3doBVr
           - name: Right Leg
             type: bodypart
-            img: systems/sohl/assets/icons/body.svg
+            img: systems/hm/assets/icons/body.svg
             system:
               notes: ""
               description: ""
@@ -1173,7 +1173,7 @@ system:
               nestedItems:
                 - name: Right Thigh
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -1198,15 +1198,15 @@ system:
                     default: 0
                   _id: AJwjP1rJBbmpamNe
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 4
                         amputatePenalty: -10
                         shockValue: 3
                 - name: Right Knee
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -1231,15 +1231,15 @@ system:
                     default: 0
                   _id: WUnUX9Vw3f9aJXuR
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 2
                 - name: Right Calf
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -1264,15 +1264,15 @@ system:
                     default: 0
                   _id: Zb9lV9AXinrSftXd
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 5
                         amputatePenalty: -20
                         shockValue: 1
                 - name: Right Foot
                   type: bodylocation
-                  img: systems/sohl/assets/icons/body.svg
+                  img: systems/hm/assets/icons/body.svg
                   system:
                     notes: ""
                     description: ""
@@ -1297,8 +1297,8 @@ system:
                     default: 0
                   _id: aGOXGJxHUfwnfB5M
                   flags:
-                    sohl:
-                      legendary:
+                    hm:
+                      kethira:
                         isRigid: false
                         bleedingSevThreshold: 0
                         amputatePenalty: -20
@@ -1319,8 +1319,8 @@ system:
       ownership:
         default: 0
       flags:
-        sohl:
-          legendary:
+        hm:
+          kethira:
             zones:
               - 8
               - 9
@@ -1350,7 +1350,7 @@ ownership:
 effects: []
 flags: {}
 _stats:
-  systemId: sohl
+  systemId: hm
   systemVersion: 0.7.2
   coreVersion: "11.313"
   createdTime: 1684119710177

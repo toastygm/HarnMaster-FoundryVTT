@@ -10,7 +10,7 @@
         </header>
         <ol class="items-list action-list">
             {{#each system.actions as |action|}}
-            {{#unless flags.sohl.isIntrinsicAction}}
+            {{#unless flags.hm.isIntrinsicAction}}
             <li class="item action-item flexrow" data-action-name="{{ action.name }}" data-parent-uuid="{{ action.nestedIn.uuid }}" data-item-id="{{action.id}}">
                 <div class="item-name name flexrow">
                     <div
@@ -19,9 +19,9 @@
                     <h4>{{ action.name }}</h4>
                 </div>
                 <div class="ele">{{ action.type }}</div>
-                <div class="notes">{{ action.flags.sohl.notes }}</div>
+                <div class="notes">{{ action.flags.hm.notes }}</div>
                 <div class="item-controls-wide">
-                    {{#unless flags.sohl.isIntrinsicAction}}
+                    {{#unless flags.hm.isIntrinsicAction}}
                         <a class="item-control item-contextmenu" title="Menu"><i
                             class="fas fa-ellipsis-vertical fa-fw"></i></a>
                     {{/unless}}
@@ -41,7 +41,7 @@
         </header>
         <ol class="items-list action-list">
             {{#each system.actions as |action|}}
-            {{#if flags.sohl.isIntrinsicAction}}
+            {{#if flags.hm.isIntrinsicAction}}
             <li class="item action-item flexrow" data-action-name="{{ action.name }}" data-parent-uuid="{{ action.nestedIn.uuid }}" data-item-id="{{action.id}}">
                 <div class="item-name name flexrow">
                     <div
@@ -50,7 +50,7 @@
                     <h4>{{ action.name }}</h4>
                 </div>
                 <div class="ele">{{ action.type }}</div>
-                <div class="notes">{{ action.flags.sohl.notes }}</div>
+                <div class="notes">{{ action.flags.hm.notes }}</div>
                 <div class="item-controls">
                     {{#if action.canExecute}}
                     <a class="item-control item-contextmenu" title="Menu"><i

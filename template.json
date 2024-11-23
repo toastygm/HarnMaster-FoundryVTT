@@ -34,7 +34,7 @@
     },
     "ActiveEffect": {
         "types": [
-            "sohlactiveeffect"
+            "hmactiveeffect"
         ]
     }
 }

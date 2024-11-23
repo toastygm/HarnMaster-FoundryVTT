@@ -12,7 +12,7 @@ parser.add_argument("outputDir", help="folder where generated files should be pl
 args = parser.parse_args()
 
 stats = {
-    "systemId": "sohl",
+    "systemId": "hm",
     "systemVersion": "0.9.0",
     "coreVersion": "12.330",
     "createdTime": 0,
@@ -188,8 +188,8 @@ for armorgear in armorgearData:
     merge(
         armorgear["flags"],
         {
-            "sohl": {
-                "legendary": {
+            "hm": {
+                "kethira": {
                     "encumbrance": armorgear["encumbrance"],
                 },
             },
@@ -250,7 +250,7 @@ for armorgear in armorgearData:
                     }
                 ],
                 "flags": {},
-                "type": "sohlactiveeffect",
+                "type": "hmactiveeffect",
                 "system": {
                     "targetType": "this",
                     "targetName": "",
@@ -334,7 +334,7 @@ for projectilegear in projectilegearData:
             "icon": "icons/svg/aura.svg",
             "changes": [],
             "flags": {},
-            "type": "sohlactiveeffect",
+            "type": "hmactiveeffect",
             "system": {
                 "targetType": "this",
                 "targetName": "",
@@ -403,8 +403,8 @@ for weapongear in weapongearData:
     merge(
         weapongear["flags"],
         {
-            "sohl": {
-                "legendary": {
+            "hm": {
+                "kethira": {
                     "heftBase": weapongear["heft"],
                     "lengthBase": weapongear["length"],
                 },
@@ -440,7 +440,7 @@ for weapongear in weapongearData:
         "sort": 0,
         "ownership": {"default": 0, "TMJsvJWT6ytpHZ0M": 3},
     }
-    weapons[weaponid]["flags"].get("legendary", {})
+    weapons[weaponid]["flags"].get("kethira", {})
 
 
 with open("./data/weapons-strike-modes.yaml", "r", encoding="utf8") as infile:
@@ -485,8 +485,8 @@ for weaponsm in weaponsmData:
     merge(
         weaponsm["flags"],
         {
-            "sohl": {
-                "legendary": {"zoneDie": weaponsm["zoneDie"]},
+            "hm": {
+                "kethira": {"zoneDie": weaponsm["zoneDie"]},
             },
         },
     )
@@ -523,22 +523,22 @@ for weaponsm in weaponsmData:
     if subdesc == "Ranged" or subdesc == "Thrown":
         projtype = weaponsm["projtype"]
         if projtype == "arrow":
-            sm["img"] = "systems/sohl/assets/icons/arrow.svg"
+            sm["img"] = "systems/hm/assets/icons/arrow.svg"
         elif projtype == "bolt":
-            sm["img"] = "systems/sohl/assets/icons/arrow.svg"
+            sm["img"] = "systems/hm/assets/icons/arrow.svg"
         elif projtype == "bullet":
-            sm["img"] = "systems/sohl/assets/icons/stones.svg"
+            sm["img"] = "systems/hm/assets/icons/stones.svg"
         elif projtype == "dart":
-            sm["img"] = "systems/sohl/assets/icons/arrow.svg"
+            sm["img"] = "systems/hm/assets/icons/arrow.svg"
         else:
-            sm["img"] = "systems/sohl/assets/icons/throw.svg"
+            sm["img"] = "systems/hm/assets/icons/throw.svg"
         sm["type"] = "missilestrikemode"
         sm["system"]["projectileType"] = projtype
         merge(
             sm["flags"],
             {
-                "sohl": {
-                    "legendary": {
+                "hm": {
+                    "kethira": {
                         "maxVolleyMult": weaponsm["maxVM"],
                         "baseRangeBase": weaponsm["baseRange"],
                         "drawBase": weaponsm["draw"],
@@ -554,7 +554,7 @@ for weaponsm in weaponsmData:
         "icon": "icons/svg/aura.svg",
         "changes": [],
         "flags": {},
-        "type": "sohlactiveeffect",
+        "type": "hmactiveeffect",
         "system": {
             "targetType": "this",
             "targetName": "",
@@ -579,9 +579,9 @@ for weaponsm in weaponsmData:
     }
 
     if weaponsm["shaft"]:
-        if not "sohl" in sm["flags"]:
-            sm["flags"] = {"sohl": {"legendary": {}}}
-        sm["flags"]["sohl"]["legendary"]["zoneDie"] = 8
+        if not "hm" in sm["flags"]:
+            sm["flags"] = {"hm": {"kethira": {}}}
+        sm["flags"]["hm"]["kethira"]["zoneDie"] = 8
         sm["system"]["impactBase"]["die"] = 6
         sm["system"]["impactBase"]["modifier"] = 1
         sm["system"]["impactBase"]["aspect"] = "blunt"
@@ -591,9 +591,9 @@ for weaponsm in weaponsmData:
             {"key": "mod:system.$length", "mode": 2, "value": -2, "priority": None}
         )
     if weaponsm["pommel"]:
-        if not "sohl" in sm["flags"]:
-            sm["flags"] = {"sohl": {"legendary": {}}}
-        sm["flags"]["sohl"]["legendary"]["zoneDie"] = 4
+        if not "hm" in sm["flags"]:
+            sm["flags"] = {"hm": {"kethira": {}}}
+        sm["flags"]["hm"]["kethira"]["zoneDie"] = 4
         sm["system"]["impactBase"]["die"] = 6
         sm["system"]["impactBase"]["modifier"] = 0
         sm["system"]["impactBase"]["aspect"] = "blunt"
@@ -604,11 +604,11 @@ for weaponsm in weaponsmData:
         if sm["system"]["impactBase"]["aspect"] == "blunt":
             sm["system"]["impactBase"]["modifier"] = 0
             sm["system"]["impactBase"]["die"] = 6
-        if not "sohl" in sm["flags"]:
-            sm["flags"] = {"sohl": {"legendary": {}}}
-        if sm["flags"]["sohl"]["legendary"].get("zoneDie", 0) > 4:
-            sm["flags"]["sohl"]["legendary"]["zoneDie"] = (
-                sm["flags"]["sohl"]["legendary"]["zoneDie"] - 2
+        if not "hm" in sm["flags"]:
+            sm["flags"] = {"hm": {"kethira": {}}}
+        if sm["flags"]["hm"]["kethira"].get("zoneDie", 0) > 4:
+            sm["flags"]["hm"]["kethira"]["zoneDie"] = (
+                sm["flags"]["hm"]["kethira"]["zoneDie"] - 2
             )
         traits["thrust"] = True
         effect["changes"].append(

@@ -1,7 +1,7 @@
 - id: ZBYxuZe1wl5mKs6V
   name: Arrow, Heavy Bodkin
   easyname: Heavy Bodkin
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1.25
   value: 0.22
   durability: 10
@@ -23,7 +23,7 @@
 - id: rlUtsnS0uTXB5u64
   name: Arrow, Heavy Broad
   easyname: Heavy Broad
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1.25
   value: 0.22
   durability: 10
@@ -45,7 +45,7 @@
 - id: 6cX5CVlVICDX5Gbg
   name: Arrow, Heavy Blunt
   easyname: Heavy Blunt
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1.25
   value: 0.22
   durability: 10
@@ -67,7 +67,7 @@
 - id: YlmDsy5FfOTKSyP7
   name: Arrow, Light Bodkin
   easyname: Light Bodkin
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1
   value: 0.125
   durability: 10
@@ -89,7 +89,7 @@
 - id: ieM136tC1ImtHpUG
   name: Arrow, Light Broad
   easyname: Light Broad
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1
   value: 0.125
   durability: 10
@@ -111,7 +111,7 @@
 - id: c3Q60hAJyQyriuH1
   name: Arrow, Light Blunt
   easyname: Light Blunt
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1
   value: 0.125
   durability: 10
@@ -133,7 +133,7 @@
 - id: e2XFpYY6yL6mRSGH
   name: Bolt, Heavy Bodkin
   easyname: Heavy Bodkin
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1.25
   value: 0.22
   durability: 10
@@ -155,7 +155,7 @@
 - id: Sg9I9zNKTSADf3NY
   name: Bolt, Heavy Broad
   easyname: Heavy Broad
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1.25
   value: 0.22
   durability: 10
@@ -177,7 +177,7 @@
 - id: 0Yheq0hOLbFgMaJN
   name: Bolt, Heavy Blunt
   easyname: Heavy Blunt
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1.25
   value: 0.22
   durability: 10
@@ -199,7 +199,7 @@
 - id: hirca00MJKT3lqA9
   name: Bolt, Light Bodkin
   easyname: Light Bodkin
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1
   value: 0.125
   durability: 10
@@ -221,7 +221,7 @@
 - id: VByJ7QzzIbtR7ifP
   name: Bolt, Light Broad
   easyname: Light Broad
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1
   value: 0.125
   durability: 10
@@ -243,7 +243,7 @@
 - id: 4iPZDQANoovzZgdR
   name: Bolt, Light Blunt
   easyname: Light Blunt
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   weight: 1
   value: 0.125
   durability: 10
@@ -265,7 +265,7 @@
 - id: JAN0qB1YhGssl643
   name: Lead Bullet
   easyname: Lead Bullet
-  img: systems/sohl/assets/icons/stones.svg
+  img: systems/hm/assets/icons/stones.svg
   weight: 0.17
   value: 1
   durability: 10
@@ -287,7 +287,7 @@
 - id: wcGLixhHX1SMV0MA
   name: Stone, Sling
   easyname: Stone
-  img: systems/sohl/assets/icons/stones.svg
+  img: systems/hm/assets/icons/stones.svg
   weight: 1
   value: 0.16
   durability: 10
@@ -309,7 +309,7 @@
 - id: eojOHhPOD5kx5v2W
   name: Dart, Blowgun
   easyname: Dart
-  img: systems/sohl/assets/icons/needle.svg
+  img: systems/hm/assets/icons/needle.svg
   weight: 2
   value: 0.1
   durability: 10

@@ -99,7 +99,7 @@
   "items": [
     {
       "name": "Strength",
-      "img": "systems/sohl/assets/icons/biceps.svg",
+      "img": "systems/hm/assets/icons/biceps.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -142,7 +142,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -156,7 +156,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -168,7 +168,7 @@
     },
     {
       "name": "Endurance",
-      "img": "systems/sohl/assets/icons/climbing.svg",
+      "img": "systems/hm/assets/icons/climbing.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -211,7 +211,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -225,7 +225,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -237,7 +237,7 @@
     },
     {
       "name": "Dexterity",
-      "img": "systems/sohl/assets/icons/juggler.svg",
+      "img": "systems/hm/assets/icons/juggler.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -280,7 +280,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -294,7 +294,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -306,7 +306,7 @@
     },
     {
       "name": "Agility",
-      "img": "systems/sohl/assets/icons/acrobatics.svg",
+      "img": "systems/hm/assets/icons/acrobatics.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -349,7 +349,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -363,7 +363,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -375,7 +375,7 @@
     },
     {
       "name": "Perception",
-      "img": "systems/sohl/assets/icons/awareness.svg",
+      "img": "systems/hm/assets/icons/awareness.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -418,7 +418,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -432,7 +432,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -444,7 +444,7 @@
     },
     {
       "name": "Comeliness",
-      "img": "systems/sohl/assets/icons/charm.svg",
+      "img": "systems/hm/assets/icons/charm.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -487,7 +487,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -501,7 +501,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -513,7 +513,7 @@
     },
     {
       "name": "Aura",
-      "img": "systems/sohl/assets/icons/aura.svg",
+      "img": "systems/hm/assets/icons/aura.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -556,7 +556,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -570,7 +570,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -582,7 +582,7 @@
     },
     {
       "name": "Will",
-      "img": "systems/sohl/assets/icons/will.svg",
+      "img": "systems/hm/assets/icons/will.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -625,7 +625,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -639,7 +639,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -651,7 +651,7 @@
     },
     {
       "name": "Reasoning",
-      "img": "systems/sohl/assets/icons/reasoning.svg",
+      "img": "systems/hm/assets/icons/reasoning.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -694,7 +694,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -708,7 +708,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -720,7 +720,7 @@
     },
     {
       "name": "Creativity",
-      "img": "systems/sohl/assets/icons/creativity.svg",
+      "img": "systems/hm/assets/icons/creativity.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -763,7 +763,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -777,7 +777,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -789,7 +789,7 @@
     },
     {
       "name": "Empathy",
-      "img": "systems/sohl/assets/icons/empathy.svg",
+      "img": "systems/hm/assets/icons/empathy.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -832,7 +832,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -846,7 +846,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -858,7 +858,7 @@
     },
     {
       "name": "Eloquence",
-      "img": "systems/sohl/assets/icons/oratory.svg",
+      "img": "systems/hm/assets/icons/oratory.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -901,7 +901,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -915,7 +915,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -927,7 +927,7 @@
     },
     {
       "name": "Voice",
-      "img": "systems/sohl/assets/icons/sing.svg",
+      "img": "systems/hm/assets/icons/sing.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -970,7 +970,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -984,7 +984,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -996,7 +996,7 @@
     },
     {
       "name": "Morality",
-      "img": "systems/sohl/assets/icons/morality.svg",
+      "img": "systems/hm/assets/icons/morality.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1051,7 +1051,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "diceFormula": "3d6"
         }
       },
@@ -1065,7 +1065,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1077,7 +1077,7 @@
     },
     {
       "name": "Sunsign",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1123,14 +1123,14 @@
             "author": "5VOJ7NCf7bEZjieU",
             "img": "icons/svg/dice-target.svg",
             "scope": "global",
-            "command": "this.setupVirtualItems();\nconst values = this.item.getFlag(\"sohl\", \"values\");\nthis.actor.system.$ssMod = values[this.textValue];",
+            "command": "this.setupVirtualItems();\nconst values = this.item.getFlag(\"hm\", \"values\");\nthis.actor.system.$ssMod = values[this.textValue];",
             "folder": null,
             "sort": 0,
             "ownership": {
               "default": 0
             },
             "flags": {
-              "sohl": {
+              "hm": {
                 "notes": "",
                 "functionName": "setupVirtualItems",
                 "contextLabel": "",
@@ -1142,7 +1142,7 @@
             },
             "_stats": {
               "coreVersion": "12.327",
-              "systemId": "sohl",
+              "systemId": "hm",
               "systemVersion": "0.9.0",
               "createdTime": null,
               "modifiedTime": null,
@@ -1160,7 +1160,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "values": {
             "ulandus": {
               "label": "Ùlándus",
@@ -1463,7 +1463,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1475,7 +1475,7 @@
     },
     {
       "name": "Size",
-      "img": "systems/sohl/assets/icons/body-height.svg",
+      "img": "systems/hm/assets/icons/body-height.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1505,14 +1505,14 @@
             "author": "5VOJ7NCf7bEZjieU",
             "img": "icons/svg/dice-target.svg",
             "scope": "global",
-            "command": "this.setupVirtualItems();\nconst sizes = this.item.getFlag(\"sohl\", \"sizes\");\nthis.$params = sizes?.[this.textValue] || {\n    maxStr: 19,\n    lbs: 400,\n    zones: 10,\n    target: 1,\n    reachMod: 0,\n    spaces: 1,\n    feet: 5\n};",
+            "command": "this.setupVirtualItems();\nconst sizes = this.item.getFlag(\"hm\", \"sizes\");\nthis.$params = sizes?.[this.textValue] || {\n    maxStr: 19,\n    lbs: 400,\n    zones: 10,\n    target: 1,\n    reachMod: 0,\n    spaces: 1,\n    feet: 5\n};",
             "folder": null,
             "sort": 0,
             "ownership": {
               "default": 0
             },
             "flags": {
-              "sohl": {
+              "hm": {
                 "notes": "",
                 "functionName": "setupVirtualItems",
                 "contextLabel": "",
@@ -1524,7 +1524,7 @@
             },
             "_stats": {
               "coreVersion": "12.329",
-              "systemId": "sohl",
+              "systemId": "hm",
               "systemVersion": "0.9.0",
               "createdTime": null,
               "modifiedTime": null,
@@ -1542,7 +1542,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "sizes": {
             "tiny": {
               "maxStr": 4,
@@ -1629,7 +1629,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1652,7 +1652,7 @@
             "scope": "global",
             "command": "this.processSiblings();\nconst gw = this.actor.system.$gearWeight;\ngw.maxFight.setBase(this.$score.base);\ngw.max.setBase(this.max);",
             "flags": {
-              "sohl": {
+              "hm": {
                 "notes": "",
                 "functionName": "processSiblings",
                 "contextLabel": "",
@@ -1680,7 +1680,7 @@
         "masteryLevelBase": 0,
         "improveFlag": false
       },
-      "img": "systems/sohl/assets/icons/carrying-sack.svg",
+      "img": "systems/hm/assets/icons/carrying-sack.svg",
       "effects": [],
       "flags": {},
       "ownership": {
@@ -1692,7 +1692,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1704,7 +1704,7 @@
     },
     {
       "name": "Move",
-      "img": "systems/sohl/assets/icons/run.svg",
+      "img": "systems/hm/assets/icons/run.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1727,7 +1727,7 @@
             "command": "this.postProcess();\nArray.from(this.actor.allItems()).forEach((it) => {\nif (it.type === \"affliction\" && it.system.subType === \"fatigue\") {\n     this.$masteryLevel.add(\n         it.name,\n         it.system.constructor.subTypeAbbreviation[it.system.subType],\n         -it.system.$level.effective,\n     );\n}});",
             "sort": 0,
             "flags": {
-              "sohl": {
+              "hm": {
                 "notes": "",
                 "functionName": "processSiblings",
                 "contextLabel": "",
@@ -1744,7 +1744,7 @@
             },
             "_stats": {
               "coreVersion": "12.330",
-              "systemId": "sohl",
+              "systemId": "hm",
               "systemVersion": "0.9.0",
               "createdTime": null,
               "modifiedTime": null,
@@ -1772,7 +1772,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1784,7 +1784,7 @@
     },
     {
       "name": "Favored Parts",
-      "img": "systems/sohl/assets/icons/hands.svg",
+      "img": "systems/hm/assets/icons/hands.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1816,7 +1816,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1828,7 +1828,7 @@
     },
     {
       "name": "Body Weight",
-      "img": "systems/sohl/assets/icons/weight.svg",
+      "img": "systems/hm/assets/icons/weight.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1860,7 +1860,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1872,7 +1872,7 @@
     },
     {
       "name": "Experience Points",
-      "img": "systems/sohl/assets/icons/beams-aura.svg",
+      "img": "systems/hm/assets/icons/beams-aura.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1904,7 +1904,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1916,7 +1916,7 @@
     },
     {
       "name": "Area Attack Shock",
-      "img": "systems/sohl/assets/icons/shock.svg",
+      "img": "systems/hm/assets/icons/shock.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1948,7 +1948,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -1961,7 +1961,7 @@
     {
       "name": "Charm",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/charm.svg",
+      "img": "systems/hm/assets/icons/charm.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -1979,7 +1979,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -1995,7 +1995,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2008,7 +2008,7 @@
     {
       "name": "Command",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/rhetoric.svg",
+      "img": "systems/hm/assets/icons/rhetoric.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2026,7 +2026,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 2,
           "expertise": {
             "required": false
@@ -2042,7 +2042,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2055,7 +2055,7 @@
     {
       "name": "Discourse",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/face-to-face.svg",
+      "img": "systems/hm/assets/icons/face-to-face.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2073,7 +2073,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 2,
           "expertise": {
             "required": false
@@ -2089,7 +2089,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2102,7 +2102,7 @@
     {
       "name": "Guile",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/mischevous.svg",
+      "img": "systems/hm/assets/icons/mischevous.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2120,7 +2120,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -2136,7 +2136,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2149,7 +2149,7 @@
     {
       "name": "Intrigue",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/cloak-dagger.svg",
+      "img": "systems/hm/assets/icons/cloak-dagger.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2167,7 +2167,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -2183,7 +2183,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2196,7 +2196,7 @@
     {
       "name": "Singing",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/sing.svg",
+      "img": "systems/hm/assets/icons/sing.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2214,7 +2214,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -2230,7 +2230,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2243,7 +2243,7 @@
     {
       "name": "Theatrics",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/drama-masks.svg",
+      "img": "systems/hm/assets/icons/drama-masks.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2261,7 +2261,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 1,
           "expertise": {
             "required": false
@@ -2277,7 +2277,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2290,7 +2290,7 @@
     {
       "name": "Survival",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/survival.svg",
+      "img": "systems/hm/assets/icons/survival.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2308,7 +2308,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 1,
           "expertise": {
             "required": false
@@ -2324,7 +2324,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2337,7 +2337,7 @@
     {
       "name": "Drawing",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/drawing.svg",
+      "img": "systems/hm/assets/icons/drawing.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2355,7 +2355,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 2,
           "expertise": {
             "required": false
@@ -2371,7 +2371,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2384,7 +2384,7 @@
     {
       "name": "Cookery",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/cookery.svg",
+      "img": "systems/hm/assets/icons/cookery.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2402,7 +2402,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 2,
           "expertise": {
             "required": false
@@ -2418,7 +2418,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2431,7 +2431,7 @@
     {
       "name": "Folklore",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/unicorn.svg",
+      "img": "systems/hm/assets/icons/unicorn.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2449,7 +2449,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 1,
           "expertise": {
             "required": false
@@ -2465,7 +2465,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2478,7 +2478,7 @@
     {
       "name": "Physician",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/caduceus.svg",
+      "img": "systems/hm/assets/icons/caduceus.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2496,7 +2496,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 1,
           "expertise": {
             "required": false
@@ -2512,7 +2512,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2525,7 +2525,7 @@
     {
       "name": "Awareness",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/awareness.svg",
+      "img": "systems/hm/assets/icons/awareness.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2543,7 +2543,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -2559,7 +2559,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2572,7 +2572,7 @@
     {
       "name": "Climbing",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/climbing.svg",
+      "img": "systems/hm/assets/icons/climbing.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2590,7 +2590,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -2606,7 +2606,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2619,7 +2619,7 @@
     {
       "name": "Dancing",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/dance.svg",
+      "img": "systems/hm/assets/icons/dance.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2637,7 +2637,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 2,
           "expertise": {
             "required": false
@@ -2653,7 +2653,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2666,7 +2666,7 @@
     {
       "name": "Jumping",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/jump-across.svg",
+      "img": "systems/hm/assets/icons/jump-across.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2684,7 +2684,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 4,
           "expertise": {
             "required": false
@@ -2700,7 +2700,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2713,7 +2713,7 @@
     {
       "name": "Riding",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/horse-riding.svg",
+      "img": "systems/hm/assets/icons/horse-riding.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2731,7 +2731,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 1,
           "expertise": {
             "required": false
@@ -2747,7 +2747,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2760,7 +2760,7 @@
     {
       "name": "Stealth",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/stealth.svg",
+      "img": "systems/hm/assets/icons/stealth.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2778,7 +2778,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -2794,7 +2794,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2807,7 +2807,7 @@
     {
       "name": "Swimming",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/swimming.svg",
+      "img": "systems/hm/assets/icons/swimming.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2825,7 +2825,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 1,
           "expertise": {
             "required": false
@@ -2841,7 +2841,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2854,7 +2854,7 @@
     {
       "name": "Initiative",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/initiative.svg",
+      "img": "systems/hm/assets/icons/initiative.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2872,7 +2872,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -2888,7 +2888,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2901,7 +2901,7 @@
     {
       "name": "Shock",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/shock.svg",
+      "img": "systems/hm/assets/icons/shock.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2919,7 +2919,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 3,
           "expertise": {
             "required": false
@@ -2935,7 +2935,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2948,7 +2948,7 @@
     {
       "name": "Melee",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/crossed-swords.svg",
+      "img": "systems/hm/assets/icons/crossed-swords.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -2966,7 +2966,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 2,
           "expertise": {
             "required": false
@@ -2982,7 +2982,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -2995,7 +2995,7 @@
     {
       "name": "Dodge",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/dodge.svg",
+      "img": "systems/hm/assets/icons/dodge.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -3013,7 +3013,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 2,
           "expertise": {
             "required": false
@@ -3029,7 +3029,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3042,7 +3042,7 @@
     {
       "name": "Archery",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/striking-arrows.svg",
+      "img": "systems/hm/assets/icons/striking-arrows.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -3060,7 +3060,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 1,
           "expertise": {
             "required": false
@@ -3076,7 +3076,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3089,7 +3089,7 @@
     {
       "name": "Throwing",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/throw.svg",
+      "img": "systems/hm/assets/icons/throw.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -3107,7 +3107,7 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "initSkillMult": 2,
           "expertise": {
             "required": false
@@ -3123,7 +3123,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3153,12 +3153,12 @@
         },
         "skills": []
       },
-      "img": "systems/sohl/assets/icons/sparkles.svg",
+      "img": "systems/hm/assets/icons/sparkles.svg",
       "effects": [],
       "flags": {
         "exportSource": {
-          "world": "sohl-test",
-          "system": "sohl",
+          "world": "hm-test",
+          "system": "hm",
           "coreVersion": "12.330",
           "systemVersion": "0.9.0"
         }
@@ -3172,7 +3172,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3185,7 +3185,7 @@
     {
       "name": "Bite",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/fangs.svg",
+      "img": "systems/hm/assets/icons/fangs.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -3243,7 +3243,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -3255,7 +3255,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -3269,8 +3269,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 2
           }
         }
@@ -3284,7 +3284,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3297,7 +3297,7 @@
     {
       "name": "Grab (Hold)",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/grab-hold.svg",
+      "img": "systems/hm/assets/icons/grab-hold.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -3355,7 +3355,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -3367,7 +3367,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -3381,8 +3381,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 4
           }
         }
@@ -3396,7 +3396,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3409,7 +3409,7 @@
     {
       "name": "Grab (Take)",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/grab-take.svg",
+      "img": "systems/hm/assets/icons/grab-take.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -3467,7 +3467,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -3479,7 +3479,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -3493,8 +3493,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 4
           }
         }
@@ -3508,7 +3508,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3521,7 +3521,7 @@
     {
       "name": "Headbutt",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/headbutt.svg",
+      "img": "systems/hm/assets/icons/headbutt.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -3573,7 +3573,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -3585,7 +3585,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -3599,8 +3599,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 4
           }
         }
@@ -3614,7 +3614,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3627,7 +3627,7 @@
     {
       "name": "Limb Block",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/high-punch.svg",
+      "img": "systems/hm/assets/icons/high-punch.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -3673,7 +3673,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -3685,7 +3685,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -3699,8 +3699,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 0
           }
         }
@@ -3714,7 +3714,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3727,7 +3727,7 @@
     {
       "name": "Kick",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/high-kick.svg",
+      "img": "systems/hm/assets/icons/high-kick.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -3779,7 +3779,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -3791,7 +3791,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -3805,8 +3805,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 4
           }
         }
@@ -3820,7 +3820,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3833,7 +3833,7 @@
     {
       "name": "Press",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/push.svg",
+      "img": "systems/hm/assets/icons/push.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -3891,7 +3891,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -3903,7 +3903,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -3917,8 +3917,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 0
           }
         }
@@ -3932,7 +3932,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -3945,7 +3945,7 @@
     {
       "name": "Punch",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/punch-blast.svg",
+      "img": "systems/hm/assets/icons/punch-blast.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -3997,7 +3997,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -4009,7 +4009,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -4023,8 +4023,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 4
           }
         }
@@ -4038,7 +4038,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4051,7 +4051,7 @@
     {
       "name": "Trip",
       "type": "combattechniquestrikemode",
-      "img": "systems/sohl/assets/icons/trip.svg",
+      "img": "systems/hm/assets/icons/trip.svg",
       "system": {
         "notes": "",
         "textReference": "",
@@ -4109,7 +4109,7 @@
           "transfer": true,
           "statuses": [],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "onsetTime": 0,
@@ -4121,7 +4121,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -4135,8 +4135,8 @@
         }
       ],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "zoneDie": 0
           }
         }
@@ -4150,7 +4150,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4183,7 +4183,7 @@
         "choices": {}
       },
       "_id": "tlfBFI4Is0Lv2onL",
-      "img": "systems/sohl/assets/icons/user-gear.svg",
+      "img": "systems/hm/assets/icons/user-gear.svg",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -4196,7 +4196,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4207,7 +4207,7 @@
     {
       "name": "Emélan",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/speaking.svg",
+      "img": "systems/hm/assets/icons/speaking.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4225,17 +4225,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.xNVWK8WcTKT0J9M7",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.xNVWK8WcTKT0J9M7",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4254,7 +4254,7 @@
     {
       "name": "Hârnic",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/speaking.svg",
+      "img": "systems/hm/assets/icons/speaking.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4272,17 +4272,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.woFaMUgznLPQREME",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.woFaMUgznLPQREME",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4301,7 +4301,7 @@
     {
       "name": "Jârin",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/speaking.svg",
+      "img": "systems/hm/assets/icons/speaking.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4319,17 +4319,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.MONOo4chhMcTu1pG",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.MONOo4chhMcTu1pG",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4348,7 +4348,7 @@
     {
       "name": "Tracking",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/tracking.svg",
+      "img": "systems/hm/assets/icons/tracking.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4366,17 +4366,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.r84g3zzaBmp1zDl4",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.r84g3zzaBmp1zDl4",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4395,7 +4395,7 @@
     {
       "name": "Timbercraft",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/timber.svg",
+      "img": "systems/hm/assets/icons/timber.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4413,17 +4413,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.FHSFFv2uOTjTEhpt",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.FHSFFv2uOTjTEhpt",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4442,7 +4442,7 @@
     {
       "name": "Fletching",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/arrow.svg",
+      "img": "systems/hm/assets/icons/arrow.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4460,17 +4460,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.tXcVbkB8qJsiBENc",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.tXcVbkB8qJsiBENc",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4489,7 +4489,7 @@
     {
       "name": "Hideworking",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/hidework.svg",
+      "img": "systems/hm/assets/icons/hidework.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4507,17 +4507,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.79p8qOAYPvErPBrG",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.79p8qOAYPvErPBrG",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4536,7 +4536,7 @@
     {
       "name": "Woodworking",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/woodcraft.svg",
+      "img": "systems/hm/assets/icons/woodcraft.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4554,17 +4554,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.sOVLNMohekLbnHs7",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.sOVLNMohekLbnHs7",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4583,7 +4583,7 @@
     {
       "name": "Elarána",
       "type": "skill",
-      "img": "systems/sohl/assets/icons/circle.svg",
+      "img": "systems/hm/assets/icons/circle.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4601,17 +4601,17 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "expertise": {
             "required": false
           }
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.1CIfdazeKD5unKwu",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.1CIfdazeKD5unKwu",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4632,7 +4632,7 @@
       "name": "Spirit",
       "type": "mysticalability",
       "_id": "IBusj4VtvUTMM9oY",
-      "img": "systems/sohl/assets/icons/psionics.svg",
+      "img": "systems/hm/assets/icons/psionics.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -4662,10 +4662,10 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.lKVbkvzIGDFCC3UI",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.lKVbkvzIGDFCC3UI",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4676,7 +4676,7 @@
     {
       "name": "Basic Fate",
       "type": "trait",
-      "img": "systems/sohl/assets/icons/user-gear.svg",
+      "img": "systems/hm/assets/icons/user-gear.svg",
       "system": {
         "subType": "transcendent",
         "macros": [
@@ -4687,14 +4687,14 @@
             "author": "RsnPoY20XgcrucTn",
             "img": "icons/svg/dice-target.svg",
             "scope": "global",
-            "command": "this.setupVirtualItems();\nthis.$masteryLevel.disabled = false;\nthis.$masteryLevel.setBase(this.$score.base);\nconst aura = this.actor.getTraitByAbbrev(\"aur\");\nif (aura) {\n    this.$masteryLevel.add(\"Aura Secondary Modifier\", \"AuraSM\", aura.system.$masteryLevel.secMod);\n}\nconst ss = this.actor.getTraitByAbbrev(\"ss\");\nif (ss) {\n    const values = ss.getFlag(\"sohl\", \"values\");\n    const value = values[this.textValue];\n    if (value) {\n        this.$masteryLevel.add(\"Sunsign Modifier\", \"SS\", value[\"aura\"] || 0);\n    }\n}",
+            "command": "this.setupVirtualItems();\nthis.$masteryLevel.disabled = false;\nthis.$masteryLevel.setBase(this.$score.base);\nconst aura = this.actor.getTraitByAbbrev(\"aur\");\nif (aura) {\n    this.$masteryLevel.add(\"Aura Secondary Modifier\", \"AuraSM\", aura.system.$masteryLevel.secMod);\n}\nconst ss = this.actor.getTraitByAbbrev(\"ss\");\nif (ss) {\n    const values = ss.getFlag(\"hm\", \"values\");\n    const value = values[this.textValue];\n    if (value) {\n        this.$masteryLevel.add(\"Sunsign Modifier\", \"SS\", value[\"aura\"] || 0);\n    }\n}",
             "folder": null,
             "sort": 0,
             "ownership": {
               "default": 0
             },
             "flags": {
-              "sohl": {
+              "hm": {
                 "notes": "",
                 "contextIconClass": "",
                 "contextCondition": "",
@@ -4704,7 +4704,7 @@
             },
             "_stats": {
               "coreVersion": "12.330",
-              "systemId": "sohl",
+              "systemId": "hm",
               "systemVersion": "0.9.0",
               "createdTime": null,
               "modifiedTime": null,
@@ -4734,10 +4734,10 @@
       "flags": {},
       "folder": "XdOdcvH09hknfMZT",
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.fMIbVoGrbAVdfQ1U",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.fMIbVoGrbAVdfQ1U",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -4755,7 +4755,7 @@
     {
       "name": "Shortsword",
       "type": "weapongear",
-      "img": "systems/sohl/assets/icons/sword.svg",
+      "img": "systems/hm/assets/icons/sword.svg",
       "system": {
         "macros": [],
         "nestedItems": [
@@ -4798,7 +4798,7 @@
                   }
                 ],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Cut",
@@ -4868,7 +4868,7 @@
                   }
                 ],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Impale",
@@ -4938,7 +4938,7 @@
                   }
                 ],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Pommel",
@@ -4965,8 +4965,8 @@
               }
             ],
             "flags": {
-              "sohl": {
-                "legendary": {
+              "hm": {
+                "kethira": {
                   "zoneDie": 4
                 }
               }
@@ -5032,7 +5032,7 @@
                   }
                 ],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Half-Sword Impale",
@@ -5059,8 +5059,8 @@
               }
             ],
             "flags": {
-              "sohl": {
-                "legendary": {}
+              "hm": {
+                "kethira": {}
               }
             },
             "_id": "WKGzSkEs1aMneTnY",
@@ -5086,10 +5086,10 @@
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.N4Q0mUchOQ9OPB9Z",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.N4Q0mUchOQ9OPB9Z",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -5107,7 +5107,7 @@
     {
       "name": "Knife",
       "type": "weapongear",
-      "img": "systems/sohl/assets/icons/dagger.svg",
+      "img": "systems/hm/assets/icons/dagger.svg",
       "system": {
         "macros": [],
         "nestedItems": [
@@ -5162,7 +5162,7 @@
                   }
                 ],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Impale",
@@ -5244,7 +5244,7 @@
                   }
                 ],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Cut",
@@ -5326,7 +5326,7 @@
                   }
                 ],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Pommel",
@@ -5353,8 +5353,8 @@
               }
             ],
             "flags": {
-              "sohl": {
-                "legendary": {
+              "hm": {
+                "kethira": {
                   "zoneDie": 4
                 }
               }
@@ -5382,10 +5382,10 @@
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.ZLDPpPDbHPfTLE2Y",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.ZLDPpPDbHPfTLE2Y",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -5403,7 +5403,7 @@
     {
       "name": "Longbow 125",
       "type": "weapongear",
-      "img": "systems/sohl/assets/icons/longbow.svg",
+      "img": "systems/hm/assets/icons/longbow.svg",
       "system": {
         "macros": [],
         "nestedItems": [
@@ -5446,7 +5446,7 @@
                   }
                 ],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Crush",
@@ -5504,7 +5504,7 @@
                 "icon": "icons/svg/aura.svg",
                 "changes": [],
                 "flags": {
-                  "sohl": {
+                  "hm": {
                     "targetType": "this",
                     "targetName": "",
                     "strikeMode": "Ranged",
@@ -5531,8 +5531,8 @@
               }
             ],
             "flags": {
-              "sohl": {
-                "legendary": {
+              "hm": {
+                "kethira": {
                   "maxVolleyMult": 4,
                   "baseRangeBase": 240,
                   "drawBase": 125,
@@ -5542,7 +5542,7 @@
             },
             "_id": "O6liw9pCP4lLK5dj",
             "_key": "!items!cNPvxxTNvWBJGGs8",
-            "img": "systems/sohl/assets/icons/arrow.svg",
+            "img": "systems/hm/assets/icons/arrow.svg",
             "sort": 200000
           }
         ],
@@ -5564,10 +5564,10 @@
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.2D8bccD7IaGE81m7",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.2D8bccD7IaGE81m7",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -5586,7 +5586,7 @@
       "name": "Cult of the Covenant",
       "type": "affiliation",
       "_id": "o4nH2jnfyfhFeMaa",
-      "img": "systems/sohl/assets/icons/people-group.svg",
+      "img": "systems/hm/assets/icons/people-group.svg",
       "system": {
         "macros": [],
         "notes": "",
@@ -5611,7 +5611,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -5622,7 +5622,7 @@
     {
       "name": "Backpack",
       "type": "containergear",
-      "img": "systems/sohl/assets/icons/sack.svg",
+      "img": "systems/hm/assets/icons/sack.svg",
       "system": {
         "notes": "",
         "description": "",
@@ -5637,7 +5637,7 @@
           {
             "name": "Tinderbox",
             "type": "miscgear",
-            "img": "systems/sohl/assets/icons/miscgear.svg",
+            "img": "systems/hm/assets/icons/miscgear.svg",
             "system": {
               "notes": "",
               "description": "",
@@ -5657,10 +5657,10 @@
             "effects": [],
             "flags": {},
             "_stats": {
-              "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.2Z8JHWVAqPG8QrqW",
+              "compendiumSource": "Compendium.hm.kethira-basic-items.Item.2Z8JHWVAqPG8QrqW",
               "duplicateSource": null,
               "coreVersion": "12.330",
-              "systemId": "sohl",
+              "systemId": "hm",
               "systemVersion": "0.9.0",
               "createdTime": 1723374895217,
               "modifiedTime": 1723374895217,
@@ -5677,7 +5677,7 @@
           {
             "name": "Rations, Standard",
             "type": "miscgear",
-            "img": "systems/sohl/assets/icons/miscgear.svg",
+            "img": "systems/hm/assets/icons/miscgear.svg",
             "system": {
               "notes": "1 day/person, shelf life 10 days",
               "description": "",
@@ -5697,10 +5697,10 @@
             "effects": [],
             "flags": {},
             "_stats": {
-              "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.0jGZS74JTgQ4lTrA",
+              "compendiumSource": "Compendium.hm.kethira-basic-items.Item.0jGZS74JTgQ4lTrA",
               "duplicateSource": null,
               "coreVersion": "12.330",
-              "systemId": "sohl",
+              "systemId": "hm",
               "systemVersion": "0.9.0",
               "createdTime": 1723374824161,
               "modifiedTime": 1723374840864,
@@ -5717,7 +5717,7 @@
           {
             "name": "Paper case, leather",
             "type": "containergear",
-            "img": "systems/sohl/assets/icons/miscgear.svg",
+            "img": "systems/hm/assets/icons/miscgear.svg",
             "system": {
               "notes": "30 sheet capacity",
               "description": "",
@@ -5738,10 +5738,10 @@
             "effects": [],
             "flags": {},
             "_stats": {
-              "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.uSuJu5ksF849t5EM",
+              "compendiumSource": "Compendium.hm.kethira-basic-items.Item.uSuJu5ksF849t5EM",
               "duplicateSource": null,
               "coreVersion": "12.330",
-              "systemId": "sohl",
+              "systemId": "hm",
               "systemVersion": "0.9.0",
               "createdTime": 1723374904425,
               "modifiedTime": 1723374904425,
@@ -5765,10 +5765,10 @@
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.rMnbWzyue0vPuDdS",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.rMnbWzyue0vPuDdS",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -5786,7 +5786,7 @@
     {
       "name": "Waterskin, 2qt.",
       "type": "containergear",
-      "img": "systems/sohl/assets/icons/miscgear.svg",
+      "img": "systems/hm/assets/icons/miscgear.svg",
       "system": {
         "notes": "Strapped to hip",
         "description": "",
@@ -5801,7 +5801,7 @@
           {
             "name": "Water, 1pt.",
             "type": "concoctiongear",
-            "img": "systems/sohl/assets/icons/potion.svg",
+            "img": "systems/hm/assets/icons/potion.svg",
             "system": {
               "notes": "",
               "description": "",
@@ -5824,10 +5824,10 @@
             "effects": [],
             "flags": {},
             "_stats": {
-              "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.QrVx5mD4WSidHTTV",
+              "compendiumSource": "Compendium.hm.kethira-basic-items.Item.QrVx5mD4WSidHTTV",
               "duplicateSource": null,
               "coreVersion": "12.330",
-              "systemId": "sohl",
+              "systemId": "hm",
               "systemVersion": "0.9.0",
               "createdTime": 1723375453767,
               "modifiedTime": 1723375462122,
@@ -5851,10 +5851,10 @@
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.DdlmMVb2ldCpGzkk",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.DdlmMVb2ldCpGzkk",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -5872,7 +5872,7 @@
     {
       "name": "Bedroll, heavy",
       "type": "miscgear",
-      "img": "systems/sohl/assets/icons/sleeping-bag.svg",
+      "img": "systems/hm/assets/icons/sleeping-bag.svg",
       "system": {
         "notes": "On back under backpack",
         "description": "",
@@ -5892,10 +5892,10 @@
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.I6gNf8y6ZgxFgxdI",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.I6gNf8y6ZgxFgxdI",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -5913,7 +5913,7 @@
     {
       "name": "Quiver",
       "type": "miscgear",
-      "img": "systems/sohl/assets/icons/quiver.svg",
+      "img": "systems/hm/assets/icons/quiver.svg",
       "system": {
         "notes": "12 arrow capacity, worn over shoulder or on hip",
         "description": "",
@@ -5933,10 +5933,10 @@
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.CZVTEmWErDD7b8tV",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.CZVTEmWErDD7b8tV",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -5954,7 +5954,7 @@
     {
       "name": "Worsted Cowl",
       "type": "armorgear",
-      "img": "systems/sohl/assets/icons/hood.svg",
+      "img": "systems/hm/assets/icons/hood.svg",
       "system": {
         "macros": [],
         "nestedItems": [],
@@ -5992,10 +5992,10 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.HwAZqhOppRIqVbJs",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.HwAZqhOppRIqVbJs",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6009,7 +6009,7 @@
     {
       "name": "Buckram Leggings",
       "type": "armorgear",
-      "img": "systems/sohl/assets/icons/leggings.svg",
+      "img": "systems/hm/assets/icons/leggings.svg",
       "system": {
         "macros": [],
         "nestedItems": [],
@@ -6054,10 +6054,10 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.yLOvPrlBZ6ebnvjK",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.yLOvPrlBZ6ebnvjK",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6071,7 +6071,7 @@
     {
       "name": "Buckram Tunic",
       "type": "armorgear",
-      "img": "systems/sohl/assets/icons/tunic.svg",
+      "img": "systems/hm/assets/icons/tunic.svg",
       "system": {
         "macros": [],
         "nestedItems": [],
@@ -6116,10 +6116,10 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.dnu16hAs7livrm10",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.dnu16hAs7livrm10",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6133,7 +6133,7 @@
     {
       "name": "Quilted Surcoat",
       "type": "armorgear",
-      "img": "systems/sohl/assets/icons/tunic.svg",
+      "img": "systems/hm/assets/icons/tunic.svg",
       "system": {
         "macros": [],
         "nestedItems": [],
@@ -6180,10 +6180,10 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.AjtDJo7DKZJ6ZZiQ",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.AjtDJo7DKZJ6ZZiQ",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6197,7 +6197,7 @@
     {
       "name": "Worsted Robe",
       "type": "armorgear",
-      "img": "systems/sohl/assets/icons/robe.svg",
+      "img": "systems/hm/assets/icons/robe.svg",
       "system": {
         "macros": [],
         "nestedItems": [],
@@ -6250,10 +6250,10 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.A0q2esETFwdkoFnC",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.A0q2esETFwdkoFnC",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6267,7 +6267,7 @@
     {
       "name": "Leather Calf Boots",
       "type": "armorgear",
-      "img": "systems/sohl/assets/icons/leather-boot.svg",
+      "img": "systems/hm/assets/icons/leather-boot.svg",
       "system": {
         "macros": [],
         "nestedItems": [],
@@ -6307,10 +6307,10 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.lTkXLYtgMgZqvmRs",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.lTkXLYtgMgZqvmRs",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6324,7 +6324,7 @@
     {
       "name": "Rawhide Bracers",
       "type": "armorgear",
-      "img": "systems/sohl/assets/icons/bracer.svg",
+      "img": "systems/hm/assets/icons/bracer.svg",
       "system": {
         "macros": [],
         "nestedItems": [],
@@ -6362,10 +6362,10 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.9VlsyPGnunjX7FAJ",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.9VlsyPGnunjX7FAJ",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6379,7 +6379,7 @@
     {
       "name": "Arrow, Heavy Broad",
       "type": "projectilegear",
-      "img": "systems/sohl/assets/icons/arrow.svg",
+      "img": "systems/hm/assets/icons/arrow.svg",
       "system": {
         "macros": [],
         "nestedItems": [],
@@ -6422,7 +6422,7 @@
             }
           ],
           "flags": {
-            "sohl": {
+            "hm": {
               "targetType": "this",
               "targetName": "",
               "strikeMode": "",
@@ -6449,7 +6449,7 @@
             "compendiumSource": null,
             "duplicateSource": null,
             "coreVersion": "12.330",
-            "systemId": "sohl",
+            "systemId": "hm",
             "systemVersion": "0.9.0",
             "createdTime": null,
             "modifiedTime": null,
@@ -6464,10 +6464,10 @@
       ],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sohl.legendary-basic-items.Item.rlUtsnS0uTXB5u64",
+        "compendiumSource": "Compendium.hm.kethira-basic-items.Item.rlUtsnS0uTXB5u64",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6485,7 +6485,7 @@
     {
       "name": "Áhnù",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "2z8p4g5pnFnsK2Nn",
       "system": {
         "notes": "",
@@ -6502,9 +6502,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 0,
               "metal": 10,
@@ -6517,10 +6517,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.RqEeckr8mLaG9moZ",
+        "compendiumSource": "Compendium.hm.mysteries.Item.RqEeckr8mLaG9moZ",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6538,7 +6538,7 @@
     {
       "name": "Áhnù-Angberélius",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "hU88s7upzfGr31vJ",
       "system": {
         "notes": "",
@@ -6555,9 +6555,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 0,
               "metal": 10,
@@ -6570,10 +6570,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.xfSMWxVmLvoCLx2a",
+        "compendiumSource": "Compendium.hm.mysteries.Item.xfSMWxVmLvoCLx2a",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6591,7 +6591,7 @@
     {
       "name": "Angberélius",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "QIaFT19agqeAe5Bs",
       "system": {
         "notes": "",
@@ -6608,9 +6608,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -5,
               "metal": 5,
@@ -6623,10 +6623,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.nZ8c6Rbz2udJ6WV0",
+        "compendiumSource": "Compendium.hm.mysteries.Item.nZ8c6Rbz2udJ6WV0",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6644,7 +6644,7 @@
     {
       "name": "Angberélius-Nadái",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "h1aIkZ383XKjgaIB",
       "system": {
         "notes": "",
@@ -6661,9 +6661,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -5,
               "metal": 5,
@@ -6676,10 +6676,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.EbiPdh8xtdXHqN5m",
+        "compendiumSource": "Compendium.hm.mysteries.Item.EbiPdh8xtdXHqN5m",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6697,7 +6697,7 @@
     {
       "name": "Arálius",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "8W9CNP8yiujyBluZ",
       "system": {
         "notes": "",
@@ -6714,9 +6714,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 10,
               "metal": 10,
@@ -6729,10 +6729,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.pZAdlq4fbOrwoZBN",
+        "compendiumSource": "Compendium.hm.mysteries.Item.pZAdlq4fbOrwoZBN",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6750,7 +6750,7 @@
     {
       "name": "Arálius-Fenéri",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "FdBqHqdDwctttAA7",
       "system": {
         "notes": "",
@@ -6767,9 +6767,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 10,
               "metal": 15,
@@ -6782,10 +6782,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.219AV64ZhmokS0XE",
+        "compendiumSource": "Compendium.hm.mysteries.Item.219AV64ZhmokS0XE",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6803,7 +6803,7 @@
     {
       "name": "Fenéri",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "ybuiiUKQESE0zikE",
       "system": {
         "notes": "",
@@ -6820,9 +6820,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 5,
               "metal": 15,
@@ -6835,10 +6835,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.7jXUYmXR1YUbjE1E",
+        "compendiumSource": "Compendium.hm.mysteries.Item.7jXUYmXR1YUbjE1E",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6856,7 +6856,7 @@
     {
       "name": "Fenéri-Áhnù",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "IZ6AxkhzVDVnfsZz",
       "system": {
         "notes": "",
@@ -6873,9 +6873,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 5,
               "metal": 15,
@@ -6888,10 +6888,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.OcVkHG5VS616gBTH",
+        "compendiumSource": "Compendium.hm.mysteries.Item.OcVkHG5VS616gBTH",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6909,7 +6909,7 @@
     {
       "name": "Hîrin",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "WBLIbM72SxMwdm2o",
       "system": {
         "notes": "",
@@ -6926,9 +6926,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -15,
               "metal": -5,
@@ -6941,10 +6941,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.AOFP5VKTOZI9dKFl",
+        "compendiumSource": "Compendium.hm.mysteries.Item.AOFP5VKTOZI9dKFl",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -6962,7 +6962,7 @@
     {
       "name": "Hîrin-Táræl",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "swBl629IAz5t8gzW",
       "system": {
         "notes": "",
@@ -6979,9 +6979,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -10,
               "metal": -5,
@@ -6994,10 +6994,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.OQTqHU7OiCRR72pi",
+        "compendiumSource": "Compendium.hm.mysteries.Item.OQTqHU7OiCRR72pi",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7015,7 +7015,7 @@
     {
       "name": "Ládo",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "iwnHu598iviP2O3L",
       "system": {
         "notes": "",
@@ -7032,9 +7032,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 10,
               "metal": 0,
@@ -7047,10 +7047,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.LiZ8XFzoMbePVdGe",
+        "compendiumSource": "Compendium.hm.mysteries.Item.LiZ8XFzoMbePVdGe",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7068,7 +7068,7 @@
     {
       "name": "Ládo-Ùlándus",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "uQbGG28P8uDw3eRk",
       "system": {
         "notes": "",
@@ -7085,9 +7085,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 15,
               "metal": 5,
@@ -7100,10 +7100,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.v3hCWD3a1re8WmVt",
+        "compendiumSource": "Compendium.hm.mysteries.Item.v3hCWD3a1re8WmVt",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7121,7 +7121,7 @@
     {
       "name": "Masâra",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "CffKIxsHzMIgzuIm",
       "system": {
         "notes": "",
@@ -7138,9 +7138,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 5,
               "metal": -5,
@@ -7153,10 +7153,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.7rKCygwiNcZh99i2",
+        "compendiumSource": "Compendium.hm.mysteries.Item.7rKCygwiNcZh99i2",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7174,7 +7174,7 @@
     {
       "name": "Masâra-Ládo",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "U5YkWQRyQgZnbZU4",
       "system": {
         "notes": "",
@@ -7191,9 +7191,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 10,
               "metal": 0,
@@ -7206,10 +7206,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.S7OBs5eoalV8ntpj",
+        "compendiumSource": "Compendium.hm.mysteries.Item.S7OBs5eoalV8ntpj",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7227,7 +7227,7 @@
     {
       "name": "Nadái",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "I4b2WqE3fBk0zqSk",
       "system": {
         "notes": "",
@@ -7244,9 +7244,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -10,
               "metal": 0,
@@ -7259,10 +7259,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.0aVQFViSAvvrycos",
+        "compendiumSource": "Compendium.hm.mysteries.Item.0aVQFViSAvvrycos",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7280,7 +7280,7 @@
     {
       "name": "Nadái-Hîrin",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "LegOFt5gcr34bYoz",
       "system": {
         "notes": "",
@@ -7297,9 +7297,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -10,
               "metal": 0,
@@ -7312,10 +7312,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.MAhV4KCuS2tI9cq3",
+        "compendiumSource": "Compendium.hm.mysteries.Item.MAhV4KCuS2tI9cq3",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7333,7 +7333,7 @@
     {
       "name": "Skôrus",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "CE2IR6gPs9kodk6e",
       "system": {
         "notes": "",
@@ -7350,9 +7350,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 0,
               "metal": -10,
@@ -7365,10 +7365,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.Jx1QHSh5bMquN5xb",
+        "compendiumSource": "Compendium.hm.mysteries.Item.Jx1QHSh5bMquN5xb",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7386,7 +7386,7 @@
     {
       "name": "Skôrus-Masâra",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "bN6yyyIKILx98key",
       "system": {
         "notes": "",
@@ -7403,9 +7403,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 5,
               "metal": -5,
@@ -7418,10 +7418,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.5LSHyyXx1hKGI5so",
+        "compendiumSource": "Compendium.hm.mysteries.Item.5LSHyyXx1hKGI5so",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7439,7 +7439,7 @@
     {
       "name": "Tai",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "XLOb9Y1M8erSeYkD",
       "system": {
         "notes": "",
@@ -7456,9 +7456,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -5,
               "metal": -15,
@@ -7471,10 +7471,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.D6pWGY45x8ljGEIg",
+        "compendiumSource": "Compendium.hm.mysteries.Item.D6pWGY45x8ljGEIg",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7492,7 +7492,7 @@
     {
       "name": "Tai-Skôrus",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "9ZsBoFkFRMsRwJGw",
       "system": {
         "notes": "",
@@ -7509,9 +7509,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 0,
               "metal": -10,
@@ -7524,10 +7524,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.PEQF0mYjTTqWaqqi",
+        "compendiumSource": "Compendium.hm.mysteries.Item.PEQF0mYjTTqWaqqi",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7545,7 +7545,7 @@
     {
       "name": "Táræl",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "hu8OOSRlkBQ6XeMx",
       "system": {
         "notes": "",
@@ -7562,9 +7562,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -10,
               "metal": -10,
@@ -7577,10 +7577,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.MuloVl23VetILjF9",
+        "compendiumSource": "Compendium.hm.mysteries.Item.MuloVl23VetILjF9",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7598,7 +7598,7 @@
     {
       "name": "Táræl-Tai",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "5ukms1PeAk43kc3r",
       "system": {
         "notes": "",
@@ -7615,9 +7615,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": -5,
               "metal": -10,
@@ -7630,10 +7630,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.tM8NAzK95aQ1H8B6",
+        "compendiumSource": "Compendium.hm.mysteries.Item.tM8NAzK95aQ1H8B6",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7651,7 +7651,7 @@
     {
       "name": "Ùlándus",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "w4IQpcGQiXxSZcL2",
       "system": {
         "notes": "",
@@ -7668,9 +7668,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": false,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 15,
               "metal": 5,
@@ -7683,10 +7683,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.96UgAJd2wvzyvrvq",
+        "compendiumSource": "Compendium.hm.mysteries.Item.96UgAJd2wvzyvrvq",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7704,7 +7704,7 @@
     {
       "name": "Ùlándus-Arálius",
       "type": "domain",
-      "img": "systems/sohl/assets/icons/astrology.svg",
+      "img": "systems/hm/assets/icons/astrology.svg",
       "_id": "qjJfn96dddJA7FR3",
       "system": {
         "notes": "",
@@ -7721,9 +7721,9 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
+        "hm": {
           "cusp": true,
-          "legendary": {
+          "kethira": {
             "ssMod": {
               "earth": 15,
               "metal": 10,
@@ -7736,10 +7736,10 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.sohl.mysteries.Item.6ekJREpdLgixfh7k",
+        "compendiumSource": "Compendium.hm.mysteries.Item.6ekJREpdLgixfh7k",
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7774,8 +7774,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "agr"
             ]
@@ -7786,7 +7786,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7821,8 +7821,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "eda"
             ]
@@ -7833,7 +7833,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7868,8 +7868,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "eon"
             ]
@@ -7880,7 +7880,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7915,8 +7915,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "zem"
             ]
@@ -7927,7 +7927,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -7962,8 +7962,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "hal"
             ]
@@ -7974,7 +7974,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -8009,8 +8009,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "mor"
             ]
@@ -8021,7 +8021,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -8055,8 +8055,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "ara"
             ]
@@ -8067,7 +8067,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -8103,8 +8103,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "zer"
             ]
@@ -8115,7 +8115,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -8150,8 +8150,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "ivo"
             ]
@@ -8162,7 +8162,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -8197,8 +8197,8 @@
       },
       "effects": [],
       "flags": {
-        "sohl": {
-          "legendary": {
+        "hm": {
+          "kethira": {
             "aspects": [
               "nav"
             ]
@@ -8209,7 +8209,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.330",
-        "systemId": "sohl",
+        "systemId": "hm",
         "systemVersion": "0.9.0",
         "createdTime": null,
         "modifiedTime": null,
@@ -8229,8 +8229,8 @@
   "folder": "5mMLOWFQcdODwR8q",
   "flags": {
     "exportSource": {
-      "world": "sohl-test",
-      "system": "sohl",
+      "world": "hm-test",
+      "system": "hm",
       "coreVersion": "12.330",
       "systemVersion": "0.9.0"
     }
@@ -8239,7 +8239,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.330",
-    "systemId": "sohl",
+    "systemId": "hm",
     "systemVersion": "0.9.0",
     "createdTime": 1724530635511,
     "modifiedTime": 1724530635511,

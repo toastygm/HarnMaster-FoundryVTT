@@ -1,7 +1,7 @@
 - name: Ágrik
   abbrev: agrik
   id: sMgbqUmp3LA4W6Ob
-  img: systems/sohl/assets/icons/agrik.png
+  img: systems/hm/assets/icons/agrik.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -16,7 +16,7 @@
 - name: Alánta
   abbrev: alanta
   id: 2IWu6lZ30D6ioTkp
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -31,7 +31,7 @@
 - name: Archery
   abbrev: archy
   id: cevwBHM1wbGUZydW
-  img: systems/sohl/assets/icons/striking-arrows.svg
+  img: systems/hm/assets/icons/striking-arrows.svg
   subType: combat
   skillBaseFormula: '@per, @dex'
   weaponGroup: missile
@@ -46,7 +46,7 @@
 - name: Ayâran
   abbrev: ayaran
   id: kAI2d1vXajl7XdD7
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -61,7 +61,7 @@
 - name: Àzeryáni
   abbrev: azeryani
   id: sygNpMe0xKos6cYQ
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -76,7 +76,7 @@
 - name: Búqdin
   abbrev: buqdin
   id: jiZ1XFCAywuCSzav
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -91,7 +91,7 @@
 - name: Beóna
   abbrev: beona
   id: wfKOgAMkZRBgrkfN
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -106,7 +106,7 @@
 - name: Býrian
   abbrev: byrian
   id: GOKBR8YjJPMz4XrM
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -121,7 +121,7 @@
 - name: Chéler
   abbrev: cheler
   id: 0tbEqvhpocGmcWVH
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -136,7 +136,7 @@
 - name: Dálani
   abbrev: dalani
   id: E2BGs8oaoLPgYEGn
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -151,7 +151,7 @@
 - name: Dálken
   abbrev: dalken
   id: eaXFpnZVvDPacga0
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -166,7 +166,7 @@
 - name: Edâryr
   abbrev: edaryr
   id: 7tUvpdHzkI7ISVQx
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -181,7 +181,7 @@
 - name: Elarána
   abbrev: elarana
   id: 1CIfdazeKD5unKwu
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -196,7 +196,7 @@
 - name: Emélan
   abbrev: emelan
   id: xNVWK8WcTKT0J9M7
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -211,7 +211,7 @@
 - name: Faláni
   abbrev: falani
   id: IT9AYKb2ELFlJkJf
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -226,7 +226,7 @@
 - name: Gáranik
   abbrev: garanik
   id: eBaySyirY4dbHlRi
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -241,7 +241,7 @@
 - name: Hácherian
   abbrev: hacherian
   id: oGdPt6gOeEEwBwec
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -256,7 +256,7 @@
 - name: Hârbáaler
   abbrev: harbaaler
   id: kTgzDSQNKt4bUBwl
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -271,7 +271,7 @@
 - name: Hârnic
   abbrev: harnic
   id: woFaMUgznLPQREME
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -286,7 +286,7 @@
 - name: Haléa
   abbrev: halea
   id: LCaEFOhHOOhLSNvk
-  img: systems/sohl/assets/icons/halea.png
+  img: systems/hm/assets/icons/halea.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -301,7 +301,7 @@
 - name: Ilvîr
   abbrev: ilvir
   id: BL0SMfIJsWRVDXsP
-  img: systems/sohl/assets/icons/ilvir.png
+  img: systems/hm/assets/icons/ilvir.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -316,7 +316,7 @@
 - name: Ivínian
   abbrev: ivinian
   id: 2yfbMe6ZTqPR1nFb
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -331,7 +331,7 @@
 - name: Ivashi
   abbrev: ivashi
   id: dA4dgGTRAcDuXRBI
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -346,7 +346,7 @@
 - name: Jârin
   abbrev: jarin
   id: MONOo4chhMcTu1pG
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -361,7 +361,7 @@
 - name: Kôrlic
   abbrev: korlic
   id: dCsXmYoIUfKtrtzg
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -376,7 +376,7 @@
 - name: Kúzhan
   abbrev: kuzhan
   id: 2bTEKOeV2DQCdcYc
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -391,7 +391,7 @@
 - name: Khrúni
   abbrev: khruni
   id: Soq0vRso2XXolGH7
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -406,7 +406,7 @@
 - name: Lakíse
   abbrev: lakise
   id: DiFLbQpEF1ZJm262
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -421,7 +421,7 @@
 - name: Laráni
   abbrev: larani
   id: FruDplKZAChdF261
-  img: systems/sohl/assets/icons/larani.png
+  img: systems/hm/assets/icons/larani.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -436,7 +436,7 @@
 - name: Môrdar
   abbrev: mordar
   id: NEDzhnOXJNI5Rskh
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -451,7 +451,7 @@
 - name: Môrgath
   abbrev: morgath
   id: rCqyv7KMrp0FtqQX
-  img: systems/sohl/assets/icons/morgath.png
+  img: systems/hm/assets/icons/morgath.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -466,7 +466,7 @@
 - name: Númer
   abbrev: numer
   id: ey308gnG0KhUpa25
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -481,7 +481,7 @@
 - name: Navéh
   abbrev: naveh
   id: wxyRLxUzl0yqeCYk
-  img: systems/sohl/assets/icons/naveh.png
+  img: systems/hm/assets/icons/naveh.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -496,7 +496,7 @@
 - name: Nuvesarl
   abbrev: nuvesarl
   id: hYBL1FYt6tnueT95
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -511,7 +511,7 @@
 - name: Orbáaler
   abbrev: orbaaler
   id: pkfOMri14HCwlxt2
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -526,7 +526,7 @@
 - name: Ormauk
   abbrev: ormauk
   id: qXjITjPhnyoyJdDi
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -541,7 +541,7 @@
 - name: Pàlitháner
   abbrev: palithaner
   id: N21J8mDOazsflqZR
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -556,7 +556,7 @@
 - name: Peóni
   abbrev: peoni
   id: gevm9nRwQonHFsgE
-  img: systems/sohl/assets/icons/peoni.png
+  img: systems/hm/assets/icons/peoni.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -571,7 +571,7 @@
 - name: Quârphic
   abbrev: quarphic
   id: wnncuSLQr1RkNprN
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -586,7 +586,7 @@
 - name: Runic
   abbrev: runic
   id: zhF7K76YOQR30Vfg
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -601,7 +601,7 @@
 - name: Sárajìn
   abbrev: sarajin
   id: 4N4tdZFvVVXQeNcq
-  img: systems/sohl/assets/icons/sarajin.png
+  img: systems/hm/assets/icons/sarajin.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -616,7 +616,7 @@
 - name: Sávè-K'nôr
   abbrev: saveknor
   id: gO8X0Xri4b3f3tId
-  img: systems/sohl/assets/icons/saveknor.png
+  img: systems/hm/assets/icons/saveknor.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -631,7 +631,7 @@
 - name: Selénian
   abbrev: selenian
   id: uHUQlGqPrqR9LKhu
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -646,7 +646,7 @@
 - name: Shôrka
   abbrev: shorka
   id: QFYAhhyRtZ48RlFQ
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -661,7 +661,7 @@
 - name: Siém
   abbrev: siem
   id: TaiHOeQqjqJX4qqk
-  img: systems/sohl/assets/icons/siem.png
+  img: systems/hm/assets/icons/siem.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -676,7 +676,7 @@
 - name: Sináin
   abbrev: sinain
   id: LWeU0oyWUWd6KM9V
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -691,7 +691,7 @@
 - name: Surikal
   abbrev: surikal
   id: j8hikYNaljD8eqz1
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -706,7 +706,7 @@
 - name: Thónian
   abbrev: thonian
   id: TdCA6SMBfNGAPgDZ
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -721,7 +721,7 @@
 - name: Tiánta
   abbrev: tianta
   id: HZQuPFugy024lS8y
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -736,7 +736,7 @@
 - name: Tríerzi
   abbrev: trierzi
   id: JPmWxj9EyWMMEusI
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -751,7 +751,7 @@
 - name: Úlana
   abbrev: ulana
   id: 66a9YrjEUqsOjyvc
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -766,7 +766,7 @@
 - name: Vanáer
   abbrev: vanaer
   id: CcO0l7xmPd61kQqP
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -781,7 +781,7 @@
 - name: Ylvýr
   abbrev: ylvyr
   id: XexYQNbusggd0AMs
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -796,7 +796,7 @@
 - name: Zârenor
   abbrev: zarenor
   id: zovgjXFp3wWVLdgP
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -811,7 +811,7 @@
 - name: Zérin
   abbrev: zerin
   id: 998DjObybFjZPcgN
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -826,7 +826,7 @@
 - name: Ziém
   abbrev: ziem
   id: VapTwmCTNH03SfQe
-  img: systems/sohl/assets/icons/siem.png
+  img: systems/hm/assets/icons/siem.png
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -841,7 +841,7 @@
 - name: Baldr
   abbrev: baldr
   id: OGscVILhTEGU7lMH
-  img: systems/sohl/assets/icons/baldr.svg
+  img: systems/hm/assets/icons/baldr.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -856,7 +856,7 @@
 - name: Fréyr
   abbrev: freyr
   id: mKLVtYgn4i4ccewY
-  img: systems/sohl/assets/icons/freyr.svg
+  img: systems/hm/assets/icons/freyr.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -871,7 +871,7 @@
 - name: Fréyja
   abbrev: freyja
   id: K97emgToaRPnxN4U
-  img: systems/sohl/assets/icons/freyja.svg
+  img: systems/hm/assets/icons/freyja.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -886,7 +886,7 @@
 - name: Hél
   abbrev: hel
   id: yHFeO6gQBSBkiBYF
-  img: systems/sohl/assets/icons/hel.svg
+  img: systems/hm/assets/icons/hel.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -901,7 +901,7 @@
 - name: Lôki
   abbrev: loki
   id: x4EAGBTIXFOhbtpI
-  img: systems/sohl/assets/icons/loki.svg
+  img: systems/hm/assets/icons/loki.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -916,7 +916,7 @@
 - name: Óðinn
   abbrev: odin
   id: 0z9eUnaUZeqbviPG
-  img: systems/sohl/assets/icons/odin.svg
+  img: systems/hm/assets/icons/odin.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -931,7 +931,7 @@
 - name: Súrtr
   abbrev: surtr
   id: 8qeYtGLMkIEEi8MW
-  img: systems/sohl/assets/icons/surtr.svg
+  img: systems/hm/assets/icons/surtr.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -946,7 +946,7 @@
 - name: Thórr
   abbrev: thor
   id: peDG8tkupCt971e9
-  img: systems/sohl/assets/icons/thor.svg
+  img: systems/hm/assets/icons/thor.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -961,7 +961,7 @@
 - name: Týr
   abbrev: tyr
   id: Lj7p8esiNl2DbVn8
-  img: systems/sohl/assets/icons/tyr.svg
+  img: systems/hm/assets/icons/tyr.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -976,7 +976,7 @@
 - name: Ymir
   abbrev: ymir
   id: BrCukVDUl8wcZKoi
-  img: systems/sohl/assets/icons/ymir.svg
+  img: systems/hm/assets/icons/ymir.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -991,7 +991,7 @@
 - name: Acrobatics
   abbrev: acro
   id: AsaVT4JV85rFSTvY
-  img: systems/sohl/assets/icons/acrobatics.svg
+  img: systems/hm/assets/icons/acrobatics.svg
   subType: physical
   skillBaseFormula: '@agl, @end'
   weaponGroup: none
@@ -1006,7 +1006,7 @@
 - name: Agriculture
   abbrev: agri
   id: 31ZqIOMd9sPbgiqe
-  img: systems/sohl/assets/icons/agriculture.svg
+  img: systems/hm/assets/icons/agriculture.svg
   subType: nature
   skillBaseFormula: '@per, @rea'
   weaponGroup: none
@@ -1021,7 +1021,7 @@
 - name: Alchemy
   abbrev: alch
   id: cps4oF5nVBFlLj0y
-  img: systems/sohl/assets/icons/alchemy.svg
+  img: systems/hm/assets/icons/alchemy.svg
   subType: esoteric
   skillBaseFormula: '@aur, @per'
   weaponGroup: none
@@ -1036,7 +1036,7 @@
 - name: Animalcraft
   abbrev: anmcft
   id: K1sBrJikLWiQIjjB
-  img: systems/sohl/assets/icons/animalcraft.svg
+  img: systems/hm/assets/icons/animalcraft.svg
   subType: nature
   skillBaseFormula: '@emp, @wil'
   weaponGroup: none
@@ -1051,7 +1051,7 @@
 - name: Astrology
   abbrev: astr
   id: 5oD9W0X60sEkNsqH
-  img: systems/sohl/assets/icons/astrology.svg
+  img: systems/hm/assets/icons/astrology.svg
   subType: esoteric
   skillBaseFormula: '@aur, @emp'
   weaponGroup: none
@@ -1066,7 +1066,7 @@
 - name: Awareness
   abbrev: awar
   id: 5aSYfkXwlrZm6xzA
-  img: systems/sohl/assets/icons/awareness.svg
+  img: systems/hm/assets/icons/awareness.svg
   subType: physical
   skillBaseFormula: '@per, @wil'
   weaponGroup: none
@@ -1081,7 +1081,7 @@
 - name: Blowgun
   abbrev: blgn
   id: R7rWjxlXfWyX0i40
-  img: systems/sohl/assets/icons/blowgun.svg
+  img: systems/hm/assets/icons/blowgun.svg
   subType: combat
   skillBaseFormula: '@per, @dex'
   weaponGroup: missile
@@ -1096,7 +1096,7 @@
 - name: Brewing
   abbrev: brew
   id: dT4YnBxLtCwWErLv
-  img: systems/sohl/assets/icons/brewing.svg
+  img: systems/hm/assets/icons/brewing.svg
   subType: lore
   skillBaseFormula: '@per, @rea'
   weaponGroup: none
@@ -1111,7 +1111,7 @@
 - name: Ceramics
   abbrev: cmcs
   id: kZYgzXpACwVlWCzL
-  img: systems/sohl/assets/icons/ceramics.svg
+  img: systems/hm/assets/icons/ceramics.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -1126,7 +1126,7 @@
 - name: Charm
   abbrev: chrm
   id: ghkiPEyMztj9Xh38
-  img: systems/sohl/assets/icons/charm.svg
+  img: systems/hm/assets/icons/charm.svg
   subType: social
   skillBaseFormula: '@cml, @emp'
   weaponGroup: none
@@ -1141,7 +1141,7 @@
 - name: Climbing
   abbrev: clmb
   id: 4FAPvWAKNoRPbdtz
-  img: systems/sohl/assets/icons/climbing.svg
+  img: systems/hm/assets/icons/climbing.svg
   subType: physical
   skillBaseFormula: '@agl, @dex'
   weaponGroup: none
@@ -1156,7 +1156,7 @@
 - name: Command
   abbrev: cmd
   id: uDJwA2LHQXHhHr6p
-  img: systems/sohl/assets/icons/rhetoric.svg
+  img: systems/hm/assets/icons/rhetoric.svg
   subType: social
   skillBaseFormula: '@wil, @elo'
   weaponGroup: none
@@ -1171,7 +1171,7 @@
 - name: Cookery
   abbrev: cook
   id: RcPswIec44IFMKew
-  img: systems/sohl/assets/icons/cookery.svg
+  img: systems/hm/assets/icons/cookery.svg
   subType: lore
   skillBaseFormula: '@per, @rea'
   weaponGroup: none
@@ -1186,7 +1186,7 @@
 - name: Dancing
   abbrev: dnce
   id: SDwtBltYD0tQAXRG
-  img: systems/sohl/assets/icons/dance.svg
+  img: systems/hm/assets/icons/dance.svg
   subType: physical
   skillBaseFormula: '@agl, @end'
   weaponGroup: none
@@ -1201,7 +1201,7 @@
 - name: Discourse
   abbrev: dscr
   id: 8Bl2wEGbjtG0BIbh
-  img: systems/sohl/assets/icons/face-to-face.svg
+  img: systems/hm/assets/icons/face-to-face.svg
   subType: social
   skillBaseFormula: '@rea, @elo'
   weaponGroup: none
@@ -1216,7 +1216,7 @@
 - name: Dodge
   abbrev: dge
   id: NYQ0l87HDML9CIYT
-  img: systems/sohl/assets/icons/dodge.svg
+  img: systems/hm/assets/icons/dodge.svg
   subType: combat
   skillBaseFormula: '@agl, @per'
   weaponGroup: none
@@ -1231,7 +1231,7 @@
 - name: Drawing
   abbrev: draw
   id: WaeJaU0YihDlJ2pY
-  img: systems/sohl/assets/icons/drawing.svg
+  img: systems/hm/assets/icons/drawing.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -1246,7 +1246,7 @@
 - name: Embalming
   abbrev: embl
   id: 73yZAkKbC0Azo4dw
-  img: systems/sohl/assets/icons/embalming.svg
+  img: systems/hm/assets/icons/embalming.svg
   subType: lore
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -1261,7 +1261,7 @@
 - name: Engineering
   abbrev: eng
   id: Fip584W95bPFEJUp
-  img: systems/sohl/assets/icons/engineering.svg
+  img: systems/hm/assets/icons/engineering.svg
   subType: lore
   skillBaseFormula: '@rea, @cre'
   weaponGroup: none
@@ -1276,7 +1276,7 @@
 - name: Fishing
   abbrev: fish
   id: cyyEUOoomBDdXda9
-  img: systems/sohl/assets/icons/fishing.svg
+  img: systems/hm/assets/icons/fishing.svg
   subType: nature
   skillBaseFormula: '@per, @rea'
   weaponGroup: none
@@ -1291,7 +1291,7 @@
 - name: Fletching
   abbrev: fltch
   id: tXcVbkB8qJsiBENc
-  img: systems/sohl/assets/icons/arrow.svg
+  img: systems/hm/assets/icons/arrow.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -1306,7 +1306,7 @@
 - name: Folklore
   abbrev: folk
   id: ZwmwSFkiYoH6qRty
-  img: systems/sohl/assets/icons/unicorn.svg
+  img: systems/hm/assets/icons/unicorn.svg
   subType: lore
   skillBaseFormula: '@rea, @wil'
   weaponGroup: none
@@ -1321,7 +1321,7 @@
 - name: Fývria
   abbrev: fyvria
   id: XNP6dybkONMzpEVF
-  img: systems/sohl/assets/icons/tree.svg
+  img: systems/hm/assets/icons/tree.svg
   subType: esoteric
   skillBaseFormula: '@aur, @rea'
   weaponGroup: none
@@ -1336,7 +1336,7 @@
 - name: Glassworking
   abbrev: glas
   id: baGHwmTYbwn7bON4
-  img: systems/sohl/assets/icons/glassworking.svg
+  img: systems/hm/assets/icons/glassworking.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -1351,7 +1351,7 @@
 - name: Guile
   abbrev: guil
   id: QP88ELEOcT37u5iY
-  img: systems/sohl/assets/icons/mischevous.svg
+  img: systems/hm/assets/icons/mischevous.svg
   subType: social
   skillBaseFormula: '@emp, @cre'
   weaponGroup: none
@@ -1366,7 +1366,7 @@
 - name: Heraldry
   abbrev: hrld
   id: OlbJoKLPzyf04vVN
-  img: systems/sohl/assets/icons/heraldry.svg
+  img: systems/hm/assets/icons/heraldry.svg
   subType: lore
   skillBaseFormula: '@rea, @wil'
   weaponGroup: none
@@ -1381,7 +1381,7 @@
 - name: Herblore
   abbrev: herb
   id: d6bv7kUA4uEgtGOw
-  img: systems/sohl/assets/icons/herblore.svg
+  img: systems/hm/assets/icons/herblore.svg
   subType: nature
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -1396,7 +1396,7 @@
 - name: Hideworking
   abbrev: hide
   id: 79p8qOAYPvErPBrG
-  img: systems/sohl/assets/icons/hidework.svg
+  img: systems/hm/assets/icons/hidework.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -1411,7 +1411,7 @@
 - name: Initiative
   abbrev: init
   id: m8pFDJhw72uj8kJ8
-  img: systems/sohl/assets/icons/initiative.svg
+  img: systems/hm/assets/icons/initiative.svg
   subType: combat
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -1426,7 +1426,7 @@
 - name: Instinctive Combat
   abbrev: instcmbt
   id: dX2DU2Wx8RA1ybVC
-  img: systems/sohl/assets/icons/claw.svg
+  img: systems/hm/assets/icons/claw.svg
   subType: combat
   skillBaseFormula: '@agl, @wil'
   weaponGroup: melee
@@ -1441,7 +1441,7 @@
 - name: Intrigue
   abbrev: intr
   id: 6HmrY8phCuDrflfO
-  img: systems/sohl/assets/icons/cloak-dagger.svg
+  img: systems/hm/assets/icons/cloak-dagger.svg
   subType: social
   skillBaseFormula: '@emp, @rea'
   weaponGroup: none
@@ -1456,7 +1456,7 @@
 - name: Jewelcraft
   abbrev: jewl
   id: pBeZLWzAeAEZAsWt
-  img: systems/sohl/assets/icons/jewel.svg
+  img: systems/hm/assets/icons/jewel.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -1471,7 +1471,7 @@
 - name: Jmôrvi
   abbrev: jmorvi
   id: Yk66XLvMNm6RD7ON
-  img: systems/sohl/assets/icons/anvil.svg
+  img: systems/hm/assets/icons/anvil.svg
   subType: esoteric
   skillBaseFormula: '@aur, @rea'
   weaponGroup: none
@@ -1486,7 +1486,7 @@
 - name: Jumping
   abbrev: jump
   id: NYysaIqvwz1Ir5mf
-  img: systems/sohl/assets/icons/jump-across.svg
+  img: systems/hm/assets/icons/jump-across.svg
   subType: physical
   skillBaseFormula: '@agl, @str'
   weaponGroup: none
@@ -1501,7 +1501,7 @@
 - name: Language
   abbrev: lang
   id: 0WMCAQZCegZRDOrJ
-  img: systems/sohl/assets/icons/speaking.svg
+  img: systems/hm/assets/icons/speaking.svg
   subType: language
   skillBaseFormula: '@elo, @rea'
   weaponGroup: none
@@ -1516,7 +1516,7 @@
 - name: Law
   abbrev: law
   id: VsNFbPO46bCVDiMO
-  img: systems/sohl/assets/icons/law.svg
+  img: systems/hm/assets/icons/law.svg
   subType: lore
   skillBaseFormula: '@rea, @wil'
   weaponGroup: none
@@ -1531,7 +1531,7 @@
 - name: Legerdemain
   abbrev: lgdm
   id: YDqesb2eObxgrdAj
-  img: systems/sohl/assets/icons/juggler.svg
+  img: systems/hm/assets/icons/juggler.svg
   subType: physical
   skillBaseFormula: '@dex, @per'
   weaponGroup: none
@@ -1546,7 +1546,7 @@
 - name: Lockcraft
   abbrev: lock
   id: NPPfr5uMfRCDsch3
-  img: systems/sohl/assets/icons/lock.svg
+  img: systems/hm/assets/icons/lock.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -1561,7 +1561,7 @@
 - name: Lyáhvi
   abbrev: lyahvi
   id: XvFX3BgxHF2MVCwj
-  img: systems/sohl/assets/icons/wind.svg
+  img: systems/hm/assets/icons/wind.svg
   subType: esoteric
   skillBaseFormula: '@aur, @rea'
   weaponGroup: none
@@ -1576,7 +1576,7 @@
 - name: Masonry
   abbrev: masn
   id: kL8SqiGClE8YL98r
-  img: systems/sohl/assets/icons/masonry.svg
+  img: systems/hm/assets/icons/masonry.svg
   subType: craft
   skillBaseFormula: '@per, @str'
   weaponGroup: none
@@ -1591,7 +1591,7 @@
 - name: Mathematics
   abbrev: math
   id: SLWaEQlzVIYj4MhH
-  img: systems/sohl/assets/icons/mathematics.svg
+  img: systems/hm/assets/icons/mathematics.svg
   subType: lore
   skillBaseFormula: '@rea, @cre'
   weaponGroup: none
@@ -1606,7 +1606,7 @@
 - name: Meteor Hammer
   abbrev: metrhamr
   id: 35dh7F81G8l3yngw
-  img: systems/sohl/assets/icons/bolas.svg
+  img: systems/hm/assets/icons/bolas.svg
   subType: combat
   skillBaseFormula: '@dex, @agl'
   weaponGroup: melee
@@ -1621,7 +1621,7 @@
 - name: Melee
   abbrev: melee
   id: r04Yas6IuL9kUFAK
-  img: systems/sohl/assets/icons/crossed-swords.svg
+  img: systems/hm/assets/icons/crossed-swords.svg
   subType: combat
   skillBaseFormula: '@dex, @agl'
   weaponGroup: melee
@@ -1636,7 +1636,7 @@
 - name: Mercantilism
   abbrev: mrcn
   id: LafJjnaJfjef6cJI
-  img: systems/sohl/assets/icons/coins.svg
+  img: systems/hm/assets/icons/coins.svg
   subType: lore
   skillBaseFormula: '@per, @rea'
   weaponGroup: none
@@ -1651,7 +1651,7 @@
 - name: Metalcraft
   abbrev: mtlc
   id: AuTAhJALpmkM0BJL
-  img: systems/sohl/assets/icons/metal-bar.svg
+  img: systems/hm/assets/icons/metal-bar.svg
   subType: craft
   skillBaseFormula: '@per, @str'
   weaponGroup: none
@@ -1666,7 +1666,7 @@
 - name: Milling
   abbrev: mill
   id: n4lzgjjiF2762IcU
-  img: systems/sohl/assets/icons/water-mill.svg
+  img: systems/hm/assets/icons/water-mill.svg
   subType: craft
   skillBaseFormula: '@per, @str'
   weaponGroup: none
@@ -1681,7 +1681,7 @@
 - name: Mineralogy
   abbrev: mnrl
   id: TLlhgMM0i7qW1UmG
-  img: systems/sohl/assets/icons/miner.svg
+  img: systems/hm/assets/icons/miner.svg
   subType: nature
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -1696,7 +1696,7 @@
 - name: Musician
   abbrev: musc
   id: qXqSLyV8VRxs6p8o
-  img: systems/sohl/assets/icons/harp.svg
+  img: systems/hm/assets/icons/harp.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -1711,7 +1711,7 @@
 - name: Neutral
   abbrev: neutral
   id: NM3JB59VYMqlvi6K
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: esoteric
   skillBaseFormula: '@aur, @rea'
   weaponGroup: none
@@ -1726,7 +1726,7 @@
 - name: Odívshè
   abbrev: odivshe
   id: CDXslJIQbILfLiDA
-  img: systems/sohl/assets/icons/water.svg
+  img: systems/hm/assets/icons/water.svg
   subType: esoteric
   skillBaseFormula: '@aur, @rea'
   weaponGroup: none
@@ -1741,7 +1741,7 @@
 - name: Pèleáhn
   abbrev: peleahn
   id: mz9bCjPmh8SuX9QE
-  img: systems/sohl/assets/icons/fire.svg
+  img: systems/hm/assets/icons/fire.svg
   subType: esoteric
   skillBaseFormula: '@aur, @rea'
   weaponGroup: none
@@ -1756,7 +1756,7 @@
 - name: Perfumery
   abbrev: pfmy
   id: PvpCkNMovXUzadsr
-  img: systems/sohl/assets/icons/perfume.svg
+  img: systems/hm/assets/icons/perfume.svg
   subType: lore
   skillBaseFormula: '@per, @rea'
   weaponGroup: none
@@ -1771,7 +1771,7 @@
 - name: Physician
   abbrev: pysn
   id: k1krF4IVzO6hJgMl
-  img: systems/sohl/assets/icons/caduceus.svg
+  img: systems/hm/assets/icons/caduceus.svg
   subType: lore
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -1786,7 +1786,7 @@
 - name: Piloting
   abbrev: pilt
   id: s0gMtqw9zIFaOCv9
-  img: systems/sohl/assets/icons/piloting.svg
+  img: systems/hm/assets/icons/piloting.svg
   subType: nature
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -1801,7 +1801,7 @@
 - name: Pvârism
   abbrev: pvarism
   id: K5XmdHDxovuKxcxQ
-  img: systems/sohl/assets/icons/pvarism.svg
+  img: systems/hm/assets/icons/pvarism.svg
   subType: esoteric
   skillBaseFormula: '@aur, @rea'
   weaponGroup: none
@@ -1816,7 +1816,7 @@
 - name: Riding
   abbrev: ridg
   id: DHSI4p4n2OBxf1bD
-  img: systems/sohl/assets/icons/horse-riding.svg
+  img: systems/hm/assets/icons/horse-riding.svg
   subType: physical
   skillBaseFormula: '@emp, @agl'
   weaponGroup: none
@@ -1831,7 +1831,7 @@
 - name: Ritual
   abbrev: ritual
   id: xrtIClZfNovPvXI8
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   subType: ritual
   skillBaseFormula: '@wil, @rea'
   weaponGroup: none
@@ -1846,7 +1846,7 @@
 - name: Runecraft
   abbrev: Rune
   id: BciFc8QyZNpeu03s
-  img: systems/sohl/assets/icons/runecraft.svg
+  img: systems/hm/assets/icons/runecraft.svg
   subType: esoteric
   skillBaseFormula: '@aur, @emp'
   weaponGroup: none
@@ -1861,7 +1861,7 @@
 - name: Sàvôrya
   abbrev: savorya
   id: mw1tSeSda9RtkB2E
-  img: systems/sohl/assets/icons/divination.svg
+  img: systems/hm/assets/icons/divination.svg
   subType: esoteric
   skillBaseFormula: '@aur, @rea'
   weaponGroup: none
@@ -1876,7 +1876,7 @@
 - name: Script
   abbrev: script
   id: nCRpDhazp99DAlf7
-  img: systems/sohl/assets/icons/scroll-unfurled.svg
+  img: systems/hm/assets/icons/scroll-unfurled.svg
   subType: script
   skillBaseFormula: '@rea, @per'
   weaponGroup: none
@@ -1891,7 +1891,7 @@
 - name: Seamanship
   abbrev: smsh
   id: jjf3TziTW0L8DMgz
-  img: systems/sohl/assets/icons/anchor.svg
+  img: systems/hm/assets/icons/anchor.svg
   subType: nature
   skillBaseFormula: '@per, @wil'
   weaponGroup: none
@@ -1906,7 +1906,7 @@
 - name: Shipwright
   abbrev: shpw
   id: UalHN03Mhr6glT3r
-  img: systems/sohl/assets/icons/ship.svg
+  img: systems/hm/assets/icons/ship.svg
   subType: lore
   skillBaseFormula: '@rea, @cre'
   weaponGroup: none
@@ -1921,7 +1921,7 @@
 - name: Shock
   abbrev: shok
   id: BAHwD5BQSFtfbfGD
-  img: systems/sohl/assets/icons/shock.svg
+  img: systems/hm/assets/icons/shock.svg
   subType: combat
   skillBaseFormula: '@str, @end'
   weaponGroup: none
@@ -1936,7 +1936,7 @@
 - name: Singing
   abbrev: sing
   id: CCqx4sjkxUIXUyLC
-  img: systems/sohl/assets/icons/sing.svg
+  img: systems/hm/assets/icons/sing.svg
   subType: social
   skillBaseFormula: '@voi, @cre'
   weaponGroup: none
@@ -1951,7 +1951,7 @@
 - name: Sling
   abbrev: slng
   id: lR1rlTeStCJvDwTR
-  img: systems/sohl/assets/icons/sling.svg
+  img: systems/hm/assets/icons/sling.svg
   subType: combat
   skillBaseFormula: '@dex, @per'
   weaponGroup: missile
@@ -1966,7 +1966,7 @@
 - name: Stealth
   abbrev: stlth
   id: YU9rN2c3R8eiC6Ih
-  img: systems/sohl/assets/icons/stealth.svg
+  img: systems/hm/assets/icons/stealth.svg
   subType: physical
   skillBaseFormula: '@agl, @per'
   weaponGroup: none
@@ -1981,7 +1981,7 @@
 - name: Summoning
   abbrev: summ
   id: 2SAir9JKa3rd7UbR
-  img: systems/sohl/assets/icons/enrage.svg
+  img: systems/hm/assets/icons/enrage.svg
   subType: esoteric
   skillBaseFormula: '@aur, @elo'
   weaponGroup: none
@@ -1996,7 +1996,7 @@
 - name: Survival
   abbrev: srvl
   id: OmfV1VgsGMZ1LJg7
-  img: systems/sohl/assets/icons/survival.svg
+  img: systems/hm/assets/icons/survival.svg
   subType: nature
   skillBaseFormula: '@per, @wil'
   weaponGroup: none
@@ -2011,7 +2011,7 @@
 - name: Swimming
   abbrev: swim
   id: U1qbcjqVcFyiyaDe
-  img: systems/sohl/assets/icons/swimming.svg
+  img: systems/hm/assets/icons/swimming.svg
   subType: physical
   skillBaseFormula: '@end, @agl'
   weaponGroup: none
@@ -2026,7 +2026,7 @@
 - name: Talent
   abbrev: tlnt
   id: sb0iWwp6WzA6xrFq
-  img: systems/sohl/assets/icons/psychic-waves.svg
+  img: systems/hm/assets/icons/psychic-waves.svg
   subType: esoteric
   skillBaseFormula: '@aur, @wil'
   weaponGroup: none
@@ -2041,7 +2041,7 @@
 - name: Tarotry
   abbrev: tarot
   id: V9Jm2BeuyksJEC4l
-  img: systems/sohl/assets/icons/tarotry.svg
+  img: systems/hm/assets/icons/tarotry.svg
   subType: esoteric
   skillBaseFormula: '@aur, @emp'
   weaponGroup: none
@@ -2056,7 +2056,7 @@
 - name: Textilecraft
   abbrev: txtl
   id: CpzEUUXa7DSyqoEs
-  img: systems/sohl/assets/icons/textilecraft.svg
+  img: systems/hm/assets/icons/textilecraft.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none
@@ -2071,7 +2071,7 @@
 - name: Theatrics
   abbrev: thtcs
   id: QiXS62ew4oy7fIEq
-  img: systems/sohl/assets/icons/drama-masks.svg
+  img: systems/hm/assets/icons/drama-masks.svg
   subType: social
   skillBaseFormula: '@cre, @elo'
   weaponGroup: none
@@ -2086,7 +2086,7 @@
 - name: Throwing
   abbrev: thro
   id: iOdCwOYdX9N6NeiD
-  img: systems/sohl/assets/icons/throw.svg
+  img: systems/hm/assets/icons/throw.svg
   subType: combat
   skillBaseFormula: '@dex, @per'
   weaponGroup: missile
@@ -2101,7 +2101,7 @@
 - name: Timbercraft
   abbrev: timb
   id: FHSFFv2uOTjTEhpt
-  img: systems/sohl/assets/icons/timber.svg
+  img: systems/hm/assets/icons/timber.svg
   subType: nature
   skillBaseFormula: '@per, @rea'
   weaponGroup: none
@@ -2116,7 +2116,7 @@
 - name: Tracking
   abbrev: trak
   id: r84g3zzaBmp1zDl4
-  img: systems/sohl/assets/icons/tracking.svg
+  img: systems/hm/assets/icons/tracking.svg
   subType: nature
   skillBaseFormula: '@per, @rea'
   weaponGroup: none
@@ -2131,7 +2131,7 @@
 - name: Trance
   abbrev: trnc
   id: QUY1z2KG9kreEJTr
-  img: systems/sohl/assets/icons/meditation.svg
+  img: systems/hm/assets/icons/meditation.svg
   subType: esoteric
   skillBaseFormula: '@aur, @cre'
   weaponGroup: none
@@ -2146,7 +2146,7 @@
 - name: Unarmed Combat
   abbrev: ucmb
   id: S4F1g64XoDLZ4fEl
-  img: systems/sohl/assets/icons/crossed-swords.svg
+  img: systems/hm/assets/icons/crossed-swords.svg
   subType: combat
   skillBaseFormula: '@agl, @wil'
   weaponGroup: melee
@@ -2161,7 +2161,7 @@
 - name: Weaponcraft
   abbrev: wpnc
   id: Zf8Z9rMwNJC0qFRe
-  img: systems/sohl/assets/icons/sword-smithing.svg
+  img: systems/hm/assets/icons/sword-smithing.svg
   subType: craft
   skillBaseFormula: '@per, @str'
   weaponGroup: none
@@ -2176,7 +2176,7 @@
 - name: Woodworking
   abbrev: wood
   id: sOVLNMohekLbnHs7
-  img: systems/sohl/assets/icons/woodcraft.svg
+  img: systems/hm/assets/icons/woodcraft.svg
   subType: craft
   skillBaseFormula: '@per, @dex'
   weaponGroup: none

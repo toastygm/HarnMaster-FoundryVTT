@@ -1,15 +1,15 @@
 /* eslint-disable no-unused-vars */
-import * as sohl from "./sohl-common.js";
-import * as legendary from "./legendary.js";
+import * as hm from "./hm-common.js";
+import * as kethira from "./kethira.js";
 
 const fields = foundry.data.fields;
 
 function setupSohlVersion(verData) {
     console.log(verData.CONST.initVersionMessage);
-    sohl.SOHL.sysVer = verData;
+    hm.HM.sysVer = verData;
 
     Object.values(verData.CONST.VERSETTINGS).forEach((setting) => {
-        game.settings.register("sohl", setting.key, setting.data);
+        game.settings.register("hm", setting.key, setting.data);
     });
 
     foundry.utils.mergeObject(CONFIG.Item, verData.CONFIG.Item, {
@@ -29,28 +29,28 @@ function setupSohlVersion(verData) {
 
     // Register sheet application classes
     if (Actors.registeredSheets.length) {
-        Actors.unregisterSheet("sohl", ...Actors.registeredSheets);
+        Actors.unregisterSheet("hm", ...Actors.registeredSheets);
     }
 
-    sohl.SOHL.sysVer.CONFIG.Actor.documentSheets.forEach(({ cls, types }) => {
-        Actors.registerSheet("sohl", cls, {
+    hm.HM.sysVer.CONFIG.Actor.documentSheets.forEach(({ cls, types }) => {
+        Actors.registerSheet("hm", cls, {
             types: types,
             makeDefault: true,
         });
     });
     if (Items.registeredSheets.length) {
-        Items.unregisterSheet("sohl", ...Items.registeredSheets);
+        Items.unregisterSheet("hm", ...Items.registeredSheets);
     }
-    sohl.SOHL.sysVer.CONFIG.Item.documentSheets.forEach(({ cls, types }) => {
-        Items.registerSheet("sohl", cls, {
+    hm.HM.sysVer.CONFIG.Item.documentSheets.forEach(({ cls, types }) => {
+        Items.registerSheet("hm", cls, {
             types: types,
             makeDefault: true,
         });
     });
     if (Macros.registeredSheets.length) {
-        Macros.unregisterSheet("sohl", ...Macros.registeredSheets);
+        Macros.unregisterSheet("hm", ...Macros.registeredSheets);
     }
-    Macros.registerSheet("sohl", verData.CONFIG.Macro.documentSheet, {
+    Macros.registerSheet("hm", verData.CONFIG.Macro.documentSheet, {
         makeDefault: true,
         label: `Default ${verData.label} Macro Sheet`,
     });
@@ -61,14 +61,14 @@ function setupSohlVersion(verData) {
     );
     DocumentSheetConfig.registerSheet(
         ActiveEffect,
-        "sohl",
-        sohl.SohlActiveEffectConfig,
+        "hm",
+        hm.SohlActiveEffectConfig,
         {
             makeDefault: true,
             label: "Default HarnMaster Active Effect Sheet",
         },
     );
-    Macros.registerSheet("sohl", verData.CONFIG.Macro.documentSheet, {
+    Macros.registerSheet("hm", verData.CONFIG.Macro.documentSheet, {
         makeDefault: true,
         label: `Default ${verData.label} Macro Sheet`,
     });
@@ -79,8 +79,8 @@ function setupSohlVersion(verData) {
 /*===============================================================*/
 function registerSystemSettings() {
     game.settings.register(
-        "sohl",
-        sohl.SOHL.CONST.SETTINGS.systemMigrationVersion.key,
+        "hm",
+        hm.HM.CONST.SETTINGS.systemMigrationVersion.key,
         {
             name: "System Migration Version",
             scope: "world",
@@ -93,11 +93,11 @@ function registerSystemSettings() {
         },
     );
 
-    if (!Object.keys(sohl.SOHL.versionsData)) {
+    if (!Object.keys(hm.HM.versionsData)) {
         throw new Error("No HM Versions Defined!");
     }
 
-    game.settings.register("sohl", sohl.SOHL.CONST.SETTINGS.sohlVersion.key, {
+    game.settings.register("hm", hm.HM.CONST.SETTINGS.hmVersion.key, {
         name: "System Version",
         hint: "What system version should be used for this world",
         scope: "world",
@@ -106,7 +106,7 @@ function registerSystemSettings() {
             required: true,
             nullable: false,
             initial: "",
-            choices: Object.entries(sohl.SOHL.versionsData).reduce(
+            choices: Object.entries(hm.HM.versionsData).reduce(
                 (obj, v) => {
                     obj[v[0]] = v[1];
                     return obj;
@@ -116,14 +116,14 @@ function registerSystemSettings() {
         }),
         requiresReload: true,
     });
-    Object.values(sohl.SOHL.CONST.SETTINGS).forEach((setting) => {
+    Object.values(hm.HM.CONST.SETTINGS).forEach((setting) => {
         if (
             ![
-                sohl.SOHL.CONST.SETTINGS.systemMigrationVersion.key,
-                sohl.SOHL.CONST.SETTINGS.sohlVersion.key,
+                hm.HM.CONST.SETTINGS.systemMigrationVersion.key,
+                hm.HM.CONST.SETTINGS.hmVersion.key,
             ].includes(setting.key)
         ) {
-            game.settings.register("sohl", setting.key, setting.data);
+            game.settings.register("hm", setting.key, setting.data);
         }
     });
 }
@@ -134,7 +134,7 @@ function registerSystemSettings() {
 
 Hooks.on("renderChatMessage", (app, html, data) => {
     // Display action buttons
-    sohl.SOHL.cmds.displayChatActionButtons(app, html, data);
+    hm.HM.cmds.displayChatActionButtons(app, html, data);
 });
 
 // biome-ignore lint/correctness/noUnusedVariables: <explanation>
@@ -142,7 +142,7 @@ Hooks.on("renderChatLog", (app, html, data) => {
     html.on(
         "click",
         ".card-buttons button",
-        sohl.SOHL.cmds.onChatCardAction.bind(this),
+        hm.HM.cmds.onChatCardAction.bind(this),
     );
 });
 
@@ -151,7 +151,7 @@ Hooks.on("renderChatPopout", (app, html, data) => {
     html.on(
         "click",
         ".card-buttons button",
-        sohl.SOHL.cmds.onChatCardAction.bind(this),
+        hm.HM.cmds.onChatCardAction.bind(this),
     );
 });
 
@@ -173,10 +173,10 @@ Hooks.on("renderSceneConfig", (app, html, data) => {
     if (app.renderTOTMScene) return;
     app.renderTOTMScene = true;
 
-    let isTotm = scene.getFlag("sohl", "isTotm");
+    let isTotm = scene.getFlag("hm", "isTotm");
     if (typeof isTotm === "undefined") {
         if (!scene.compendium) {
-            scene.setFlag("sohl", "isTotm", false);
+            scene.setFlag("hm", "isTotm", false);
         }
         isTotm = false;
     }
@@ -184,7 +184,7 @@ Hooks.on("renderSceneConfig", (app, html, data) => {
     const totmHtml = `
     <div class="form-group">
         <label>Theatre of the Mind</label>
-        <input id="sohl-totm" type="checkbox" name="sohlTotm" data-dtype="Boolean" ${isTotm ? "checked" : ""}>
+        <input id="hm-totm" type="checkbox" name="hmTotm" data-dtype="Boolean" ${isTotm ? "checked" : ""}>
         <p class="notes">Configure scene for Theatre of the Mind (e.g., no range calcs).</p>
     </div>
     `;
@@ -200,30 +200,27 @@ Hooks.on("closeSceneConfig", (app, html, data) => {
     app.renderTOTMScene = false;
     if (!scene.compendium) {
         scene.setFlag(
-            "sohl",
+            "hm",
             "isTotm",
-            html.find("input[name='sohlTotm']").is(":checked"),
+            html.find("input[name='hmTotm']").is(":checked"),
         );
     }
 });
 
 Hooks.once("init", async function () {
-    console.log(`SoHR | ${sohl.SOHL.CONST.sohlInitMessage}`);
+    console.log(`SoHR | ${hm.HM.CONST.hmInitMessage}`);
 
-    game.sohl = sohl.SOHL;
+    game.hm = hm.HM;
 
     // Register all available SoHR versions
-    sohl.SOHL.registerSystemVersion("legendary", legendary.verData);
+    hm.HM.registerSystemVersion("kethira", kethira.verData);
 
     // Initialize all system settings
     registerSystemSettings();
 
-    let hmVer = game.settings.get(
-        "sohl",
-        sohl.SOHL.CONST.SETTINGS.sohlVersion.key,
-    );
+    let hmVer = game.settings.get("hm", hm.HM.CONST.SETTINGS.hmVersion.key);
     if (hmVer) {
-        setupSohlVersion(sohl.SOHL.versionsData[hmVer]);
+        setupSohlVersion(hm.HM.versionsData[hmVer]);
     }
 
     /**
@@ -239,12 +236,12 @@ Hooks.once("init", async function () {
     CONFIG.time.roundTime = 5;
     CONFIG.time.turnTime = 0;
 
-    sohl.SOHL.statusEffects.forEach((s) => CONFIG.statusEffects.push(s));
+    hm.HM.statusEffects.forEach((s) => CONFIG.statusEffects.push(s));
     foundry.utils.mergeObject(
         CONFIG.specialStatusEffects,
-        sohl.SOHL.specialStatusEffects,
+        hm.HM.specialStatusEffects,
     );
-    foundry.utils.mergeObject(CONFIG.controlIcons, sohl.SOHL.controlIcons);
+    foundry.utils.mergeObject(CONFIG.controlIcons, hm.HM.controlIcons);
 
     // Replace the standard fromUuidSync and fromUuid with new ones
     // that can handle embed items.
@@ -259,7 +256,7 @@ Hooks.once("init", async function () {
             doc = globalThis.origFromUuidSync(topUuid, options);
         }
 
-        if (doc instanceof sohl.SohlActor && parts.length) {
+        if (doc instanceof hm.SohlActor && parts.length) {
             // The UUID is for a nested or virtual item,
             // and the doc is an Actor.  Search for the
             // item in the virtual items list.
@@ -274,17 +271,17 @@ Hooks.once("init", async function () {
             const docId = parts.shift();
 
             if (docType === "VirtualItem") {
-                if (!(doc instanceof sohl.SohlActor)) {
+                if (!(doc instanceof hm.SohlActor)) {
                     throw new Error(`Invalid UUID: ${uuid}`);
                 }
                 doc = doc.system.virtualItems.get(docId);
             } else if (docType === "NestedItem") {
-                if (!(doc instanceof sohl.SohlItem)) {
+                if (!(doc instanceof hm.SohlItem)) {
                     throw new Error(`Invalid UUID: ${uuid}`);
                 }
                 doc = doc.system.items.get(docId);
             } else if (docType === "NestedMacro") {
-                if (!(doc.system instanceof sohl.SohlBaseData)) {
+                if (!(doc.system instanceof hm.SohlBaseData)) {
                     throw new Error(`Invalid UUID: ${uuid}`);
                 }
                 doc = doc.system.actions.get(docId);
@@ -315,21 +312,18 @@ Hooks.once("init", async function () {
  */
 Hooks.once("ready", function () {
     // Setup world system version
-    const allSohlSystems = Object.keys(sohl.SOHL.versionsData).map((v) => [
-        sohl.SOHL.versionsData[v].id,
-        sohl.SOHL.versionsData[v].label,
+    const allSohlSystems = Object.keys(hm.HM.versionsData).map((v) => [
+        hm.HM.versionsData[v].id,
+        hm.HM.versionsData[v].label,
     ]);
-    let hmVer = game.settings.get(
-        "sohl",
-        sohl.SOHL.CONST.SETTINGS.sohlVersion.key,
-    );
+    let hmVer = game.settings.get("hm", hm.HM.CONST.SETTINGS.hmVersion.key);
     if (!hmVer) {
         if (game.user.isGM) {
             (async function () {
                 while (!hmVer) {
                     let dlgHtml = `<form id="select-fate">
                         <p>Select which system version to use:</p>
-                        <div class="form-group"><select name="sohlVersion">`;
+                        <div class="form-group"><select name="hmVersion">`;
                     allSohlSystems.forEach(([id, label]) => {
                         dlgHtml += `<option value="${id}"}>${label}`;
                     });
@@ -344,15 +338,15 @@ Hooks.once("ready", function () {
                             const formdata = foundry.utils.expandObject(
                                 fd.object,
                             );
-                            return formdata.sohlVersion;
+                            return formdata.hmVersion;
                         },
                         options: { jQuery: false },
                         rejectClose: false,
                     });
                 }
                 game.settings.set(
-                    "sohl",
-                    sohl.SOHL.CONST.SETTINGS.sohlVersion.key,
+                    "hm",
+                    hm.HM.CONST.SETTINGS.hmVersion.key,
                     hmVer,
                 );
                 game.socket.emit("reload");
@@ -363,24 +357,19 @@ Hooks.once("ready", function () {
         }
     }
 
-    //Hooks.on("hotbarDrop", (bar, data, slot) => LegendaryCommand.createHMMacro(data, slot));
+    //Hooks.on("hotbarDrop", (bar, data, slot) => KethiraCommand.createHMMacro(data, slot));
 
-    if (
-        game.settings.get(
-            "sohl",
-            sohl.SOHL.CONST.SETTINGS.showWelcomeDialog.key,
-        )
-    ) {
+    if (game.settings.get("hm", hm.HM.CONST.SETTINGS.showWelcomeDialog.key)) {
         welcomeDialog().then((showAgain) => {
             if (showAgain !== null)
-                game.settings.set("sohl", "showWelcomeDialog", showAgain);
+                game.settings.set("hm", "showWelcomeDialog", showAgain);
         });
     }
 
     if (game.user.isGM) {
         if (game.modules.get("foundryvtt-simple-calendar")?.active) {
             Hooks.on(SimpleCalendar.Hooks.Ready, () => {
-                sohl.SOHL.hasSimpleCalendar = true;
+                hm.HM.hasSimpleCalendar = true;
             });
         }
 
@@ -420,13 +409,13 @@ Hooks.once("ready", function () {
         // biome-ignore lint/correctness/noUnusedVariables: <explanation>
         Hooks.on("combatStart", (combat, updateData) => {
             if (game.user.ActiveGM?.isSelf)
-                sohl.SOHL.cmds.handleCombatFatigue(combat);
+                hm.HM.cmds.handleCombatFatigue(combat);
         });
 
         // biome-ignore lint/correctness/noUnusedVariables: <explanation>
         Hooks.on("combatRound", (combat, updateData, updateOptions) => {
             if (game.user.ActiveGM?.isSelf)
-                sohl.SOHL.cmds.handleCombatFatigue(combat);
+                hm.HM.cmds.handleCombatFatigue(combat);
         });
 
         // see docs for more info https://github.com/fantasycalendar/FoundryVTT-ItemPiles/blob/master/docs/api.md
@@ -480,13 +469,13 @@ Hooks.once("ready", function () {
                     {
                         type: "item",
                         name: "Pence",
-                        img: "systems/sohl/assets/icons/coins.svg",
+                        img: "systems/hm/assets/icons/coins.svg",
                         abbreviation: "{#}d",
                         data: {
                             item: {
                                 name: "Pence",
                                 type: "miscgear",
-                                img: "systems/sohl/assets/icons/coins.svg",
+                                img: "systems/hm/assets/icons/coins.svg",
                                 system: {
                                     quantity: 1,
                                     isCarried: true,
@@ -507,8 +496,8 @@ Hooks.once("ready", function () {
 
         // Determine whether a system migration is required
         const currentWorldSystemVersion = game.settings.get(
-            "sohl",
-            sohl.SOHL.CONST.SETTINGS.systemMigrationVersion.key,
+            "hm",
+            hm.HM.CONST.SETTINGS.systemMigrationVersion.key,
         );
 
         if (currentWorldSystemVersion) {
@@ -536,12 +525,12 @@ Hooks.once("ready", function () {
                 ) {
                     // Perform the migration
                     console.warn("!!! PERFORM MIGRATION !!!");
-                    //LegendaryMigration.migrateWorld();
+                    //KethiraMigration.migrateWorld();
                 }
             }
         } else {
             game.settings.set(
-                "sohl",
+                "hm",
                 "systemMigrationVersion",
                 game.system.version,
             );
@@ -552,11 +541,11 @@ Hooks.once("ready", function () {
     registerHandlebarsHelpers();
     preloadHandlebarsTemplates();
 
-    sohl.SOHL.ready = true;
+    hm.HM.ready = true;
 });
 
 async function welcomeDialog() {
-    const dlgTemplate = "systems/sohl/templates/dialog/welcome.html";
+    const dlgTemplate = "systems/hm/templates/dialog/welcome.html";
     const html = await renderTemplate(dlgTemplate, {});
 
     // Create the dialog window
@@ -695,9 +684,7 @@ function registerHandlebarsHelpers() {
 
     Handlebars.registerHelper("injurySeverity", function (val) {
         if (val <= 0) return "NA";
-        return val <= 5
-            ? sohl.SOHL.InjuryItemData.injuryLevels[val]
-            : `G${val}`;
+        return val <= 5 ? hm.HM.InjuryItemData.injuryLevels[val] : `G${val}`;
     });
 
     Handlebars.registerHelper("object", function ({ hash }) {
@@ -718,23 +705,23 @@ function registerHandlebarsHelpers() {
 
     // biome-ignore lint/correctness/noUnusedVariables: <explanation>
     Handlebars.registerHelper("displayWorldTime", function (value, options) {
-        return new Handlebars.SafeString(sohl.Utility.htmlWorldTime(value));
+        return new Handlebars.SafeString(hm.Utility.htmlWorldTime(value));
     });
 }
 
 async function preloadHandlebarsTemplates() {
     const partials = [
         // Item Sheet Partials
-        "systems/sohl/templates/item/parts/item-actions-list.hbs",
-        "systems/sohl/templates/item/parts/item-active-effects.hbs",
-        "systems/sohl/templates/item/parts/item-description.hbs",
-        "systems/sohl/templates/item/parts/item-nesteditems-list.hbs",
-        "systems/sohl/templates/item/parts/item-gear-list.hbs",
-        "systems/sohl/templates/item/parts/item-gear.hbs",
-        "systems/sohl/templates/item/parts/item-masterylevel.hbs",
-        "systems/sohl/templates/item/parts/item-refnote.hbs",
-        "systems/sohl/templates/item/parts/item-strikemode.hbs",
-        "systems/sohl/templates/item/parts/item-header.hbs",
+        "systems/hm/templates/item/parts/item-actions-list.hbs",
+        "systems/hm/templates/item/parts/item-active-effects.hbs",
+        "systems/hm/templates/item/parts/item-description.hbs",
+        "systems/hm/templates/item/parts/item-nesteditems-list.hbs",
+        "systems/hm/templates/item/parts/item-gear-list.hbs",
+        "systems/hm/templates/item/parts/item-gear.hbs",
+        "systems/hm/templates/item/parts/item-masterylevel.hbs",
+        "systems/hm/templates/item/parts/item-refnote.hbs",
+        "systems/hm/templates/item/parts/item-strikemode.hbs",
+        "systems/hm/templates/item/parts/item-header.hbs",
     ];
 
     const paths = {};

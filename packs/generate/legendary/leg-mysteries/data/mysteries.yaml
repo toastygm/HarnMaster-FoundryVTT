@@ -11,7 +11,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/sparkles.svg
+  img: systems/hm/assets/icons/sparkles.svg
   folderId: HQdjhe67Av3z8APh
 - name: "Badger: Tenacious and Independent"
   id: WxZsuNGUm8U7JpQn
@@ -35,7 +35,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/badger.svg
+  img: systems/hm/assets/icons/badger.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Bear: Solitary and Calm"
   id: IPxMGQOSQBsOi48s
@@ -59,7 +59,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/bear.svg
+  img: systems/hm/assets/icons/bear.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Bison: Stoic and Protective"
   id: 2CpsqSoWBpEsHCU9
@@ -83,7 +83,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/bison.svg
+  img: systems/hm/assets/icons/bison.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Boar: Willful and Determined"
   id: jdBjqI048XnA4tfr
@@ -107,7 +107,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/boar.svg
+  img: systems/hm/assets/icons/boar.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Bobcat: Secretive and Cautious"
   id: 6Y0jmaBIzCwrwz1p
@@ -131,7 +131,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/bobcat.svg
+  img: systems/hm/assets/icons/bobcat.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Bull: Destructive and Unpredictable"
   id: kDExCsZvttQtSzlq
@@ -155,7 +155,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/bull.svg
+  img: systems/hm/assets/icons/bull.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Catfish: Nocturnal and Opportunistic"
   id: RbJ9D3CclnLOGenm
@@ -179,7 +179,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/catfish.svg
+  img: systems/hm/assets/icons/catfish.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Chicken: Cautious and Alert"
   id: zAcMdNEQ72INVoNU
@@ -203,7 +203,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/chicken.svg
+  img: systems/hm/assets/icons/chicken.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Cow: Gentle and Routine-Oriented"
   id: zJVBT4rbche7Cmfb
@@ -227,7 +227,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/cow.svg
+  img: systems/hm/assets/icons/cow.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Crow: Curious and Resourceful"
   id: XHwwkctPOTYwybx5
@@ -251,7 +251,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/crow.svg
+  img: systems/hm/assets/icons/crow.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Deer: Alert and Elusive"
   id: xbBAhWDbWnyD8p2l
@@ -275,7 +275,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/deer.svg
+  img: systems/hm/assets/icons/deer.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Donkey: Patient and Obstinate"
   id: 06wasGpojK17FTdC
@@ -299,7 +299,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/donkey.svg
+  img: systems/hm/assets/icons/donkey.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Dove: Gentle and Companionable"
   id: 7tU9QZR1Fp4H8H3v
@@ -323,7 +323,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/dove.svg
+  img: systems/hm/assets/icons/dove.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Duck: Adaptable and Social"
   id: iQHwJSWiNaowM9nN
@@ -347,7 +347,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/duck.svg
+  img: systems/hm/assets/icons/duck.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Eagle: Merciless and Focused"
   id: T2EpauXH7NkoWDwt
@@ -371,7 +371,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/eagle.svg
+  img: systems/hm/assets/icons/eagle.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Falcon: Precise and Relentless"
   id: RakVBHejmx0qHcIn
@@ -395,7 +395,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/falcon.svg
+  img: systems/hm/assets/icons/falcon.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Fox: Cunning and Resourceful"
   id: YS9L9w2AUIAqL6fy
@@ -419,7 +419,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/fox.svg
+  img: systems/hm/assets/icons/fox.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Goat: Curious and Determined"
   id: lWxRr0XkTqO3qDNa
@@ -443,7 +443,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/goat.svg
+  img: systems/hm/assets/icons/goat.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Goose: Territorial and Aggressive"
   id: deLZxIhQUl5cFaIO
@@ -467,7 +467,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/goose.svg
+  img: systems/hm/assets/icons/goose.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Hamster: Cautious and Hoarding"
   id: aVh7hIiGfJgn3CRU
@@ -491,7 +491,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/hamster.svg
+  img: systems/hm/assets/icons/hamster.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Hawk: Observant and Swift"
   id: 2Ed7btYI6bIBYi7P
@@ -515,7 +515,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/hawk.svg
+  img: systems/hm/assets/icons/hawk.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Hedgehog: Defensive and Solitary"
   id: 0xUsGQi0l0TkirTM
@@ -539,7 +539,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/hedgehog.svg
+  img: systems/hm/assets/icons/hedgehog.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Horse: Free-Spirited and Independent"
   id: UZVuHQMOLIbrSvYS
@@ -563,7 +563,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/horse.svg
+  img: systems/hm/assets/icons/horse.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Jaguar: Stealthy and Powerful"
   id: wUJqCGHtATIIh99Q
@@ -587,7 +587,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/jaguar.svg
+  img: systems/hm/assets/icons/jaguar.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Leopard: Independent and Secretive"
   id: 9kURQgBvCgSoahoC
@@ -611,7 +611,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/leopard.svg
+  img: systems/hm/assets/icons/leopard.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Lion: Dominant and Strategic"
   id: MU6HVFla6YShVxgi
@@ -635,7 +635,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/lion.svg
+  img: systems/hm/assets/icons/lion.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Lynx: Elusive and Nocturnal"
   id: HIWEuBejSbFz9oAK
@@ -659,7 +659,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/lynx.svg
+  img: systems/hm/assets/icons/lynx.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Otter: Playful and Curious"
   id: fXswwp4qhC9zXrtZ
@@ -683,7 +683,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/otter.svg
+  img: systems/hm/assets/icons/otter.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Owl: Mysterious and Patient"
   id: Y1YuK9tAyQoCO3Pd
@@ -707,7 +707,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/owl.svg
+  img: systems/hm/assets/icons/owl.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Ox: Strong and Dependable"
   id: 5JA4yOkD0TqwsDMp
@@ -731,7 +731,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/ox.svg
+  img: systems/hm/assets/icons/ox.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Parrot: Social and Vocal"
   id: 8tXNzvMlIs7L5c7v
@@ -755,7 +755,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/parrot.svg
+  img: systems/hm/assets/icons/parrot.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Pigeon: Loyal and Routine"
   id: GOFYJG8SHFbxXoPh
@@ -779,7 +779,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/pigeon.svg
+  img: systems/hm/assets/icons/pigeon.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Rabbit: Nervous and Quick"
   id: FflqdVjsjGPrZYY9
@@ -803,7 +803,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/rabbit.svg
+  img: systems/hm/assets/icons/rabbit.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Sea Bass: Stealthy and Opportunistic"
   id: tGunwcnHgwsjE6Ht
@@ -827,7 +827,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/sea bass.svg
+  img: systems/hm/assets/icons/sea bass.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Shark: Relentless and Instinctive"
   id: yKOy6VLXsYFHVggm
@@ -851,7 +851,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/shark.svg
+  img: systems/hm/assets/icons/shark.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Sheep: Docile and Social"
   id: WvNQBTaORsEATNRc
@@ -875,7 +875,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/sheep.svg
+  img: systems/hm/assets/icons/sheep.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Snake: Silent and Patient"
   id: An835dfH4ekHyiYC
@@ -899,7 +899,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/snake.svg
+  img: systems/hm/assets/icons/snake.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Stag: Proud and Vigilant"
   id: sb0q3xC4IjjufQgP
@@ -923,7 +923,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/stag.svg
+  img: systems/hm/assets/icons/stag.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Sturgeon: Steadfast and Reserved"
   id: Ck1MuvxjKNQu79F4
@@ -947,7 +947,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/sturgeon.svg
+  img: systems/hm/assets/icons/sturgeon.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Trout: Swift and Wary"
   id: 7sSIfjhmqoOP3h0E
@@ -971,7 +971,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/trout.svg
+  img: systems/hm/assets/icons/trout.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Tuna: Driven and Enduring"
   id: 1CsCdba2A5DtIurL
@@ -995,7 +995,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/tuna.svg
+  img: systems/hm/assets/icons/tuna.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Turkey: Proud and Cautious"
   id: KkBgTFTb3CYb58uj
@@ -1019,7 +1019,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/turkey.svg
+  img: systems/hm/assets/icons/turkey.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Whale: Majestic and Communicative"
   id: qPI5hH1aPPOfpS35
@@ -1043,7 +1043,7 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/whale.svg
+  img: systems/hm/assets/icons/whale.svg
   folderId: eJSuuML2ROg3V1W6
 - name: "Wolf: Cooperative and Strategic"
   id: wYrQBhECXQGbEMw5
@@ -1067,5 +1067,5 @@
   macros: []
   flags: {}
   effects: []
-  img: systems/sohl/assets/icons/wolf.svg
+  img: systems/hm/assets/icons/wolf.svg
   folderId: eJSuuML2ROg3V1W6

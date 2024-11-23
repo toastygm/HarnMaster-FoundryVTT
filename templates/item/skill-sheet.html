@@ -22,7 +22,7 @@
                 <div class="form-group stacked text-field">
                     <label>Skill Multiple</label>
                     <div class="form-fields">
-                        {{numberInput flags.sohl.legendary.initSkillMult name="flags.sohl.legendary.initSkillMult" step=1 min=0}}
+                        {{numberInput flags.hm.kethira.initSkillMult name="flags.hm.kethira.initSkillMult" step=1 min=0}}
                     </div>
                     <p class="hint">SM to use during character creation</p>
                 </div>
@@ -30,11 +30,11 @@
                     <label>Expertise Of</label>
                     <div class="form-fields">
                         {{#if hasActor}}
-                        <select class="value" name="flags.sohl.legendary.expertiseParentSkill">
-                            {{selectOptions item.actor.itemTypes.skill blank="" sort="true" labelAttr="name" valueAttr="name" selected=flags.sohl.expertiseParentSkill}}
+                        <select class="value" name="flags.hm.kethira.expertiseParentSkill">
+                            {{selectOptions item.actor.itemTypes.skill blank="" sort="true" labelAttr="name" valueAttr="name" selected=flags.hm.expertiseParentSkill}}
                         </select>
                         {{else}}
-                        <input type="text" name="flags.sohl.legendary.expertiseParentSkill" value="{{flags.sohl.legendary.expertiseParentSkill}}" />
+                        <input type="text" name="flags.hm.kethira.expertiseParentSkill" value="{{flags.hm.kethira.expertiseParentSkill}}" />
                         {{/if}}
                     </div>
                     <p class="hint">Parent skill if an expertise, blank otherwise</p>
@@ -45,7 +45,7 @@
                 <div class="flexrow">
                     <a
                         class="add-array-item"
-                        data-array="flags.sohl.actionBodyParts"
+                        data-array="flags.hm.actionBodyParts"
                         data-dtype="String"
                         data-default-value=""
                         data-title="Action Body Parts"
@@ -53,12 +53,12 @@
                     >
                 </div>
                 <ol class="grid grid-4col">
-                    {{#each flags.sohl.actionBodyParts}}
+                    {{#each flags.hm.actionBodyParts}}
                     <li class="skill-action-bodypart">
                         <span class="name">{{this}}</span>
                         <a
                             class="delete-array-item"
-                            data-array="flags.sohl.actionBodyParts"
+                            data-array="flags.hm.actionBodyParts"
                             data-value="{{this}}"
                             title="Delete Action Body Part"
                             ><i class="fas fa-trash"></i

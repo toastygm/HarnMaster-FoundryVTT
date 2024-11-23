@@ -18,20 +18,20 @@
                 {{formField fields.abbrev rootId="bodyzone-abbrev" classes="text-field" stacked=true value=system.abbrev}}
                 <div class="form-group stacked">
                     <label for="bodyzone-affmob" class="text-field">Affects Mobility</label>            
-                    <input id="bodyzone-affmob" type="checkbox" name="flags.sohl.legendary.affectsMobility" {{checked flags.sohl.affectsMobility}} data-dtype="Boolean" />
+                    <input id="bodyzone-affmob" type="checkbox" name="flags.hm.kethira.affectsMobility" {{checked flags.hm.affectsMobility}} data-dtype="Boolean" />
                 </div>
             </div>
             <fieldset class="bodyzone-zones-list" id="bodyzone-zones-list">
                 <legend>Zone Numbers</legend>
                 <div class="bodyzone-zones flexrow" id="bodyzone-zones-add">
-                    <a class="add-array-item" data-array="flags.sohl.legendary.zones" data-dtype="Number"
+                    <a class="add-array-item" data-array="flags.hm.kethira.zones" data-dtype="Number"
                         data-default-value="0" data-title="Zone Numbers"><i class="fas fa-plus"></i> Add Zone Number</a>
                 </div>
                 <ol class="grid grid-4col">
-                    {{#each flags.sohl.legendary.zones}}
+                    {{#each flags.hm.kethira.zones}}
                     <li class="bodyzone-zone">
                         <p class="name">{{this}}</p>
-                        <a class="delete-array-item" data-array="flags.sohl.legendary.zones" data-value="{{this}}"
+                        <a class="delete-array-item" data-array="flags.hm.kethira.zones" data-value="{{this}}"
                             title="Delete Zone Number"><i class="fas fa-trash"></i></a>
                     </li>
                     {{/each}}
@@ -40,17 +40,17 @@
             <fieldset class="bodyzone-affectedattributes-list">
                 <legend>Affected Attributes</legend>
                 <div class="bodyzone-affectedattributes flexrow">
-                    <a class="add-array-item" data-array="flags.sohl.legendary.affectedAttributes" data-dtype="String"
+                    <a class="add-array-item" data-array="flags.hm.kethira.affectedAttributes" data-dtype="String"
                         data-default-value="" data-title="Affected Attributes" ><i class="fas fa-plus"></i>
 			            Add Affected Attribute</a>
                 </div>
                 <ol
                     class="grid grid-4col"
                     id="bodyzone-affectedattributes-display">
-                    {{#each flags.sohl.legendary.affectedAttributes}}
+                    {{#each flags.hm.kethira.affectedAttributes}}
                     <li class="armor-location">
                         <span class="name">{{this}}</span>
-                        <a class="delete-array-item" data-array="flags.sohl.legendary.affectedAttributes" data-value="{{this}}"
+                        <a class="delete-array-item" data-array="flags.hm.kethira.affectedAttributes" data-value="{{this}}"
                             title="Delete Affected Attribute" ><i class="fas fa-trash"></i></a>
                     </li>
                     {{/each}}
@@ -62,15 +62,15 @@
                 <legend>Affected Skills</legend>
                 <div
                     class="bodyzone-affectedskills flexrow">
-                    <a class="add-array-item" data-array="flags.sohl.legendary.affectedSkills" data-dtype="String"
+                    <a class="add-array-item" data-array="flags.hm.kethira.affectedSkills" data-dtype="String"
                         data-default-value="" data-title="Affected Skills"><i class="fas fa-plus"></i>
 			            Add Affected Skills</a>
                 </div>
 		        <ol class="grid grid-4col">
-                    {{#each flags.sohl.legendary.affectedSkills}}
+                    {{#each flags.hm.kethira.affectedSkills}}
                     <li class="armor-location">
                         <span class="name">{{this}}</span>
-                        <a class="delete-array-item" data-array="flags.sohl.legendary.affectedSkills" data-value="{{this}}"
+                        <a class="delete-array-item" data-array="flags.hm.kethira.affectedSkills" data-value="{{this}}"
                             title="Delete Affected Skills" ><i class="fas fa-trash"></i></a>
                     </li>
                     {{/each}}

@@ -15,7 +15,7 @@ properties:
 bodyZones:
   - name: Head
     id: XQJBDj4Zd2ILR5rH
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     desc: ""
     aim:
       - name: Body
@@ -25,7 +25,7 @@ bodyZones:
     description: ""
     effects: []
     flags:
-      sohl:
+      hm:
         zones:
           - 1
         affectsMobility: true
@@ -44,7 +44,7 @@ bodyZones:
           - Strength
   - name: Arms
     id: DzyCHcZwLLZekBgq
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     desc: ""
     aim:
       - name: Body
@@ -54,7 +54,7 @@ bodyZones:
     description: ""
     effects: []
     flags:
-      sohl:
+      hm:
         zones:
           - 2
           - 3
@@ -72,7 +72,7 @@ bodyZones:
           - Strength
   - name: Torso
     id: qPncC1ZBr2H8lPSy
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     desc: ""
     aim:
       - name: Body
@@ -82,7 +82,7 @@ bodyZones:
     description: ""
     effects: []
     flags:
-      sohl:
+      hm:
         zones:
           - 4
           - 5
@@ -103,7 +103,7 @@ bodyZones:
           - Strength
   - name: Legs
     id: KFrOQEbBNicAxikZ
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     desc: ""
     aim:
       - name: Body
@@ -113,7 +113,7 @@ bodyZones:
     description: ""
     effects: []
     flags:
-      sohl:
+      hm:
         zones:
           - 8
           - 9
@@ -133,7 +133,7 @@ bodyZones:
 bodyParts:
   - name: Head
     id: WljCPWk6oAmUZ73d
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     bodyZone: Head
     abbrev: Head
     canHoldItem: false
@@ -148,7 +148,7 @@ bodyParts:
     flags: {}
   - name: Left Arm
     id: rnqBua6Rduc0u0P6
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     bodyZone: Arms
     abbrev: LArm
     canHoldItem: true
@@ -163,7 +163,7 @@ bodyParts:
     flags: {}
   - name: Right Arm
     id: Tsrx9WQ2L9HyAVvi
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     bodyZone: Arms
     abbrev: RArm
     canHoldItem: true
@@ -178,7 +178,7 @@ bodyParts:
     flags: {}
   - name: Torso
     id: ltL67w6gOzXDgHYD
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     bodyZone: Torso
     abbrev: Torso
     canHoldItem: false
@@ -193,7 +193,7 @@ bodyParts:
     flags: {}
   - name: Left Leg
     id: KocnXsjJtL3doBVr
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     bodyZone: Legs
     abbrev: LLeg
     canHoldItem: false
@@ -208,7 +208,7 @@ bodyParts:
     flags: {}
   - name: Right Leg
     id: 30kOIuDmY81IosL4
-    img: systems/sohl/assets/icons/body.svg
+    img: systems/hm/assets/icons/body.svg
     bodyZone: Legs
     abbrev: RLeg
     canHoldItem: false

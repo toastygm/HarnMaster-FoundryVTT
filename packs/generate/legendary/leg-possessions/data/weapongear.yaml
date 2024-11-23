@@ -1,7 +1,7 @@
 - id: PeH3MPvcfb0Z0eS7
   name: Battleaxe
   type: Axe
-  img: systems/sohl/assets/icons/battle-axe.svg
+  img: systems/hm/assets/icons/battle-axe.svg
   durability: 12
   weight: 6
   value: 108
@@ -25,7 +25,7 @@
 - id: RtCK7eRRsiCFr7Qi
   name: Handaxe
   type: Axe
-  img: systems/sohl/assets/icons/axe.svg
+  img: systems/hm/assets/icons/axe.svg
   durability: 11
   weight: 4
   value: 84
@@ -49,7 +49,7 @@
 - id: ZiZtg2TWwtkDoeHJ
   name: Hatchet
   type: Axe
-  img: systems/sohl/assets/icons/axe.svg
+  img: systems/hm/assets/icons/axe.svg
   durability: 9
   weight: 2
   value: 6
@@ -73,7 +73,7 @@
 - id: iZCrSuwiRH2wjWgg
   name: Pickaxe
   type: Axe
-  img: systems/sohl/assets/icons/pickaxe.svg
+  img: systems/hm/assets/icons/pickaxe.svg
   durability: 9
   weight: 7
   value: 18
@@ -97,7 +97,7 @@
 - id: 151T3dMzXMoMtwZc
   name: Sickle
   type: Axe
-  img: systems/sohl/assets/icons/sickle.svg
+  img: systems/hm/assets/icons/sickle.svg
   durability: 9
   weight: 1
   value: 10
@@ -121,7 +121,7 @@
 - id: rnhIdHoRpWS9hipo
   name: Throwing Axe
   type: Axe
-  img: systems/sohl/assets/icons/axe.svg
+  img: systems/hm/assets/icons/axe.svg
   durability: 10
   weight: 2
   value: 48
@@ -145,7 +145,7 @@
 - id: 9arQDGIipaW8T5ul
   name: Warhammer
   type: Axe
-  img: systems/sohl/assets/icons/warhammer.svg
+  img: systems/hm/assets/icons/warhammer.svg
   durability: 11
   weight: 4
   value: 84
@@ -169,7 +169,7 @@
 - id: sVa6nVcQxN6bqf0L
   name: Wood Axe
   type: Axe
-  img: systems/sohl/assets/icons/axe.svg
+  img: systems/hm/assets/icons/axe.svg
   durability: 9
   weight: 5
   value: 12
@@ -193,7 +193,7 @@
 - id: QRiORm95BTr4XREA
   name: Blowgun
   type: Blowgun
-  img: systems/sohl/assets/icons/blowgun.svg
+  img: systems/hm/assets/icons/blowgun.svg
   durability: 8
   weight: 1
   value: 30
@@ -217,7 +217,7 @@
 - id: SKuhS0wEblXOmOlt
   name: Composite Bow 100
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 12
   weight: 3
   value: 540
@@ -241,7 +241,7 @@
 - id: eVIPrpvF4wOv9asM
   name: Composite Bow 120
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 12
   weight: 4
   value: 600
@@ -265,7 +265,7 @@
 - id: y8trdeWcTIxJch7W
   name: Composite Bow 140
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 12
   weight: 4
   value: 660
@@ -289,7 +289,7 @@
 - id: 1XHE433lMCMaDjvu
   name: Composite Bow 40
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 11
   weight: 2
   value: 360
@@ -313,7 +313,7 @@
 - id: wqQirtSicsibG8ip
   name: Composite Bow 60
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 11
   weight: 2
   value: 420
@@ -337,7 +337,7 @@
 - id: qkDtym8AHiF4DrMt
   name: Composite Bow 80
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 11
   weight: 3
   value: 480
@@ -361,7 +361,7 @@
 - id: DaJiW4RWuvOYLB9T
   name: Longbow 100
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 10
   weight: 3
   value: 54
@@ -385,7 +385,7 @@
 - id: 2D8bccD7IaGE81m7
   name: Longbow 125
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 11
   weight: 3
   value: 63
@@ -409,7 +409,7 @@
 - id: Po5sBJKLMr2pgC0N
   name: Longbow 150
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 11
   weight: 4
   value: 72
@@ -433,7 +433,7 @@
 - id: 4Y0zPMrFAwBMsgPt
   name: Longbow 175
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 11
   weight: 4
   value: 81
@@ -457,7 +457,7 @@
 - id: 2ukbTddPtKvHuMjj
   name: Longbow 50
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 10
   weight: 2
   value: 36
@@ -481,7 +481,7 @@
 - id: stIt7vogUhgZtDTE
   name: Longbow 75
   type: Bow
-  img: systems/sohl/assets/icons/longbow.svg
+  img: systems/hm/assets/icons/longbow.svg
   durability: 10
   weight: 2
   value: 45
@@ -505,7 +505,7 @@
 - id: pX3qKPrPcgPMjsX5
   name: Boomerang
   type: Club
-  img: systems/sohl/assets/icons/boomerang.svg
+  img: systems/hm/assets/icons/boomerang.svg
   durability: 11
   weight: 1
   value: 15
@@ -529,7 +529,7 @@
 - id: CsKoW7OcMvIoyZN5
   name: Club
   type: Club
-  img: systems/sohl/assets/icons/club.svg
+  img: systems/hm/assets/icons/club.svg
   durability: 9
   weight: 3
   value: 12
@@ -553,7 +553,7 @@
 - id: C4KPc3hjFv6KfIbP
   name: Club, Improvised
   type: Club
-  img: systems/sohl/assets/icons/club.svg
+  img: systems/hm/assets/icons/club.svg
   durability: 8
   weight: 3
   value: 0
@@ -570,7 +570,7 @@
 - id: 5MB9HLkTUNScCTDW
   name: Club, Large
   type: Club
-  img: systems/sohl/assets/icons/club.svg
+  img: systems/hm/assets/icons/club.svg
   durability: 9
   weight: 5
   value: 18
@@ -587,7 +587,7 @@
 - id: 14K5PZes1RJUsm7H
   name: Crowbar
   type: Club
-  img: systems/sohl/assets/icons/club.svg
+  img: systems/hm/assets/icons/club.svg
   durability: 11
   weight: 6
   value: 9
@@ -611,7 +611,7 @@
 - id: HSggjzbSPU2MvMvG
   name: Cudgel
   type: Club
-  img: systems/sohl/assets/icons/club.svg
+  img: systems/hm/assets/icons/club.svg
   durability: 9
   weight: 3
   value: 12
@@ -635,7 +635,7 @@
 - id: Jfu4nHF79lOF9R7g
   name: Gada
   type: Club
-  img: systems/sohl/assets/icons/club.svg
+  img: systems/hm/assets/icons/club.svg
   durability: 0
   weight: 0
   value: 0
@@ -659,7 +659,7 @@
 - id: Ql08V4MDq3SgEWjH
   name: Mace, Steel Handle
   type: Club
-  img: systems/sohl/assets/icons/flanged-mace.svg
+  img: systems/hm/assets/icons/flanged-mace.svg
   durability: 12
   weight: 4
   value: 108
@@ -683,7 +683,7 @@
 - id: bm9SbGIuZs3AH5f4
   name: Mace, Wood Handle
   type: Club
-  img: systems/sohl/assets/icons/flanged-mace.svg
+  img: systems/hm/assets/icons/flanged-mace.svg
   durability: 11
   weight: 3
   value: 84
@@ -707,7 +707,7 @@
 - id: r9NZxajV7MkTZUxW
   name: Maul
   type: Club
-  img: systems/sohl/assets/icons/hammer.svg
+  img: systems/hm/assets/icons/hammer.svg
   durability: 12
   weight: 7
   value: 96
@@ -731,7 +731,7 @@
 - id: c8FbFCrF09XPfy5w
   name: Morningstar
   type: Club
-  img: systems/sohl/assets/icons/mace.svg
+  img: systems/hm/assets/icons/mace.svg
   durability: 11
   weight: 5
   value: 48
@@ -755,7 +755,7 @@
 - id: SEpQZB9ufqHIt0IJ
   name: Sledgehammer
   type: Club
-  img: systems/sohl/assets/icons/hammer.svg
+  img: systems/hm/assets/icons/hammer.svg
   durability: 10
   weight: 6
   value: 24
@@ -779,7 +779,7 @@
 - id: qYFSh2Fr38UHKT5f
   name: Stick
   type: Club
-  img: systems/sohl/assets/icons/club.svg
+  img: systems/hm/assets/icons/club.svg
   durability: 8
   weight: 1
   value: 6
@@ -796,7 +796,7 @@
 - id: D4bOi6ZeH9IatTsy
   name: Truncheon
   type: Club
-  img: systems/sohl/assets/icons/club.svg
+  img: systems/hm/assets/icons/club.svg
   durability: 9
   weight: 3
   value: 12
@@ -820,7 +820,7 @@
 - id: OxkcJeJalqCCxNI7
   name: Composite Crossbow 200
   type: Crossbow
-  img: systems/sohl/assets/icons/crossbow.svg
+  img: systems/hm/assets/icons/crossbow.svg
   durability: 11
   weight: 7
   value: 144
@@ -844,7 +844,7 @@
 - id: TcKGyr36ZsQg10xl
   name: Composite Crossbow 300
   type: Crossbow
-  img: systems/sohl/assets/icons/crossbow.svg
+  img: systems/hm/assets/icons/crossbow.svg
   durability: 12
   weight: 9
   value: 204
@@ -868,7 +868,7 @@
 - id: o9uvddcjqpyIAFdW
   name: Kúzan Steelbow
   type: Crossbow
-  img: systems/sohl/assets/icons/crossbow.svg
+  img: systems/hm/assets/icons/crossbow.svg
   durability: 14
   weight: 12
   value: 288
@@ -885,7 +885,7 @@
 - id: WfPlINJLt2stPJbx
   name: Wooden Crossbow 120
   type: Crossbow
-  img: systems/sohl/assets/icons/crossbow.svg
+  img: systems/hm/assets/icons/crossbow.svg
   durability: 10
   weight: 4
   value: 84
@@ -909,7 +909,7 @@
 - id: d0WpYxGlFA3a33q3
   name: Wooden Crossbow 160
   type: Crossbow
-  img: systems/sohl/assets/icons/crossbow.svg
+  img: systems/hm/assets/icons/crossbow.svg
   durability: 10
   weight: 5
   value: 96
@@ -933,7 +933,7 @@
 - id: jGe6fjplOSPfQ32V
   name: Wooden Crossbow 80
   type: Crossbow
-  img: systems/sohl/assets/icons/crossbow.svg
+  img: systems/hm/assets/icons/crossbow.svg
   durability: 10
   weight: 3
   value: 60
@@ -957,7 +957,7 @@
 - id: lU0DRdXtAk6K7BUt
   name: Ball & Chain Flail
   type: Flail
-  img: systems/sohl/assets/icons/flail.svg
+  img: systems/hm/assets/icons/flail.svg
   durability: 12
   weight: 4
   value: 72
@@ -981,7 +981,7 @@
 - id: PZ928gsyeidvMtuo
   name: Grainflail
   type: Flail
-  img: systems/sohl/assets/icons/grainflail.svg
+  img: systems/hm/assets/icons/grainflail.svg
   durability: 9
   weight: 3
   value: 16
@@ -1005,7 +1005,7 @@
 - id: 8XkM69WwCDD6to7G
   name: Meteor Dart
   type: Flail
-  img: systems/sohl/assets/icons/flail.svg
+  img: systems/hm/assets/icons/flail.svg
   durability: 0
   weight: 0
   value: 0
@@ -1022,7 +1022,7 @@
 - id: Df8gMsCyX334UUNT
   name: Net
   type: Flail
-  img: systems/sohl/assets/icons/net.svg
+  img: systems/hm/assets/icons/net.svg
   durability: 9
   weight: 4
   value: 48
@@ -1046,7 +1046,7 @@
 - id: yJgrGmh3iAdZFuvx
   name: Warflail
   type: Flail
-  img: systems/sohl/assets/icons/grainflail.svg
+  img: systems/hm/assets/icons/grainflail.svg
   durability: 11
   weight: 5
   value: 60
@@ -1070,7 +1070,7 @@
 - id: gmEBhQV7Zjnv99FM
   name: Whip
   type: Flail
-  img: systems/sohl/assets/icons/whip.svg
+  img: systems/hm/assets/icons/whip.svg
   durability: 9
   weight: 2
   value: 12
@@ -1094,7 +1094,7 @@
 - id: C5LbX1fHZVwrb6nV
   name: Whip, Reksyni
   type: Flail
-  img: systems/sohl/assets/icons/whip.svg
+  img: systems/hm/assets/icons/whip.svg
   durability: 10
   weight: 3
   value: 24
@@ -1111,7 +1111,7 @@
 - id: t5T8WtrQ3MljAU1c
   name: Whip, Teamster
   type: Flail
-  img: systems/sohl/assets/icons/whip.svg
+  img: systems/hm/assets/icons/whip.svg
   durability: 9
   weight: 1
   value: 6
@@ -1128,7 +1128,7 @@
 - id: LDxnrcyhRCyVyGQK
   name: Bagh Nakh
   type: Knife
-  img: systems/sohl/assets/icons/broad-dagger.svg
+  img: systems/hm/assets/icons/broad-dagger.svg
   durability: 0
   weight: 0
   value: 0
@@ -1152,7 +1152,7 @@
 - id: po0MtDrMbBIcNdyH
   name: Bodkin
   type: Knife
-  img: systems/sohl/assets/icons/broad-dagger.svg
+  img: systems/hm/assets/icons/broad-dagger.svg
   durability: 12
   weight: 2
   value: 36
@@ -1176,7 +1176,7 @@
 - id: 2F1GQNY7FtnuzueG
   name: Chakram
   type: Knife
-  img: systems/sohl/assets/icons/circle.svg
+  img: systems/hm/assets/icons/circle.svg
   durability: 11
   weight: 0.5
   value: 3
@@ -1200,7 +1200,7 @@
 - id: 9ijT9drcTK805O5F
   name: Dagger
   type: Knife
-  img: systems/sohl/assets/icons/broad-dagger.svg
+  img: systems/hm/assets/icons/broad-dagger.svg
   durability: 11
   weight: 1
   value: 24
@@ -1224,7 +1224,7 @@
 - id: QbOkvwNX1cWioyyn
   name: Katar
   type: Knife
-  img: systems/sohl/assets/icons/broad-dagger.svg
+  img: systems/hm/assets/icons/broad-dagger.svg
   durability: 0
   weight: 0
   value: 0
@@ -1248,7 +1248,7 @@
 - id: ZLDPpPDbHPfTLE2Y
   name: Knife
   type: Knife
-  img: systems/sohl/assets/icons/dagger.svg
+  img: systems/hm/assets/icons/dagger.svg
   durability: 10
   weight: 1
   value: 6
@@ -1271,7 +1271,7 @@
 - id: gdtGtzLTi8A8f6D1
   name: Longknife
   type: Knife
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 13
   weight: 2
   value: 96
@@ -1295,7 +1295,7 @@
 - id: 03itZtd4heviT9Qv
   name: Shuriken
   type: Knife
-  img: systems/sohl/assets/icons/shuriken.svg
+  img: systems/hm/assets/icons/shuriken.svg
   durability: 11
   weight: 0.3
   value: 5
@@ -1319,7 +1319,7 @@
 - id: 7IYD91ExpmoJb0nz
   name: Tabûri
   type: Knife
-  img: systems/sohl/assets/icons/broad-dagger.svg
+  img: systems/hm/assets/icons/broad-dagger.svg
   durability: 10
   weight: 1
   value: 20
@@ -1336,7 +1336,7 @@
 - id: ff5sR8h7GpNK89G5
   name: Falcastra
   type: Polearm
-  img: systems/sohl/assets/icons/polearm.svg
+  img: systems/hm/assets/icons/polearm.svg
   durability: 9
   weight: 7
   value: 42
@@ -1360,7 +1360,7 @@
 - id: xqWeqWccSXOa9bDD
   name: Glaive
   type: Polearm
-  img: systems/sohl/assets/icons/polearm.svg
+  img: systems/hm/assets/icons/polearm.svg
   durability: 11
   weight: 7
   value: 60
@@ -1384,7 +1384,7 @@
 - id: 7qGCDLyqpA1ejoyQ
   name: Green Dragon Crescent Blade
   type: Polearm
-  img: systems/sohl/assets/icons/polearm.svg
+  img: systems/hm/assets/icons/polearm.svg
   durability: 0
   weight: 0
   value: 0
@@ -1407,7 +1407,7 @@
 - id: bSh8evwiMWMAqaqn
   name: Javelin, Barbed
   type: Polearm
-  img: systems/sohl/assets/icons/spear.svg
+  img: systems/hm/assets/icons/spear.svg
   durability: 10
   weight: 3
   value: 36
@@ -1431,7 +1431,7 @@
 - id: r43xJwDBphGaIcDe
   name: Javelin, Bodkin
   type: Polearm
-  img: systems/sohl/assets/icons/spear.svg
+  img: systems/hm/assets/icons/spear.svg
   durability: 10
   weight: 3
   value: 36
@@ -1455,7 +1455,7 @@
 - id: ZpTxK5WRmlI6Jc3C
   name: Jousting Pole
   type: Polearm
-  img: systems/sohl/assets/icons/lance.svg
+  img: systems/hm/assets/icons/lance.svg
   durability: 8
   weight: 6
   value: 40
@@ -1479,7 +1479,7 @@
 - id: DyI7VXcT6l3URR02
   name: Lance
   type: Polearm
-  img: systems/sohl/assets/icons/lance.svg
+  img: systems/hm/assets/icons/lance.svg
   durability: 11
   weight: 7
   value: 120
@@ -1503,7 +1503,7 @@
 - id: sZZxQiawzxKh52Ml
   name: Pike
   type: Polearm
-  img: systems/sohl/assets/icons/spear.svg
+  img: systems/hm/assets/icons/spear.svg
   durability: 12
   weight: 10
   value: 96
@@ -1527,7 +1527,7 @@
 - id: uTBEpEn7heFX071U
   name: Pitchfork
   type: Polearm
-  img: systems/sohl/assets/icons/pitchfork.svg
+  img: systems/hm/assets/icons/pitchfork.svg
   durability: 9
   weight: 4
   value: 9
@@ -1551,7 +1551,7 @@
 - id: Gdm2jEz0I0iyzDpu
   name: Poleaxe
   type: Polearm
-  img: systems/sohl/assets/icons/polearm.svg
+  img: systems/hm/assets/icons/polearm.svg
   durability: 11
   weight: 7
   value: 96
@@ -1575,7 +1575,7 @@
 - id: M8YvZgWiTMJHd31Q
   name: Qiang
   type: Polearm
-  img: systems/sohl/assets/icons/polearm.svg
+  img: systems/hm/assets/icons/polearm.svg
   durability: 0
   weight: 0
   value: 0
@@ -1599,7 +1599,7 @@
 - id: UwGWi1DMuYtyN8X8
   name: Spear
   type: Polearm
-  img: systems/sohl/assets/icons/spear.svg
+  img: systems/hm/assets/icons/spear.svg
   durability: 11
   weight: 4
   value: 60
@@ -1623,7 +1623,7 @@
 - id: MHe30MVgUd2B7AXS
   name: Staff
   type: Polearm
-  img: systems/sohl/assets/icons/staff.svg
+  img: systems/hm/assets/icons/staff.svg
   durability: 11
   weight: 4
   value: 24
@@ -1647,7 +1647,7 @@
 - id: 7FUayLoMMfw8tewq
   name: Staff, Long
   type: Polearm
-  img: systems/sohl/assets/icons/polearm.svg
+  img: systems/hm/assets/icons/polearm.svg
   durability: 0
   weight: 0
   value: 0
@@ -1670,7 +1670,7 @@
 - id: PoMZUG3IInE8wSqz
   name: Trident
   type: Polearm
-  img: systems/sohl/assets/icons/trident.svg
+  img: systems/hm/assets/icons/trident.svg
   durability: 12
   weight: 6
   value: 72
@@ -1694,7 +1694,7 @@
 - id: 7AH7gKN6gGBqKbdb
   name: Trishula
   type: Polearm
-  img: systems/sohl/assets/icons/polearm.svg
+  img: systems/hm/assets/icons/polearm.svg
   durability: 0
   weight: 0
   value: 0
@@ -1718,7 +1718,7 @@
 - id: keOzxtWCsMbPxhuV
   name: Buckler
   type: Shield
-  img: systems/sohl/assets/icons/round-shield.svg
+  img: systems/hm/assets/icons/round-shield.svg
   durability: 9
   weight: 3
   value: 30
@@ -1742,7 +1742,7 @@
 - id: T1SviWWVvq2RfB5V
   name: Dhal
   type: Shield
-  img: systems/sohl/assets/icons/round-shield.svg
+  img: systems/hm/assets/icons/round-shield.svg
   durability: 0
   weight: 0
   value: 0
@@ -1765,7 +1765,7 @@
 - id: vpPLk8Ou4UsXQdTy
   name: Kite Shield
   type: Shield
-  img: systems/sohl/assets/icons/shield.svg
+  img: systems/hm/assets/icons/shield.svg
   durability: 11
   weight: 7
   value: 72
@@ -1789,7 +1789,7 @@
 - id: nbt1PW1YgQTNvm8n
   name: Knight's Shield
   type: Shield
-  img: systems/sohl/assets/icons/shield.svg
+  img: systems/hm/assets/icons/shield.svg
   durability: 11
   weight: 5
   value: 60
@@ -1813,7 +1813,7 @@
 - id: 31mlq3ytO8jnkS3n
   name: Roundshield
   type: Shield
-  img: systems/sohl/assets/icons/round-shield.svg
+  img: systems/hm/assets/icons/round-shield.svg
   durability: 10
   weight: 6
   value: 48
@@ -1837,7 +1837,7 @@
 - id: Qr2D5btkRJF3S8cs
   name: Tower Shield
   type: Shield
-  img: systems/sohl/assets/icons/shield.svg
+  img: systems/hm/assets/icons/shield.svg
   durability: 11
   weight: 8
   value: 96
@@ -1860,7 +1860,7 @@
 - id: tzNkaxyefuOoAjoy
   name: Sling
   type: Sling
-  img: systems/sohl/assets/icons/sling.svg
+  img: systems/hm/assets/icons/sling.svg
   durability: 9
   weight: 0.1
   value: 6
@@ -1883,7 +1883,7 @@
 - id: uawJUZQxVDGe7Lzo
   name: Sling Staff
   type: Sling
-  img: systems/sohl/assets/icons/staffsling.webp
+  img: systems/hm/assets/icons/staffsling.webp
   durability: 9
   weight: 0.1
   value: 6
@@ -1906,7 +1906,7 @@
 - id: Jklt5Jr7EF4036th
   name: Slingshot
   type: Sling
-  img: systems/sohl/assets/icons/slingshot.svg
+  img: systems/hm/assets/icons/slingshot.svg
   durability: 9
   weight: 0.7
   value: 12
@@ -1930,7 +1930,7 @@
 - id: uKACEmvIkemys7f9
   name: Bastard Sword
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 12
   weight: 5
   value: 184
@@ -1954,7 +1954,7 @@
 - id: JTvhpBBj87XuIMXi
   name: Battlesword
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 13
   weight: 7
   value: 240
@@ -1978,7 +1978,7 @@
 - id: wjTLAt0dcAyim60L
   name: Broadsword
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 12
   weight: 3
   value: 156
@@ -2002,7 +2002,7 @@
 - id: UYYIc4v2vhufWMCR
   name: Dao
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2026,7 +2026,7 @@
 - id: J0H2XxUf1n4RtHRh
   name: Estoc
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 12
   weight: 3
   value: 168
@@ -2050,7 +2050,7 @@
 - id: YYQ9TSVo6RSRkyub
   name: Falchion
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 12
   weight: 3
   value: 120
@@ -2074,7 +2074,7 @@
 - id: i3K0H86rBH3rx3b3
   name: Jian
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2098,7 +2098,7 @@
 - id: hjBDJ8jqOrBCEkMh
   name: Katana
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2122,7 +2122,7 @@
 - id: Ql3gc9dMj0EAofaN
   name: Khanda
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2146,7 +2146,7 @@
 - id: 3JX3cIkIDdIeC8jx
   name: Kiliji
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2170,7 +2170,7 @@
 - id: tjOwyBFL3S3h7NHY
   name: Máng
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 10
   weight: 3
   value: 108
@@ -2187,7 +2187,7 @@
 - id: EiVXkncfZSMlqEu8
   name: Mankar
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 11
   weight: 2
   value: 84
@@ -2204,7 +2204,7 @@
 - id: IPeTvMjwjUsy4hw2
   name: Pata
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2228,7 +2228,7 @@
 - id: 6lTEELsRUiGbqSNw
   name: Scimitar
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 12
   weight: 3
   value: 184
@@ -2252,7 +2252,7 @@
 - id: 0wzqmCGrAebJzR13
   name: Shamshir
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2276,7 +2276,7 @@
 - id: N4Q0mUchOQ9OPB9Z
   name: Shortsword
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 12
   weight: 2
   value: 96
@@ -2293,7 +2293,7 @@
 - id: OTitFZ13JLsumTLp
   name: Talwar
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2317,7 +2317,7 @@
 - id: nyibb1NL4ZONuZIf
   name: Urumi
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2340,7 +2340,7 @@
 - id: XQAoPtRgy7VDeNDj
   name: Wakizashi
   type: Sword
-  img: systems/sohl/assets/icons/sword.svg
+  img: systems/hm/assets/icons/sword.svg
   durability: 0
   weight: 0
   value: 0
@@ -2364,7 +2364,7 @@
 - id: kreKZTbXQBV0FiBY
   name: Bolas
   type: Thrown
-  img: systems/sohl/assets/icons/bolas.svg
+  img: systems/hm/assets/icons/bolas.svg
   durability: 0
   weight: 0
   value: 0
@@ -2388,7 +2388,7 @@
 - id: cP2IsborvdaO0J6q
   name: Fléchette
   type: Thrown
-  img: systems/sohl/assets/icons/dart.svg
+  img: systems/hm/assets/icons/dart.svg
   durability: 0
   weight: 0
   value: 0
@@ -2412,7 +2412,7 @@
 - id: PvD8SLaG28Nude2X
   name: Meteor Hammer
   type: Special
-  img: systems/sohl/assets/icons/bolas.svg
+  img: systems/hm/assets/icons/bolas.svg
   durability: 0
   weight: 0
   value: 0
@@ -2436,7 +2436,7 @@
 - id: 9fUBzprkjX25L734
   name: Knuckledusters
   type: Special
-  img: systems/sohl/assets/icons/knuckledusters.svg
+  img: systems/hm/assets/icons/knuckledusters.svg
   durability: 0
   weight: 0.5
   value: 30

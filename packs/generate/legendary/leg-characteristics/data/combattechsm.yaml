@@ -3,7 +3,7 @@
   strikeModeNum: 1
   name: Unarmed 
   id: vMwD4xyoZAW4qDSy
-  img: systems/sohl/assets/icons/fangs.svg
+  img: systems/hm/assets/icons/fangs.svg
   mode: Bite
   lengthBase: 0
   zoneDie: 2
@@ -31,7 +31,7 @@
   strikeModeNum: 2
   name: Unarmed 
   id: B1EfmuOl5CtGQihu
-  img: systems/sohl/assets/icons/grab-hold.svg
+  img: systems/hm/assets/icons/grab-hold.svg
   mode: Grab (Hold)
   lengthBase: 1
   zoneDie: 4
@@ -59,7 +59,7 @@
   strikeModeNum: 3
   name: Unarmed 
   id: rvFq5FepPUInqjxf
-  img: systems/sohl/assets/icons/grab-take.svg
+  img: systems/hm/assets/icons/grab-take.svg
   mode: Grab (Take)
   lengthBase: 1
   zoneDie: 4
@@ -87,7 +87,7 @@
   strikeModeNum: 4
   name: Unarmed 
   id: pqTDFnehx61A64by
-  img: systems/sohl/assets/icons/headbutt.svg
+  img: systems/hm/assets/icons/headbutt.svg
   mode: Headbutt
   lengthBase: 0
   zoneDie: 4
@@ -111,7 +111,7 @@
   strikeModeNum: 5
   name: Unarmed 
   id: 8fIXUjAkKWfXRweO
-  img: systems/sohl/assets/icons/high-kick.svg
+  img: systems/hm/assets/icons/high-kick.svg
   mode: Kick
   lengthBase: 2
   zoneDie: 4
@@ -139,7 +139,7 @@
   strikeModeNum: 6
   name: Unarmed 
   id: xFAcnR7IGhEaR66R
-  img: systems/sohl/assets/icons/high-punch.svg
+  img: systems/hm/assets/icons/high-punch.svg
   mode: Limb Block
   lengthBase: 1
   zoneDie: 0
@@ -163,7 +163,7 @@
   strikeModeNum: 7
   name: Unarmed 
   id: qtcn70JC4Fac5DrZ
-  img: systems/sohl/assets/icons/push.svg
+  img: systems/hm/assets/icons/push.svg
   mode: Press
   lengthBase: 1
   zoneDie: 0
@@ -191,7 +191,7 @@
   strikeModeNum: 8
   name: Unarmed 
   id: m2qf74BvOkEk0cQx
-  img: systems/sohl/assets/icons/punch-blast.svg
+  img: systems/hm/assets/icons/punch-blast.svg
   mode: Punch
   lengthBase: 1
   zoneDie: 4
@@ -215,7 +215,7 @@
   strikeModeNum: 9
   name: Unarmed 
   id: MfUTMbvLNcjIdc0q
-  img: systems/sohl/assets/icons/trip.svg
+  img: systems/hm/assets/icons/trip.svg
   mode: Trip
   lengthBase: 2
   zoneDie: 0
